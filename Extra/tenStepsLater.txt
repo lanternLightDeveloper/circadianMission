@@ -1,0 +1,32 @@
+# Create Svelte project
+npx sv create
+
+# Install dependencies
+npm install
+
+# Add Svelte Node adapter
+npm install @sveltejs/adapter-node
+
+# (Optional) If using 3D/Threlte
+npm install three @threlte/core @threlte/extras
+
+# Git setup
+git -v
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/GithubAccount/ (project linked here)
+git branch -M main
+git push -u origin main
+git branch
+git status
+
+# Database setup (configure .env as needed)
+npm install drizzle-orm drizzle-kit
+npm install postgres
+
+# (Optional) Initialize Drizzle (adjust for your DB)
+npx drizzle-kit generate:pg
+
+Start dev server
+npm run dev

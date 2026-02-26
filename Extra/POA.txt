@@ -1,0 +1,124 @@
+Project 🌟
+
+Name / Working Title:
+Circadian Mission
+
+Name game/ name ideas:
+Circadian Purpose
+Circadian Voyage
+
+Diurnal Excursion
+Diurnal Purpose
+
+Typical Trek
+Routine Expedition
+
+Daily:
+routine
+circadian
+diurnal
+groove
+manner
+typical
+
+Quest:
+expedition
+mission
+voyage
+assignment
+purpose
+excursion
+trek
+travel
+
+
+One‑sentence purpose:
+Daily tasks turned into quests and adventures.
+
+Core theme:
+This is a daily planner/event manager. It will give or create quest based on things you have to do that day.
+At the end of the day it will generate a story you can read or participate in like a choose your own quest. A cozy way to
+end or start the day.
+
+Project Ideas:
+FFT style party expeditions
+Daily tasks and big quests (throw in real life facts about the real world)
+Mini games
+group of regular tasks(maybe collect them from a place like a tavern or quest giver)
+professions (with real life job facts? like learning about the transit system) for your party members
+join/invite friends in tasks
+Leveling + Class system (could be related to real job or game job)
+
+
+Features & Scope 🌟
+
+Must have features:
+
+Stretch features:
+
+
+User Experience & Flow 🌟
+
+Primary user journey:
+
+Key screens / views:
+
+Interaction notes (animations, feedback, accessibility):
+
+Character / Avatar / Profile system (if any):
+
+
+Visual & branding 🌟
+
+Color palette ideas:
+
+Typography notes:
+
+Icon / Illustration style:
+
+
+Data & Schema Notes 🌟
+
+Core Tables:
+
+Relationships:
+
+User Level / Preferences / Settings:
+
+Extensibility considerations:
+
+
+Technical architecture 🌟
+
+Frontend stack: 
+Svelte
+
+Backend / API:
+
+Database:
+
+Infrastructure / Deployment:
+
+Performance considerations:
+
+
+Security & Privacy 🌟
+
+Auth strategy:
+
+Data protection notes:
+
+Safety / Abuse prevention:
+
+
+Testing & Validation 🌟
+
+Environment(browser) tests:
+
+Integration tests:
+
+Manual QA Checklist:
+
+
+Future Enhancements 🌟
+Loose ideas, sketches, mechanics or anything you want to think over:
