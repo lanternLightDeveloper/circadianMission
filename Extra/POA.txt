@@ -90,12 +90,25 @@ Extensibility considerations:
 
 Technical architecture 🌟
 
-Frontend stack: 
-Svelte
+Base things : 
 
-Backend / API:
+Frontend : 
++ [Svelte](https://svelte.dev/) in TS
++ [Threlte](https://threlte.xyz/) for 3D objects
++ [Lucide](https://lucide.dev/) for Icons
++ [BitsUI](https://www.bits-ui.com/docs/introduction) for simple UI components
++ [EasingWizard](https://easingwizard.com/) for organic bezier transition
 
-Database:
+Tooling
++ [Rolldown](https://rolldown.rs/) for Bundling
++ [Vite](https://vite.dev/)+[Vitest](https://vitest.dev/) for fast build and testing
+
+Backend
++ [SvelteKit](https://svelte.dev/tutorial/kit/introducing-sveltekit) for app framework
++ [MongoDB](https://www.mongodb.com/) for DB
+
+Hosting
++ Coolify + Docker + Cloudflare
 
 Infrastructure / Deployment:
 
