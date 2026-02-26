@@ -1,0 +1,282 @@
+/* 🦕  🦖🦖🦖 🦕 🦕 Ripple button 	💀= 💣 🌠 */
+.btn-Ripple {
+	background-color: var(--txt-1);
+	color: var(--bg-2);
+	box-shadow: var(--box-Shadow);
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	overflow: hidden;
+	cursor: pointer;
+	position: relative;
+
+	&:hover {
+		border: var(--border);
+		transform: scale(1.05);
+	}
+}
+
+.btn-Ripple::after {
+	content: '';
+	position: absolute;
+	background: var(---1-2);
+	color: var(--bg-1);
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0);
+	opacity: 0;
+	transition: transform 0.5s, opacity 0.5s;
+}
+
+.btn-Ripple:active::after {
+	transform: translate(-50%, -50%) scale(1);
+	opacity: 1;
+}
+
+	/* 🦕  🦖🦖🦖 🦕 🦕 Gradient button 💀= 💣 🌠 */
+.btn-Gradient {
+	background: linear-gradient(to right, #ff7e5f, #feb47b);
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+	/* 🦕  🦖🦖🦖 🦕 🦕 Shadow button  💀= 💣 🌠 */
+.btn-Shadow {
+	background-color: var(--accent-1);
+	border: none;
+	border-radius: var(--radius-S);
+	padding: 15px 32px;
+	color: var(--txt-1);
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+
+	/* raised button look */
+	box-shadow: 0 6px 0 var(--hover);
+	transition: all 0.15s ease;
+}
+
+.btn-Shadow:hover {
+	background-color: var(--hover);
+}
+
+.btn-Shadow:active {
+	background-color: var(--color-Active);
+
+	/* push it down */
+	transform: translateY(4px);
+
+	/* flatten shadow */
+	box-shadow: 0 2px 0 var(--hover);
+}
+
+	/* 🦕  🦖🦖🦖 🦕 🦕 Animated button  💀= 💣 🌠 */
+.btn-Animated {
+	background-color: var(--bg-2);
+	color: var(--txt-2);
+	border: var(--border);
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.btn-Animated:hover, .btn-Animated:active {
+	background-color: var(--hover);
+	color: var(--txt-1);
+}
+
+	/* 🦕  🦖🦖🦖 🦕 🦕 Ghost button 💀= 💣 🌠 */
+.btn-Ghost {
+	background-color: transparent;
+	border: 2px solid var(--accent-1);
+	color: var(--txt-2	);
+	padding: var(--size-4);
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+
+	&:hover, & :active {
+		background-color: var(--hover);
+		animation: pulse 1.2s infinite ease-in-out;
+		color: var(--txt-1);
+		box-shadow: var(--shadow-Box);
+	}
+}
+
+	/* 🦕  🦖🦖🦖 🦕 🦕 Slant  💀= 💣 🌠 */
+.btn-Skew {
+	background-color: var(--accent-1);
+	border: none;
+	padding: var(--size-4);
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: var(--size-5);
+	font-weight: bold;
+	cursor: pointer;
+	transform: skewX(-20deg);
+}
+
+	/* 🦕  🦖🦖🦖 🦕 🦕 Bouncing  💀= 💣 🌠 */
+.btn-Pulse {
+	background-color: var(--bg-1);
+	border: var(--border);
+	color: var(--txt-2);
+	padding: var(--size-4);
+	text-align: center;
+	text-decoration: underline;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: var(--radius-S);
+	animation: ease-in-out;
+
+	&:hover {
+		background-color: var(--hover);
+		animation: pulse 0.5s infinite;
+		color: var(--txt-1);
+		box-shadow: var(--);
+	}
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+			box-shadow: 0 0 0 0 var(--accent-2);
+	}
+	50% {
+			box-shadow: 0 2px 2px 6px  var(--hallow-Accent);
+	}
+	70% {
+		transform: scale(1.06);
+			box-shadow: 0 4px 4px 10px var(--hallow-Accent);
+	}
+	100% {
+		transform: scale(1);
+			box-shadow: 0 2px 2px 6px rgba(255, 215, 0, 0);
+	}
+}
+
+	/* 🦕  🦖🦖🦖 🦕 🦕Wave  💀= 💣 🌠 */
+	
+.btn-Wave {
+	background-color:var(--accent-1);
+	border: none;
+	border-radius: var(--radius-S);
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+
+.btn-Wave:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 300%;
+	height: 300%;
+	background: rgba(255, 255, 255, 0.3);
+	transition: all 0.5s;
+	transform: translate(-50%, -50%) scale(0);
+	border-radius: 50%;
+}
+
+.btn-Wave:hover:after {
+	transform: translate(-50%, -50%) scale(1);
+}
+
+	/* 🦕  🦖🦖🦖 🦕 🦕 Magnet btn 💀= 💣 🌠 */
+.btn-Magnet {
+	position: relative;
+	background: var(--bg-2);
+	color: var(--txt-1);
+	padding: var(--size-4);
+	border-radius: var(--radius-S);
+	transition: transform 0.2s ease;
+}
+.btn-Magnet:hover {
+	transform: translateY(-2px) scale(1.05);
+}
+
+	/* 🦕  🦖🦖🦖 🦕 🦕 Glow Btn   💀= 💣 🌠 */
+.btn-Glow {
+	background: var(--bg-1);
+	color: var(--txt-1);
+	padding: var(--size-4);
+	border: 2px solid var(--accent-1);
+	border-radius: var(--radius-S);
+	box-shadow: 0 0 0 transparent;
+	transition: box-shadow 0.3s ease;
+}
+.btn-Glow:hover, .btn-Glow:focus, .btn-Glow:active {
+	box-shadow: 0 0 16px var(--accent-2);
+}
+
+	/* 🦕  🦖🦖🦖 🦕 🦕  Fill up  💀= 💣 🌠 */
+.btn-Fill {
+		padding: 0.6rem 1.6rem;
+		font-weight: 600;
+		border: var(--border);
+		border-radius: var(--radius-S);
+		background: var(--accent-1); 
+		color: var(--txt-1);
+		cursor: pointer;
+		position: relative;
+		overflow: hidden;
+		transition: color 0.3s; 
+
+	&&::before {
+		content: '';
+		position: absolute;
+		top: 0; 
+		left: -100%;
+		width: 100%;
+		height: 100%;
+		background: var(--accent-2); 
+		transition: left 0.3s;
+	}
+
+	&&:hover::before {
+		left: 0; 
+	} 
+
+	&&:hover  {
+		color: var(--txt-1);
+	} 
+	
+	&:hover, & :active {
+		background-color: var(--hover-2);
+		animation: pulse 1.2s infinite ease-in-out;
+		color: var(--txt-1);
+		box-shadow: var(--shadow-Box); 
+	}
+
+	span {
+		position: relative; 
+	}
+}

@@ -1,0 +1,307 @@
+	/* 🦕  🦖🦖🦖 🦕 🦕 Main Grid  💀= 💣 🌠 */
+.grid-Main {
+	width: 100vw;
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: var(--size-4);
+    
+	section {   
+    position: relative;
+    overflow: hidden;
+    margin-top: var(--size-6);
+	/* border: var(--bord-2);   */
+		
+		a {
+			padding: var(--size-1);
+			margin: 0 var(--size-4);
+		}
+
+		ul { 
+			margin: 1.5rem 5vw;
+		}
+
+        p, h2, h3 {
+            z-index: 1;
+            width: 85%;
+            position: relative; 
+        }
+        
+        img {
+            position: absolute;
+			top: 2%;
+            width: 90%;
+            height: 97%;
+            object-fit: cover; 
+            z-index: 0;  
+        }
+    }
+
+    .right-Align {  
+        text-align: right; 
+
+        h3 {
+            margin-left: 30%;
+            padding: var(--size-1);
+        }
+        img {  
+            left: 0; 
+	} 
+    }
+
+    .box-Contrast {
+        background-color: var(--bg-2);
+        p, h2 {
+            background-color: var(--bg-2);
+        }
+    }
+
+    /* @media only screen and (min-width: 768px) { 
+        section {
+            p { 
+                width: 60%;
+            }
+        }
+	} */
+	
+	/* @media only screen and (min-width: 1024px) { 
+	
+	} */
+
+	@media only screen and (min-width: 1440px) { 
+		width: 80vw;
+		margin: 0 10vw;
+
+			section {    
+				img {
+            		width: 80%;
+            		height: 80%;
+					margin-top: 10%; 
+        }
+    }
+	}
+}
+
+.grid-Block-Double {
+	@media only screen and (min-width: 1024px) {  
+		grid-column:   span 2;  
+	}  
+
+		/* @media only screen and (min-width: 1440px) {
+		grid-column:   span 3;  
+	} */
+
+	& h3, p{
+        @media (prefers-color-scheme: light) {
+            background-color:  color-mix(in oklch, var(--bg-1 ) 42%, transparent 45%);
+			backdrop-filter: blur(8px);
+			--webkit-backdrop-filter: blur(1.5px);
+			width: fit-content; 
+        }
+    }
+}
+
+.grid-content-box {
+	padding: 1rem;
+	border-radius: 8px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	border: var(--border);
+
+	h3 {
+		margin: var(--size-5);
+	}
+
+	@media only screen and (min-width: 768px) {
+		margin-bottom: 1rem;
+	}
+}
+
+
+	/* 🦕  🦖🦖🦖 🦕 🦕  Simple Grid 💀= 💣 🌠 */
+.grid-Simple {
+	display: grid;
+	grid-template-columns: 1fr;
+
+	@media only screen and (min-width: 1024px) {
+		grid-template-columns: repeat(2, 1fr);
+}
+}
+
+
+	/* 🦕  🦖🦖🦖 🦕 🦕  5 Block  💀= 💣 🌠 */
+	.grid-5col {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		gap: 1rem;
+		padding-block: 2rem;
+
+		@media only screen and (max-width: 768px) {
+			grid-template-columns: 1fr;
+
+			& > :first-child,
+			& > :last-child {
+				display: none;
+			}
+		}
+	}
+
+
+		/* 🦕  🦖🦖🦖 🦕 🦕  Side Scroll 💀= 💣 🌠 */
+		.grid-SideScroll {
+		display: grid;
+		grid-auto-flow: column;
+		grid-auto-columns: 1fr;
+		grid-template-rows: repeat(1, auto);
+		gap: 1rem;
+		padding: 1rem;
+		overflow-x: auto;
+		scroll-snap-type: x mandatory;
+		scroll-behavior: smooth;
+		scrollbar-width: thin;
+
+		button {
+			border: none;
+			cursor: pointer;
+		}
+
+		@media only screen and (min-width: 1024px) {
+			grid-template-rows: repeat(2, auto);
+		}
+	}
+
+
+	/* 🦕  🦖🦖🦖 🦕 🦕  Glassmorphic 💀= 💣 🌠 */
+.grid-Glass-Flip {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 2rem;
+	margin: 0;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: 1.5rem;
+	transition: background-image 0.5s ease;
+	animation: fadeBg 0.5s ease;
+
+		@media only screen and (min-width: 1440px) { 
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	}
+}
+
+@keyframes fadeBg {
+	from {
+		opacity: 0.8;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.glass-flip-card {
+	perspective: 1000px;
+}
+
+.glass-flip-inner {
+	position: relative;
+	width: 100%;
+	height: 160px;
+	transform-style: preserve-3d;
+	transition: transform 0.6s ease;
+}
+
+.glass-flip-card:hover .glass-flip-inner {
+	transform: rotateY(180deg);
+}
+
+.glass-front,
+.glass-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem; 
+	backface-visibility: hidden;
+
+@media only screen and (min-width: 768px) { 
+	padding: 0;
+	& p{
+		font-size: var(--size-3);
+	}
+}
+
+@media only screen and (min-width: 1024px) { 
+	& h3{
+			font-size: var(--size-5);
+	}
+	& p{
+		font-size: var(--size-4);
+	}
+	li {
+		font-size: var(--size-3);
+	}
+}
+
+@media only screen and (min-width: 768px) { 
+	li{
+		font-size: var(--size-4);
+	}
+}
+}
+
+.glass-front {
+	background: var(--hallow-2);
+	backdrop-filter: blur(12px);
+	color: white;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.glass-back {
+	background: var(--hallow); 
+	transform: rotateY(180deg);
+	border: var(--bord);		
+}
+
+.glass-back a {
+	color: #f8e71c;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+	/* 🦕  🦖🦖🦖 🦕 🦕  List Style 💀= 💣 🌠 */
+	.grid-List {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+		gap: var(--size-4);
+		margin-top: var(--size-4);
+
+	& h2 {
+		margin: 0 0 8px 0;
+		font-size: var(--size-6);
+	}
+
+	& p {
+		margin: 0 0 8px 0;
+	}
+
+	& a {
+		color: #0077cc;
+		text-decoration: underline;
+	}
+	}
+
+	.grid-List > div {
+		border-top: var(--bord-2);
+		padding: 12px;
+		transition: background 0.3s ease;
+	}
+
+	.grid-List > div:hover,
+	.grid-List > div:focus {
+		background-color: var(--txt-2);
+		color: var(--bg-1); 
+	} 
+
