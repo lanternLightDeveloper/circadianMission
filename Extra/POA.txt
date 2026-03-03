@@ -37,8 +37,7 @@ Daily tasks turned into quests and adventures.
 
 Core theme:
 This is a daily planner/event manager. It will give or create quest based on things you have to do that day.
-At the end of the day it will generate a story you can read or participate in like a choose your own quest. A cozy way to
-end or start the day.
+At the end of the day it will generate a story you can read or participate in like a choose your own quest. A cozy way to end or start the day.
 
 Project Ideas:
 FFT style party expeditions
@@ -53,8 +52,23 @@ Leveling + Class system (could be related to real job or game job)
 Features & Scope 🌟
 
 Must have features:
+Daily tasks
+Leveling
+Loot
 
 Stretch features:
+Quests with friends!
+
+Visual & branding 🌟
+
+Scene and setting:
+Castles
+
+Color palette ideas:
+
+Typography notes:
+
+Icon / Illustration style:
 
 
 User Experience & Flow 🌟
@@ -66,15 +80,6 @@ Key screens / views:
 Interaction notes (animations, feedback, accessibility):
 
 Character / Avatar / Profile system (if any):
-
-
-Visual & branding 🌟
-
-Color palette ideas:
-
-Typography notes:
-
-Icon / Illustration style:
 
 
 Data & Schema Notes 🌟
@@ -101,16 +106,13 @@ Frontend :
 
 Tooling
 + [Rolldown](https://rolldown.rs/) for Bundling
-+ [Vite](https://vite.dev/)+[Vitest](https://vitest.dev/) for fast build and testing
 
 Backend
 + [SvelteKit](https://svelte.dev/tutorial/kit/introducing-sveltekit) for app framework
 + [MongoDB](https://www.mongodb.com/) for DB
 
-Hosting
-+ Coolify + Docker + Cloudflare
-
 Infrastructure / Deployment:
+Coolify + Docker + Cloudflare
 
 Performance considerations:
 

@@ -1,0 +1,151 @@
+This group of ideas maps to the lib/Assets/types.ts file
+
+
+Character Dictionary Draft
+Character (unique.id) 🌟
+
+Info-
+
+Name
+Age
+Level
+Class
+Profession
+Country
+Backstory
+Buffs 
+Debuffs
+
+
+
+Stats-
+
+Health
+Stamina/Mana
+Agility
+Strength
+Intelligence
+Charisma
+Resilience
+Stealth
+
+
+Skill Tree-
+
+Multi tier class tree
+Grows from daily tasks
+Improved by buildings
+Can seek epic teachers
+Monster killed boost 
+Multi class
+Region influenced(Swamp mage, Volcano Warrior, Island druid)
+Boost profession
+
+
+Gear-
+
+Hat / Helm
+Neck
+Shoulder
+Chest
+Gloves
+Rings
+Belt
+Pants
+Boots
+Extra
+
+
+Profession Tree-
+
+Common
+Trained
+Sought
+Strenuous
+Proficient
+Expert
+Instructor
+Virtuoso
+
+
+
+Team-
+
+Pet / Familiar
+Companion
+Follower
+Profession mate
+Townsperson
+Zombie
+
+
+Busy Actions 🌟
+Tasks-
+Description: Regular around‑the‑house or daily. Could be music or hobby practice.
+
+Take trash out
+Dishes
+Laundry
+Sweep / vac
+Tidy
+Toilet / bathtub
+Animal box / bed
+Pull weeds
+Mobility/Stretching
+
+
+Quests-
+Description: These make you leave the house, but not for days. Can be fun or productive.
+
+Grocery shopping
+Post office
+Haircut
+Clothes shopping
+Park visit
+Hike
+
+
+Expeditions-
+Description: Big action. It took effort to complete. Could be team‑based or solo. Taken serious but can be fun.
+
+Camping / Backpacking
+Vacation
+Practice seriously
+Work week / school
+Competition
+Life event
+New experience
+
+
+Ruled Region 🌟
+
+Inner Grounds-
+Description: The inner grounds will grow to fit the user to boost their regular tasks. People fill the town, build, and grow renown.
+
+Stables
+Market
+Smith
+Castle Proper
+School / Library
+
+
+Outer Grounds-
+Description: Most quests happen here. Event Grounds for fun and holiday stuff. Includes outskirts for near‑distance jobs.
+
+Farms
+Dairy
+Masons
+Hunt / Fish
+Traveling Market
+Event Grounds
+
+
+Out There-
+Description: Big milestone or achievement. Visit a friend’s castle, send followers on missions or long expeditions.
+
+Wild lands
+Friend Home
+Expeditions
+Other countries
+New flora / fauna
+Road building
