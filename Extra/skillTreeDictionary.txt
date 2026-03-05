@@ -94,5 +94,15 @@ Echo Antagonizer - fights alongside time‑shifted versions of themselves.
 Inkweaver - tattoos come alive as summoned creatures or weapons.
 
 
+Profession Map-
+
+Novice
+Trained
+Sought
+Adept
+Proficient
+Expert
+Instructor
+Virtuoso
 
 Professions
