@@ -1,0 +1,393 @@
+{
+  "info": {
+    "name": {
+      "type": "String",
+      "example": "Themla Sandfrost",
+      "description": "Character's chosen name."
+    },
+    "age": {
+      "type": "Number",
+      "example": 27,
+      "description": "Character's age in years."
+    },
+    "level": {
+      "type": "Number",
+      "example": 12,
+      "description": "Overall character level."
+    },
+    "class": {
+      "type": "String",
+      "example": "Druid",
+      "description": "Primary RPG class."
+    },
+    "profession": {
+      "type": "String",
+      "example": "Herbalist",
+      "description": "Chosen trade or craft."
+    },
+    "country": {
+      "type": "String",
+      "example": "Foreverwood Isles",
+      "description": "Region or homeland."
+    },
+    "backstory": {
+      "type": "String",
+      "example": "Raised in the marshlands, learned healing arts from swamp spirits.",
+      "description": "Short narrative background."
+    },
+    "buffs": {
+      "type": "Array<String>",
+      "example": ["Swamp Affinity", "Calm Mind"],
+      "description": "Active or passive positive effects."
+    },
+    "debuffs": {
+      "type": "Array<String>",
+      "example": ["Poisoned", "Exhausted"],
+      "description": "Negative status effects."
+    }
+  }
+}
+
+{
+  "team": {
+    "pet": {
+      "type": "String",
+      "example": "Mossfang Gecko",
+      "description": "A small creature or magical familiar bonded to the character."
+    },
+    "companion": {
+      "type": "String",
+      "example": "Rhea the Scout",
+      "description": "A close ally who travels with the character regularly."
+    },
+    "follower": {
+      "type": "String",
+      "example": "Torchbearer Bram",
+      "description": "A minor helper who assists but is not a full companion."
+    },
+    "professionMate": {
+      "type": "String",
+      "example": "Lysa the Apprentice Herbalist",
+      "description": "A coworker or guildmate tied to the character’s profession."
+    },
+    "townsperson": {
+      "type": "String",
+      "example": "Old Marrek the Shopkeeper",
+      "description": "A notable NPC from the character’s home region."
+    },
+    "zombie": {
+      "type": "String",
+      "example": "Reanimated Guard",
+      "description": "A controlled undead or cursed follower, if applicable."
+    }
+  }
+}
+
+{
+  "stats": {
+    "health": {
+      "type": "Number",
+      "example": 85,
+      "description": "Total hit points before being knocked out."
+    },
+    "staminaMana": {
+      "type": "Number",
+      "example": 40,
+      "description": "Resource pool used for abilities, spells, or strenuous actions."
+    },
+    "agility": {
+      "type": "Number",
+      "example": 12,
+      "description": "Movement speed, dodge chance, and finesse."
+    },
+    "strength": {
+      "type": "Number",
+      "example": 15,
+      "description": "Physical power and melee weapon damage."
+    },
+    "intelligence": {
+      "type": "Number",
+      "example": 18,
+      "description": "Magical potency, skill ceiling, and problem‑solving ability."
+    },
+    "charisma": {
+      "type": "Number",
+      "example": 10,
+      "description": "Conversation influence, persuasion, and charm effects."
+    },
+    "resilience": {
+      "type": "Number",
+      "example": 14,
+      "description": "Defense against damage and resistance to negative effects."
+    },
+    "stealth": {
+      "type": "Number",
+      "example": 9,
+      "description": "Ability to avoid detection, ambush enemies, or move unseen."
+    }
+  }
+}
+
+{
+  "skillTree": {
+    "pointsEarnedBy": {
+      "type": "String",
+      "example": "Activity, time spent, tasks, combat, profession work",
+      "description": "How the player earns points to spend in any of the three trees."
+    },
+    "parallelTrees": {
+      "type": "Array<String>",
+      "example": ["Task", "Profession", "Class"],
+      "description": "Three trees that grow simultaneously."
+    },
+    "tierStructure": {
+      "type": "Array<String>",
+      "example": ["Early", "Mid", "Advanced", "Epic", "Legendary"],
+      "description": "Tier progression shared across all trees."
+    },
+    "nodeTypes": {
+      "type": "Array<String>",
+      "example": ["Passive", "Active", "Utility", "Transformation", "Specialization"],
+      "description": "Categories of nodes found within each tree."
+    },
+    "growthSources": {
+      "type": "Object",
+      "example": {
+        "taskTree": "Daily habits, streaks, categories",
+        "professionTree": "Trade actions, crafting, gathering, mastery",
+        "classTree": "Combat, exploration, monster kills, expeditions"
+      },
+      "description": "Different actions that feed each tree's growth."
+    },
+    "buildingsAndTeachers": {
+      "type": "Boolean",
+      "example": true,
+      "description": "Indicates that buildings and teachers unlock higher tiers or rare branches."
+    },
+    "regionInfluence": {
+      "type": "Array<String>",
+      "example": ["Swamp", "Volcano", "Island"],
+      "description": "Regions that imprint elemental or thematic bonuses onto the trees."
+    },
+    "monsterKillBenefits": {
+      "type": "Boolean",
+      "example": true,
+      "description": "Monster kills and expeditions feed the Class tree with essences and perks."
+    },
+    "professionMasteryBenefits": {
+      "type": "Boolean",
+      "example": true,
+      "description": "Profession mastery unlocks recipes, efficiencies, tools, and combat-adjacent perks."
+    },
+    "taskConsistencyBenefits": {
+      "type": "Boolean",
+      "example": true,
+      "description": "Task streaks, categories, and difficulty unlock lifestyle and self-improvement perks."
+    },
+    "crossTreeSynergy": {
+      "type": "Boolean",
+      "example": true,
+      "description": "Trees can enhance one another, enabling hybrid builds and personalized growth paths."
+    }
+  }
+}
+
+{
+  "gear": {
+    "hatHelm": {
+      "type": "Object",
+      "example": {
+        "name": "Ironwood Hood",
+        "stats": {
+          "health": 5,
+          "agility": 2,
+          "intelligence": 1
+        },
+        "classBonus": "Druid: +5% Nature Damage",
+        "effects": ["Fog Vision", "Minor Poison Resist"]
+      },
+      "description": "Head slot item with stat boosts and class modifiers."
+    },
+    "neck": {
+      "type": "Object",
+      "example": {
+        "name": "Amberleaf Pendant",
+        "stats": {
+          "intelligence": 3,
+          "charisma": 2
+        },
+        "classBonus": "Mage: +3% Spell Crit",
+        "effects": ["Calming Aura"]
+      },
+      "description": "Neck accessory granting magical or defensive bonuses."
+    },
+    "shoulder": {
+      "type": "Object",
+      "example": {
+        "name": "Brambleguard Mantle",
+        "stats": {
+          "resilience": 4,
+          "strength": 1
+        },
+        "effects": ["Thorn Armor"]
+      },
+      "description": "Shoulder armor providing protection or utility."
+    },
+    "chest": {
+      "type": "Object",
+      "example": {
+        "name": "Reinforced Leather Vest",
+        "stats": {
+          "health": 10,
+          "resilience": 6
+        },
+        "effects": ["Reduced Physical Damage"]
+      },
+      "description": "Main body armor affecting defense and class synergy."
+    },
+    "gloves": {
+      "type": "Object",
+      "example": {
+        "name": "Swiftgrip Gloves",
+        "stats": {
+          "agility": 3,
+          "strength": 1
+        },
+        "effects": ["Faster Gathering", "Improved Crafting Precision"]
+      },
+      "description": "Handwear improving dexterity, crafting, or combat."
+    },
+    "rings": {
+      "type": "Array<Object>",
+      "example": [
+        {
+          "name": "Ring of Focus",
+          "stats": { "intelligence": 2 },
+          "effects": ["Mana Regen +5%"]
+        },
+        {
+          "name": "Band of Embers",
+          "stats": { "strength": 1 },
+          "effects": ["Fire Damage +3%"]
+        }
+      ],
+      "description": "One or more rings granting magical or passive bonuses."
+    },
+    "belt": {
+      "type": "Object",
+      "example": {
+        "name": "Traveler's Utility Belt",
+        "stats": {
+          "resilience": 2
+        },
+        "effects": ["Extra Inventory Slots"]
+      },
+      "description": "Waist item offering storage or stat boosts."
+    },
+    "pants": {
+      "type": "Object",
+      "example": {
+        "name": "Marshwalker Trousers",
+        "stats": {
+          "agility": 2,
+          "stealth": 3
+        },
+        "effects": ["Swamp Movement Speed +10%"]
+      },
+      "description": "Leg armor affecting mobility or defense."
+    },
+    "boots": {
+      "type": "Object",
+      "example": {
+        "name": "Silentstep Boots",
+        "stats": {
+          "stealth": 4,
+          "agility": 1
+        },
+        "effects": ["Silent Movement"]
+      },
+      "description": "Footwear improving movement, stealth, or traversal."
+    },
+    "extra": {
+      "type": "Object",
+      "example": {
+        "name": "Adventurer's Cloak",
+        "stats": {
+          "charisma": 1,
+          "resilience": 2
+        },
+        "effects": ["Weather Resistance"]
+      },
+      "description": "Wildcard slot for cloaks, trinkets, charms, or special gear."
+    }
+  }
+}
+
+{
+  "professionMap": {
+    "novice": {
+      "type": "Object",
+      "example": {
+        "title": "Novice",
+        "xpRequired": 0
+      },
+      "description": "Entry-level familiarity with the craft; basic tools and methods."
+    },
+    "trained": {
+      "type": "Object",
+      "example": {
+        "title": "Trained",
+        "xpRequired": 100
+      },
+      "description": "Understands fundamentals and can complete standard tasks reliably."
+    },
+    "sought": {
+      "type": "Object",
+      "example": {
+        "title": "Sought",
+        "xpRequired": 300
+      },
+      "description": "Recognized for above-average work; people begin requesting your output."
+    },
+    "adept": {
+      "type": "Object",
+      "example": {
+        "title": "Adept",
+        "xpRequired": 700
+      },
+      "description": "Handles difficult or time-consuming tasks with confidence."
+    },
+    "proficient": {
+      "type": "Object",
+      "example": {
+        "title": "Proficient",
+        "xpRequired": 1500
+      },
+      "description": "Consistent, efficient, and adaptable; understands deeper mechanics."
+    },
+    "expert": {
+      "type": "Object",
+      "example": {
+        "title": "Expert",
+        "xpRequired": 3000
+      },
+      "description": "High-level mastery; innovates solutions and produces exceptional work."
+    },
+    "instructor": {
+      "type": "Object",
+      "example": {
+        "title": "Instructor",
+        "xpRequired": 6000
+      },
+      "description": "Able to teach, mentor, and formalize knowledge for others."
+    },
+    "virtuoso": {
+      "type": "Object",
+      "example": {
+        "title": "Virtuoso",
+        "xpRequired": 12000
+      },
+      "description": "Signature mastery; creates world-class, recognizable work."
+    }
+  }
+}

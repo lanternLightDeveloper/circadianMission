@@ -1,0 +1,301 @@
+{
+    "innerGrounds": {
+      "description": "The inner grounds grow with the user, boosting daily tasks and renown.",
+       "castleProper": {
+        "type": "Building",
+        "description": "The player's main hall, throne room, and administrative center.",
+        "example": {
+          "level": 1,
+          "bonuses": {
+            "renownGain": "+10%",
+            "followerLimit": "+1"
+          },
+          "actions": ["Hold Court", "Assign Followers", "Review Reports"],
+          "npcs": ["Advisor"],
+          "requirements": {
+            "stone": 30,
+            "gold": 100
+          }
+        }
+      },
+      "stables": {
+        "type": "Building",
+        "description": "Houses mounts and improves travel or delivery tasks.",
+        "example": {
+          "level": 1,
+          "bonuses": {
+            "travelSpeed": "+5%",
+            "deliveryEfficiency": "+3%"
+          },
+          "actions": ["Feed Mount", "Train Mount", "Assign Courier"],
+          "npcs": ["Stablemaster"],
+          "requirements": {
+            "wood": 20,
+            "stone": 10
+          }
+        }
+      },
+      "market": {
+        "type": "Building",
+        "description": "A hub for buying, selling, and trading goods.",
+        "example": {
+          "level": 1,
+          "bonuses": {
+            "tradePrices": "+2% better deals"
+          },
+          "actions": ["Buy", "Sell", "Trade", "Commission Order"],
+          "npcs": ["Merchant", "Trader"],
+          "requirements": {
+            "gold": 50
+          }
+        }
+      },
+      "smith": {
+        "type": "Building",
+        "description": "Forge and repair gear, unlock crafting bonuses.",
+        "example": {
+          "level": 1,
+          "bonuses": {
+            "craftingQuality": "+5%",
+            "repairCost": "-10%"
+          },
+          "actions": ["Forge Item", "Repair Gear", "Upgrade Gear"],
+          "npcs": ["Blacksmith"],
+          "requirements": {
+            "iron": 15,
+            "coal": 5
+          }
+        }
+      },
+      "schoolLibrary": {
+        "type": "Building",
+        "description": "A place of learning that boosts skills and research.",
+        "example": {
+          "level": 1,
+          "bonuses": {
+            "researchSpeed": "+5%",
+            "skillXP": "+3%"
+          },
+          "actions": ["Study", "Research", "Teach Follower"],
+          "npcs": ["Scholar", "Librarian"],
+          "requirements": {
+            "paper": 10,
+            "wood": 15
+          }
+        }
+      }
+    }
+  }
+
+{
+    "outerGrounds": {
+      "description": "Most quests happen here. Event Grounds for fun and holiday stuff. Includes outskirts for near-distance jobs.",
+      "farms": {
+        "type": "Building",
+        "description": "Produces crops and boosts gathering or cooking-related tasks.",
+        "example": {
+          "level": 1,
+          "bonuses": {
+            "gatheringYield": "+5%",
+            "cookingXP": "+3%"
+          },
+          "actions": ["Harvest Crops", "Plant Seeds", "Tend Fields"],
+          "npcs": ["Farmer"],
+          "requirements": {
+            "wood": 15,
+            "water": 10
+          }
+        }
+      },
+      "dairy": {
+        "type": "Building",
+        "description": "Produces milk, cheese, and other goods; boosts food crafting and animal care tasks.",
+        "example": {
+          "level": 1,
+          "bonuses": {
+            "animalCareXP": "+4%",
+            "foodProduction": "+5%"
+          },
+          "actions": ["Milk Animals", "Process Cheese", "Clean Pens"],
+          "npcs": ["Dairy Keeper"],
+          "requirements": {
+            "wood": 10,
+            "stone": 5
+          }
+        }
+      },
+      "masons": {
+        "type": "Building",
+        "description": "Stoneworkers who improve construction, repairs, and structural upgrades.",
+        "example": {
+          "level": 1,
+          "bonuses": {
+            "constructionSpeed": "+5%",
+            "repairEfficiency": "+10%"
+          },
+          "actions": ["Cut Stone", "Reinforce Walls", "Craft Masonry Blocks"],
+          "npcs": ["Mason"],
+          "requirements": {
+            "stone": 20,
+            "tools": 5
+          }
+        }
+      },
+      "huntFish": {
+        "type": "Building",
+        "description": "A wilderness outpost for hunting and fishing tasks.",
+        "example": {
+          "level": 1,
+          "bonuses": {
+            "foodGathering": "+8%",
+            "stealthXP": "+2%"
+          },
+          "actions": ["Hunt Game", "Set Traps", "Fish Waters"],
+          "npcs": ["Hunter", "Fisher"],
+          "requirements": {
+            "wood": 10,
+            "rope": 5
+          }
+        }
+      },
+      "travelingMarket": {
+        "type": "Building",
+        "description": "A rotating vendor hub offering rare items and quest opportunities.",
+        "example": {
+          "level": 1,
+          "bonuses": {
+            "rareGoodsChance": "+5%",
+            "tradeXP": "+3%"
+          },
+          "actions": ["Browse Wares", "Trade Goods", "Accept Special Quests"],
+          "npcs": ["Wandering Merchant"],
+          "requirements": {
+            "gold": 50
+          }
+        }
+      },
+      "eventGrounds": {
+        "type": "Building",
+        "description": "A festival and celebration area for seasonal events and holiday quests.",
+        "example": {
+          "level": 1,
+          "bonuses": {
+            "morale": "+10%",
+            "socialXP": "+5%"
+          },
+          "actions": ["Join Festival", "Play Games", "Participate in Events"],
+          "npcs": ["Event Host"],
+          "requirements": {
+            "decorations": 10,
+            "gold": 20
+          }
+        }
+      }
+    }
+  }
+
+{
+    "outThere": {
+      "description": "Big milestone or achievement. Visit a friend’s castle, send followers on missions or long expeditions.",
+      "wildLands": {
+        "type": "Region",
+        "description": "Untamed wilderness full of danger, resources, and rare discoveries.",
+        "example": {
+          "level": 1,
+          "bonuses": {
+            "rareResourceChance": "+5%",
+            "explorationXP": "+10%"
+          },
+          "actions": ["Scout Area", "Gather Rare Materials", "Clear Threats"],
+          "npcs": ["Wilderness Guide"],
+          "requirements": {
+            "followers": 1,
+            "supplies": 10
+          }
+        }
+      },
+      "friendHome": {
+        "type": "Region",
+        "description": "Visit another player's or NPC ally’s castle for trading, quests, or diplomacy.",
+        "example": {
+          "level": 1,
+          "bonuses": {
+            "diplomacyXP": "+5%",
+            "tradeDeals": "+3% better"
+          },
+          "actions": ["Visit Friend", "Trade Goods", "Assist with Tasks"],
+          "npcs": ["Ally Lord", "Messenger"],
+          "requirements": {
+            "invitation": true
+          }
+        }
+      },
+      "expeditions": {
+        "type": "Region",
+        "description": "Launch long-term missions for followers to gain rewards, XP, and rare items.",
+        "example": {
+          "level": 1,
+          "bonuses": {
+            "missionSuccess": "+5%",
+            "followerXP": "+8%"
+          },
+          "actions": ["Send Expedition", "Review Reports", "Recall Followers"],
+          "npcs": ["Expedition Captain"],
+          "requirements": {
+            "followers": 2,
+            "provisions": 15
+          }
+        }
+      },
+      "otherCountries": {
+        "type": "Region",
+        "description": "Distant lands with unique cultures, trade goods, and high-level quests.",
+        "example": {
+          "level": 1,
+          "bonuses": {
+            "exoticGoodsChance": "+7%",
+            "travelXP": "+5%"
+          },
+          "actions": ["Travel Abroad", "Establish Trade Route", "Seek Diplomacy"],
+          "npcs": ["Ambassador", "Foreign Trader"],
+          "requirements": {
+            "travelPass": true,
+            "gold": 100
+          }
+        }
+      },
+      "newFloraFauna": {
+        "type": "Region",
+        "description": "Discover new species, gather rare plants, and study magical creatures.",
+        "example": {
+          "level": 1,
+          "bonuses": {
+            "researchXP": "+10%",
+            "rareSpecimenChance": "+6%"
+          },
+          "actions": ["Catalog Species", "Collect Samples", "Observe Wildlife"],
+          "npcs": ["Naturalist"],
+          "requirements": {
+            "researchKit": true
+          }
+        }
+      },
+      "roadBuilding": {
+        "type": "Region",
+        "description": "Expand infrastructure to connect regions, improve travel, and unlock new areas.",
+        "example": {
+          "level": 1,
+          "bonuses": {
+            "travelSpeed": "+10%",
+            "resourceTransport": "+5%"
+          },
+          "actions": ["Lay Road", "Clear Path", "Assign Workers"],
+          "npcs": ["Engineer", "Laborers"],
+          "requirements": {
+            "stone": 20,
+            "wood": 15
+          }
+        }
+      }
+    }
+  }

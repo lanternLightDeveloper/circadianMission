@@ -17,6 +17,15 @@ Buffs
 Debuffs
 
 
+Team-
+
+Pet / Familiar
+Companion
+Follower
+Profession mate
+Townsperson
+Zombie
+
 
 Stats-
 
@@ -56,27 +65,17 @@ Boots
 Extra
 
 
-Profession Tree-
+Profession Map-
 
-Common
+Novice
 Trained
 Sought
-Strenuous
+Adept
 Proficient
 Expert
 Instructor
 Virtuoso
 
-
-
-Team-
-
-Pet / Familiar
-Companion
-Follower
-Profession mate
-Townsperson
-Zombie
 
 
 Busy Actions 🌟
@@ -149,3 +148,26 @@ Expeditions
 Other countries
 New flora / fauna
 Road building
+
+
+Castle Proper - The heart of your domain: throne room, main hall, and administrative center. Improves renown gain and increases follower capacity. Core actions include holding court, assigning followers, and reviewing reports.
+Stables - Home for mounts and couriers. Boosts travel speed and delivery efficiency. Lets you feed, train, and assign mounts for tasks or errands.
+Market - A bustling trade hub for buying, selling, and commissioning goods. Provides better trade prices and access to merchants and traders.
+Smith - The forge and repair center for gear. Enhances crafting quality and reduces repair costs. Supports forging, repairing, and upgrading equipment.
+School / Library - A center of knowledge and research. Increases research speed and skill XP. Allows studying, researching, and teaching followers.
+
+Outer Grounds - 
+Farms - Crop production, cooking boosts, gathering bonuses.
+Dairy - Milk and cheese production, animal care improvements.
+Masons - Construction, repairs, and structural upgrades.
+Hunt / Fish Outpost - Hunting, fishing, stealth, and food gathering.
+Traveling Market - Rare goods, special quests, rotating merchants.
+Event Grounds - Festivals, seasonal events, morale boosts, social XP.
+
+Out There - 
+Wild Lands - Dangerous wilderness full of rare resources, threats, and exploration XP.
+Friend Home - Visit a friend’s castle for diplomacy, trading, or cooperative quests.
+Expeditions - Long-term missions where followers earn XP, loot, and renown.
+Other Countries - Distant lands with exotic goods, unique quests, and diplomacy.
+New Flora / Fauna - Discovery zones for research, rare plants, magical creatures.
+Road Building - Infrastructure expansion that improves travel and unlocks new regions.

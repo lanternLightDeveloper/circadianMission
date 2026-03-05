@@ -1,0 +1,183 @@
+Skill Tree (Global Concept)
+A branching progression system with multiple tiers, where each node represents a learned ability, passive bonus, or specialization. Trees grow through repeated actions, environmental influence, and character identity.
+
+Three parallel trees:
+
+Task Tree — grows from daily habits and consistency
+
+Profession Tree — grows from your chosen trade
+
+Class Tree — grows from combat, exploration, and class‑specific actions
+
+Tiered structure:  
+Early → Mid → Advanced → Epic → Legendary
+
+Node types:
+
+Passive boosts (stats, resistances, efficiencies)
+
+Active abilities (combat moves, spells, tools)
+
+Utility perks (movement, crafting, gathering, social)
+
+Transformations (new forms, stances, modes)
+
+Specializations (branch-defining choices)
+
+Growth sources:
+
+Daily tasks
+
+Profession work
+
+Class actions
+
+Region influence
+
+Buildings
+
+Teachers
+
+Monster kills
+
+Achievements
+
+Story milestones
+
+Cross‑tree power:  
+Nodes in one tree can unlock or enhance nodes in another (e.g., Profession → Class synergy).
+
+
+Task Skill Tree (Daily Life → Power)  🌟
+This tree rewards consistency, discipline, and routine. It’s the “life‑to‑power” pipeline.
+
+What grows it
+Completing daily tasks
+
+Streaks
+
+Task difficulty
+
+Task categories (health, cleaning, creative, social, etc.)
+
+Upgraded buildings (Gym, Library, Workshop)
+
+Node themes
+Efficiency — faster stamina regen, reduced cooldowns
+
+Focus — boosts to Intelligence, Resilience, or Charisma
+
+Momentum — bonuses for streaks or completing multiple tasks in a row
+
+Lifestyle perks — cooking, crafting, gardening, meditation
+
+Self‑care perks — healing bonuses, stress resistance
+
+Exploration prep — pack weight, travel speed, map clarity
+
+Special mechanics
+Streak branches: unlock only after X days of consistency
+
+Category mastery: completing many tasks in one category unlocks a mini‑specialization
+
+Habit mutations: long‑term habits evolve into powerful passives
+
+
+Profession Skill Tree (Your Trade → Mastery)  🌟
+This tree is tied to your chosen profession (Blacksmith, Chef, Herbalist, Artist, Engineer, etc.). It’s your “craft identity.”
+
+What grows it
+Doing profession tasks
+
+Using profession tools
+
+Selling or completing profession outputs
+
+Visiting profession buildings
+
+Finding rare materials
+
+Learning from NPC mentors
+
+Node themes
+Crafting mastery — better quality, faster production
+
+Resource efficiency — fewer materials needed
+
+Discovery — new recipes, blueprints, formulas
+
+Tool specialization — unique abilities tied to your craft
+
+Economic perks — better prices, trade bonuses
+
+Profession‑combat crossover — e.g., Engineer traps, Chef buffs, Herbalist poisons
+
+Special mechanics
+Epic teachers: rare NPCs who unlock unique branches
+
+Material affinity: using certain materials repeatedly unlocks themed perks
+
+Workshop upgrades: buildings unlock new tiers of the tree
+
+
+Class Skill Tree (Combat Identity → Power Fantasy)  🌟
+This is the “RPG class fantasy” tree. It defines how you fight, survive, and express your archetype.
+
+What grows it
+Combat actions
+
+Monster kills
+
+Expeditions
+
+Class‑specific tasks
+
+Region exposure (Swamp, Volcano, Island, Forest, Desert)
+
+Class trainers
+
+Node themes
+Core abilities: attacks, spells, stances
+
+Stat scaling: Strength, Agility, Intelligence, etc.
+
+Signature moves: ultimate abilities, transformations
+
+Damage types: fire, frost, poison, shadow, holy
+
+Defensive styles: shields, dodges, barriers, stealth
+
+Movement: dashes, teleports, leaps
+
+Class‑region combo ideas:
+
+Swamp Mage → poison, decay, illusions
+
+Volcano Warrior → fire, rage, armor‑break
+
+Island Druid → tides, wind, healing
+
+Special mechanics
+Multi‑classing: unlocks hybrid branches
+
+Region imprinting: spending time in a region shifts your class flavor
+
+Monster essence: rare drops unlock unique nodes
+
+Class trials: mini‑quests that unlock new tiers
+
+
+How the Three Trees Interact 🌟
+
+Task Tree → Profession Tree:  
+Discipline boosts crafting efficiency.
+
+Profession Tree → Class Tree:  
+Your craft influences your combat style (Engineer traps, Herbalist poisons).
+
+Class Tree → Task Tree:  
+Combat perks make certain tasks easier (strength helps with cleaning, agility helps with errands).
+
+Region → All Trees:  
+Your environment shapes your growth across the board.
+
