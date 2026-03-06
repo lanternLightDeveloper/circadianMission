@@ -4,12 +4,12 @@ Plant
 Earth
 Water
 Air
-Space
+Storm 
 
 Secondary Elements:
 Spirit 
 Decay 
-Storm 
+Space
 Light 
 Shadow 
 
@@ -94,15 +94,67 @@ Echo Antagonizer - fights alongside time‑shifted versions of themselves.
 Inkweaver - tattoos come alive as summoned creatures or weapons.
 
 
-Profession Map-
 
-Novice
-Trained
-Sought
-Adept
-Proficient
-Expert
-Instructor
-Virtuoso
+Playable races: 🌟
+Humans
+Lionfolk
+Djinn
+Ooze‑Folk (slime‑based humanoids)
+Mycelians (fungus‑based humanoids)
+Element born - Humans, but they have been effected by an element.
+    Storm Touched (sand/snow/heat/rain/lightning)
+    Emberlings (living coal/ember humanoids)
+    Tidewalkers (water‑aligned humanoids)
+    Verdant (plant‑based humanoids)
+    Spiritfolk (ancestral or ghost‑touched)
 
-Professions
+
+Species:
+Humanoid / Classic Fantasy
+Elves
+Dwarves
+Halflings
+Orcs
+Goblins
+Trollkin
+Gnomes
+Giants
+Minotaurs
+
+Beast‑Folk (Anthro Species)
+Wolfkin
+Bearfolk
+Foxfolk
+Birdfolk (raptor, owl, songbird variants)
+Lizardfolk
+Turtlefolk
+Frogfolk
+Boarfolk
+Goatfolk
+
+Magical / Elemental Species
+Frostborn
+Aetherians (air/sky beings)
+Crystalites (crystal‑bodied humanoids)
+Lunaborn
+Solarborn
+
+Spirit, Fey, and Arcane
+Dryads
+Satyrs
+Sylphs
+Arcane Constructs (sentient golems)
+Dreamwalkers (dream‑realm natives)
+Illusionkin (shifting, semi‑solid beings)
+Starborn (cosmic origin)
+Fey‑Touched humanoids
+
+Monstrous / Strange
+Insectoids (mantis, beetle, ant variants)
+Arachnid‑Folk
+Serpentfolk
+Chimera‑born (mixed‑animal traits)
+Bonewalkers (skeletal but living species)
+Gargoyle‑Folk
+Wraithkin (semi‑corporeal)
+Drakonids (dragon‑blooded humanoids)

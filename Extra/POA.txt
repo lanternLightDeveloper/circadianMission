@@ -74,6 +74,9 @@ Icon / Illustration style:
 User Experience & Flow 🌟
 
 Primary user journey:
+Land is in the land Extra/landDictionary
+Whole skill tree summary at Extra/Player/skillTreeSummaryDraft.txt
+Element/Class/Species concept writeup at  Extra/Player/classDraft.txt
 
 Key screens / views:
 
@@ -82,13 +85,13 @@ Interaction notes (animations, feedback, accessibility):
 Character / Avatar / Profile system (if any):
 
 
-Data & Schema Notes 🌟
+Mongo Dictionary Notes 🌟
 
-Core Tables:
+Core Dictionaries:
+Extra/MongoDictionary they will live here and it will probably grow over time
 
-Relationships:
 
-User Level / Preferences / Settings:
+User Level / Preferences / Settings 🌟
 
 Extensibility considerations:
 
@@ -99,7 +102,6 @@ Base things :
 
 Frontend : 
 + [Svelte](https://svelte.dev/) in TS
-+ [Threlte](https://threlte.xyz/) for 3D objects
 + [Lucide](https://lucide.dev/) for Icons
 + [BitsUI](https://www.bits-ui.com/docs/introduction) for simple UI components
 + [EasingWizard](https://easingwizard.com/) for organic bezier transition
@@ -120,7 +122,7 @@ Performance considerations:
 Security & Privacy 🌟
 
 Auth strategy:
-
+BetterAuth
 Data protection notes:
 
 Safety / Abuse prevention:
