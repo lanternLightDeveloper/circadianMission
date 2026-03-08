@@ -22,6 +22,7 @@ Your environment shapes your growth across the board.
 
 Tiered structure:  
 Early → Mid → Advanced → Epic → Legendary
+0 - 10   11 - 20    21 - 30      31 - 40     41 - 50
 
 Node types:
 Passive boosts (stats, resistances, efficiencies)

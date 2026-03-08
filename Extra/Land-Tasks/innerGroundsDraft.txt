@@ -1,0 +1,368 @@
+INNER GROUNDS 🌟
+Description: The inner grounds grow with the user, boosting daily tasks and renown.
+
+Upgrade key:
+basic
+rebuilt
+established 
+improved
+advanced
+exquisite
+
+Tier 1 -
+
+Castle Proper
+Type: Building
+Description: The player's main hall, throne room, and administrative center.
+Level: 1
+Bonuses: renown gain +10%
+Actions: Hold Court, Assign Followers, Review Reports
+Profession: Advisor
+Task-Reward: Renown
+Requirements: stone 5, gold 10
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Council Hall
+Type: Building
+Description: Governance decisions, diplomacy, and lawmaking.
+Level: 1
+Bonuses: diplomacy XP +5%, renown gain +3%
+Actions: Hold Council, Draft Decrees, Meet Envoys
+Profession: Councilor
+Task-Reward: Renown, Villagers
+Requirements: stone 25, gold 40
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Well / Waterworks
+Type: Building
+Description: Clean water source; boosts health and reduces sickness events.
+Level: 1
+Bonuses: health recovery +5%, sickness chance –5%
+Actions: Draw Water, Purify Water, Maintain Well
+Profession: Waterkeeper
+Task-Reward: water 
+Requirements: stone 10, wood 10
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Market
+Type: Building
+Description: Hub for buying, selling, and trading goods.
+Level: 1
+Bonuses: trade prices +2% better
+Actions: Buy, Sell, Trade, Commission Order
+Profession: Merchant, Trader
+Task-Reward: gold
+Requirements: gold 50, stone 10, wood 10
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+
+Tier 2 -
+
+Messenger Post
+Type: Building
+Description: Dispatch riders and long‑distance communication.
+Level: 1
+Bonuses: communication speed +10%, courier XP +5%
+Actions: Send Message, Assign Courier, Sort Mail
+Profession: Postmaster
+Task-Reward: communication speed
+Requirements: wood 10, rope 5, horses 5, gold 10
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Strategy Hall
+Type: Building
+Description: War planning, maps, scouting intel, follower assignments.
+Level: 1
+Bonuses: scouting efficiency +5%, mission planning +5%
+Actions: Review Maps, Assign Patrols, Plan Strategy
+Profession: Strategist
+Task-Reward: Defense 
+Requirements: wood 15, parchment 10, followers 10
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Barracks
+Type: Building
+Description: Housing for guards; boosts defense and patrol efficiency.
+Level: 1
+Bonuses: guard capacity +2, patrol efficiency +5%
+Actions: Assign Guards, Train Recruits, Inspect Barracks
+Profession: Captain of the Guard
+Task-Reward: Troops
+Requirements: wood 20, stone 20, troops 10
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Armory
+Type: Building
+Description: Stores weapons and armor; improves readiness and equipment quality.
+Level: 1
+Bonuses: equipment durability +5%, readiness +5%
+Actions: Store Gear, Issue Equipment, Inspect Inventory
+Profession: Quartermaster
+Task-Reward: defense 
+Requirements: iron 10, wood 15, weapons 5, armor 5
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Smith
+Type: Building
+Description: Forge and repair gear; unlocks crafting bonuses. Crafts metal bars.
+Level: 1
+Bonuses: crafting quality +5%, repair cost –10%
+Actions: Forge Item, Repair Gear, Upgrade Gear
+Profession: Blacksmith
+Task-Reward: weapons, armor, metal bars, glass
+Requirements: iron 15, coal 5, wood 10, water 5
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Mage Tower
+Type: Building
+Description: Arcane research, spell upgrades, magical experiments.
+Level: 1
+Bonuses: spell power +3%, research speed +5%
+Actions: Study Magic, Upgrade Spell, Conduct Experiment
+Profession: Mage, Apprentice
+Task-Reward: runes, defense
+Requirements: stone 25, cosmic ore - minor 10
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Watchtower
+Type: Building
+Description: Scout vantage point; increases detection radius and early warnings.
+Level: 1
+Bonuses: detection radius +10%, alert speed +5%
+Actions: Keep Watch, Signal Alarm, Scout Perimeter
+Profession: Lookout
+Task-Reward: defense 
+Requirements: wood 20, stone 10, troops 5
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Stables
+Type: Building
+Description: Houses mounts and improves travel or delivery tasks.
+Level: 1
+Bonuses: travel speed +5%, delivery efficiency +3%
+Actions: Feed Mount, Train Mount, Assign Courier
+Profession: Stablemaster
+Task-Reward: horses
+Requirements: wood 20, stone 10, horses 10
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Tailor / Clothier
+Type: Building
+Description: Produces clothing, robes, uniforms, and banners.
+Level: 1
+Bonuses: crafting quality +3%, tailoring XP +5%
+Actions: Sew Clothing, Craft Uniforms, Design Banner
+Profession: Tailor
+Task-Reward: Cloths, wool, rune-cloth
+Requirements: cloth 15, wood 10, stone 10
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Chapel / Shrine
+Type: Building
+Description: Blessings, healing, and divine quests.
+Level: 1
+Bonuses: healing +5%, blessing duration +5%
+Actions: Pray, Receive Blessing, Perform Ritual
+Profession: Priest
+Task-Reward: happiness
+Requirements: stone 20, cosmic ore - minor 5, rune-cloth 5
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+
+Tier 3 -
+
+Tavern / Mead Hall
+Type: Building
+Description: Morale, social events, rumors, and recruitable Profession.
+Level: 1
+Bonuses: morale +10%, social XP +5%
+Actions: Host Feast, Gather Rumors, Recruit Adventurer
+Profession: Innkeeper, Bard
+Task-Reward: renown, happiness, followers 
+Requirements: wood 20, beer 10, followers 6, tools 5
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Gardens / Courtyard
+Type: Building
+Description: Beauty, meditation, and herbal gathering.
+Level: 1
+Bonuses: morale +5%, herb yield +3%
+Actions: Meditate, Gather Herbs, Tend Garden
+Profession: Groundskeeper
+Task-Reward: crafting regents
+Requirements: wood 10, water 10, gold 40, tools 10
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+School / Library
+Type: Building
+Description: Boosts learning, skills, and research.
+Level: 1
+Bonuses: research speed +5%, skill XP +3%
+Actions: Study, Research, Teach Follower
+Profession: Scholar, Librarian
+Task-Reward: education
+Requirements: paper 10, wood 15, stone 10, tools 5, gold 40
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Alchemy Lab
+Type: Building
+Description: Potions, reagents, bombs, and magical brews.
+Level: 1
+Bonuses: potion potency +5%, reagent yield +3%
+Actions: Brew Potion, Distill Reagents, Craft Bomb
+Profession: Alchemist
+Task-Reward: potions
+Requirements: herbs 10, glass 5, stone 10, wood 20, tools 5, gold 40
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Runeforge
+Type: Building
+Description: Enchantments, sigils, and magical crafting.
+Level: 1
+Bonuses: enchant success +5%, rune potency +3%
+Actions: Carve Rune, Enchant Gear, Bind Sigil
+Profession: Runecrafter
+Task-Reward: Runes, enchanted gear
+Requirements: stone 20, runes 5, cosmic ore - major 10, metal bars 5, gems 5
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Portal Chamber
+Type: Building
+Description: Fast travel, expeditions, and special missions.
+Level: 1
+Bonuses: travel time –10%, portal stability +5%
+Actions: Open Portal, Calibrate Gate, Send Expedition
+Profession: Gatekeeper
+Requirements: stone 30, wood 20,cosmic ore - major 10, gold 40
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Crystal Conservatory
+Type: Building
+Description: Magical plants and mana‑infused flora.
+Level: 1
+Bonuses: herb yield +5%, mana plant growth +8%
+Actions: Cultivate Crystals, Harvest Mana Plants, Study Growth
+Profession: Botanist
+Task-Reward: magical regents 
+Requirements: glass 10, stone 10, runes 5, cosmic ore - major 10, gems 10
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+
+Future Buildings:
+
+Carpenter’s Shop - woodwork, repairs, furniture, bows, and tools.
+Mason’s Yard - stonecutting, building upgrades, wall repairs.
+Archives - ancient texts, records, lore, and historical research.
+Bathhouse - hygiene, relaxation, small buffs to mood or stamina.
+Guest Quarters - visiting nobles, merchants, or quest‑givers.
+Aviary / Falconry - messenger birds, scouting bonuses.
+Kennels - hounds, companion animals, tracking boosts.
+Beast Pens - exotic or magical creatures for quests or defense.
+Treasury - gold storage, taxes, economic upgrades.
+Record Office - census, contracts, permits, and bureaucratic flavor.
+Spirit Garden - commune with ancestors, spirits, or familiars.

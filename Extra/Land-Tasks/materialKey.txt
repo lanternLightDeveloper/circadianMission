@@ -1,0 +1,90 @@
+Material key 🌟
+
+Tier 1 -
+Products:
+stone,
+wood,
+fiber,
+coal,
+water,
+
+Regents:
+cosmic ore - minor,
+wool, 
+magical regents, 
+pelts/skins (leather),
+
+Food:
+crops,
+grain,
+milk, 
+herbs,
+fruit,
+wild meat,
+meat,
+fish
+
+
+Tier 2 -
+Products:
+iron,
+paper,
+rope,
+brick,
+glass
+
+Regents;
+metal bars,
+cosmic ore - major,
+leather,
+rune-cloth,  
+runes,
+
+Food:
+potions,
+beer,
+bread,
+cheese,
+smoked meat,
+pickled vegetables
+
+
+Tier 3 -
+Products:
+tools,
+light armor,
+weapons, 
+armor, 
+clothes, 
+
+Regents:
+cosmic ore - legendary,
+gold,
+gems,
+
+Food:
+wine,
+
+
+Tier 4:
+enchanted armor,
+enchanted weapons,
+enchanted tools,
+portal stones,
+fine gems
+
+
+Tasks produce material or castle boost(renown, followers, teachers, craftspeople, etc.)
+
+Material List -
+villagers, 
+troops, 
+followers, 
+horses,
+improved troops,
+communication speed, 
+education, 
+diplomacy, 
+happiness,  
+defense,
+pet bonds

@@ -1,23 +1,5 @@
-Material key:
-tier 1 -
-stone
-wood
-fiber
-coal
-water
-
-tier 2 -
-iron
-paper
-rope
-tools
-leatherworking
-cosmic ore
-
-tier 3 -
-gold
-gems 
-
+OUT THERE 🌟
+Description: Big milestones. Long expeditions, foreign travel, and major achievements.
 
 Upgrade key:
 basic
@@ -26,10 +8,6 @@ established
 improved
 advanced
 exquisite
-
-
-OUT THERE
-Description: Big milestones. Long expeditions, foreign travel, and major achievements.
 
 Wild Lands
 Type: Region
