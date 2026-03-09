@@ -1,34 +1,25 @@
 INNER GROUNDS 🌟
 Description: The inner grounds grow with the user, boosting daily tasks and renown.
 
-Upgrade key:
-basic
-rebuilt
-established 
-improved
-advanced
-exquisite
-
-Upgrade Bonus: +2% per level to bonuses
 
 Glossary
 Tier 1 -
 Castle Proper
 Council Hall
-Well / Waterworks
 Market
+Well / Waterworks
 
 Tier 2 -
 Messenger Post
 Strategy Hall
+Tailor / Clothier
+Chapel / Shrine
+Stables
 Barracks
 Armory
 Smith
 Mage Tower
 Watchtower
-Stables
-Tailor / Clothier
-Chapel / Shrine
 
 Tier 3-
 Tavern / Mead Hall
@@ -74,22 +65,6 @@ Upgrade-Requirements:
         advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
         exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
 
-Well / Waterworks
-Type: Building
-Description: Clean water source; boosts health and reduces sickness events.
-Level: 1
-Bonuses: health recovery +5%
-Actions: Draw Water, Purify Water
-Profession: Waterkeeper
-Task-Reward: water 
-Requirements: stone 10, wood 10
-Upgrade-Requirements: 
-        rebuilt- stone 20 gold 30, 
-        established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
-        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
-        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
-
 Market
 Type: Building
 Description: Hub for buying, selling, and trading goods.
@@ -99,6 +74,22 @@ Actions: Buy, Sell, Trade, Commission Order
 Profession: Merchant, Trader
 Task-Reward: gold
 Requirements: gold 50, stone 10, wood 10
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Well / Waterworks
+Type: Building
+Description: Clean water source; boosts health and reduces sickness events.
+Level: 1
+Bonuses: health recovery +5%
+Actions: Draw Water, Purify Water
+Profession: Waterkeeper
+Task-Reward: water 
+Requirements: stone 10, wood 10
 Upgrade-Requirements: 
         rebuilt- stone 20 gold 30, 
         established - stone 30 wood 20 gold 50, 
@@ -140,6 +131,54 @@ Upgrade-Requirements:
         improved - stone 40 wood 40, metal bars 10, gold 100, 
         advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
         exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Tailor / Clothier
+Type: Building
+Description: Produces clothing, robes, uniforms, and banners.
+Level: 1
+Bonuses: crafting quality +3%, villager XP +5%
+Actions: Sew Clothing, Craft Uniforms, Design Banner
+Profession: Tailor
+Task-Reward: Cloths, wool, rune-cloth
+Requirements: cloth 15, wood 10, stone 10
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Chapel / Shrine
+Type: Building
+Description: Blessings, healing, and divine quests.
+Level: 1
+Bonuses: healing +5%, blessing duration +5%
+Actions: Pray, Receive Blessing, Perform Ritual
+Profession: Priest
+Task-Reward: happiness, healers
+Requirements: stone 20, cosmic ore - minor 5, rune-cloth 5
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Stables
+Type: Building
+Description: Houses mounts and improves travel or delivery tasks.
+Level: 1
+Bonuses: travel speed +5%, delivery efficiency +3%
+Actions: Feed Mount, Train Mount, Assign Courier
+Profession: Stablemaster
+Task-Reward: horses
+Requirements: wood 20, stone 10, horses 10
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 1520gold 160, gems 20
 
 Barracks
 Type: Building
@@ -214,54 +253,6 @@ Actions: Keep Watch, Signal Alarm, Scout Perimeter
 Profession: Lookout
 Task-Reward: defense 
 Requirements: wood 20, stone 10, troops 5
-Upgrade-Requirements: 
-        rebuilt- stone 20 gold 30, 
-        established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
-        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
-        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
-
-Stables
-Type: Building
-Description: Houses mounts and improves travel or delivery tasks.
-Level: 1
-Bonuses: travel speed +5%, delivery efficiency +3%
-Actions: Feed Mount, Train Mount, Assign Courier
-Profession: Stablemaster
-Task-Reward: horses
-Requirements: wood 20, stone 10, horses 10
-Upgrade-Requirements: 
-        rebuilt- stone 20 gold 30, 
-        established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
-        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
-        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
-
-Tailor / Clothier
-Type: Building
-Description: Produces clothing, robes, uniforms, and banners.
-Level: 1
-Bonuses: crafting quality +3%, villager XP +5%
-Actions: Sew Clothing, Craft Uniforms, Design Banner
-Profession: Tailor
-Task-Reward: Cloths, wool, rune-cloth
-Requirements: cloth 15, wood 10, stone 10
-Upgrade-Requirements: 
-        rebuilt- stone 20 gold 30, 
-        established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
-        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
-        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
-
-Chapel / Shrine
-Type: Building
-Description: Blessings, healing, and divine quests.
-Level: 1
-Bonuses: healing +5%, blessing duration +5%
-Actions: Pray, Receive Blessing, Perform Ritual
-Profession: Priest
-Task-Reward: happiness, healers
-Requirements: stone 20, cosmic ore - minor 5, rune-cloth 5
 Upgrade-Requirements: 
         rebuilt- stone 20 gold 30, 
         established - stone 30 wood 20 gold 50, 

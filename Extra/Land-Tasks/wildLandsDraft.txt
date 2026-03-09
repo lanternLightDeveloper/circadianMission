@@ -1,14 +1,6 @@
 OUT THERE 🌟
 Description: Big milestones. Long expeditions, foreign travel, and major achievements.
 
-Upgrade key:
-basic
-rebuilt
-established 
-improved
-advanced
-exquisite
-
 Wild Lands
 Type: Region
 Description: Untamed wilderness with danger, resources, and rare discoveries.
@@ -34,7 +26,7 @@ Level: 1
 Bonuses: mission success +5%, follower XP +8%
 Actions: Send Expedition, Review Reports, Recall Followers
 NPCs: Expedition Captain
-Requirements: followers 2, provisions 15
+Requirements: followers 2, food 15
 
 Other Countries
 Type: Region

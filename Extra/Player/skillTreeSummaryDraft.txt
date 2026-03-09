@@ -21,8 +21,7 @@ Region → All Trees:
 Your environment shapes your growth across the board.
 
 Tiered structure:  
-Early → Mid → Advanced → Epic → Legendary
-0 - 10   11 - 20    21 - 30      31 - 40     41 - 50
+Early 0 - 10 → Mid 11 - 20 → Advanced 21 - 30 → Epic 31 - 40 → Legendary 41 - 50
 
 Node types:
 Passive boosts (stats, resistances, efficiencies)
@@ -43,7 +42,7 @@ Achievements
 Story milestones
 
 Cross‑tree power:  
-Nodes in one tree can unlock or enhance nodes in another (e.g., Profession → Class synergy).
+Nodes in one tree can unlock or enhance nodes in another (e.g., Profession → Class power).
 
 
 Task Skill Tree (Daily Life → Power)  🌟

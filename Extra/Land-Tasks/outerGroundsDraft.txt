@@ -1,95 +1,53 @@
 OUTER GROUNDS 🌔
 Description: Most quests happen here. Includes outskirts and near‑distance jobs.
 
-Upgrade key:
-basic
-rebuilt
-established 
-improved
-advanced
-exquisite
-
-Upgrade Bonus: +2% per level to bonuses
 
 Tier 1 -
 Farms
+Granary
 Dairy
 Hunt / Fish Outpost
-Granary
-Wagon Depot
 Lumber Yard
 Quarry Edge
+Wagon Depot
 
 Tier 2 -
 Traveling Market
 Masons
+Tannery
 Orchards
 River Dock
 Scouting Posts
 Roadside Shrine
-Tannery
 
 Tier 3 -
-Event Grounds
 Training Grounds
+Event Grounds
 Vineyards
 Herbal Fields
 Road Building
-Outskirts Village
 Beast Fields
+Outskirts Village
 Sky Dock
-
 
 
 Tier 1 - 
 
 Farms
 Type: Building
-Description: Produces crops; boosts gathering and cooking tasks.
+woodsscription: Produces crops; boosts gathering and cooking tasks.
 Level: 1
 Bonuses: gathering yield +5%, food storage +3%
 Actions: Harvest Crops, Plant Seeds, Tend Fields
 Profession: Farmer
 Task-reward: crops, happiness, pickled vegetables
 Requirements: wood 15, fiber 10, water 10
-Upgrade‑Requirements:
-        rebuilt - stone 20, gold 30
-        established - stone 30, wood 20, gold 50
-        improved - stone 40, wood 40, gold 100
-        advanced - stone 50, wood 60, gold 120
-        exquisite - stone 60, wood 80, gold 160, gems 20
-
-Dairy
-Type: Field
-Description: Produces milk and cheese; boosts food crafting and animal care.
-Level: 1
-Bonuses: animal bonds +4%, food production +5%
-Actions: Milk Animals, Process Cheese, Clean Pens
-Profession: Dairy Keeper
-Task-reward: milk, cheese, horses
-Requirements: wood 10, stone 5
-Upgrade‑Requirements:
-        rebuilt - stone 20, gold 30
-        established - stone 30, wood 20, gold 50
-        improved - stone 40, wood 40, gold 100
-        advanced - stone 50, wood 60, gold 120
-        exquisite - stone 60, wood 80, gold 160, gems 20
-
-Hunt / Fish Outpost
-Type: Worksite
-Description: Wilderness outpost for hunting and fishing tasks.
-Level: 1
-Bonuses: wild meat gathering +8%, fish gathering +5%
-Actions: Hunt Game, Set Traps, Fish Waters
-Profession: Hunter, Fisher
-Task-reward:  fish, wild meat, happiness
-Requirements: wood 10, rope 5
-Upgrade‑Requirements:
-        rebuilt - stone 20, gold 30
-        established - stone 30, wood 20, gold 50
-        improved - stone 40, wood 40, gold 100
-        advanced - stone 50, wood 60, gold 120
-        exquisite - stone 60, wood 80, gold 160, gems 20
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
 
 Granary
 Type: Building
@@ -100,28 +58,44 @@ Actions: Store Grain, Inspect Supplies, Distribute Rations
 Profession: Granary Keeper
 Task-reward: grain, happiness, villagers
 Requirements: wood 15, stone 10
-Upgrade‑Requirements:
-        rebuilt - stone 20, gold 30
-        established - stone 30, wood 20, gold 50
-        improved - stone 40, wood 40, gold 100
-        advanced - stone 50, wood 60, gold 120
-        exquisite - stone 60, wood 80, gold 160, gems 20
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
 
-Wagon Depot
-Type: Building
-Description: Caravans, deliveries, escorting merchants.
+Dairy
+Type: Field
+Description: Produces milk and cheese; boosts food crafting and animal care.
 Level: 1
-Bonuses: delivery speed +5%, trade rewards +3%
-Actions: Load Wagon, Dispatch Caravan, Escort Merchant
-Profession: Wagonmaster
-Task-reward: gold, renown, magical regents
-Requirements: wood 15, rope 5
-Upgrade‑Requirements:
-        rebuilt - stone 20, gold 30
-        established - stone 30, wood 20, gold 50
-        improved - stone 40, wood 40, gold 100
-        advanced - stone 50, wood 60, gold 120
-        exquisite - stone 60, wood 80, gold 160, gems 20
+Bonuses: animal bonds +4%, food production +5%
+Actions: Milk Animals, Process Cheese, Clean Pens
+Profession: Dairy Keeper, farmhand
+Task-reward: milk, cheese, horses, meat, villagers
+Requirements: wood 10, stone 5, gold 5
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Hunt / Fish Outpost
+Type: Worksite
+Description: Wilderness outpost for hunting and fishing tasks.
+Level: 1
+Bonuses: wild meat gathering +8%, fish gathering +5%
+Actions: Hunt Game, Set Traps, Fish Waters
+Profession: Hunter, Fisher
+Task-reward:  fish, wild meat, happiness, water
+Requirements: wood 10, rope 5, stone 5
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
 
 Lumber Yard
 Type: Worksite
@@ -131,13 +105,13 @@ Bonuses: wood yield +8%, happiness +3%
 Actions: Chop Wood, Haul Logs, Clear Debris
 Profession: Lumberjack
 Task-reward: wood, paper
-Requirements: wood 10, tools 5
-Upgrade‑Requirements:
-        rebuilt - stone 20, gold 30
-        established - stone 30, wood 20, gold 50
-        improved - stone 40, wood 40, gold 100
-        advanced - stone 50, wood 60, gold 120
-        exquisite - stone 60, wood 80, gold 160, gems 20
+Requirements: wood 10, stone 15
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
 
 Quarry Edge
 Type: Worksite
@@ -147,13 +121,29 @@ Bonuses: stone yield +8%, ore yield +3%
 Actions: Extract Stone, Inspect Quarry, Transport Blocks
 Profession: Quarryman
 Task-reward: stone, happiness
-Requirements: stone 10, tools 5
-Upgrade‑Requirements:
-        rebuilt - stone 20, gold 30
-        established - stone 30, wood 20, gold 50
-        improved - stone 40, wood 40, gold 100
-        advanced - stone 50, wood 60, gold 120
-        exquisite - stone 60, wood 80, gold 160, gems 20
+Requirements: stone 10, woods 5
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Wagon Depot
+Type: Building
+Description: Caravans, deliveries, escorting merchants.
+Level: 1
+Bonuses: delivery speed +5%, trade rewards +3%
+Actions: Load Wagon, Dispatch Caravan, Escort Merchant
+Profession: Wagonmaster
+Task-reward: gold, renown, villagers
+Requirements: wood 15, rope 10, stone 10
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
 
 
 Tier 2 -
@@ -165,14 +155,14 @@ Level: 1
 Bonuses: rare goods chance +5%, trade rewards +3%
 Actions: Browse Wares, Trade Goods, Accept Special Quests
 Profession: Wandering Merchant
-Task-reward: gold, magical regents
-Requirements: gold 50, stone 20
-Upgrade‑Requirements:
-        rebuilt - stone 20, gold 30
-        established - stone 30, wood 20, gold 50
-        improved - stone 40, wood 40, gold 100
-        advanced - stone 50, wood 60, gold 120
-        exquisite - stone 60, wood 80, gold 160, gems 20
+Task-reward: gold, villagers
+Requirements: gold 50, stone 20, wood 15, iron bars 5, paper 5
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
 
 Masons
 Type: Worksite
@@ -182,77 +172,13 @@ Bonuses: construction speed +5%, repair efficiency +10%
 Actions: Cut Stone, Reinforce Walls, Craft Masonry Blocks
 Profession: Mason
 Task-reward:  brick, stone
-Requirements: stone 20, tools 5
-Upgrade‑Requirements:
-        rebuilt - stone 20, gold 30
-        established - stone 30, wood 20, gold 50
-        improved - stone 40, wood 40, gold 100
-        advanced - stone 50, wood 60, gold 120
-        exquisite - stone 60, wood 80, gold 160, gems 20
-
-Orchards
-Type: Field
-Description: Fruit picking, pruning, and seasonal harvest quests.
-Level: 1
-Bonuses: harvest yield +5%, renown +3%
-Actions: Pick Fruit, Prune Trees, Tend Orchard
-Profession: Orchard Keeper
-Task-reward: fruits, happiness, beer
-Requirements: soil 10, water 10
-Upgrade‑Requirements:
-        rebuilt - stone 20, gold 30
-        established - stone 30, wood 20, gold 50
-        improved - stone 40, wood 40, gold 100
-        advanced - stone 50, wood 60, gold 120
-        exquisite - stone 60, wood 80, gold 160, gems 20
-
-River Dock
-Type: Building
-Description: Fishing boats, ferry tasks, water‑based errands.
-Level: 1
-Bonuses: fishing yield +8%, renown +3%
-Actions: Launch Boat, Ferry Goods, Fish River
-Profession: Dockhand
-Task-reward: fish, diplomacy, water
-Requirements: wood 15, rope 5
-Upgrade‑Requirements:
-        rebuilt - stone 20, gold 30
-        established - stone 30, wood 20, gold 50
-        improved - stone 40, wood 40, gold 100
-        advanced - stone 50, wood 60, gold 120
-        exquisite - stone 60, wood 80, gold 160, gems 20
-
-Scouting Posts
-Type: Building
-Description: Short patrols, lookout duties, messenger tasks.
-Level: 1
-Bonuses: communication speed +5%, detection radius +15%
-Actions: Patrol Area, Watch Perimeter, Relay Messages
-Profession: Scout
-Task-reward: diplomacy, villagers
-Requirements: wood 10, rope 5
-Upgrade‑Requirements:
-        rebuilt - stone 20, gold 30
-        established - stone 30, wood 20, gold 50
-        improved - stone 40, wood 40, gold 100
-        advanced - stone 50, wood 60, gold 120
-        exquisite - stone 60, wood 80, gold 160, gems 20
-
-Roadside Shrine
-Type: Building
-Description: Offerings, blessings, and small spiritual quests.
-Level: 1
-Bonuses: blessing duration +5%, defense +3%
-Actions: Leave Offering, Pray, Clean Shrine
-Profession: Shrine Keeper
-Task-reward: happiness, gold
-Requirements: stone 10, incense 5
-Upgrade‑Requirements:
-        rebuilt - stone 20, gold 30
-        established - stone 30, wood 20, gold 50
-        improved - stone 40, wood 40, gold 100
-        advanced - stone 50, wood 60, gold 120
-        exquisite - stone 60, wood 80, gold 160, gems 20
+Requirements: stone 20, tools 5, wood 10, iron bars 5
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
 
 Tannery
 Type: Building
@@ -262,16 +188,96 @@ Bonuses: leather yield +5%, leather production +3%
 Actions: Cure Hides, Craft Leather Armor, Process Materials
 Profession: Tanner
 Task-reward: leather, light armor
-Requirements: hides 10, wood 10
-Upgrade‑Requirements:
-        rebuilt - stone 20, gold 30
-        established - stone 30, wood 20, gold 50
-        improved - stone 40, wood 40, gold 100
-        advanced - stone 50, wood 60, gold 120
-        exquisite - stone 60, wood 80, gold 160, gems 20
+Requirements: hides 10, wood 10, iron bars 5
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Orchards
+Type: Field
+Description: Fruit picking, pruning, and seasonal harvest quests.
+Level: 1
+Bonuses: harvest yield +5%, renown +3%
+Actions: Pick Fruit, Prune Trees, Tend Orchard
+Profession: Orchard Keeper, Cider Brewer
+Task-reward: fruits, happiness, beer
+Requirements: wood 10, water 10, rope 10
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+River Dock
+Type: Building
+Description: Fishing boats, ferry tasks, water‑based errands.
+Level: 1
+Bonuses: fishing yield +8%, renown +3%
+Actions: Launch Boat, Ferry Goods, Fish River
+Profession: Dockhand
+Task-reward: fish, diplomacy, water
+Requirements: wood 15, rope 5, stone 5, iron bars 5
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Scouting Posts
+Type: Building
+Description: Short patrols, lookout duties, messenger tasks.
+Level: 1
+Bonuses: communication speed +5%, detection radius +15%
+Actions: Patrol Area, Watch Perimeter, Relay Messages
+Profession: Scout
+Task-reward: diplomacy, villagers, defense
+Requirements: wood 10, rope 5, horses 5, stone 15
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Roadside Shrine
+Type: Building
+Description: Offerings, blessings, and small spiritual quests.
+Level: 1
+Bonuses: blessing duration +5%, defense +3%
+Actions: Leave Offering, Pray, Clean Shrine
+Profession: Shrine Keeper
+Task-reward: happiness, gold
+Requirements: stone 10, cosmic ore - major 5, wood 5, gold 5 5
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
 
 
 Tier 3 -
+
+Training Grounds
+Type: Field
+Description: Combat drills, sparring, and mount practice, army recruiting
+Level: 1
+Bonuses: combat XP +5%, training efficiency +5%
+Actions: Spar, Drill Troops, Practice Mounted Combat
+Profession: Trainer
+Task-reward: happiness, improved troops, renown
+Requirements: wood 20, rope 10, stone 20, gold 10, weapons 10, armor 10
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
 
 Event Grounds
 Type: Field
@@ -281,29 +287,13 @@ Bonuses: defense +10%, renown +5%
 Actions: Join Festival, Play Games, Participate in Events
 Profession: Event Host
 Task-reward: happiness, villagers, followers, renown
-Requirements: wood 10, stone 20, gold 50
-Upgrade‑Requirements:
-        rebuilt - stone 20, gold 30
-        established - stone 30, wood 20, gold 50
-        improved - stone 40, wood 40, gold 100
-        advanced - stone 50, wood 60, gold 120
-        exquisite - stone 60, wood 80, gold 160, gems 20
-
-Training Grounds
-Type: Field
-Description: Combat drills, sparring, and mount practice.
-Level: 1
-Bonuses: combat XP +5%, training efficiency +5%
-Actions: Spar, Drill Troops, Practice Mounted Combat
-Profession: Trainer
-Task-reward: happiness, improved troops, renown
-Requirements: wood 20, rope 5
-Upgrade‑Requirements:
-        rebuilt - stone 20, gold 30
-        established - stone 30, wood 20, gold 50
-        improved - stone 40, wood 40, gold 100
-        advanced - stone 50, wood 60, gold 120
-        exquisite - stone 60, wood 80, gold 160, gems 20
+Requirements: wood 10, stone 20, gold 50, gems 5
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
 
 Vineyards
 Type: Building
@@ -313,13 +303,13 @@ Bonuses: fruit yield +5%, diplomacy +3%
 Actions: Harvest Grapes, Press Juice, Age Wine
 Profession: Vintner
 Task-reward: wine, happiness, fruit
-Requirements: soil 10, wood 10
-Upgrade‑Requirements:
-        rebuilt - stone 20, gold 30
-        established - stone 30, wood 20, gold 50
-        improved - stone 40, wood 40, gold 100
-        advanced - stone 50, wood 60, gold 120
-        exquisite - stone 60, wood 80, gold 160, gems 20
+Requirements: fiber 10, wood 10, stone 10, gold 50, tools 10
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
 
 Herbal Fields
 Type: Field
@@ -329,13 +319,29 @@ Bonuses: herb yield +8%, alchemy XP +3%
 Actions: Gather Herbs, Tend Plants, Sort Ingredients
 Profession: Herbalist
 Task-reward: herbs, happiness
-Requirements: soil 10, water 10
-Upgrade‑Requirements:
-        rebuilt - stone 20, gold 30
-        established - stone 30, wood 20, gold 50
-        improved - stone 40, wood 40, gold 100
-        advanced - stone 50, wood 60, gold 120
-        exquisite - stone 60, wood 80, gold 160, gems 20
+Requirements: wood 10, water 10, fiber 15, stone 10, tools 10
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+
+Beast Fields
+Type: Field
+Description: Herding, feeding, hunting and runaway livestock quests.
+Level: 1
+Bonuses: animal bonds +5, happiness XP +5%
+Actions: Feed Herd, Round Up Livestock, Inspect Fences
+Profession: Herdsman
+Task-reward: pet bonds, happiness, wild meat
+Requirements: wood 15, fiber 10, stone 10, gold 50, weapons 10
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
 
 Road Building
 Type: Region
@@ -344,14 +350,14 @@ Level: 1
 Bonuses: travel speed +10%, resource transport +5%
 Actions: Lay Road, Clear Path, Assign Workers
 Profession: Engineer, Laborers
-Task-reward: diplomacy, magical regents
-Requirements: stone 20, wood 15
-Upgrade‑Requirements:
-        rebuilt - stone 20, gold 30
-        established - stone 30, wood 20, gold 50
-        improved - stone 40, wood 40, gold 100
-        advanced - stone 50, wood 60, gold 120
-        exquisite - stone 60, wood 80, gold 160, gems 20
+Task-reward: diplomacy, cosmic ore
+Requirements: stone 20, wood 15, gold 10, gems 5, horses 5, tools 10
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
 
 Outskirts Village
 Type: Building
@@ -360,30 +366,14 @@ Level: 1
 Bonuses: renown +5%, quest rewards +5%
 Actions: Visit Homes, Settle Dispute, Gather Rumors
 Profession: Villagers
-Task-reward: happiness, fruit, wild meat, fish
-Requirements: wood 20, stone 10
-Upgrade‑Requirements:
-        rebuilt - stone 20, gold 30
-        established - stone 30, wood 20, gold 50
-        improved - stone 40, wood 40, gold 100
-        advanced - stone 50, wood 60, gold 120
-        exquisite - stone 60, wood 80, gold 160, gems 20
-
-Beast Fields
-Type: Field
-Description: Herding, feeding, and runaway livestock quests.
-Level: 1
-Bonuses: animal bonds +5, happiness XP +5%
-Actions: Feed Herd, Round Up Livestock, Inspect Fences
-Profession: Herdsman
-Task-reward: pet bonds, happiness, wild meat
-Requirements: wood 15, hay 10
-Upgrade‑Requirements:
-        rebuilt - stone 20, gold 30
-        established - stone 30, wood 20, gold 50
-        improved - stone 40, wood 40, gold 100
-        advanced - stone 50, wood 60, gold 120
-        exquisite - stone 60, wood 80, gold 160, gems 20
+Task-reward: happiness, fruit, wild meat, fish, villagers
+Requirements: wood 20, stone 20, gold 70, gems 10, tools 10, weapons 10, armor 10
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
 
 Sky Dock
 Type: Building
@@ -393,10 +383,10 @@ Bonuses: quest rewards +8%, renown +3%
 Actions: Launch Skyship, Ferry Goods, Sky Adventures
 Profession: Skyhand
 Task-reward: diplomacy, magical regentsnts
-Requirements: wood 15, stone 50, rope 25, gold 100
-Upgrade‑Requirements:
-        rebuilt - stone 20, gold 30
-        established - stone 30, wood 20, gold 50
-        improved - stone 40, wood 40, gold 100
-        advanced - stone 50, wood 60, gold 120
-        exquisite - stone 60, wood 80, gold 160, gems 20
+Requirements: wood 15, stone 50, rope 25, gold 100, gems 20, tools 15
+Upgrade-Requirements: 
+        rebuilt- stone 20 gold 30, 
+        established - stone 30 wood 20 gold 50, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
+        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
