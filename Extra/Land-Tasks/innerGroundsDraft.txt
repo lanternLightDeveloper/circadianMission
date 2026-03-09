@@ -9,13 +9,44 @@ improved
 advanced
 exquisite
 
+Upgrade Bonus: +2% per level to bonuses
+
+Glossary
+Tier 1 -
+Castle Proper
+Council Hall
+Well / Waterworks
+Market
+
+Tier 2 -
+Messenger Post
+Strategy Hall
+Barracks
+Armory
+Smith
+Mage Tower
+Watchtower
+Stables
+Tailor / Clothier
+Chapel / Shrine
+
+Tier 3-
+Tavern / Mead Hall
+Gardens / Courtyard
+School / Library
+Alchemy Lab
+Runeforge
+Portal Chamber
+Crystal Conservatory
+
+
 Tier 1 -
 
 Castle Proper
 Type: Building
 Description: The player's main hall, throne room, and administrative center.
 Level: 1
-Bonuses: renown gain +10%
+Bonuses: renown gain +5%
 Actions: Hold Court, Assign Followers, Review Reports
 Profession: Advisor
 Task-Reward: Renown
@@ -47,8 +78,8 @@ Well / Waterworks
 Type: Building
 Description: Clean water source; boosts health and reduces sickness events.
 Level: 1
-Bonuses: health recovery +5%, sickness chance –5%
-Actions: Draw Water, Purify Water, Maintain Well
+Bonuses: health recovery +5%
+Actions: Draw Water, Purify Water
 Profession: Waterkeeper
 Task-Reward: water 
 Requirements: stone 10, wood 10
@@ -82,8 +113,8 @@ Messenger Post
 Type: Building
 Description: Dispatch riders and long‑distance communication.
 Level: 1
-Bonuses: communication speed +10%, courier XP +5%
-Actions: Send Message, Assign Courier, Sort Mail
+Bonuses: communication speed +10%, villager XP +5%
+Actions: Send/Receive Message, Assign Courier
 Profession: Postmaster
 Task-Reward: communication speed
 Requirements: wood 10, rope 5, horses 5, gold 10
@@ -102,7 +133,7 @@ Bonuses: scouting efficiency +5%, mission planning +5%
 Actions: Review Maps, Assign Patrols, Plan Strategy
 Profession: Strategist
 Task-Reward: Defense 
-Requirements: wood 15, parchment 10, followers 10
+Requirements: wood 15, stone, paper 10, followers 10
 Upgrade-Requirements: 
         rebuilt- stone 20 gold 30, 
         established - stone 30 wood 20 gold 50, 
@@ -112,13 +143,13 @@ Upgrade-Requirements:
 
 Barracks
 Type: Building
-Description: Housing for guards; boosts defense and patrol efficiency.
+Description: Housing for guards, boosts defense and patrol efficiency.
 Level: 1
-Bonuses: guard capacity +2, patrol efficiency +5%
+Bonuses: guard capacity +2 (upgrade + 2 per level), troops efficiency +5%
 Actions: Assign Guards, Train Recruits, Inspect Barracks
 Profession: Captain of the Guard
 Task-Reward: Troops
-Requirements: wood 20, stone 20, troops 10
+Requirements: wood 20, stone 20, villagers 10
 Upgrade-Requirements: 
         rebuilt- stone 20 gold 30, 
         established - stone 30 wood 20 gold 50, 
@@ -130,7 +161,7 @@ Armory
 Type: Building
 Description: Stores weapons and armor; improves readiness and equipment quality.
 Level: 1
-Bonuses: equipment durability +5%, readiness +5%
+Bonuses: equipment durability +5%, defense +5%
 Actions: Store Gear, Issue Equipment, Inspect Inventory
 Profession: Quartermaster
 Task-Reward: defense 
@@ -150,7 +181,7 @@ Bonuses: crafting quality +5%, repair cost –10%
 Actions: Forge Item, Repair Gear, Upgrade Gear
 Profession: Blacksmith
 Task-Reward: weapons, armor, metal bars, glass
-Requirements: iron 15, coal 5, wood 10, water 5
+Requirements: iron 5, coal 5, wood 10, water 5
 Upgrade-Requirements: 
         rebuilt- stone 20 gold 30, 
         established - stone 30 wood 20 gold 50, 
@@ -164,9 +195,9 @@ Description: Arcane research, spell upgrades, magical experiments.
 Level: 1
 Bonuses: spell power +3%, research speed +5%
 Actions: Study Magic, Upgrade Spell, Conduct Experiment
-Profession: Mage, Apprentice
-Task-Reward: runes, defense
-Requirements: stone 25, cosmic ore - minor 10
+Profession: Mage Knowledgekeeper, Apprentice
+Task-Reward: runes, defense, battle mages, (castle expansion?)
+Requirements: stone 25, cosmic ore - minor 10, gems 15
 Upgrade-Requirements: 
         rebuilt- stone 20 gold 30, 
         established - stone 30 wood 20 gold 50, 
@@ -210,7 +241,7 @@ Tailor / Clothier
 Type: Building
 Description: Produces clothing, robes, uniforms, and banners.
 Level: 1
-Bonuses: crafting quality +3%, tailoring XP +5%
+Bonuses: crafting quality +3%, villager XP +5%
 Actions: Sew Clothing, Craft Uniforms, Design Banner
 Profession: Tailor
 Task-Reward: Cloths, wool, rune-cloth
@@ -229,7 +260,7 @@ Level: 1
 Bonuses: healing +5%, blessing duration +5%
 Actions: Pray, Receive Blessing, Perform Ritual
 Profession: Priest
-Task-Reward: happiness
+Task-Reward: happiness, healers
 Requirements: stone 20, cosmic ore - minor 5, rune-cloth 5
 Upgrade-Requirements: 
         rebuilt- stone 20 gold 30, 
@@ -243,17 +274,17 @@ Tier 3 -
 
 Tavern / Mead Hall
 Type: Building
-Description: Morale, social events, rumors, and recruitable Profession.
+Description: renown, social events, rumors, and recruitable Profession.
 Level: 1
-Bonuses: morale +10%, social XP +5%
+Bonuses: renown +10%, villager XP +5%
 Actions: Host Feast, Gather Rumors, Recruit Adventurer
-Profession: Innkeeper, Bard
+Profession: Innkeeper, Bard, bard apprentice
 Task-Reward: renown, happiness, followers 
 Requirements: wood 20, beer 10, followers 6, tools 5
 Upgrade-Requirements: 
         rebuilt- stone 20 gold 30, 
         established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
+        improved - stone 40 wood 40, metal bars 10, gold 100, Unlock bard apprentice
         advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
         exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
 
@@ -261,10 +292,10 @@ Gardens / Courtyard
 Type: Building
 Description: Beauty, meditation, and herbal gathering.
 Level: 1
-Bonuses: morale +5%, herb yield +3%
+Bonuses: renown +5%, herb yield +3%
 Actions: Meditate, Gather Herbs, Tend Garden
 Profession: Groundskeeper
-Task-Reward: crafting regents
+Task-Reward: crafting regents, herbs
 Requirements: wood 10, water 10, gold 40, tools 10
 Upgrade-Requirements: 
         rebuilt- stone 20 gold 30, 
@@ -277,7 +308,7 @@ School / Library
 Type: Building
 Description: Boosts learning, skills, and research.
 Level: 1
-Bonuses: research speed +5%, skill XP +3%
+Bonuses: research speed +5%, renown +3%
 Actions: Study, Research, Teach Follower
 Profession: Scholar, Librarian
 Task-Reward: education
@@ -296,7 +327,7 @@ Level: 1
 Bonuses: potion potency +5%, reagent yield +3%
 Actions: Brew Potion, Distill Reagents, Craft Bomb
 Profession: Alchemist
-Task-Reward: potions
+Task-Reward: potions, bombs
 Requirements: herbs 10, glass 5, stone 10, wood 20, tools 5, gold 40
 Upgrade-Requirements: 
         rebuilt- stone 20 gold 30, 
@@ -309,7 +340,7 @@ Runeforge
 Type: Building
 Description: Enchantments, sigils, and magical crafting.
 Level: 1
-Bonuses: enchant success +5%, rune potency +3%
+Bonuses: enchant potency +5%, rune potency +3%
 Actions: Carve Rune, Enchant Gear, Bind Sigil
 Profession: Runecrafter
 Task-Reward: Runes, enchanted gear
@@ -325,7 +356,7 @@ Portal Chamber
 Type: Building
 Description: Fast travel, expeditions, and special missions.
 Level: 1
-Bonuses: travel time –10%, portal stability +5%
+Bonuses: travel time –80%, portal stability +5%
 Actions: Open Portal, Calibrate Gate, Send Expedition
 Profession: Gatekeeper
 Requirements: stone 30, wood 20,cosmic ore - major 10, gold 40
@@ -342,8 +373,8 @@ Description: Magical plants and mana‑infused flora.
 Level: 1
 Bonuses: herb yield +5%, mana plant growth +8%
 Actions: Cultivate Crystals, Harvest Mana Plants, Study Growth
-Profession: Botanist
-Task-Reward: magical regents 
+Profession: Botanist, Herbalist, Scholar
+Task-Reward: magical regents, runes, gems 
 Requirements: glass 10, stone 10, runes 5, cosmic ore - major 10, gems 10
 Upgrade-Requirements: 
         rebuilt- stone 20 gold 30, 

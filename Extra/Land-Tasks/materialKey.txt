@@ -78,8 +78,10 @@ Tasks produce material or castle boost(renown, followers, teachers, craftspeople
 
 Material List -
 villagers, 
-troops, 
 followers, 
+troops,
+battle mages,
+healers, 
 horses,
 improved troops,
 communication speed, 
@@ -87,4 +89,4 @@ education,
 diplomacy, 
 happiness,  
 defense,
-pet bonds
+animal bonds
