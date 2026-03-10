@@ -1,5 +1,5 @@
 {
-  "tasks": {
+  "tasks" {
     "description": {
       "type": "String",
       "example": "Regular around-the-house or daily activities. Can include music or hobby practice.",

@@ -1,1 +1,3 @@
-<h1>Super awesome menu</h1>
+<ul>
+	<li><a href="/universeMap/">Universe Map</a></li>
+</ul>
