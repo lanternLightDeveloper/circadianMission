@@ -41,7 +41,7 @@
 --glow-Box:       6px 4px 8px var(--hover), 0 4px 6px var(--hover);
 --glow-Txt:       0 .75px 0.25px var(--bg-1);
 
---shadow-Box:       6px 4px 8px var(--shadow), 0 4px 6px var(--shadow);
+--shadow-Box:       -16px -16px 1px var(--accent-2);
 --shadow-Txt:      1px 2px 10px var(--shadow);
 
 /* Opacity */

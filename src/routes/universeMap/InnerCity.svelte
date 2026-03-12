@@ -519,33 +519,34 @@
 	}
 </script>
 
-<div class="container">
-	<aside class="sidebar">
-		<h2>Inner City Glossary</h2>
+<aside class="sidebar">
+	<h2>Inner City Glossary</h2>
 
-		{#each tiers as t (t)}
-			<h3>Tier {t}</h3>
-			<ul>
-				{#each buildings.filter((b) => b.tier === t) as b (b.id)}
-					<li>
-						<button on:click={() => scrollToSection(b.id)}>
-							{b.name}
-						</button>
-					</li>
-				{/each}
-			</ul>
-		{/each}
-	</aside>
+	{#each tiers as t (t)}
+		<h3>Tier {t}</h3>
+		<ul>
+			{#each buildings.filter((b) => b.tier === t) as b (b.id)}
+				<li>
+					<button on:click={() => scrollToSection(b.id)}>
+						{b.name}
+					</button>
+				</li>
+			{/each}
+		</ul>
+	{/each}
+</aside>
 
-	<main>
+<main>
+	<div class="entry">
 		<h1>INNER CITY 🌟</h1>
 		<p>The inner city grows with the user, boosting daily tasks and renown.</p>
-
+	</div>
+	<div class="grid-Main">
 		{#each tiers as t (t)}
 			<h2>Tier {t}</h2>
 
 			{#each buildings.filter((b) => b.tier === t) as b (b.id)}
-				<section id={b.id} class="section" tabindex="-1" aria-labelledby={`${b.id}-title`}>
+				<section id={b.id} class="card-SideSkew" tabindex="-1" aria-labelledby={`${b.id}-title`}>
 					<h3 id={`${b.id}-title`}>{b.name}</h3>
 
 					<p><strong>Type:</strong> {b.type}</p>
@@ -566,15 +567,12 @@
 				</section>
 			{/each}
 		{/each}
-	</main>
-</div>
+	</div>
+</main>
 
 <style>
-	.container {
-		display: grid;
-		grid-template-columns: 250px 1fr;
-		gap: 1rem;
-		padding: 1rem;
+	.entry {
+		margin-left: 15vw;
 	}
 
 	.sidebar {
@@ -582,12 +580,15 @@
 		top: 1rem;
 		align-self: start;
 		padding-right: 1rem;
+		z-index: 666;
+		width: fit-content;
+		border: var(--border);
 	}
 
 	.sidebar button {
 		background: none;
 		border: none;
-		color: #0055aa;
+		color: var(--accent-2);
 		text-align: left;
 		font-size: 1rem;
 		cursor: pointer;
@@ -600,12 +601,15 @@
 		outline: 2px solid #0055aa;
 	}
 
-	.section {
-		padding: 1rem 0;
-		border-bottom: 1px solid #ccc;
+	h2,
+	h3,
+	p {
+		margin: 0.5rem 0;
+		padding: 0;
+		width: fit-content;
 	}
 
-	.section:focus {
-		outline: 3px solid #88c0ff;
+	h3 {
+		border-bottom: var(--bord);
 	}
 </style>

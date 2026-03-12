@@ -1,28 +1,107 @@
-Primary Elements:
+Playable races: 🌟
+Humans
+Mycelians (fungus‑based humanoids)
+Oozonites (slime‑based humanoids)
+Owlfolk
+Element born - Humanoid, but they have been effected by an element.
+    Storm Touched (sand/snow/heat/rain/lightning)
+    Emberlings (living coal/ember humanoids)
+    Frostborn (frozen humanoids)
+    Tidewalkers (water‑aligned humanoids)
+    Verdant (plant‑based humanoids)
+    Voidlings (void‑touched)
+
+
+Primary Elements :
+Crux
 Fire
-Plant
 Earth
+Plant
 Water
 Air
 Storm 
 
-Secondary Elements:
+
+Base variants(pre class upgrade)
+Storm
+Nano
+Portal
+Solar
+Void
+Mech 
+
+
+Martial & Weapon Specialists :
+Swordsman - Duelist - Gladiator 
+Knight - Shield Bearer - Cavalier
+Barbarian - Skirmisher - Beastmaster 
+Monk - Pikeman - Pugilist  
+
+Evolved Martial -
+Variant-bound - warrior whose skin slowly turns to their element/variant as they level up.
+Siege Savant - battlefield genius who weaponizes improvised structures and terrain.
+Creature‑Speaker - bonded to a juvenile creature; grows stronger as the creature matures.
+Oath-breaker - gains strength by violating sacred vows in ritualized ways.
+
+
+Stealth, Subterfuge & Shadow Roles :
+Marksman - Ranger - Hunter
+Thief - Trickster - Saboteur 
+Scout - Assassin - Eather-blade 
+
+Evolved Stealth - 
+Storm-runner - sprints so fast they generate Elemental storms and shockwaves.
+Chronicler of Blades - records battles in enchanted tomes that replay as illusions or ghosts.
+Chain Dancer - acrobatic fighter using weighted chains in rhythmic, hypnotic patterns.
+Corpse Stalker - cosmic hunter who uses parasitic symbiotes for power.
+
+
+Empty Space & Elemental Magic :
+Sorcerer - Chronomancer - Nano-caster 
+Warlock - Necromancer - Monster Summoner
+Druid - Shaman - Beast Summoner 
+Enchanter - Controller - Bard
+
+Evolved Magic -
+Relic Host - carries a cursed relic that grants power but demands constant appeasement.
+Starcaller - channels constellations as living avatars.
+Spellforger - crafts unstable combination spells on the fly, each cast reshaping reality unpredictably.
+Hollowborn - body inhabited by a sealed spirit; swaps control in combat.
+
+
+Divine, Holy & Spiritual Roles :
+Priest - Cleric - Herald  
+Paladin - Vanguard - Templar
+Seer - Diviner - Oracle
+
+Evolved Divine -
+Dreamwalker - enters dreams, steals memories, plants ideas, battles nightmares.
+Gravemind - communes with the collective memory of the dead, not individual spirits.
+Fatemender - rewrites tiny threads of destiny at a cost to their own lifespan.
+Bone Shepherd - raises skeletal beasts instead of humanoid undead.
+
+
+Social, Utility & Support Roles :
+Herbalist - Alchemist - Scribe 
+Engineer - Artificer - Mortarist 
+
+Evolved Support -
+Bellwarden - uses enchanted bells to control/heal/hinder crowds, repel spirits, or shatter morale.
+Echo Antagonizer - fights alongside time‑shifted versions of themselves.
+Inkweaver - tattoos come alive as summoned creatures or weapons.
+Mask Maker - crafts magical masks that can mirror other classes.
+
+
+Concept Elements 🌟:
 Spirit 
 Decay 
-Space
-Light 
-Shadow 
-
-Concept Elements:
 Chaos - randomness, probability, unstable magic.
 Order - structure, law, patterns, and control.
-Seasonal - spring growth, summer heat, autumn decay, winter chill.
 Fog - concealment, moisture, illusions, and disorientation.
 Ice - cold, frost, stillness, and preservation.
 Stone - distinct from Earth; focuses on minerals, crystals, and density.
 Sand - erosion, dunes, abrasion, and shifting terrain.
 Metal - forged alloys, magnetism, and conductive power.
-Void - absence, nullification, anti‑energy.
 Time - aging, acceleration, stasis, rewinding.
 Sound - vibration, resonance, shattering waves.
 Blood - vitality, sacrifice, lineage, and primal instinct.
@@ -30,107 +109,29 @@ Mutation - change, adaptation, unstable evolution.
 Bone - structure, endurance, skeletal magic.
 Dream - imagination, illusion, subconscious power.
 Volcanic - earth, fire, and heat.
+Tidal
 
 
-
-Martial & Weapon Specialists:
-Swordsman - Duelist - Gladiator 
-Knight - Shieldbearer - Cavalier
-Barbarian - Skirmisher - Beastmaster 
-Monk - Pikeman - Pugilist 
-Archer - Ranger - Hunter
-
-Evolved Martial -
-Ironbound - warrior whose skin slowly turns to metal as they level up.
-Siege Savant - battlefield genius who weaponizes improvised structures and terrain.
-Wyrm‑Speaker - bonded to a juvenile dragon; grows stronger as the dragon matures.
-Bone Shepherd - raises skeletal beasts instead of humanoid undead.
-
-
-Stealth, Subterfuge & Shadow Roles:
-Thief - Trickster - Saboteur 
-Scout - Ninja - Shadowblade 
-
-Evolved Stealth - 
-Stormrunner - sprints so fast they generate static storms and shockwaves.
-Maskwright - crafts magical masks that change personality, skills, and combat style.
-Chronicler of Blades - records battles in enchanted tomes that replay as illusions or ghosts.
-Chain Dancer - acrobatic fighter using weighted chains in rhythmic, hypnotic patterns.
-Mirestalker - swamp‑dwelling hunter who uses parasitic symbiotes for power.
-
-
-Arcane & Elemental Magic:
-Sorcerer - Chronomancer - Runecaster 
-Warlock - Necromancer - Demon Summoner
-Druid - Shaman - Golem Summoner 
-Enchanter - Illusionist - Bard
-
-Evolved Magic -
-Relic Host - carries a cursed relic that grants power but demands constant appeasement.
-Oathbreaker Monk - gains strength by violating sacred vows in ritualized ways.
-Starcaller - channels constellations as living avatars.
-Spellforger - crafts unstable spells on the fly, each cast reshaping reality unpredictably.
-Hollowborn - body inhabited by a sealed spirit; swaps control in combat.
-
-
-Divine, Holy & Spiritual Roles:
-Priest - Cleric - Crusader 
-Paladin - Vanguard - Templar
-Oracle - Exorcist - Herald 
-
-Evolved Divine -
-Dreamwalker - enters dreams, steals memories, plants ideas, battles nightmares.
-Gravemind - communes with the collective memory of the dead, not individual spirits.
-Fatemender - rewrites tiny threads of destiny at a cost to their own lifespan.
-
-
-Social, Utility & Support Roles:
-Herbalist - Alchemist - Scribe 
-Engineer - Artificer - Mortarist 
-
-Evolved Support -
-Bellwarden - uses enchanted bells to control crowds, repel spirits, or shatter morale.
-Echo Antagonizer - fights alongside time‑shifted versions of themselves.
-Inkweaver - tattoos come alive as summoned creatures or weapons.
-
-
-
-Playable races: 🌟
-Humans
-Lionfolk
-Djinn
-Ooze‑Folk (slime‑based humanoids)
-Mycelians (fungus‑based humanoids)
-Element born - Humans, but they have been effected by an element.
-    Storm Touched (sand/snow/heat/rain/lightning)
-    Emberlings (living coal/ember humanoids)
-    Tidewalkers (water‑aligned humanoids)
-    Verdant (plant‑based humanoids)
-    Spiritfolk (ancestral or ghost‑touched)
-
-
-Species:
+NonPlayable races: 🌟
+Alien Species:
 Humanoid / Classic Fantasy
 Elves
 Dwarves
-Halflings
-Orcs
 Goblins
-Trollkin
+Trolls
 Gnomes
 Giants
 Minotaurs
 
-Beast‑Folk (Anthro Species)
-Wolfkin
-Bearfolk
-Foxfolk
-Birdfolk (raptor, owl, songbird variants)
-Lizardfolk
-Turtlefolk
-Frogfolk
-Boarfolk
-Goatfolk
+Anthropomorphic Species
+Wolf
+Bear
+Fox
+Lizard
+Turtle
+Frog
+Mantis
+Arachnid
 
 Magical / Elemental Species
 Frostborn
@@ -139,22 +140,12 @@ Crystalites (crystal‑bodied humanoids)
 Lunaborn
 Solarborn
 
-Spirit, Fey, and Arcane
-Dryads
-Satyrs
-Sylphs
+Spirit, and Arcane
 Arcane Constructs (sentient golems)
 Dreamwalkers (dream‑realm natives)
-Illusionkin (shifting, semi‑solid beings)
 Starborn (cosmic origin)
-Fey‑Touched humanoids
 
 Monstrous / Strange
-Insectoids (mantis, beetle, ant variants)
-Arachnid‑Folk
-Serpentfolk
 Chimera‑born (mixed‑animal traits)
-Bonewalkers (skeletal but living species)
-Gargoyle‑Folk
-Wraithkin (semi‑corporeal)
+Bonewalkers (worm based species that animates the bones of dead to have a body)
 Drakonids (dragon‑blooded humanoids)

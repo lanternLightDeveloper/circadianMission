@@ -1,35 +1,60 @@
-OUT THERE 🌟
-Description: Big milestones. Long expeditions, foreign travel, and major achievements.
+Wild Space 🌟
+Description: Big milestones. Long expeditions, and major achievements. This is where you explore the universe
 
-Wild Lands
-Type: Region
-Description: Untamed wilderness with danger, resources, and rare discoveries.
-Level: 1
-Bonuses: rare resource chance +5%, exploration XP +10%
-Actions: Scout Area, Gather Rare Materials, Clear Threats
-NPCs: Wilderness Guide
-Requirements: followers 1, supplies 10
+Glossary 
+Friend's Home
+Discovered System Expedition
+Dark Space
+Friendly Territories
+Ruined Cityscape
+Mid System Passes
+Marshy Planet
+Desert Planet
+Frozen Waste World
+Sacred Groves
+Asteroid Community
+Scouting Outpost Support
+Sunken Ruins
+Volcanic System
+Sky Cliffs
+Valley of Illusions
+Space Shipping Routes
+Storm Struck Planet 
 
-Friend Home
-Type: Region
+Grade (Requirements increase by)-
+1 = * 1
+2 = * 3
+3 = * 5
+
+Friend's Home
+Type: System
 Description: Visit another player’s or ally’s castle for trade or diplomacy.
 Level: 1
 Bonuses: diplomacy XP +5%, trade deals +3%
 Actions: Visit Friend, Trade Goods, Assist with Tasks
-NPCs: Ally Lord, Messenger
+NPCs: Ally, Messenger
 Requirements: invitation true
 
-Expeditions
-Type: Region
+Discovered System Expedition
+Type: System
 Description: Long‑term missions for followers to earn rewards and rare items.
 Level: 1
 Bonuses: mission success +5%, follower XP +8%
 Actions: Send Expedition, Review Reports, Recall Followers
 NPCs: Expedition Captain
-Requirements: followers 2, food 15
+Requirements: followers 2, food 15, ships 3
 
-Other Countries
-Type: Region
+Dark Space
+Type: Deep Space
+Description: Untamed space with danger, resources, and rare discoveries.
+Level: 1
+Bonuses: rare resource chance +5%, exploration XP +10%
+Actions: Scout Area, Gather Rare Materials, Clear Threats
+NPCs: Deep Space Guide
+Requirements: followers 1, supplies 10, ships 3
+
+Friendly Territories
+Type: System
 Description: Distant lands with unique cultures and high‑level quests.
 Level: 1
 Bonuses: exotic goods chance +7%, travel XP +5%
@@ -37,18 +62,8 @@ Actions: Travel Abroad, Establish Trade Route, Seek Diplomacy
 NPCs: Ambassador, Foreign Trader
 Requirements: travel pass true, gold 100
 
-New Flora / Fauna
-Type: Region
-Description: Discover new species and gather rare plants or magical creatures.
-Level: 1
-Bonuses: research XP +10%, rare specimen chance +6%
-Actions: Catalog Species, Collect Samples, Observe Wildlife
-NPCs: Naturalist
-Requirements: research kit true
-
-
-Ruined Fortresses
-Type: Region
+Ruined Cityscape
+Type: Planet
 Description: Ancient battlesites filled with relics, dangers, and powerful foes.
 Level: 1
 Bonuses: relic discovery +6%, combat XP +8%
@@ -56,35 +71,35 @@ Actions: Explore Ruins, Hunt Relics, Challenge Boss
 NPCs: Ruin Explorer
 Requirements: followers 2, supplies 15
 
-Mountain Passes
-Type: Region
-Description: Treacherous high‑altitude routes with avalanches, cliffs, and rare minerals.
+Mid System Passes
+Type: Deep Space
+Description: Treacherous deep space routes with rogue planet systems, deep space monsters and rare minerals.
 Level: 1
 Bonuses: rare mineral chance +7%, endurance XP +5%
-Actions: Climb Pass, Clear Avalanche, Mine Ore
-NPCs: Mountaineer
-Requirements: climbing gear true, supplies 10
+Actions: Explore Space Pass, Clear Route, Conquer Space Monsters
+NPCs: Pioneer
+Requirements: followers 5, supplies 10, ships 3
 
-Deep Marshes
-Type: Region
+Marshy Planet
+Type: Planet
 Description: Toxic wetlands with hidden beasts and harsh survival challenges.
 Level: 1
 Bonuses: survival XP +10%, rare plant chance +5%
 Actions: Navigate Swamp, Hunt Marsh Beasts, Gather Toxic Herbs
-NPCs: Marsh Guide
+NPCs: Navigator
 Requirements: antidotes 3, followers 1
 
-Desert Expanse
-Type: Region
-Description: Vast dunes, caravans, sandstorms, and lost ruins.
+Desert Planet
+Type: Planet
+Description: Vast dunes, fossils, sandstorms, and lost ruins.
 Level: 1
 Bonuses: heat resistance +5%, treasure find +6%
-Actions: Join Caravan, Search Ruins, Weather Sandstorm
-NPCs: Caravan Leader
+Actions: Explore fossils, Search Ruins, Weather Sandstorm
+NPCs: Landwalker
 Requirements: water 15, supplies 10
 
-Frozen Fields
-Type: Region
+Frozen Waste World
+Type: Planet
 Description: Blizzard‑ridden tundra with ice caves and frost creatures.
 Level: 1
 Bonuses: cold resistance +8%, exploration XP +6%
@@ -93,7 +108,7 @@ NPCs: Frost Tracker
 Requirements: warm gear true, supplies 10
 
 Sacred Groves
-Type: Region
+Type: Planet
 Description: Ancient spiritual forests guarded by mystical beings.
 Level: 1
 Bonuses: blessing strength +5%, rare herb chance +7%
@@ -101,76 +116,76 @@ Actions: Perform Ritual, Seek Guardian, Gather Sacred Herbs
 NPCs: Grove Keeper
 Requirements: offering 1, followers 1
 
-Nomad Camps
+Asteroid Community
 Type: Region
 Description: Mobile tribes offering trade, diplomacy, and cultural quests.
 Level: 1
 Bonuses: diplomacy XP +6%, trade deals +4%
 Actions: Trade Goods, Learn Customs, Assist Nomads
 NPCs: Nomad Elder
-Requirements: travel pass true
+Requirements: travel pass true, ships 3
 
-Frontier Outposts
+Scouting Outpost Support
 Type: Region
 Description: Remote defensive posts requiring supplies, scouting, and protection.
 Level: 1
 Bonuses: patrol efficiency +8%, defense XP +5%
-Actions: Deliver Supplies, Reinforce Outpost, Scout Frontier
+Actions: Deliver Supplies, Reinforce Outpost, Scout Deep Space
 NPCs: Outpost Captain
-Requirements: followers 2, supplies 20
+Requirements: followers 2, supplies 20, ship3 3
 
 Sunken Ruins
 Type: Region
-Description: Submerged ancient structures filled with magic and underwater threats.
+Description: Submerged ancient structures filled with technology and underwater threats.
 Level: 1
-Bonuses: artifact chance +7%, magic XP +5%
+Bonuses: artifact chance +7%, player XP +5%
 Actions: Dive Ruins, Recover Relics, Fight Sea Creatures
 NPCs: Diver
-Requirements: diving gear true, followers 1
+Requirements: supplies 10, followers 3
 
-Volcanic Ridge
+Volcanic System
 Type: Region
-Description: Lava flows, fire creatures, and rare volcanic ores.
+Description: Lava planets, fire creatures, and rare volcanic ores, three suns
 Level: 1
 Bonuses: fire resistance +5%, rare ore chance +8%
 Actions: Traverse Ridge, Mine Volcanic Ore, Battle Fire Beasts
 NPCs: Fireproof Miner
-Requirements: heat gear true, supplies 10
+Requirements: followers 3, supplies 10
 
 Sky Cliffs
 Type: Region
-Description: High‑altitude cliffs with flying beasts and rare herbs.
+Description: A planet with no solid land, just floating islands with flying beasts and rare herbs.
 Level: 1
-Bonuses: rare herb chance +8%, agility XP +5%
-Actions: Climb Cliffs, Hunt Sky Beasts, Gather Wind Herbs
-NPCs: Cliff Scout
-Requirements: climbing gear true
+Bonuses: rare herb chance +8%, player XP +5%
+Actions: Research Islands, Hunt Sky Beasts, Gather Wind Herbs
+NPCs: Island Scout
+Requirements: followers 5, supplies 10
 
 Valley of Illusions
 Type: Region
 Description: Cursed lands filled with illusions, mind tricks, and high‑risk exploration.
 Level: 1
-Bonuses: illusion resistance +5%, rare discovery chance +7%
-Actions: Navigate Illusions, Break Curse, Explore Hidden Paths
+Bonuses: player resistance +5%, rare discovery chance +17%
+Actions: Navigate Illusions, Investigate Anomaly, Explore Hidden Paths
 NPCs: Illusion Hunter
-Requirements: charm ward true, followers 1
+Requirements: supplies 10, followers 1
 
-Great Sea Routes
+Space Shipping Routes
 Type: Region
-Description: Long voyages across dangerous waters with storms and sea monsters.
+Description: Long shipping escort across dangerous space with anomalies and monsters.
 Level: 1
-Bonuses: voyage success +6%, navigation XP +8%
-Actions: Set Sail, Chart Route, Fight Sea Monsters
-NPCs: Sea Captain
-Requirements: ship access true, supplies 20
+Bonuses: voyage success +6%, player XP +8%
+Actions: Set Sail, Chart Route, Fight Space Monsters
+NPCs: Space Captain
+Requirements: ships 5, supplies 20, ships 3
 
-Floating Islands of the Lost
+Storm Struck Planet 
 Type: Region
-Description: Drifting sky‑islands containing lost kingdoms, treasures, and spirits.
+Description: A planet of constant storms containing lost kingdoms, treasures, and spirits.
 Level: 1
-Bonuses: ancient treasure chance +8%, arcane XP +6%
-Actions: Explore Island, Commune with Spirits, Recover Relics
-NPCs: Sky Wanderer
-Requirements: airship access true, followers 2
+Bonuses: ancient treasure chance +8%, player XP +6%
+Actions: Explore chaos, Commune with Spirits, Recover Relics
+NPCs: Storm Wanderer
+Requirements: supplies 10, followers 2
 
 

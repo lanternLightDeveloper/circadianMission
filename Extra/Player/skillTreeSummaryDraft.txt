@@ -3,7 +3,7 @@ A branching progression system with multiple tiers, where each node represents a
 
 Three parallel trees:
 Task Tree - grows from daily habits and consistency
-Profession Tree - grows from your chosen trade
+Profession Tree - grows from your different jobs
 Class Tree - grows from combat, exploration, and class‑specific actions
 
 How the Three Trees Interact:
@@ -12,13 +12,13 @@ Task Tree → Profession Tree:
 Discipline boosts crafting efficiency.
 
 Profession Tree → Class Tree:  
-Your craft influences your combat style (Engineer traps, Herbalist poisons).
+Your craft influences your combat stats.
 
 Class Tree → Task Tree:  
 Combat perks make certain tasks easier (strength helps with cleaning, agility helps with errands).
 
 Region → All Trees:  
-Your environment shapes your growth across the board.
+Your collective environments shapes your growth across the board.
 
 Tiered structure:  
 Early 0 - 10 → Mid 11 - 20 → Advanced 21 - 30 → Epic 31 - 40 → Legendary 41 - 50
@@ -53,7 +53,7 @@ Completing daily tasks
 Streaks
 Task difficulty
 Task categories (health, cleaning, creative, social, etc.)
-Upgraded buildings (Gym, Library, Workshop)
+Upgraded buildings (Mines, Library, Workshop)
 
 Node themes:
 Efficiency - faster stamina regen, reduced cooldowns
@@ -70,7 +70,7 @@ Habit mutations: long‑term habits evolve into powerful passives
 
 
 Profession Skill Tree (Your Trade → Mastery)  🌟
-This tree is tied to your chosen profession (Blacksmith, Chef, Herbalist, Artist, Engineer, etc.). It’s your “craft identity.”
+This tree is tied to your professions.
 
 What grows it:
 Doing profession tasks
@@ -94,7 +94,7 @@ Material affinity: using certain materials repeatedly unlocks themed perks
 Workshop upgrades: buildings unlock new tiers of the tree
 
 
-Class Skill Tree (Combat Identity → Power Fantasy)  🌟
+Class Skill Tree (Combat Identity → Character Growth)  🌟
 This is the “RPG class fantasy” tree. It defines how you fight, survive, and express your archetype.
 
 What grows it:

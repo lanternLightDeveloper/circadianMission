@@ -2,17 +2,15 @@ Material key 🌟
 
 Tier 1 -
 Products{
+metal ore,
+osmium ore,
 stone,
 wood,
-fiber,
-coal,
 water
 }
 
 Regents{
-cosmic ore - minor,
-wool, 
-magical regents, 
+fiber,
 pelts/skins (leather),
 }
 
@@ -30,64 +28,70 @@ fish
 
 Tier 2 -
 Products{
-iron,
-paper,
-rope,
-brick,
+osmium bars,
+bricks,
+lumber,
+tools,
 glass
 }
 
 Regents{
-metal bars,
-cosmic ore - major,
+nanite pack, 
 leather,
-rune-cloth,  
-runes
+metal bar,
 }
 
 Food{
-potions,
+drugs,
 beer,
-bread,
-cheese,
+breads,
+cheeses,
 smoked meat,
 pickled vegetables
 }
 
 Tier 3 -
 Products{
-tools,
-light armor,
+osmium bricks,
 weapons, 
-armor, 
-clothes,
+armor,
+parts
 }
 
 Regents{
-cosmic ore - legendary,
+
 gold,
-gems
+gems,
+nano-cloth,
+nano-bars,
+nano-leather
 }
 
 Food{
 wine,
+liquor
 }
 
 Tier 4:
-enchanted armor,
-enchanted weapons,
-enchanted tools,
+enhanced armor,
+enhanced weapons,
+enhanced tools,
 portal stones,
 fine gems
 
 
 Upgrade key:
-basic
-rebuilt
-established 
-improved
-advanced
-exquisite
+Basic
+
+Rebuilt - stone 20 wood 10 gold 30, 
+
+Established - stone 30 wood 20 gold 50
+
+Improved - stone 40 wood 40, metal bars 10, gold 100
+
+Advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120
+
+Exquisite - stone 60 wood 80, metal bars 25, tools 15, cosmic ore - major 15, gold 160, gems 20
 
 
 Upgrade Bonus: +2% per level to bonuses
@@ -98,7 +102,7 @@ Improved unlocks apprentice where applicable
 Tasks produce material or castle boost(renown, followers, teachers, craftspeople, etc.)
 
 Meta List -
-villagers, 
+population, 
 followers, 
 troops,
 battle mages,

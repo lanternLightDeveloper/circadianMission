@@ -1,41 +1,41 @@
 OUTER GROUNDS 🌔
-Description: Most quests happen here. Includes outskirts and near‑distance jobs.
+Description: Most quests happen here. Includes outskirts and near‑distance jobs. Outer regions anywhere between the suburbs and deep woods
 
 
 Tier 1 -
-Farms
-Granary
-Dairy
-Hunt / Fish Outpost
-Lumber Yard
-Quarry Edge
-Wagon Depot
+Locations  |  Jobs :
+Farms  |  Farmer
+Dairy  |  Dairy Keeper, farmhand
+Hunt / Fish Outpost  |  Hunter, Fisher
+Lumber Yard  |  Lumberjack
+Mines  |  Quarryman
+Warehouses  |  Warehouse Keeper
+Starship Depot  |  Ship Leader
 
 Tier 2 -
-Traveling Market
-Masons
-Tannery
-Orchards
-River Dock
-Scouting Posts
-Roadside Shrine
+Locations  |  Jobs :
+Orchards  |  Orchard Keeper, Cider Brewer
+Waterside  |  Dockhand
+Traveling Market  |  Wandering Merchant
+Drone Factory  |  Drone Workeeper
+Scouting Posts  |  Scout
+Displaced Shrine  |  Shrine Keeper
 
 Tier 3 -
-Training Grounds
-Event Grounds
-Vineyards
-Herbal Fields
-Road Building
-Beast Fields
-Outskirts Village
-Sky Dock
+Locations  |  Jobs :
+Training Grounds  |  Trainer
+Event Grounds  |  Event Host
+Vineyards  |  Vintner
+Herbal Fields  |  Herbalist
+Beast Fields  |  Herdsman
+Remote Town  |  Villagers
+Exploration Satellite  |  Engineer, Observers
+Space Portal  |  Space Portal Keeper
 
-
-Tier 1 - 
 
 Farms
-Type: Building
-woodsscription: Produces crops; boosts gathering and cooking tasks.
+Type: District
+Description: Produces crops; boosts gathering and cooking tasks.
 Level: 1
 Bonuses: gathering yield +5%, food storage +3%
 Actions: Harvest Crops, Plant Seeds, Tend Fields
@@ -43,30 +43,14 @@ Profession: Farmer
 Task-reward: crops, happiness, pickled vegetables
 Requirements: wood 15, fiber 10, water 10
 Upgrade-Requirements: 
-        rebuilt- stone 20 gold 30, 
-        established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
-        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
-        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
-
-Granary
-Type: Building
-Description: Food storage; affects stability, famine prevention, and follower defense.
-Level: 1
-Bonuses: food preservation +5%, defense +3%
-Actions: Store Grain, Inspect Supplies, Distribute Rations
-Profession: Granary Keeper
-Task-reward: grain, happiness, villagers
-Requirements: wood 15, stone 10
-Upgrade-Requirements: 
-        rebuilt- stone 20 gold 30, 
-        established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
-        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
-        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+        rebuilt - followers 5
+        established  - followers 15
+        improved - followers 25
+        advanced - followers 35
+        exquisite - followers 45
 
 Dairy
-Type: Field
+Type: District
 Description: Produces milk and cheese; boosts food crafting and animal care.
 Level: 1
 Bonuses: animal bonds +4%, food production +5%
@@ -75,14 +59,14 @@ Profession: Dairy Keeper, farmhand
 Task-reward: milk, cheese, horses, meat, villagers
 Requirements: wood 10, stone 5, gold 5
 Upgrade-Requirements: 
-        rebuilt- stone 20 gold 30, 
-        established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
-        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
-        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+        rebuilt - followers 5
+        established  - followers 15
+        improved - followers 25
+        advanced - followers 35
+        exquisite - followers 45 
 
 Hunt / Fish Outpost
-Type: Worksite
+Type: Community
 Description: Wilderness outpost for hunting and fishing tasks.
 Level: 1
 Bonuses: wild meat gathering +8%, fish gathering +5%
@@ -91,113 +75,81 @@ Profession: Hunter, Fisher
 Task-reward:  fish, wild meat, happiness, water
 Requirements: wood 10, rope 5, stone 5
 Upgrade-Requirements: 
-        rebuilt- stone 20 gold 30, 
-        established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
-        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
-        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+        rebuilt - followers 5
+        established  - followers 15
+        improved - followers 25
+        advanced - followers 35
+        exquisite - followers 45 
 
 Lumber Yard
-Type: Worksite
+Type: District
 Description: Woodcutting, hauling logs, clearing fallen trees.
 Level: 1
 Bonuses: wood yield +8%, happiness +3%
 Actions: Chop Wood, Haul Logs, Clear Debris
 Profession: Lumberjack
-Task-reward: wood, paper
+Task-reward: wood, lumber
 Requirements: wood 10, stone 15
 Upgrade-Requirements: 
-        rebuilt- stone 20 gold 30, 
-        established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
-        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
-        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+        rebuilt - nano packs 10
+        established  - nano packs 20
+        improved - nano packs 30
+        advanced - nano packs 40
+        exquisite - nano packs 50
 
-Quarry Edge
-Type: Worksite
-Description: Stone extraction, carting materials, safety inspections.
+Mines
+Type: District
+Description: Ore extraction, carting materials, safety inspections.
 Level: 1
 Bonuses: stone yield +8%, ore yield +3%
-Actions: Extract Stone, Inspect Quarry, Transport Blocks
+Actions: Extract Stone, Transport Bars
 Profession: Quarryman
-Task-reward: stone, happiness
+Task-reward: metal bars, happiness
 Requirements: stone 10, woods 5
 Upgrade-Requirements: 
-        rebuilt- stone 20 gold 30, 
-        established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
-        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
-        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+        rebuilt - nano packs 10
+        established  - nano packs 20
+        improved - nano packs 30
+        advanced - nano packs 40
+        exquisite - nano packs 50
 
-Wagon Depot
-Type: Building
+Warehouses
+Type: District
+Description: Food storage; affects stability, famine prevention, and follower defense.
+Level: 1
+Bonuses: food preservation +5%, defense +3%
+Actions: Store Grain, Inspect Supplies, Distribute Rations
+Profession: Warehouse Keeper
+Task-reward: grain, happiness, villagers
+Requirements: wood 15, stone 10
+Upgrade-Requirements: 
+        rebuilt - nano packs 10
+        established  - nano packs 20
+        improved - nano packs 30
+        advanced - nano packs 40
+        exquisite - nano packs 50
+
+Starship Depot
+Type: Community
 Description: Caravans, deliveries, escorting merchants.
 Level: 1
 Bonuses: delivery speed +5%, trade rewards +3%
-Actions: Load Wagon, Dispatch Caravan, Escort Merchant
-Profession: Wagonmaster
+Actions: Load Starship, Dispatch Caravan, Escort Merchant
+Profession: Ship Leader
 Task-reward: gold, renown, villagers
 Requirements: wood 15, rope 10, stone 10
 Upgrade-Requirements: 
-        rebuilt- stone 20 gold 30, 
-        established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
-        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
-        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+        rebuilt - nano packs 10
+        established  - nano packs 20
+        improved - nano packs 30
+        advanced - nano packs 40
+        exquisite - nano packs 50
 
 
 Tier 2 -
 
-Traveling Market
-Type: Building
-Description: Rotating vendor hub with rare items and quests.
-Level: 1
-Bonuses: rare goods chance +5%, trade rewards +3%
-Actions: Browse Wares, Trade Goods, Accept Special Quests
-Profession: Wandering Merchant
-Task-reward: gold, villagers
-Requirements: gold 50, stone 20, wood 15, iron bars 5, paper 5
-Upgrade-Requirements: 
-        rebuilt- stone 20 gold 30, 
-        established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
-        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
-        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
-
-Masons
-Type: Worksite
-Description: Improves construction, repairs, and structural upgrades.
-Level: 1
-Bonuses: construction speed +5%, repair efficiency +10%
-Actions: Cut Stone, Reinforce Walls, Craft Masonry Blocks
-Profession: Mason
-Task-reward:  brick, stone
-Requirements: stone 20, tools 5, wood 10, iron bars 5
-Upgrade-Requirements: 
-        rebuilt- stone 20 gold 30, 
-        established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
-        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
-        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
-
-Tannery
-Type: Building
-Description: Leatherworking, hides, and light armor crafting.
-Level: 1
-Bonuses: leather yield +5%, leather production +3%
-Actions: Cure Hides, Craft Leather Armor, Process Materials
-Profession: Tanner
-Task-reward: leather, light armor
-Requirements: hides 10, wood 10, iron bars 5
-Upgrade-Requirements: 
-        rebuilt- stone 20 gold 30, 
-        established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
-        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
-        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
-
 Orchards
-Type: Field
+Type: District
 Description: Fruit picking, pruning, and seasonal harvest quests.
 Level: 1
 Bonuses: harvest yield +5%, renown +3%
@@ -206,14 +158,14 @@ Profession: Orchard Keeper, Cider Brewer
 Task-reward: fruits, happiness, beer
 Requirements: wood 10, water 10, rope 10
 Upgrade-Requirements: 
-        rebuilt- stone 20 gold 30, 
-        established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
-        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
-        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+        rebuilt - followers 5
+        established  - followers 15
+        improved - followers 25
+        advanced - followers 35
+        exquisite - followers 45
 
-River Dock
-Type: Building
+Waterside
+Type: District
 Description: Fishing boats, ferry tasks, water‑based errands.
 Level: 1
 Bonuses: fishing yield +8%, renown +3%
@@ -222,14 +174,46 @@ Profession: Dockhand
 Task-reward: fish, diplomacy, water
 Requirements: wood 15, rope 5, stone 5, iron bars 5
 Upgrade-Requirements: 
-        rebuilt- stone 20 gold 30, 
-        established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
-        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
-        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+        rebuilt - followers 5
+        established  - followers 15
+        improved - followers 25
+        advanced - followers 35
+        exquisite - followers 45
+
+Traveling Market
+Type: Community
+Description: Rotating vendor hub with rare items and quests.
+Level: 1
+Bonuses: rare goods chance +5%, trade rewards +3%
+Actions: Browse Wares, Trade Goods, Accept Special Quests
+Profession: Wandering Merchant
+Task-reward: gold, villagers
+Requirements: gold 50, stone 20, wood 15, iron bars 5, paper 5
+Upgrade-Requirements: 
+        rebuilt - followers 5
+        established  - followers 15
+        improved - followers 25
+        advanced - followers 35
+        exquisite - followers 45
+
+Drone Factory
+Type: District
+Description: Improves construction, repairs, and structural upgrades.
+Level: 1
+Bonuses: construction speed +5%, repair efficiency +10%
+Actions:  Reinforce Walls
+Profession: Drone Workeeper
+Task-reward:  brick, stone
+Requirements: stone 20, tools 5, wood 10, iron bars 5
+Upgrade-Requirements: 
+        rebuilt - nano packs 10
+        established  - nano packs 20
+        improved - nano packs 30
+        advanced - nano packs 40
+        exquisite - nano packs 50
 
 Scouting Posts
-Type: Building
+Type: Community
 Description: Short patrols, lookout duties, messenger tasks.
 Level: 1
 Bonuses: communication speed +5%, detection radius +15%
@@ -238,14 +222,14 @@ Profession: Scout
 Task-reward: diplomacy, villagers, defense
 Requirements: wood 10, rope 5, horses 5, stone 15
 Upgrade-Requirements: 
-        rebuilt- stone 20 gold 30, 
-        established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
-        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
-        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+        rebuilt - troops 5
+        established  - troops 15
+        improved - troops 25
+        advanced - troops 35
+        exquisite - troops 45
 
-Roadside Shrine
-Type: Building
+Displaced Shrine
+Type: Community
 Description: Offerings, blessings, and small spiritual quests.
 Level: 1
 Bonuses: blessing duration +5%, defense +3%
@@ -254,17 +238,17 @@ Profession: Shrine Keeper
 Task-reward: happiness, gold
 Requirements: stone 10, cosmic ore - major 5, wood 5, gold 5 5
 Upgrade-Requirements: 
-        rebuilt- stone 20 gold 30, 
-        established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
-        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
-        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+        rebuilt - followers 5
+        established  - followers 15
+        improved - followers 25
+        advanced - followers 35
+        exquisite - followers 45
 
 
 Tier 3 -
 
 Training Grounds
-Type: Field
+Type: District
 Description: Combat drills, sparring, and mount practice, army recruiting
 Level: 1
 Bonuses: combat XP +5%, training efficiency +5%
@@ -273,14 +257,14 @@ Profession: Trainer
 Task-reward: happiness, improved troops, renown
 Requirements: wood 20, rope 10, stone 20, gold 10, weapons 10, armor 10
 Upgrade-Requirements: 
-        rebuilt- stone 20 gold 30, 
-        established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
-        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
-        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+        rebuilt - troops 5
+        established  - troops 15
+        improved - troops 25
+        advanced - troops 35
+        exquisite - troops 45 
 
 Event Grounds
-Type: Field
+Type: Community
 Description: Festival area for seasonal events and holiday quests.
 Level: 1
 Bonuses: defense +10%, renown +5%
@@ -289,14 +273,14 @@ Profession: Event Host
 Task-reward: happiness, villagers, followers, renown
 Requirements: wood 10, stone 20, gold 50, gems 5
 Upgrade-Requirements: 
-        rebuilt- stone 20 gold 30, 
-        established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
-        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
-        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+        rebuilt - followers 5
+        established  - followers 15
+        improved - followers 25
+        advanced - followers 35
+        exquisite - followers 45
 
 Vineyards
-Type: Building
+Type: District
 Description: Wine production, grape gathering, barrel hauling.
 Level: 1
 Bonuses: fruit yield +5%, diplomacy +3%
@@ -305,14 +289,14 @@ Profession: Vintner
 Task-reward: wine, happiness, fruit
 Requirements: fiber 10, wood 10, stone 10, gold 50, tools 10
 Upgrade-Requirements: 
-        rebuilt- stone 20 gold 30, 
-        established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
-        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
-        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+        rebuilt - followers 5
+        established  - followers 15
+        improved - followers 25
+        advanced - followers 35
+        exquisite - followers 45
 
 Herbal Fields
-Type: Field
+Type: District
 Description: Medicinal plants, potion ingredients, foraging tasks.
 Level: 1
 Bonuses: herb yield +8%, alchemy XP +3%
@@ -321,14 +305,14 @@ Profession: Herbalist
 Task-reward: herbs, happiness
 Requirements: wood 10, water 10, fiber 15, stone 10, tools 10
 Upgrade-Requirements: 
-        rebuilt- stone 20 gold 30, 
-        established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
-        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
-        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+        rebuilt - followers 5
+        established  - followers 15
+        improved - followers 25
+        advanced - followers 35
+        exquisite - followers 45
 
 Beast Fields
-Type: Field
+Type: District
 Description: Herding, feeding, hunting and runaway livestock quests.
 Level: 1
 Bonuses: animal bonds +5, happiness XP +5%
@@ -337,30 +321,14 @@ Profession: Herdsman
 Task-reward: pet bonds, happiness, wild meat
 Requirements: wood 15, fiber 10, stone 10, gold 50, weapons 10
 Upgrade-Requirements: 
-        rebuilt- stone 20 gold 30, 
-        established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
-        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
-        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+        rebuilt - followers 5
+        established  - followers 15
+        improved - followers 25
+        advanced - followers 35
+        exquisite - followers 45
 
-Road Building
-Type: Region
-Description: Expand infrastructure, improve travel, and unlock new areas.
-Level: 1
-Bonuses: travel speed +10%, resource transport +5%
-Actions: Lay Road, Clear Path, Assign Workers
-Profession: Engineer, Laborers
-Task-reward: diplomacy, cosmic ore
-Requirements: stone 20, wood 15, gold 10, gems 5, horses 5, tools 10
-Upgrade-Requirements: 
-        rebuilt- stone 20 gold 30, 
-        established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
-        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
-        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
-
-Outskirts Village
-Type: Building
+Remote Town
+Type: Community
 Description: Small homes, gossip quests, local disputes.
 Level: 1
 Bonuses: renown +5%, quest rewards +5%
@@ -369,24 +337,40 @@ Profession: Villagers
 Task-reward: happiness, fruit, wild meat, fish, villagers
 Requirements: wood 20, stone 20, gold 70, gems 10, tools 10, weapons 10, armor 10
 Upgrade-Requirements: 
-        rebuilt- stone 20 gold 30, 
-        established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
-        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
-        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+        rebuilt - followers 5
+        established  - followers 15
+        improved - followers 25
+        advanced - followers 35
+        exquisite - followers 45
 
-Sky Dock
-Type: Building
-Description: Flying boats, ferry tasks, sky‑based errands.
+Exploration Satellite
+Type: Satellite
+Description: Expand infrastructure, improve travel, and unlock new areas.
+Level: 1
+Bonuses: travel speed +10%, resource transport +5%
+Actions: Set Travel beacons
+Profession: Engineer, Observers
+Task-reward: diplomacy, cosmic ore
+Requirements: stone 20, wood 15, gold 10, gems 5, horses 5, tools 10
+Upgrade-Requirements: 
+        rebuilt - troops 5
+        established  - troops 15
+        improved - troops 25
+        advanced - troops 35
+        exquisite - troops 45
+
+Space Portal
+Type: Satellite
+Description: Generation Ship Portal, ferry tasks, large portal based errands.
 Level: 1
 Bonuses: quest rewards +8%, renown +3%
-Actions: Launch Skyship, Ferry Goods, Sky Adventures
-Profession: Skyhand
-Task-reward: diplomacy, magical regentsnts
+Actions: Ferry Goods
+Profession: Space Portal Keeper
+Task-reward: diplomacy, cosmic regentsnts
 Requirements: wood 15, stone 50, rope 25, gold 100, gems 20, tools 15
 Upgrade-Requirements: 
-        rebuilt- stone 20 gold 30, 
-        established - stone 30 wood 20 gold 50, 
-        improved - stone 40 wood 40, metal bars 10, gold 100, 
-        advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120, 
-        exquisite - stone 60 wood 80, metal bars 25, enchanted tools 15,  gold 160, gems 20
+        rebuilt - nano packs 10
+        established  - nano packs 20
+        improved - nano packs 30
+        advanced - nano packs 40
+        exquisite - nano packs 50

@@ -6,10 +6,10 @@
     --txt-1: oklch(98.441% 0.00317 15.269); 
     --txt-2: lch(88.57% 1.25 74.88);
 
-    --accent-1: oklch(43.186% 0.16424 27.669);  
-    --accent-2:  oklch(54.962% 0.14128 47.681);
+    --accent-1:  #17a79e;
+    --accent-2: #cf27dc;  
 
-    --error:oklch(80.681% 0.17536 110.857);  
+    --error:#dcd027;  
 
     --gradient: linear-gradient(to bottom right,var(--accent-1),   color-mix(in srgb, var(--accent-1) 90%, var(--accent-2) 10%),var(--accent-2));
     --gradientUp:linear-gradient(0deg,var(--bg-1), var(--bg-1),  color-mix(in srgb, var(--bg-1) 90%, var(--accent-1) 10%),var(--accent-1));

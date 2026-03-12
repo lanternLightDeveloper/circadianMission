@@ -11,7 +11,7 @@ Age
 Level
 Class
 Profession
-Country
+System
 Backstory
 Buffs 
 Debuffs
@@ -39,7 +39,7 @@ Resilience
 Stealth
 
 
-Skill Tree-
+Skill Tree- 
 
 Multi tier class tree
 Grows from daily tasks
@@ -65,7 +65,7 @@ Boots
 Extra
 
 
-Profession Map-
+Profession Map- each upgrade increases task rewards of that profession by 2% per tier
 
 Novice
 Trained
@@ -78,7 +78,7 @@ Virtuoso
 
 
 
-Busy Actions 🌟
+Busy Actions: the things you do will give you points to do quests 🌟
 Tasks-
 Description: Regular around‑the‑house or daily. Could be music or hobby practice.
 
@@ -92,7 +92,6 @@ Animal box / bed
 Pull weeds
 Mobility/Stretching
 
-
 Quests-
 Description: These make you leave the house, but not for days. Can be fun or productive.
 
@@ -102,7 +101,6 @@ Haircut
 Clothes shopping
 Park visit
 Hike
-
 
 Expeditions-
 Description: Big action. It took effort to complete. Could be team‑based or solo. Taken serious but can be fun.
@@ -116,37 +114,98 @@ Life event
 New experience
 
 
-Ruled Region 🌟
+Player Region Map 🌟
 
-Inner Grounds-
-Description: The inner grounds will grow to fit the user to boost their regular tasks. People fill the town, build, and grow renown.
+INNER CITY
+Description: The inner city grows with the user, boosting daily tasks and renown.
 
-Stables
-Market
-Smith
-Castle Proper
-School / Library
+Tier 1 -
+Locations  |  Jobs:
+ City Proper  |  Advisor
+ Council Hall  |  Councilor
+ School / Library  |  Scholar, Librarian
+ Market  |  Merchant, Trader
+ Nano Fountain  |  Nanokeeper
+
+Tier 2 -
+Locations  |  Jobs:
+Planet Postal  |  Postmaster
+Strategy Bunker  |  Strategist
+Chapel / Shrine  |  Devotee
+Clothier  |  Tailor
+Smith  |  Tanner
+Tannery  |  Blacksmith
+Armory  |  Technician
+Mechanic  |  Quartermaster
+Barracks  |  Captain of the Guard
+Nanomancer Tower  |  Nano Knowledgekeeper
+Watchtower Orbital  |  Defense analyst
+
+Tier 3-
+Locations  |  Jobs::
+Bar  |  Bard
+Gardens   |  Groundskeeper
+Nanoforge  |  Nanocrafter
+Cranium Conservatory  |  Braincrafter
+Boundaries Lab  |  Wild space scientist
+Portal Chamber  |  Gatekeeper
 
 
-Outer Grounds-
-Description: Most quests happen here. Event Grounds for fun and holiday stuff. Includes outskirts for near‑distance jobs.
+OUTER GROUNDS
+Description: Most quests happen here. Includes outskirts and near‑distance jobs. Outer regions anywhere between the suburbs and deep woods
 
-Farms
-Dairy
-Masons
-Hunt / Fish
-Traveling Market
-Event Grounds
+Tier 1 -
+Locations  |  Jobs :
+Farms  |  Farmer
+Dairy  |  Dairy Keeper, farmhand
+Hunt / Fish Outpost  |  Hunter, Fisher
+Lumber Yard  |  Lumberjack
+Mines  |  Quarryman
+Warehouses  |  Warehouse Keeper
+Starship Depot  |  Ship Leader
+
+Tier 2 -
+Locations  |  Jobs :
+Orchards  |  Orchard Keeper, Cider Brewer
+Waterside  |  Dockhand
+Traveling Market  |  Wandering Merchant
+Drone Factory  |  Drone Workeeper
+Scouting Posts  |  Scout
+Displaced Shrine  |  Shrine Keeper
+
+Tier 3 -
+Locations  |  Jobs :
+Training Grounds  |  Trainer
+Event Grounds  |  Event Host
+Vineyards  |  Vintner
+Herbal Fields  |  Herbalist
+Beast Fields  |  Herdsman
+Remote Town  |  Villagers
+Exploration Satellite  |  Engineer, Observers
+Space Portal  |  Space Portal Keeper
 
 
-Out There-
-Description: Big milestone or achievement. Visit a friend’s castle, send followers on missions or long expeditions.
 
-Wild lands
-Friend Home
-Expeditions
-Other countries
-New flora / fauna
-Road building
+Wild Space 
+Description: Big milestones. Long expeditions, and major achievements. This is where you explore the universe
+
+Friend's Home
+Discovered System Expedition
+Dark Space
+Friendly Territories
+Ruined Cityscape
+Mid System Passes
+Marshy Planet
+Desert Planet
+Frozen Waste World
+Sacred Groves
+Asteroid Community
+Scouting Outpost Support
+Sunken Ruins
+Volcanic System
+Sky Cliffs
+Valley of Illusions
+Space Shipping Routes
+Storm Struck Planet 
 
 

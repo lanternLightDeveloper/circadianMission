@@ -1,13 +1,13 @@
 Project 🌟
 
 Name / Working Title:
-Circadian Mission
+Diurnal Excursion
 
 Name game/ name ideas:
 Circadian Purpose
 Circadian Voyage
 
-Diurnal Excursion
+Circadian Mission
 Diurnal Purpose
 
 Typical Trek
@@ -48,6 +48,14 @@ professions (with real life job facts? like learning about the transit system) f
 join/invite friends in tasks
 Leveling + Class system (could be related to real job or game job)
 
+Power theory:
+Name- Prevailing Crux Theory
+
+Universe:
+Prevailing
+
+Density:
+Crux
 
 Features & Scope 🌟
 
@@ -65,16 +73,16 @@ Scene and setting:
 Castles
 
 Color palette ideas:
-
+Blue Pink Yello
 Typography notes:
-
+Futurist flavored font
 Icon / Illustration style:
-
+Cyber Space Explorers
 
 User Experience & Flow 🌟
 
 Primary user journey:
-Land is in the land Extra/landDictionary
+Land is in the land Extra/Planet-Tasks
 Whole skill tree summary at Extra/Player/skillTreeSummaryDraft.txt
 Element/Class/Species concept writeup at  Extra/Player/classDraft.txt
 
