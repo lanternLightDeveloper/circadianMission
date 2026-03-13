@@ -1,6 +1,12 @@
 Species Name 🌟
 Mycelians
 
+Base Element 🌟
+Plant
+
+Elemental Weakness 🌟
+Fire
+
 Base Stats 🌟
 Attribute	Value
 Strength	3/10

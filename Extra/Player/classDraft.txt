@@ -14,16 +14,16 @@ Element born - Humanoid, but they have been effected by an element.
 
 Primary Elements :
 Crux
-Fire
 Earth
 Plant
 Water
 Air
+Fire
 Storm 
 
 
-Base variants(pre class upgrade)
-Storm
+Base variants(pre class upgrade) 
+Decay
 Nano
 Portal
 Solar
@@ -56,13 +56,13 @@ Chain Dancer - acrobatic fighter using weighted chains in rhythmic, hypnotic pat
 Corpse Stalker - cosmic hunter who uses parasitic symbiotes for power.
 
 
-Empty Space & Elemental Magic :
+Crux & Elemental Magic :
 Sorcerer - Chronomancer - Nano-caster 
 Warlock - Necromancer - Monster Summoner
 Druid - Shaman - Beast Summoner 
 Enchanter - Controller - Bard
 
-Evolved Magic -
+Evolved Crux -
 Relic Host - carries a cursed relic that grants power but demands constant appeasement.
 Starcaller - channels constellations as living avatars.
 Spellforger - crafts unstable combination spells on the fly, each cast reshaping reality unpredictably.
@@ -93,8 +93,7 @@ Mask Maker - crafts magical masks that can mirror other classes.
 
 
 Concept Elements 🌟:
-Spirit 
-Decay 
+Spirit
 Chaos - randomness, probability, unstable magic.
 Order - structure, law, patterns, and control.
 Fog - concealment, moisture, illusions, and disorientation.

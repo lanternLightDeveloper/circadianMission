@@ -1,0 +1,499 @@
+Stealth, Subterfuge & Shadow Roles 🌟
+Marksman - Ranger - Hunter
+Thief - Trickster - Saboteur 
+Scout - Assassin - Eather-blade 
+
+Evolved Stealth 🌟
+Storm-runner - sprints so fast they generate Elemental storms and shockwaves.
+Chronicler of Blades - records battles in enchanted tomes that replay as illusions or ghosts.
+Chain Dancer - acrobatic fighter using weighted chains in rhythmic, hypnotic patterns.
+Corpse Stalker - cosmic hunter who uses parasitic symbiotes for power.
+
+===========================================
+        BASE CLASS: MARKSMAN
+===========================================
+A precision ranged combatant who blends keen perception with Crux‑guided aim and nanite‑stabilized weaponry. Marksmen excel at long‑range engagements, tactical positioning, and eliminating priority targets before they can close the distance.
+
+-------------------------------------------
+CORE IDENTITY
+-------------------------------------------
+Role: Long‑range damage dealer, scout, precision eliminator  
+Combat Style: Controlled shots, tactical repositioning, high accuracy  
+Crux Use: Enhances perception, trajectory prediction and focus  
+Nanite Use: Recoil dampening, aim stabilization, sensory sharpening  
+
+-------------------------------------------
+BASE CLASS STATS (Before Specialization)
+-------------------------------------------
+Offense: ★★★★☆  
+Defense: ★★☆☆☆  
+Mobility: ★★★☆☆  
+Crux Interaction: ★★★☆☆  
+Nanite Power: ★★★★☆  
+
+-------------------------------------------
+CLASS PASSIVE
+-------------------------------------------
+Deadeye Protocol  
+Nanites enhance your visual acuity and weapon handling.  
+• +10% accuracy  
+• +10% crit chance at long range  
+• Aiming briefly grants +5% damage  
+
+-------------------------------------------
+LEVEL PROGRESSION & ABILITY CHOICES
+-------------------------------------------
+
+LEVEL 1 - Starting Ability
+-------------------------------------------
+Focused Shot  
+A precise, nanite‑stabilized ranged attack.  
+• +20% damage  
+• Unlocks “Steady Fire” basic combo  
+
+LEVEL 10 - Ability Choice
+-------------------------------------------
+Option A: Phase Reposition  
+A short‑range teleport to a vantage point.  
+• Grants +10% accuracy for 3 seconds  
+• Cooldown: Short  
+
+Option B: Nanite Burst Round  
+Fire a shot enhanced with nanite payloads.  
+• Deals bonus damage  
+• Applies a brief slow  
+
+LEVEL 20 - Ability Choice
+-------------------------------------------
+Option A: Crux Sight  
+Channel Crux into your vision.  
+• Highlights enemies through cover  
+• +20% crit chance for 5 seconds  
+
+Option B: Suppression Volley  
+A rapid burst of fire.  
+• Medium AoE cone  
+• Reduces enemy accuracy  
+
+-------------------------------------------
+LEVEL 30 - SPECIALIZATION CHOICE
+-------------------------------------------
+→ RANGER  
+A mobile survivalist and battlefield tracker who excels at mid‑range combat, mobility, and environmental adaptability.
+
+→ HUNTER  
+A relentless predator who focuses on single‑target elimination, traps, and Crux‑enhanced pursuit techniques.
+
+===========================================
+        SPECIALIZATION: RANGER
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Pathfinder’s Instinct  
+Your senses adapt to the environment.  
+• +10% movement speed  
+• +10% accuracy while moving  
+• Gain minor damage reduction in natural terrain  
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Ricochet Shot  
+Fire a Crux‑charged round that bounces between enemies.  
+• Hits up to 3 targets  
+• Each bounce increases crit chance  
+• Great for clearing groups  
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Crux Snare  
+A Crux‑woven trap placed at range.  
+• Roots the first enemy that steps on it  
+• Deals moderate damage  
+
+Option B: Nanite Camouflage  
+Nanites alter your visual profile.  
+• Invisible while stationary  
+• +20% crit chance on first attack from stealth  
+
+LEVEL 50 - Ranger Ultimate
+-------------------------------------------
+Stormcaller Volley  
+Leap into the air and unleash a barrage of Crux‑infused arrows or shots.  
+• Large AoE  
+• High damage over several seconds  
+• Enemies hit are slowed and marked  
+
+===========================================
+        SPECIALIZATION: HUNTER
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Predator’s Focus  
+You lock onto a single target with lethal intent.  
+• +15% damage to marked targets  
+• Marked targets are revealed through cover  
+• Killing a marked target resets the mark  
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Crux Mark  
+Designate a target for elimination.  
+• Target takes increased damage from you  
+• Your shots ignore partial cover  
+• Mark lasts until target dies or escapes  
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Nanite Trapline  
+Deploy a cluster of nanite‑based traps.  
+• Explodes when triggered  
+• Applies bleed and slow  
+
+Option B: Phase Pursuit  
+Teleport‑dash toward your marked target.  
+• Grants +20% damage on next attack  
+• Cooldown: Moderate  
+
+LEVEL 50 - Hunter Ultimate
+-------------------------------------------
+Executioner’s Shot  
+A devastating Crux‑charged projectile.  
+• Massive single‑target burst  
+• Ignores armor  
+• If the target is below 30% health, it is instantly killed  
+• Leaves a Crux burn DoT on survivors  
+
+===========================================
+END OF CLASS SHEET
+===========================================
+
+
+===========================================
+        BASE CLASS: THIEF
+===========================================
+A stealthy infiltrator who blends agility, cunning, and nanite‑enhanced sleight of hand. Thieves excel at evasion, precision strikes, disabling enemies, and manipulating the battlefield through deception and sabotage.
+
+-------------------------------------------
+CORE IDENTITY
+-------------------------------------------
+Role: Stealth attacker, infiltrator, utility specialist  
+Combat Style: Hit‑and‑run, backstabs, traps, misdirection  
+Crux Use: Enhances reflexes, shadow‑bending, sensory dampening  
+Nanite Use: Cloaking, lockpicking, trap deployment, precision timing  
+
+-------------------------------------------
+BASE CLASS STATS (Before Specialization)
+-------------------------------------------
+Offense: ★★★★☆  
+Defense: ★★☆☆☆  
+Mobility: ★★★★★  
+Crux Interaction: ★★★☆☆  
+Nanite Power: ★★★★☆  
+
+-------------------------------------------
+CLASS PASSIVE
+-------------------------------------------
+Shadow Circuit  
+Nanites regulate your presence and movement.  
+• +10% stealth effectiveness  
+• +10% backstab damage  
+• Entering stealth briefly increases movement speed  
+
+-------------------------------------------
+LEVEL PROGRESSION & ABILITY CHOICES
+-------------------------------------------
+
+LEVEL 1 - Starting Ability
+-------------------------------------------
+Backstab  
+A precise strike from behind.  
+• +30% damage  
+• Unlocks “Shadow Jab” basic combo  
+
+LEVEL 10 - Ability Choice
+-------------------------------------------
+Option A: Phase Flicker  
+A micro‑teleport that drops you behind an enemy.  
+• Guarantees next hit is a crit  
+• Cooldown: Short  
+
+Option B: Nanite Cloak  
+Nanites bend light around your body.  
+• Temporary invisibility  
+• Breaking stealth grants +20% damage on next attack  
+
+LEVEL 20 - Ability Choice
+-------------------------------------------
+Option A: Crux Dagger  
+Imbue your blade with Crux energy.  
+• Throws a spectral dagger  
+• Teleport to the dagger on reactivation  
+• Deals bonus damage if teleporting behind target  
+
+Option B: Disable  
+Nanites disrupt enemy systems.  
+• Silences abilities briefly  
+• Applies a slow  
+• Great for shutting down casters or tech users  
+
+-------------------------------------------
+LEVEL 30 - SPECIALIZATION CHOICE
+-------------------------------------------
+→ TRICKSTER  
+A deceptive illusionist who manipulates perception, creates decoys, and confuses enemies with Crux‑powered misdirection.
+
+→ SABOTEUR  
+A demolition and disruption expert who uses traps, explosives, and nanite‑based interference to control the battlefield.
+
+===========================================
+        SPECIALIZATION: TRICKSTER
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Misdirection  
+Your illusions distort enemy targeting.  
+• +15% dodge chance  
+• Attacking from stealth blinds enemies briefly  
+• Illusions deal minor damage when destroyed  
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Crux Mirage  
+Create a holographic duplicate of yourself.  
+• Decoy draws enemy fire  
+• Can be detonated for AoE damage  
+• Recasting swaps places with the mirage  
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Nanite Doppel  
+Nanites form a second decoy that mimics your movements.  
+• Enemies struggle to identify the real you  
+• +20% crit chance while active  
+
+Option B: Phase Trick  
+A teleport‑feint that leaves behind a false afterimage.  
+• Next attack from stealth deals massive damage  
+• Enemies attack the afterimage for 2 seconds  
+
+LEVEL 50 - Trickster Ultimate
+-------------------------------------------
+Chaos Bloom  
+Unleash a storm of illusions and Crux distortions.  
+• Multiple mirages spawn and explode  
+• Enemies are blinded, confused, and slowed  
+• You gain temporary invisibility and +30% crit chance  
+
+===========================================
+        SPECIALIZATION: SABOTEUR
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Chain Reaction  
+Your traps and explosives synergize.  
+• Trap damage increased by 20%  
+• Triggering one trap reduces cooldown of others  
+• Enemies affected by traps take +10% more damage from you  
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Nanite Charge  
+Deploy a sticky explosive infused with nanites.  
+• Can be thrown or placed  
+• Detonates for high AoE damage  
+• Applies armor break  
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Crux Minefield  
+Place multiple Crux‑powered proximity mines.  
+• Mines slow, damage, and disorient  
+• Great for area denial  
+
+Option B: Sabotage Spike  
+A nanite injector that disrupts enemy systems.  
+• Deals damage over time  
+• Reduces enemy damage output  
+• Explodes on expiration  
+
+LEVEL 50 - Saboteur Ultimate
+-------------------------------------------
+Cataclysm Protocol  
+Trigger a massive chain explosion of all active traps and charges.  
+• Huge AoE  
+• Enemies caught in multiple blasts take exponential damage  
+• Leaves behind a nanite cloud that slows and weakens survivors  
+
+===========================================
+END OF CLASS SHEET
+===========================================
+
+
+===========================================
+        BASE CLASS: SCOUT 
+===========================================
+A hyper‑mobile Crux warrior who manipulates space, momentum, and battlefield positioning. Scouts chain teleports, blink‑strikes, and nanite‑accelerated movement to overwhelm enemies with speed and spatial dominance.
+
+-------------------------------------------
+CORE IDENTITY
+-------------------------------------------
+Role: Mobility fighter, flanker, spatial controller  
+Combat Style: Teleport combos, momentum attacks, rapid repositioning  
+Crux Use: Spatial folding, blink‑strikes, trajectory bending  
+Nanite Use: Reflex overclocking, kinetic reinforcement, motion prediction  
+
+-------------------------------------------
+BASE CLASS STATS (Before Specialization)
+-------------------------------------------
+Offense: ★★★★☆  
+Defense: ★★★☆☆  
+Mobility: ★★★★★  
+Crux Interaction: ★★★★★  
+Nanite Power: ★★★★☆  
+
+-------------------------------------------
+CLASS PASSIVE
+-------------------------------------------
+Momentum Engine  
+Your Crux and nanites sync with your movement.  
+• Every teleport grants +5% damage for 3 seconds  
+• Every 10 meters traveled grants +5% dodge chance  
+• Teleport abilities cost 10% less Crux  
+
+-------------------------------------------
+LEVEL PROGRESSION & ABILITY CHOICES
+-------------------------------------------
+
+LEVEL 1 — Starting Ability
+-------------------------------------------
+Blink Strike  
+Teleport a short distance and strike instantly.  
+• +20% damage  
+• Grants Momentum (boosts next teleport ability)  
+• Unlocks “Blink Combo” basic chain  
+
+LEVEL 10 — Ability Choice
+-------------------------------------------
+Option A: Vector Step  
+Teleport in a chosen direction.  
+• Grants brief invulnerability  
+• Next attack deals bonus damage  
+
+Option B: Nanite Overclock  
+Nanites accelerate your nervous system.  
+• +30% movement speed  
+• +20% attack speed  
+• Duration: Short  
+
+LEVEL 20 — Ability Choice
+-------------------------------------------
+Option A: Crux Warp Pulse  
+Release a spatial shockwave.  
+• Medium AoE  
+• Knocks enemies back  
+• Teleport to the pulse’s center on reactivation  
+
+Option B: Anchor Blade  
+Throw a Crux‑charged blade.  
+• Marks the target  
+• Reactivate to teleport to them and strike  
+
+-------------------------------------------
+LEVEL 30 — SPECIALIZATION CHOICE
+-------------------------------------------
+→ ASSASSIN 
+A teleport‑executioner who chains blink‑kills, isolates targets, and uses Crux‑precision to eliminate foes instantly.
+
+→ AETHER‑BLADE  
+A dimensional warrior who phases through reality, delivering spectral blade attacks and manipulating space itself.
+
+===========================================
+        SPECIALIZATION: ASSASSIN 
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Singular Focus  
+You excel at isolating and deleting targets.  
+• +20% damage to marked or isolated enemies  
+• Teleporting behind a target grants crit chance  
+• Killing an enemy resets Vector Step  
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Blink Execution  
+Teleport through a target’s body.  
+• Massive single‑target damage  
+• Applies “Severed Fate” (heavy DoT)  
+• Grants full Momentum  
+
+LEVEL 40 — Ability Choice
+-------------------------------------------
+Option A: Crux Shadowline  
+Mark a path of teleport points.  
+• Reactivate to dash through all points  
+• Each hit deals increasing damage  
+
+Option B: Nanite Rupture  
+Your strikes destabilize internal systems.  
+• Applies stacking rupture  
+• Each stack increases your attack speed  
+
+LEVEL 50 — Assassin Ultimate
+-------------------------------------------
+Event Horizon  
+Lock onto a target and collapse space around them.  
+• Teleport‑strike them repeatedly  
+• Ignores armor  
+• Ends with a massive spatial rupture  
+• If the target dies, cooldown is halved  
+
+===========================================
+        SPECIALIZATION: AETHER‑BLADE 
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Dimensional Drift  
+Your body partially phases between realities.  
+• +15% dodge chance  
+• +15% Crux damage  
+• Teleports travel farther and hit harder  
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Aether Rend  
+A dimensional slash that cuts space itself.  
+• Long‑range line attack  
+• Ignores armor  
+• Applies “Phase Wound” (Crux DoT)  
+
+LEVEL 40 — Ability Choice
+-------------------------------------------
+Option A: Rift Dive  
+Teleport into the Aether and reappear explosively.  
+• AoE damage  
+• Slows enemies  
+• Grants +20% damage on next attack  
+
+Option B: Nanite Phaseguard  
+Nanites shift your body out of sync.  
+• +50% dodge chance for 3 seconds  
+• Dodging triggers a spectral counter‑slash  
+
+LEVEL 50 — Aether‑Blade Ultimate
+-------------------------------------------
+Spatial Collapse  
+Tear open a dimensional rift and unleash a catastrophic slash.  
+• Huge AoE line attack  
+• Applies massive Phase Wound  
+• Teleports you to a chosen point afterward  
+• Enemies hit are slowed and take increased Crux damage  
+
+===========================================
+END OF CLASS SHEET
+===========================================

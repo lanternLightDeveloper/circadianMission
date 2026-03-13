@@ -1,6 +1,12 @@
 Species Name 🌟
 Human
 
+Base Element 🌟
+Earth
+
+Elemental Weakness 🌟
+Water
+
 Base Stats 🌟
 Attribute	Value
 Strength	3/10

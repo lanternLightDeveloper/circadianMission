@@ -1,6 +1,12 @@
 Species Name 🌟
 Elementals
 
+Base Element 🌟
+Storm
+
+Elemental Weakness 🌟
+Earth
+
 Base Stats 🌟
 Attribute	Value
 Strength	3/10

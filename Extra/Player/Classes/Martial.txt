@@ -1,0 +1,667 @@
+Martial & Weapon Specialists 🌟
+Swordsman - Duelist - Gladiator 
+Swordsman : disciplined melee fighter who blends traditional blade mastery with Crux‑enhanced reflexes and nanite‑reinforced strikes.
+Duelist : hyper‑precise blade master focused on speed, finesse, and single‑target dominance.
+Gladiator : brutal frontline warrior who uses overwhelming force, crowd control, and sustained aggression.
+
+Knight - Shield Bearer - Cavalier
+Knight : disciplined frontline defender who blends traditional martial training with Crux‑reinforced armor, nanite‑enhanced endurance, and tactical teleportation. Knights excel at holding the line, protecting allies, and controlling the battlefield.
+Shield Bearer :A fortress‑like defender who specializes in protection, crowd control, and unbreakable defense.
+Cavalier : high‑mobility frontline charger who uses teleport‑dashes, momentum, and aggressive tactics to dominate the battlefield.
+
+Barbarian - Skirmisher - Beastmaster
+Barbarian :  ferocious close‑quarters fighter who channels raw physicality, instinct, and nanite‑boosted adrenaline. Barbarians excel in chaotic melee, overwhelming force, and primal Crux surges that amplify their rage into battlefield dominance.
+Skirmisher :  fast, agile, hit‑and‑run fighter who blends ferocity with mobility and tactical aggression.
+Beastmaster :  primal warrior who bonds with nanite‑enhanced beasts, fighting alongside powerful companions.
+
+Monk - Pikeman - Pugilist  
+Monk :  disciplined warrior who blends physical mastery with Crux‑guided focus and nanite‑enhanced body control. Monks excel in fluid movement, precision strikes, and battlefield adaptability, using inner harmony to channel devastating martial techniques.
+Pikeman :  disciplined polearm master who uses reach, leverage, and teleport‑assisted repositioning to control the battlefield.
+Pugilist :  close‑quarters brawler who channels Crux through fists and feet, delivering explosive strikes and relentless pressure.
+
+Evolved Martial 🌟
+Variant-bound - warrior whose skin slowly turns to their element/variant as they level up.
+Siege Savant - battlefield genius who weaponizes improvised structures and terrain.
+Creature‑Speaker - bonded to a juvenile creature; grows stronger as the creature matures.
+Oath-breaker - gains strength by violating sacred vows in ritualized ways.
+
+===========================================
+⭐ BASE CLASS: SWORDSMAN
+===========================================
+A disciplined melee fighter who blends traditional blade mastery with Crux‑enhanced reflexes and nanite‑reinforced strikes.
+
+-------------------------------------------
+CORE IDENTITY
+-------------------------------------------
+Role: Frontline melee, tactical duelist, teleport‑engage specialist
+Combat Style: Precision strikes, controlled aggression, mobility
+Crux Use: Enhances reflexes, blade speed, and micro‑teleports
+Nanite Use: Reinforces muscles, stabilizes stance, sharpens perception
+
+-------------------------------------------
+BASE CLASS STATS (Before Specialization)
+-------------------------------------------
+Offense: ★★★★☆
+Defense: ★★★☆☆
+Mobility: ★★★★☆
+Crux Interaction: ★★☆☆☆
+Nanite Power: ★★★☆☆
+
+-------------------------------------------
+CLASS PASSIVE
+-------------------------------------------
+Blade Instinct
+Your nanites predict micro‑movements in combat, granting:
++5% melee accuracy
++5% parry chance
++10% teleport recovery speed
+
+-------------------------------------------
+LEVEL PROGRESSION & ABILITY CHOICES
+-------------------------------------------
+LEVEL 1 - Starting Ability
+Edge Discipline
+Basic sword techniques enhanced by nanite‑stabilized form.
++10% damage to melee combos
+Unlocks “Precision Slash” basic ability
+
+LEVEL 10 - Ability Choice
+Option A: Phase Step
+A short‑range micro‑teleport that avoids one incoming attack.
+Cooldown: Short
+Grants brief invulnerability
+
+Option B: Nanite Guard
+Nanites harden around the body for a moment.
++20% damage reduction for 3 seconds
+Cooldown: Moderate
+
+LEVEL 20 - Ability Choice
+Option A: Crux Slash
+Channel Crux through the blade to release a cutting wave.
+Medium‑range arc attack
+Scales with Crux Affinity
+
+Option B: Counter Matrix
+Nanites predict enemy movement.
+Auto‑counter the next melee attack
+Deals bonus damage if timed manually
+
+-------------------------------------------
+LEVEL 30 - SPECIALIZATION CHOICE
+-------------------------------------------
+→ DUELIST
+A hyper‑precise blade master focused on speed, finesse, and single‑target dominance.
+
+→ GLADIATOR
+A brutal frontline warrior who uses overwhelming force, crowd control, and sustained aggression.
+
+===========================================
+        ⭐ SPECIALIZATION: DUELIST
+===========================================
+Duelist Passive
+Blade Tempo
+Every successful hit increases attack speed by 2% (stacks 5x).
+Losing tempo resets stacks.
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Rapier Lunge
+Teleport‑dash through a target, dealing high precision damage.
+Ignores armor
+Crit chance doubled
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Crux Feint
+A deceptive micro‑teleport that confuses the enemy.
+Next attack is guaranteed to crit
+Enemy accuracy reduced briefly
+
+Option B: Nanite Overclock
+Temporarily boosts reflexes.
++25% attack speed
++15% dodge chance
+Short duration, long cooldown
+
+LEVEL 50 - Duelist Ultimate
+-------------------------------------------
+Eclipse Flurry
+You vanish into a series of rapid micro‑teleports, striking the target multiple times in a single second.
+Extremely high single‑target burst
+Cannot be interrupted
+Leaves the Duelist behind the enemy
+
+===========================================
+⭐ SPECIALIZATION: GLADIATOR
+===========================================
+Gladiator Passive
+Arena Momentum
+Taking or dealing damage builds stacks of Momentum.
++2% damage per stack
++2% damage reduction per stack
+Stacks decay slowly out of combat
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Crux Slam
+A heavy downward strike that sends out a shockwave.
+AoE damage
+Briefly stuns enemies
+Scales with Strength and Crux Affinity
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Nanite Fortify
+Nanites reinforce your muscles and bones.
++30% damage reduction
+Immune to stagger
+Moderate duration
+
+Option B: Chainbreaker
+A sweeping attack that pulls enemies toward you.
+Great for crowd control
+Applies a brief slow
+
+LEVEL 50 - Gladiator Ultimate
+-------------------------------------------
+Titan’s Arena
+You project a Crux‑powered barrier around yourself.
+Inside the arena:
+Enemies cannot escape
+You gain +20% damage and +20% defense
+Your attacks create shockwaves
+Perfect for boss fights or controlling the battlefield.
+
+===========================================
+END OF CLASS SHEET
+===========================================
+
+===========================================
+        BASE CLASS: KNIGHT
+===========================================
+A disciplined frontline defender who blends traditional martial training with Crux‑reinforced armor, nanite‑enhanced endurance, and tactical teleportation. Knights excel at holding the line, protecting allies, and controlling the battlefield.
+
+-------------------------------------------
+CORE IDENTITY
+-------------------------------------------
+Role: Frontline tank, protector, battlefield anchor  
+Combat Style: Heavy melee, defensive stances, controlled aggression  
+Crux Use: Reinforces armor, enhances durability, powers defensive auras  
+Nanite Use: Muscle reinforcement, kinetic dampening, shield stabilization  
+
+-------------------------------------------
+BASE CLASS STATS (Before Specialization)
+-------------------------------------------
+Offense: ★★★☆☆  
+Defense: ★★★★★  
+Mobility: ★★☆☆☆  
+Crux Interaction: ★★★☆☆  
+Nanite Power: ★★★★☆  
+
+-------------------------------------------
+CLASS PASSIVE
+-------------------------------------------
+Aegis Protocol  
+Nanites reinforce your armor and stance.  
+• +10% damage reduction  
+• +5% block chance  
+• +10% stability vs knockback  
+
+-------------------------------------------
+LEVEL PROGRESSION & ABILITY CHOICES
+-------------------------------------------
+
+LEVEL 1 - Starting Ability
+-------------------------------------------
+Bulwark Stance  
+Adopt a defensive posture.  
+• +15% defense for 5 seconds  
+• Unlocks “Shield Bash” basic ability  
+
+LEVEL 10 - Ability Choice
+-------------------------------------------
+Option A: Phase Guard  
+A micro‑teleport that places you between an ally and an incoming attack.  
+• Redirects the hit to you  
+• +20% damage reduction for that hit  
+
+Option B: Nanite Brace  
+Nanites harden your armor.  
+• +30% physical resistance for 3 seconds  
+• Cooldown: Moderate  
+
+LEVEL 20 - Ability Choice
+-------------------------------------------
+Option A: Crux Barrier  
+Project a shimmering defensive field.  
+• Reduces ranged damage taken by 25%  
+• Allies behind you gain 10% reduction  
+
+Option B: Shield Counter  
+Block the next melee attack and retaliate.  
+• Counter deals bonus damage  
+• Applies a brief stun  
+
+-------------------------------------------
+LEVEL 30 - SPECIALIZATION CHOICE
+-------------------------------------------
+→ SHIELD BEARER  
+A fortress‑like defender who specializes in protection, crowd control, and unbreakable defense.
+
+→ CAVALIER  
+A high‑mobility frontline charger who uses teleport‑dashes, momentum, and aggressive tactics to dominate the battlefield.
+
+===========================================
+        SPECIALIZATION: SHIELD BEARER
+===========================================
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Immovable Wall  
+Standing still for 1 second grants:  
+• +10% defense  
+• +10% block chance  
+• +10% threat generation  
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Aegis Slam  
+Smash your shield into the ground, releasing a shockwave.  
+• AoE damage  
+• Knocks enemies back  
+• Grants allies behind you +15% defense  
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Nanite Bulwark  
+Nanites form a temporary exoshell.  
+• +40% damage reduction  
+• Immune to stuns  
+• Short duration  
+
+Option B: Guardian’s Pull  
+Emit a Crux pulse that drags enemies toward you.  
+• Great for grouping mobs  
+• Applies a slow  
+
+LEVEL 50 - Shield Bearer Ultimate
+-------------------------------------------
+Fortress of One  
+You become an unbreakable bastion.  
+• 50% damage reduction  
+• 100% block chance  
+• Allies within range take 30% less damage  
+• You cannot be moved or interrupted  
+
+===========================================
+        SPECIALIZATION: CAVALIER
+===========================================
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Momentum Charge  
+Moving continuously builds stacks of Momentum.  
+• +2% damage per stack  
+• +2% movement speed per stack  
+• Stacks reset when standing still  
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Lance Dash  
+Teleport‑dash in a straight line, piercing all enemies.  
+• High damage  
+• Applies armor break  
+• Scales with Strength and Agility  
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Crux Spur  
+Channel Crux into your legs and armor.  
+• +40% movement speed  
+• Next melee hit deals massive bonus damage  
+
+Option B: Nanite Joust  
+Nanites reinforce your weapon for a charging strike.  
+• Gap‑closing attack  
+• Knocks enemies down  
+• High crit chance  
+
+LEVEL 50 - Cavalier Ultimate
+-------------------------------------------
+Solar Charge  
+You become a streak of Crux‑infused light.  
+• Long‑range teleport‑charge  
+• Massive AoE impact on arrival  
+• Enemies are stunned and armor‑broken  
+• Leaves a radiant trail that buffs allies’ speed  
+
+===========================================
+END OF CLASS SHEET
+===========================================
+
+
+===========================================
+        BASE CLASS: BARBARIAN
+===========================================
+A ferocious close‑quarters fighter who channels raw physicality, instinct, and nanite‑boosted adrenaline. Barbarians excel in chaotic melee, overwhelming force, and primal Crux surges that amplify their rage into battlefield dominance.
+
+-------------------------------------------
+CORE IDENTITY
+-------------------------------------------
+Role: Frontline bruiser, berserker, shock trooper  
+Combat Style: Heavy swings, explosive bursts, reckless aggression  
+Crux Use: Instinctive surges that amplify strength and resilience  
+Nanite Use: Adrenal boosters, pain suppression, muscle overclocking  
+
+-------------------------------------------
+BASE CLASS STATS (Before Specialization)
+-------------------------------------------
+Offense: ★★★★★  
+Defense: ★★★☆☆  
+Mobility: ★★★☆☆  
+Crux Interaction: ★★☆☆☆  
+Nanite Power: ★★★☆☆  
+
+-------------------------------------------
+CLASS PASSIVE
+-------------------------------------------
+Rage Engine  
+Your nanites amplify adrenaline and aggression.  
+• +10% melee damage  
+• +10% stagger resistance  
+• Gain Rage stacks when taking or dealing damage  
+
+-------------------------------------------
+LEVEL PROGRESSION & ABILITY CHOICES
+-------------------------------------------
+
+LEVEL 1 - Starting Ability
+-------------------------------------------
+Fury Strike  
+A powerful opening blow fueled by nanite‑boosted muscle.  
+• +20% damage  
+• Unlocks “Heavy Swing” basic combo  
+
+LEVEL 10 - Ability Choice
+-------------------------------------------
+Option A: Crux Roar  
+Unleash a primal Crux‑infused shout.  
+• Small AoE fear  
+• Increases your damage by 10% for 5 seconds  
+
+Option B: Nanite Surge  
+Nanites flood your bloodstream.  
+• +25% attack speed for 3 seconds  
+• Cooldown: Moderate  
+
+LEVEL 20 - Ability Choice
+-------------------------------------------
+Option A: Bloodrush  
+Convert Rage stacks into healing.  
+• Consume all Rage  
+• Heal based on stacks consumed  
+
+Option B: Frenzy Leap  
+A teleport‑assisted leap attack.  
+• AoE impact  
+• Applies a brief stun  
+• Great for engaging or repositioning  
+
+-------------------------------------------
+LEVEL 30 - SPECIALIZATION CHOICE
+-------------------------------------------
+→ SKIRMISHER  
+A fast, agile, hit‑and‑run fighter who blends ferocity with mobility and tactical aggression.
+
+→ BEASTMASTER  
+A primal warrior who bonds with nanite‑enhanced beasts, fighting alongside powerful companions.
+
+===========================================
+        SPECIALIZATION: SKIRMISHER
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Relentless Motion  
+Constant movement fuels your aggression.  
+• +10% damage while moving  
+• +10% dodge chance  
+• Gain a small speed boost after every kill  
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Whirlwind Dash  
+Teleport‑dash through enemies in a spinning strike.  
+• Hits all enemies in path  
+• Applies bleed  
+• Scales with Agility  
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Crux Blitz 
+A burst of Crux energy propels you forward.
+• +40% movement speed 
+• Next 3 attacks deal bonus damage 
+
+Option B: Nanite Reflex 
+Nanites heighten your reaction time.
+• +30% dodge chance for 4 seconds 
+• Dodging an attack resets your basic combo 
+
+LEVEL 50 - Skirmisher Ultimate
+-------------------------------------------
+Storm of Blades 
+You become a blur of motion, chaining teleport‑slashes across multiple enemies.
+• High AoE burst 
+• Applies heavy bleed 
+• Grants temporary invulnerability during the flurry
+
+===========================================
+        SPECIALIZATION: BEASTMASTER
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Pack Bond  
+Your bonded beast fights at your side.  
+• Beast gains stats based on your Strength and Endurance  
+• You gain +10% damage when near your beast  
+• Beast revives automatically after combat  
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Beast Call  
+Summon your nanite‑enhanced companion.  
+• Companion type depends on your build  
+• Can tank, deal damage, or apply control effects  
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Crux Howl  
+You and your beast unleash a synchronized roar.  
+• AoE debuff to enemies  
+• +20% damage to both you and your beast  
+
+Option B: Nanite Fusion  
+Temporarily merge your nanite systems.  
+• Beast becomes larger and stronger  
+• You gain shared damage reduction  
+
+LEVEL 50 - Beastmaster Ultimate
+-------------------------------------------
+Primal Ascension  
+Your beast evolves into its apex form for a short time.  
+• Massive stat boost  
+• Gains new abilities  
+• You gain +25% damage and +25% defense while it is ascended  
+
+===========================================
+END OF CLASS SHEET
+===========================================
+
+
+===========================================
+        BASE CLASS: MONK
+===========================================
+A disciplined warrior who blends physical mastery with Crux‑guided focus and nanite‑enhanced body control. Monks excel in fluid movement, precision strikes, and battlefield adaptability, using inner harmony to channel devastating martial techniques.
+
+-------------------------------------------
+CORE IDENTITY
+-------------------------------------------
+Role: Agile melee fighter, control specialist, mobile skirmisher  
+Combat Style: Fluid combos, reactive counters, rhythmic strikes  
+Crux Use: Enhances perception, timing, and inner focus  
+Nanite Use: Muscle tuning, balance correction, kinetic redirection  
+
+-------------------------------------------
+BASE CLASS STATS (Before Specialization)
+-------------------------------------------
+Offense: ★★★★☆  
+Defense: ★★★☆☆  
+Mobility: ★★★★★  
+Crux Interaction: ★★★☆☆  
+Nanite Power: ★★★★☆  
+
+-------------------------------------------
+CLASS PASSIVE
+-------------------------------------------
+Flow State  
+Your body and nanites synchronize into a rhythmic combat flow.  
+• +5% attack speed  
+• +5% dodge chance  
+• Dodging an attack increases damage by 5% for 3 seconds  
+
+-------------------------------------------
+LEVEL PROGRESSION & ABILITY CHOICES
+-------------------------------------------
+
+LEVEL 1 - Starting Ability
+-------------------------------------------
+Focused Strike  
+A precise blow delivered with perfect form.  
+• +15% damage  
+• Unlocks “Palm Combo” basic chain  
+
+LEVEL 10 - Ability Choice
+-------------------------------------------
+Option A: Phase Step Kick  
+Teleport‑step behind an enemy and deliver a spinning kick.  
+• High single‑target damage  
+• Briefly disorients the target  
+
+Option B: Nanite Centering  
+Nanites stabilize your breathing and posture.  
+• +20% dodge chance for 4 seconds  
+• Cooldown: Moderate  
+
+LEVEL 20 - Ability Choice
+-------------------------------------------
+Option A: Crux Pulse  
+Release a shock of internal Crux energy.  
+• Small AoE  
+• Knocks enemies back  
+• Scales with Willpower  
+
+Option B: Redirect  
+Use nanites to shift incoming force.  
+• Reduces next hit by 50%  
+• Converts reduced damage into bonus damage on your next attack  
+
+-------------------------------------------
+LEVEL 30 - SPECIALIZATION CHOICE
+-------------------------------------------
+→ PIKEMAN  
+A disciplined polearm master who uses reach, leverage, and teleport‑assisted repositioning to control the battlefield.
+
+→ PUGILIST  
+A close‑quarters brawler who channels Crux through fists and feet, delivering explosive strikes and relentless pressure.
+
+===========================================
+        SPECIALIZATION: PIKEMAN
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Extended Reach  
+Your mastery of polearms enhances battlefield control.  
+• +20% melee range  
+• +10% crit chance on long‑reach attacks  
+• Polearm attacks apply a brief slow  
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Lancing Thrust  
+A teleport‑assisted forward thrust.  
+• Pierces all enemies in a line  
+• Applies armor break  
+• Scales with Agility and Intellect  
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Crux Sweep  
+Channel Crux through your polearm for a sweeping arc.  
+• Large AoE  
+• Knocks enemies outward  
+• High stagger potential  
+
+Option B: Nanite Anchor  
+Nanites root your stance into the ground.  
+• Immune to knockback  
+• +30% defense for 4 seconds  
+• Perfect for holding chokepoints  
+
+LEVEL 50 - Pikeman Ultimate
+-------------------------------------------
+Astral Lance  
+Your polearm becomes a conduit of Crux energy.  
+• Massive line attack  
+• Teleports you to the end of the strike  
+• Enemies hit are stunned and armor‑shredded  
+• Leaves a lingering energy trail that damages foes  
+
+===========================================
+        SPECIALIZATION: PUGILIST
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Iron Body  
+Nanites reinforce your muscles and bones.  
+• +10% damage  
+• +10% damage reduction  
+• Basic attacks build “Focus” stacks  
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Crux Fist  
+A devastating punch infused with Crux energy.  
+• High single‑target burst  
+• Applies internal rupture (DoT)  
+• Consumes all Focus stacks for bonus damage  
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Nanite Overdrive  
+Nanites supercharge your limbs.  
+• +40% attack speed  
+• +20% movement speed  
+• Short duration, long cooldown  
+
+Option B: Counterpunch  
+A reactive defensive technique.  
+• Automatically counter the next melee hit  
+• Counter deals heavy damage  
+• Applies a brief stun  
+
+LEVEL 50 - Pugilist Ultimate
+-------------------------------------------
+Eightfold Impact  
+You unleash a rapid series of Crux‑charged strikes.  
+• Extremely high single‑target burst  
+• Each hit teleports you around the target  
+• Final blow sends out a shockwave  
+
+===========================================
+END OF CLASS SHEET
+===========================================
+
+

@@ -1,6 +1,12 @@
 Species Name 🌟
 Owliens
 
+Base Element 🌟
+Air
+
+Elemental Weakness 🌟
+Storm
+
 Base Stats 🌟
 Attribute	Value
 Strength	3/10

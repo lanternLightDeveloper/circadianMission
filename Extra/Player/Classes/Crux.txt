@@ -1,0 +1,510 @@
+Crux & Elemental Magic 🌟
+Sorcerer - Chronomancer - Nano-caster 
+Sorcerer - conduit of raw Crux energy who channels the universe’s binding force into destructive, protective, or reality‑altering spells. Sorcerers wield unstable power amplified by nanite regulators, balancing overwhelming potential with inherent risk.
+Chronomancer - manipulator of time who bends causality, accelerates or slows reality, and weaponizes temporal distortion.
+Nano-caster  - technomancer who commands swarms of programmable nanites, shaping them into weapons, constructs, and devastating clouds.
+
+Warlock - Necromancer - Monster Summoner
+Warlock - wielder of forbidden Crux channels and unstable nanite rituals. Warlocks tap into the darker, more volatile aspects of the universe’s binding force, bending entropy, decay, and living constructs to their will. Their power is immense - but always comes with risk.
+Necromancer - master of death, decay, and Crux‑animated corpses. Manipulates entropy to raise the dead and drain the living.
+Monster Summoner - bio‑engineer of horrors who uses nanites to construct, mutate, and command monstrous allies.
+
+Druid - Shaman - Beast Summoner 
+Druid - bio‑Crux channeler who manipulates living energy, nanite‑grown flora, and primal cosmic forces. Druids blend ancient instinct with futuristic bio‑engineering, shaping the battlefield with regenerative fields, living constructs, and elemental Crux surges.
+Shaman - spiritual conduit who channels ancestral Crux, elemental forces, and spirit‑echoes to heal, empower, and devastate.
+Beast Summoner - primal bio‑engineer who grows, mutates, and commands living nanite‑beasts infused with Crux energy.
+
+Evolved Crux 🌟
+Relic Host - carries a cursed relic that grants power but demands constant appeasement.
+Starcaller - channels constellations as living avatars.
+Spellforger - crafts unstable combination spells on the fly, each cast reshaping reality unpredictably.
+Hollowborn - body inhabited by a sealed spirit; swaps control in combat.
+
+===========================================
+        BASE CLASS: SORCERER
+===========================================
+A conduit of raw Crux energy who channels the universe’s binding force into destructive, protective, or reality‑altering spells. Sorcerers wield unstable power amplified by nanite regulators, balancing overwhelming potential with inherent risk.
+
+-------------------------------------------
+CORE IDENTITY
+-------------------------------------------
+Role: Mid‑range caster, battlefield controller, high burst damage  
+Combat Style: Crux channeling, energy projection, spatial manipulation  
+Crux Use: Direct manipulation of cosmic forces  
+Nanite Use: Stabilization, amplification, spell‑shaping  
+
+-------------------------------------------
+BASE CLASS STATS (Before Specialization)
+-------------------------------------------
+Offense: ★★★★★  
+Defense: ★★☆☆☆  
+Mobility: ★★★☆☆  
+Crux Interaction: ★★★★★  
+Nanite Synergy: ★★★☆☆  
+
+-------------------------------------------
+CLASS PASSIVE
+-------------------------------------------
+Crux Conduit  
+Your body naturally channels ambient Crux energy.  
+• +10% Crux damage  
+• +10% spell range  
+• Casting spells builds “Charge” stacks (improves next spell)  
+
+-------------------------------------------
+LEVEL PROGRESSION & ABILITY CHOICES
+-------------------------------------------
+
+LEVEL 1 - Starting Ability
+-------------------------------------------
+Crux Bolt  
+A focused blast of raw Crux energy.  
+• +20% damage  
+• Unlocks “Arc Pulse” basic combo  
+
+LEVEL 10 - Ability Choice
+-------------------------------------------
+Option A: Phase Blink  
+A short‑range teleport that leaves behind a Crux echo.  
+• Echo explodes after 1 second  
+• Cooldown: Short  
+
+Option B: Nanite Stabilizer  
+Nanites reinforce your casting channels.  
+• +20% Crux damage for 5 seconds  
+• Reduces self‑damage from unstable spells  
+
+LEVEL 20 - Ability Choice
+-------------------------------------------
+Option A: Rift Lance  
+Fire a piercing beam of spatially‑distorted Crux.  
+• Long‑range line attack  
+• Ignores armor  
+
+Option B: Crux Shield  
+Form a temporary energy barrier.  
+• Absorbs damage  
+• Explodes outward when broken  
+
+-------------------------------------------
+LEVEL 30 - SPECIALIZATION CHOICE
+-------------------------------------------
+→ CHRONOMANCER  
+A manipulator of time who bends causality, accelerates or slows reality, and weaponizes temporal distortion.
+
+→ NANO‑CASTER  
+A technomancer who commands swarms of programmable nanites, shaping them into weapons, constructs, and devastating clouds.
+
+===========================================
+        SPECIALIZATION: CHRONOMANCER
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Temporal Echo  
+Your spells leave afterimages in time.  
+• +10% cooldown reduction  
+• Casting the same spell twice creates a temporal duplicate  
+• Duplicates deal 50% damage  
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Time Fracture  
+Shatter a moment in time, creating a localized distortion.  
+• AoE slow  
+• Enemies take increased damage while inside  
+• Allies gain haste  
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Chrono Step  
+Teleport a short distance and rewind your position after 2 seconds.  
+• Grants invulnerability during the rewind  
+• Great for dodging big attacks  
+
+Option B: Accelerate  
+Supercharge your personal timeline.  
+• +40% cast speed  
+• +20% movement speed  
+• Short duration  
+
+LEVEL 50 - Chronomancer Ultimate
+-------------------------------------------
+Temporal Collapse  
+You freeze a large area in suspended time.  
+• Enemies are immobilized  
+• After 3 seconds, time snaps back violently  
+• Massive AoE damage  
+• Survivors are slowed and weakened  
+
+===========================================
+        SPECIALIZATION: NANO‑CASTER
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Swarm Architect  
+Your nanites respond instantly to your commands.  
+• +15% nanite ability power  
+• Nanite constructs last longer  
+• Damaging nanites apply “Corrode” (defense debuff)  
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Nanite Swarm  
+Release a cloud of aggressive nanites.  
+• Deals damage over time  
+• Follows your target  
+• Applies Corrode  
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Hardlight Construct  
+Form a temporary nanite‑based weapon or shield.  
+• Weapon: +20% damage  
+• Shield: +30% damage reduction  
+• Lasts several seconds  
+
+Option B: Viral Injection  
+Inject a target with mutating nanites.  
+• Deals damage over time  
+• Spreads to nearby enemies  
+• Explodes on expiration  
+
+LEVEL 50 - Nano‑Caster Ultimate
+-------------------------------------------
+Grey Tide  
+Unleash a massive wave of nanites that devour everything in their path.  
+• Huge AoE  
+• Applies heavy Corrode  
+• Enemies caught inside take escalating damage  
+• Leaves behind a lingering nanite field  
+
+===========================================
+END OF CLASS SHEET
+===========================================
+
+===========================================
+        BASE CLASS: WARLOCK
+===========================================
+A wielder of forbidden Crux channels and unstable nanite rituals. Warlocks tap into the darker, more volatile aspects of the universe’s binding force, bending entropy, decay, and living constructs to their will. Their power is immense - but always comes with risk.
+
+-------------------------------------------
+CORE IDENTITY
+-------------------------------------------
+Role: Dark caster, debuffer, summoner, corruption specialist  
+Combat Style: Damage-over-time, curses, unstable Crux bursts  
+Crux Use: Manipulates entropy, decay, and forbidden energies  
+Nanite Use: Reanimation, corruption, parasitic constructs  
+
+-------------------------------------------
+BASE CLASS STATS (Before Specialization)
+-------------------------------------------
+Offense: ★★★★☆  
+Defense: ★★☆☆☆  
+Mobility: ★★☆☆☆  
+Crux Interaction: ★★★★★  
+Nanite Synergy: ★★★★☆  
+
+-------------------------------------------
+CLASS PASSIVE
+-------------------------------------------
+Forbidden Channel  
+Your Crux pathways are unstable but powerful.  
+• +10% damage-over-time effects  
+• +10% corruption duration  
+• Casting forbidden spells builds “Instability” (increases damage but risks backlash)  
+
+-------------------------------------------
+LEVEL PROGRESSION & ABILITY CHOICES
+-------------------------------------------
+
+LEVEL 1 - Starting Ability
+-------------------------------------------
+Entropy Bolt  
+A blast of decaying Crux energy.  
+• Deals damage over time  
+• Unlocks “Corrupt Pulse” basic combo  
+
+LEVEL 10 - Ability Choice
+-------------------------------------------
+Option A: Phase Rift  
+Tear a small rift in space.  
+• Deals AoE damage  
+• Applies a brief disorient  
+
+Option B: Nanite Leech  
+Send parasitic nanites into a target.  
+• Drains health over time  
+• Heals you for a portion of the damage  
+
+LEVEL 20 - Ability Choice
+-------------------------------------------
+Option A: Crux Curse  
+Afflict an enemy with unstable Crux energy.  
+• Reduces their damage  
+• Causes periodic explosions  
+
+Option B: Huskbind  
+Bind a weakened enemy with nanites.  
+• Roots the target  
+• If the target dies while bound, it leaves behind a nanite husk that fights briefly  
+
+-------------------------------------------
+LEVEL 30 - SPECIALIZATION CHOICE
+-------------------------------------------
+→ NECROMANCER  
+A master of death, decay, and Crux‑animated corpses. Manipulates entropy to raise the dead and drain the living.
+
+→ MONSTER SUMMONER  
+A bio‑engineer of horrors who uses nanites to construct, mutate, and command monstrous allies.
+
+===========================================
+        SPECIALIZATION: NECROMANCER
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Grave Resonance  
+Your Crux channels harmonize with death energy.  
+• +20% damage to DoT effects  
+• Summoned undead gain +10% health  
+• Killing enemies reduces cooldowns  
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Raise Dead  
+Reanimate a fallen enemy as a Crux‑bound undead.  
+• Undead fights for you  
+• Scales with your Crux Affinity  
+• Multiple undead can be active  
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Death Coil  
+A spiraling bolt of necrotic Crux.  
+• Deals damage  
+• Heals you for a portion  
+• Chains to additional enemies  
+
+Option B: Bone Prison  
+Summon skeletal constructs from the ground.  
+• Traps enemies in place  
+• Applies defense reduction  
+
+LEVEL 50 - Necromancer Ultimate
+-------------------------------------------
+Army of the Fallen  
+Unleash a wave of Crux energy that raises all corpses in the area.  
+• Summons multiple undead at once  
+• Undead gain massive temporary buffs  
+• Enemies take increased damage from all undead  
+
+===========================================
+        SPECIALIZATION: MONSTER SUMMONER
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Bio‑Forge  
+Your nanites can construct living weapons.  
+• Summoned beasts gain +15% damage  
+• Summons regenerate health slowly  
+• You gain +10% damage while a summon is active  
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Summon Aberrant  
+Create a nanite‑grown monster.  
+• Can tank or deal damage depending on your build  
+• Has unique abilities based on your stats  
+• Persists until killed  
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Mutagen Burst  
+Mutate your active summon.  
+• Increases size  
+• Grants new abilities  
+• Boosts damage and defense  
+
+Option B: Crux Infusion  
+Channel Crux directly into your monster.  
+• Causes AoE explosions around the summon  
+• Applies burn/corrosion to enemies  
+
+LEVEL 50 - Monster Summoner Ultimate
+-------------------------------------------
+Eldritch Titan  
+Grow a colossal nanite‑Crux hybrid beast.  
+• Massive AoE presence  
+• Heavy damage and crowd control  
+• Enemies near the Titan suffer fear and reduced defenses  
+• Titan persists for the full duration regardless of damage  
+
+===========================================
+END OF CLASS SHEET
+===========================================
+
+===========================================
+        BASE CLASS: DRUID
+===========================================
+A bio‑Crux channeler who manipulates living energy, nanite‑grown flora, and primal cosmic forces. Druids blend ancient instinct with futuristic bio‑engineering, shaping the battlefield with regenerative fields, living constructs, and elemental Crux surges.
+
+-------------------------------------------
+CORE IDENTITY
+-------------------------------------------
+Role: Support caster, healer, battlefield controller, bio‑manipulator  
+Combat Style: Regeneration, nature‑Crux spells, living constructs  
+Crux Use: Channels life‑aligned cosmic energy  
+Nanite Use: Bio‑growth, healing, creature shaping, environmental control  
+
+-------------------------------------------
+BASE CLASS STATS (Before Specialization)
+-------------------------------------------
+Offense: ★★★☆☆  
+Defense: ★★★☆☆  
+Mobility: ★★★☆☆  
+Crux Interaction: ★★★★★  
+Nanite Synergy: ★★★★★  
+
+-------------------------------------------
+CLASS PASSIVE
+-------------------------------------------
+Living Circuit  
+Your Crux and nanites harmonize with biological systems.  
+• +10% healing and regeneration  
+• +10% summon health  
+• Healing allies builds “Harmony” stacks (boosts next heal or summon)  
+
+-------------------------------------------
+LEVEL PROGRESSION & ABILITY CHOICES
+-------------------------------------------
+
+LEVEL 1 - Starting Ability
+-------------------------------------------
+Verdant Bolt  
+A burst of life‑Crux energy.  
+• Deals damage  
+• Heals you slightly  
+• Unlocks “Growth Pulse” basic combo  
+
+LEVEL 10 - Ability Choice
+-------------------------------------------
+Option A: Nanite Bloom  
+Release restorative nanites.  
+• Heals allies in a small radius  
+• Applies minor regeneration  
+
+Option B: Crux Root  
+Bind an enemy with living Crux tendrils.  
+• Roots target  
+• Deals damage over time  
+
+LEVEL 20 - Ability Choice
+-------------------------------------------
+Option A: Bio‑Shield  
+Grow a temporary living barrier.  
+• Absorbs damage  
+• Regenerates slowly while active  
+
+Option B: Wild Lash  
+Summon a nanite‑grown vine whip.  
+• Medium‑range strike  
+• Pulls enemies slightly toward you  
+
+-------------------------------------------
+LEVEL 30 - SPECIALIZATION CHOICE
+-------------------------------------------
+→ SHAMAN  
+A spiritual conduit who channels ancestral Crux, elemental forces, and spirit‑echoes to heal, empower, and devastate.
+
+→ BEAST SUMMONER  
+A primal bio‑engineer who grows, mutates, and commands living nanite‑beasts infused with Crux energy.
+
+===========================================
+        SPECIALIZATION: SHAMAN
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Spirit Resonance  
+Your Crux channels align with ancestral echoes.  
+• +15% elemental Crux damage  
+• +15% healing to allies  
+• Casting elemental spells summons minor spirit echoes  
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Ancestral Surge  
+Call upon ancient Crux spirits.  
+• Grants allies haste and regeneration  
+• Deals AoE spirit damage to enemies  
+• Summons a temporary spirit companion  
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Elemental Invocation  
+Choose an element (fire, storm, stone, water).  
+• Grants a powerful elemental spell  
+• Element determines bonus effects  
+
+Option B: Spirit Walk  
+Shift partially into the spirit plane.  
+• Become untargetable for 2 seconds  
+• Next spell deals bonus damage or healing  
+
+LEVEL 50 - Shaman Ultimate
+-------------------------------------------
+Totem of the Eternal  
+Summon a massive Crux‑spirit totem.  
+• Emits healing waves to allies  
+• Damages and weakens enemies  
+• Grants elemental buffs based on your Invocation  
+• Totem persists for full duration  
+
+===========================================
+        SPECIALIZATION: BEAST SUMMONER
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Primal Architect  
+Your nanites excel at creating living constructs.  
+• +20% beast health  
+• +10% beast damage  
+• Summons regenerate health out of combat  
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Summon Primal Beast  
+Grow a living nanite‑Crux creature.  
+• Can tank, deal damage, or support  
+• Evolves visually based on your stats  
+• Persists until killed  
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Pack Call  
+Summon two lesser beasts.  
+• They swarm enemies  
+• Gain bonuses when near your main beast  
+
+Option B: Bio‑Mutate  
+Mutate your active beast.  
+• Gains new abilities  
+• Increases size, health, and damage  
+• Mutation persists for the duration  
+
+LEVEL 50 - Beast Summoner Ultimate
+-------------------------------------------
+Primeval Stampede  
+Summon a massive herd of nanite‑grown beasts.  
+• Huge AoE damage  
+• Enemies are knocked down and trampled  
+• Your main beast becomes empowered  
+• Leaves behind a regenerative field for allies  
+
+===========================================
+END OF CLASS SHEET
+===========================================

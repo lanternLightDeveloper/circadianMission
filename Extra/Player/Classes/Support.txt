@@ -1,0 +1,512 @@
+Social, Utility & Support Roles 🌟
+Seer - Diviner - Oracle
+Seer : visionary who perceives the hidden flows of Crux, glimpses possible futures, and manipulates fate through ritual and intuition. Seers blend prophetic insight with nanite‑enhanced perception, granting them unparalleled battlefield awareness and reality‑bending abilities.
+Diviner : master of fate, probability, and cosmic patterns who manipulates outcomes, shields allies from doom, and rewrites destiny.
+Oracle : transcendent prophet who channels pure Crux visions, unleashes devastating revelations, and commands battlefield‑wide insight.
+
+Enchanter - Controller - Bard
+Enchanter :  master of Crux‑woven magic, emotional resonance, and nanite‑augmented influence. Enchanters manipulate minds, moods, and momentum, empowering allies while subtly undermining foes. Their spells shape the flow of battle without relying on raw damage.
+Controller :  battlefield manipulator who uses illusions, telekinetic Crux, and nanite‑based crowd control to dominate enemy movement and actions.
+Bard :  charismatic performer who channels Crux through music, rhythm, and storytelling, empowering allies and weakening foes with emotional resonance.
+
+Engineer - Artificer - Mortarist 
+Engineer : brilliant technomancer who blends mechanical ingenuity with Crux‑powered devices and programmable nanites. Engineers deploy gadgets, turrets, drones, and battlefield tools that reshape combat through precision, automation, and controlled chaos.
+Artificer : master builder who constructs advanced turrets, drones, and hardlight machinery to dominate the battlefield with precision automation.
+Mortarist : long‑range demolition expert who uses explosive shells, arc‑launchers, and nanite‑fused munitions to reshape the battlefield from afar. 
+
+Evolved Support 🌟
+Bellwarden - uses enchanted bells to control/heal/hinder crowds, repel spirits, or shatter morale.
+Echo Antagonizer - fights alongside time‑shifted versions of themselves.
+Inkweaver - tattoos come alive as summoned creatures or weapons.
+Mask Maker - crafts magical masks that can mirror other classes.
+
+===========================================
+BASE CLASS: SEER
+===========================================
+A visionary who perceives the hidden flows of Crux, glimpses possible futures, and manipulates fate through ritual and intuition. Seers blend prophetic insight with nanite‑enhanced perception, granting them unparalleled battlefield awareness and reality‑bending abilities.
+
+-------------------------------------------
+CORE IDENTITY
+-------------------------------------------
+Role: Support caster, foresight specialist, debuffer, fate manipulator
+Combat Style: Predictions, vision bursts, fate‑altering Crux spells
+Crux Use: Reads timelines, reveals truths, alters probability
+Nanite Use: Sensory amplification, data‑pattern analysis, precognition
+
+-------------------------------------------
+BASE CLASS STATS (Before Specialization)
+-------------------------------------------
+Offense: ★★★☆☆
+Defense: ★★☆☆☆
+Mobility: ★★★☆☆
+Crux Interaction: ★★★★★
+Nanite Synergy: ★★★★★
+
+-------------------------------------------
+CLASS PASSIVE
+-------------------------------------------
+Foresight
+Your perception extends seconds into the future.
+• +10% dodge chance
+• +10% crit chance for allies you target with abilities
+• Predicting an enemy attack (dodging or blocking) grants “Insight” (boosts next spell)
+
+-------------------------------------------
+LEVEL PROGRESSION & ABILITY CHOICES
+-------------------------------------------
+
+LEVEL 1 - Starting Ability
+-------------------------------------------
+Revelation
+Unleash a burst of prophetic Crux energy.
+• Damages enemies
+• Reveals hidden or stealthed units
+• Unlocks “Vision Pulse” basic combo
+
+LEVEL 10 - Ability Choice
+-------------------------------------------
+Option A: Phase Glimpse
+Momentarily step outside the timeline.
+• Become untargetable for 1 second
+• Next ability deals bonus damage or healing
+
+Option B: Nanite Insight
+Nanites enhance your predictive modeling.
+• Highlights enemy weak points
+• Allies gain +10% crit chance against marked targets
+
+LEVEL 20 - Ability Choice
+-------------------------------------------
+Option A: Fate Lash
+A whip of Crux energy that disrupts probability.
+• Deals damage
+• Reduces enemy accuracy and crit chance
+
+Option B: Clairvoyant Field
+Create a zone of heightened perception.
+• Allies gain dodge and crit chance
+• Enemies inside are slowed
+
+-------------------------------------------
+LEVEL 30 - SPECIALIZATION CHOICE
+-------------------------------------------
+→ DIVINER
+A master of fate, probability, and cosmic patterns who manipulates outcomes, shields allies from doom, and rewrites destiny.
+
+→ ORACLE
+A transcendent prophet who channels pure Crux visions, unleashes devastating revelations, and commands battlefield‑wide insight.
+
+===========================================
+SPECIALIZATION: DIVINER
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Threads of Fate
+You manipulate the probabilities of events.
+• +15% buff duration
+• +10% debuff potency
+• Using a buff or debuff grants “Fate Thread” (stacking bonus to next spell)
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Rewrite
+Alter the fate of an ally or enemy.
+• Ally: Heals and grants damage reduction
+• Enemy: Deals damage and increases damage they take
+• Effect depends on your target
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Destiny Knot
+Bind two targets’ fates.
+• Damage dealt or healing done to one is partially shared with the other
+• Works on enemies or allies
+
+Option B: Probability Collapse
+Force a chaotic outcome.
+• Deals AoE damage
+• Randomly buffs allies or debuffs enemies
+• Weighted toward beneficial outcomes
+
+LEVEL 50 - Diviner Ultimate
+-------------------------------------------
+Fate Reversal
+Undo a catastrophic moment.
+• Instantly heals all allies
+• Removes all debuffs
+• Rewinds enemy buffs
+• If an ally died, they are revived
+
+===========================================
+SPECIALIZATION: ORACLE
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Cosmic Vision
+Your mind is attuned to the deepest Crux currents.
+• +15% Crux damage
+• +10% cast speed
+• Casting a spell reveals enemies in a wide radius
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Prophetic Burst
+Unleash a devastating revelation.
+• High AoE damage
+• Applies “Revealed” (enemies take increased damage)
+• Briefly blinds enemies
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Vision of Ruin
+Show an enemy their own demise.
+• Heavy single‑target damage
+• Applies fear
+• Deals bonus damage to low‑health enemies
+
+Option B: Nanite Revelation
+Nanites project your visions outward.
+• Allies gain increased crit, dodge, and movement speed
+• Enemies suffer reduced accuracy
+
+LEVEL 50 - Oracle Ultimate
+-------------------------------------------
+Apocalypse Sight
+You channel a world‑ending vision into reality.
+• Massive AoE
+• Enemies are stunned and take continuous Crux damage
+• Allies gain immense buffs
+• The battlefield becomes “Revealed” (no stealth, no hiding)
+
+===========================================
+END OF CLASS SHEET
+===========================================
+
+===========================================
+        BASE CLASS: ENCHANTER
+===========================================
+A master of Crux‑woven magic, emotional resonance, and nanite‑augmented influence. Enchanters manipulate minds, moods, and momentum, empowering allies while subtly undermining foes. Their spells shape the flow of battle without relying on raw damage.
+
+-------------------------------------------
+CORE IDENTITY
+-------------------------------------------
+Role: Support caster, buffer, controller, battlefield manipulator  
+Combat Style: Auras, charms, Crux‑infused enchantments, nanite‑based influence  
+Crux Use: Emotional resonance, mental projection, aura shaping  
+Nanite Use: Mood modulation, sensory illusions, control effects  
+
+-------------------------------------------
+BASE CLASS STATS (Before Specialization)
+-------------------------------------------
+Offense: ★★☆☆☆  
+Defense: ★★★☆☆  
+Mobility: ★★★☆☆  
+Crux Interaction: ★★★★★  
+Nanite Synergy: ★★★★★  
+
+-------------------------------------------
+CLASS PASSIVE
+-------------------------------------------
+Aura Weave  
+Your Crux and nanites form subtle enchantment fields.  
+• +10% buff strength  
+• +10% aura radius  
+• Casting a buff grants “Resonance” (boosts next enchantment)  
+
+-------------------------------------------
+LEVEL PROGRESSION & ABILITY CHOICES
+-------------------------------------------
+
+LEVEL 1 - Starting Ability
+-------------------------------------------
+Charm Spark  
+A pulse of emotional Crux energy.  
+• Briefly disorients an enemy  
+• Grants an ally minor haste  
+• Unlocks “Resonant Pulse” basic combo  
+
+LEVEL 10 - Ability Choice
+-------------------------------------------
+Option A: Nanite Glamour  
+Nanites distort your appearance.  
+• Enemies have reduced accuracy  
+• Allies gain +10% dodge chance  
+
+Option B: Crux Inspire  
+Channel uplifting Crux energy.  
+• Grants allies increased damage  
+• Applies minor regeneration  
+
+LEVEL 20 - Ability Choice
+-------------------------------------------
+Option A: Enthrall  
+Overwhelm an enemy’s senses.  
+• Stuns briefly  
+• Reduces their damage afterward  
+
+Option B: Resonant Shield  
+A protective enchantment.  
+• Absorbs damage  
+• Increases ally’s resistance to control effects  
+
+-------------------------------------------
+LEVEL 30 - SPECIALIZATION CHOICE
+-------------------------------------------
+→ CONTROLLER  
+A battlefield manipulator who uses illusions, telekinetic Crux, and nanite‑based crowd control to dominate enemy movement and actions.
+
+→ BARD  
+A charismatic performer who channels Crux through music, rhythm, and storytelling, empowering allies and weakening foes with emotional resonance.
+
+===========================================
+        SPECIALIZATION: CONTROLLER
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Mind Net  
+Your control effects linger longer.  
+• +15% duration on stuns, slows, and charms  
+• +10% illusion potency  
+• Applying a control effect grants “Focus” (boosts next CC)  
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Telekinetic Grasp  
+Crux‑powered force seizes enemies.  
+• Pulls enemies into a cluster  
+• Briefly immobilizes them  
+• Applies vulnerability  
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Nanite Paralysis  
+Release a cloud of neural‑interference nanites.  
+• Slows enemies heavily  
+• Can briefly stun weakened targets  
+
+Option B: Crux Mirage Field  
+Create a zone of shifting illusions.  
+• Enemies inside have reduced accuracy  
+• Allies gain dodge and movement speed  
+
+LEVEL 50 - Controller Ultimate
+-------------------------------------------
+Mass Hypnosis  
+Overwhelm the battlefield with psychic Crux resonance.  
+• Large AoE charm  
+• Enemies wander harmlessly  
+• Allies gain massive haste and crit chance  
+• Control persists for full duration  
+
+===========================================
+        SPECIALIZATION: BARD
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Harmonic Flow  
+Your performances amplify Crux resonance.  
+• +15% buff duration  
+• +10% healing from songs  
+• Using a performance grants “Crescendo” (boosts next song)  
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Song of Valor  
+A powerful Crux‑infused anthem.  
+• Allies gain damage, defense, and haste  
+• You gain temporary damage reduction  
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Ballad of Mending  
+A soothing melody.  
+• Strong AoE healing over time  
+• Removes minor debuffs  
+
+Option B: Discordant Note  
+A jarring Crux‑charged chord.  
+• AoE damage  
+• Reduces enemy accuracy and crit chance  
+
+LEVEL 50 - Bard Ultimate
+-------------------------------------------
+Symphony of the Stars  
+You channel cosmic Crux through a grand performance.  
+• Massive AoE healing and buffs  
+• Enemies suffer heavy debuffs and periodic damage  
+• Allies gain immense movement speed, crit, and regeneration  
+• Performance cannot be interrupted  
+
+===========================================
+END OF CLASS SHEET
+===========================================
+
+===========================================
+        BASE CLASS: ENGINEER
+===========================================
+A brilliant technomancer who blends mechanical ingenuity with Crux‑powered devices and programmable nanites. Engineers deploy gadgets, turrets, drones, and battlefield tools that reshape combat through precision, automation, and controlled chaos.
+
+-------------------------------------------
+CORE IDENTITY
+-------------------------------------------
+Role: Support DPS, gadgeteer, battlefield controller  
+Combat Style: Deployables, turrets, drones, explosives, utility tools  
+Crux Use: Powers devices, stabilizes energy cores, fuels constructs  
+Nanite Use: Repairs machinery, forms drones, enhances tech precision  
+
+-------------------------------------------
+BASE CLASS STATS (Before Specialization)
+-------------------------------------------
+Offense: ★★★★☆  
+Defense: ★★★☆☆  
+Mobility: ★★★☆☆  
+Crux Interaction: ★★★☆☆  
+Nanite Synergy: ★★★★★  
+
+-------------------------------------------
+CLASS PASSIVE
+-------------------------------------------
+Techno‑Savant  
+Your machines operate with exceptional efficiency.  
+• +10% turret/drone damage  
+• +10% gadget duration  
+• Deploying a device grants “Overclock” (boosts next gadget)  
+
+-------------------------------------------
+LEVEL PROGRESSION & ABILITY CHOICES
+-------------------------------------------
+
+LEVEL 1 - Starting Ability
+-------------------------------------------
+Deploy Turret  
+Place a small automated turret.  
+• Fires at nearby enemies  
+• Scales with your stats  
+• Unlocks “Tech Pulse” basic combo  
+
+LEVEL 10 - Ability Choice
+-------------------------------------------
+Option A: Nanite Repair Drone  
+Deploy a small drone.  
+• Heals you or an ally over time  
+• Repairs nearby constructs  
+
+Option B: Crux Capacitor  
+Overcharge your next device.  
+• Increases damage or healing  
+• Causes a small AoE burst on activation  
+
+LEVEL 20 - Ability Choice
+-------------------------------------------
+Option A: Shock Mine  
+Place an electrified mine.  
+• Explodes when triggered  
+• Stuns enemies briefly  
+
+Option B: Hardlight Barrier  
+Project a temporary Crux‑powered shield wall.  
+• Blocks enemy movement  
+• Absorbs ranged attacks  
+
+-------------------------------------------
+LEVEL 30 - SPECIALIZATION CHOICE
+-------------------------------------------
+→ ARTIFICER  
+A master builder who constructs advanced turrets, drones, and hardlight machinery to dominate the battlefield with precision automation.
+
+→ MORTARIST  
+A long‑range demolition expert who uses explosive shells, arc‑launchers, and nanite‑fused munitions to reshape the battlefield from afar.
+
+===========================================
+        SPECIALIZATION: ARTIFICER
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Construct Mastery  
+Your deployables become more advanced.  
+• +20% turret/drone health  
+• +15% construct damage  
+• Deploying a construct grants “Blueprint” (boosts next deployable)  
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Advanced Turret  
+Upgrade your basic turret into a modular construct.  
+Choose a mode:  
+• **Gatling:** High fire rate  
+• **Railshot:** Armor‑piercing  
+• **Support Zone:** Heals allies  
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Nanite Fabricator  
+Deploy a device that produces micro‑drones.  
+• Drones attack enemies or repair allies  
+• Lasts several seconds  
+
+Option B: Hardlight Golem  
+Summon a temporary hardlight construct.  
+• Taunts enemies  
+• Deals melee damage  
+• Absorbs hits for allies  
+
+LEVEL 50 - Artificer Ultimate
+-------------------------------------------
+Omega Construct  
+Deploy a massive multi‑function machine.  
+• Fires beams, missiles, and support pulses  
+• Grants allies buffs while active  
+• Enemies suffer heavy sustained damage  
+• Cannot be interrupted once deployed  
+
+===========================================
+        SPECIALIZATION: MORTARIST
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Ballistic Savant  
+Your explosive munitions are devastatingly precise.  
+• +15% explosive damage  
+• +10% blast radius  
+• Landing a direct hit grants “Shellshock” (boosts next shot)  
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Arc Mortar  
+Deploy a shoulder‑mounted or ground‑mounted mortar.  
+• Fires arcing explosive shells  
+• Can be manually targeted  
+• Applies burn or shrapnel bleed  
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Nanite Cluster Shell  
+A shell that bursts into nanite swarms.  
+• Deals AoE damage  
+• Applies corrosion  
+• Nanites linger and damage enemies over time  
+
+Option B: Crux Siege Round  
+A high‑impact Crux‑charged shell.  
+• Massive single‑target damage  
+• Creates a shockwave on impact  
+• Great for bosses or elites  
+
+LEVEL 50 - Mortarist Ultimate
+-------------------------------------------
+Barrage Protocol  
+Unleash a devastating multi‑shell bombardment.  
+• Huge AoE  
+• Multiple explosions over several seconds  
+• Enemies are stunned, burned, and armor‑broken  
+• Leaves behind a nanite hazard zone  
+
+===========================================
+END OF CLASS SHEET
+===========================================

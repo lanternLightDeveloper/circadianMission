@@ -1,0 +1,678 @@
+Divine, Holy & Spiritual Roles 🌟
+Priest - Cleric - Herald
+Priest : devoted channeler of sacred Crux energy who heals allies, wards off corruption, and invokes cosmic blessings. Priests serve as spiritual guides and battlefield protectors, using nanite‑enhanced rituals to amplify their divine resonance.
+Cleric : battle‑ready holy warrior who blends healing with frontline protection, radiant strikes, and Crux‑infused shields.
+Herald : cosmic messenger who channels divine resonance into powerful auras, blessings, and battlefield‑wide empowerment.
+
+Paladin - Vanguard - Templar
+Paladin : holy warrior who channels radiant Crux energy through disciplined martial skill and nanite‑reinforced armor. Paladins stand as unbreakable defenders of their allies, wielding both blade and blessing to purge corruption and uphold cosmic order.
+Vanguard : frontline juggernaut who leads the charge, protects allies with unbreakable resolve, and controls the battlefield with radiant force.
+Templar : disciplined holy knight who channels structured Crux rituals, smites foes with divine precision, and empowers allies with sacred auras.
+
+Herbalist - Alchemist - Scribe 
+Herbalist : master of natural Crux flows, botanical nanites, and restorative mixtures. Herbalists gather, cultivate, and refine living materials into potent brews, battlefield remedies, and supportive enhancements.
+Alchemist : master of volatile mixtures, explosive concoctions, and transformative brews that alter the battlefield and empower allies.
+Scribe : Crux‑scholar who uses plant pigments and nanites to inscribe runes, scrolls, and sigils that enhance allies, weaken enemies, and manipulate battlefield energies. 
+
+Medic - Doctor - Surgeon
+Medic : frontline lifesaver who blends medical expertise with nanite‑driven healing and Crux‑stabilization techniques. Medics keep allies alive through rapid response, battlefield triage, and precise intervention under pressure.
+Doctor : master of sustained healing, regeneration, and battlefield medicine who keeps allies alive through efficiency and expertise.
+Surgeon : precision specialist who excels at emergency intervention, burst healing, and nanite‑enhanced surgical strikes.
+
+Evolved Divine 🌟
+Dreamwalker - enters dreams, steals memories, plants ideas, battles nightmares.
+Gravemind - communes with the collective memory of the dead, not individual spirits.
+Fatemender - rewrites tiny threads of destiny at a cost to their own lifespan.
+Bone Shepherd - raises skeletal beasts instead of humanoid undead.
+
+===========================================
+BASE CLASS: PRIEST
+===========================================
+A devoted channeler of sacred Crux energy who heals allies, wards off corruption, and invokes cosmic blessings. Priests serve as spiritual guides and battlefield protectors, using nanite‑enhanced rituals to amplify their divine resonance.
+
+-------------------------------------------
+CORE IDENTITY
+-------------------------------------------
+Role: Healer, support caster, purifier, buffer
+Combat Style: Crux blessings, radiant bursts, protective wards
+Crux Use: Channels pure, harmonic Crux energy
+Nanite Use: Healing amplification, aura projection, purification
+
+-------------------------------------------
+BASE CLASS STATS (Before Specialization)
+-------------------------------------------
+Offense: ★★☆☆☆
+Defense: ★★★☆☆
+Mobility: ★★★☆☆
+Crux Interaction: ★★★★★
+Nanite Synergy: ★★★★★
+
+-------------------------------------------
+CLASS PASSIVE
+-------------------------------------------
+Sacred Resonance
+Your Crux harmonizes with allies’ life energy.
+• +10% healing
+• +10% aura radius
+• Healing allies grants “Grace” stacks (boosts next heal or shield)
+
+-------------------------------------------
+LEVEL PROGRESSION & ABILITY CHOICES
+-------------------------------------------
+
+LEVEL 1 - Starting Ability
+-------------------------------------------
+Radiant Touch
+A burst of healing Crux energy.
+• Heals an ally
+• Deals minor damage to nearby enemies
+• Unlocks “Blessing Pulse” basic combo
+
+LEVEL 10 - Ability Choice
+-------------------------------------------
+Option A: Crux Ward
+Create a protective barrier around an ally.
+• Absorbs damage
+• Explodes in radiant light when broken
+
+Option B: Nanite Mend
+Nanites swarm to repair tissue.
+• Strong single‑target heal
+• Applies minor regeneration
+
+LEVEL 20 - Ability Choice
+-------------------------------------------
+Option A: Purifying Beam
+A focused ray of harmonic Crux.
+• Damages enemies
+• Cleanses allies of debuffs
+
+Option B: Sanctuary Field
+Create a healing zone.
+• Allies regenerate health
+• Enemies inside deal reduced damage
+
+-------------------------------------------
+LEVEL 30 - SPECIALIZATION CHOICE
+-------------------------------------------
+→ CLERIC
+A battle‑ready holy warrior who blends healing with frontline protection, radiant strikes, and Crux‑infused shields.
+
+→ HERALD
+A cosmic messenger who channels divine resonance into powerful auras, blessings, and battlefield‑wide empowerment.
+
+===========================================
+SPECIALIZATION: CLERIC
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Divine Bulwark
+Your Crux shields harden in combat.
+• +10% defense
+• +10% shield strength
+• Healing an ally grants you a small shield
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Smite
+Channel radiant Crux into a devastating strike.
+• High single‑target damage
+• Applies “Radiant Burn” (DoT)
+• Heals nearby allies slightly
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Crux Aegis
+A powerful defensive blessing.
+• +30% damage reduction to an ally
+• Reflects a portion of damage
+
+Option B: Nanite Retribution
+Nanites retaliate when you or an ally is struck.
+• Deals damage to attackers
+• Applies a brief slow
+
+LEVEL 50 - Cleric Ultimate
+-------------------------------------------
+Avatar of Light
+You become a radiant conduit of divine Crux.
+• Massive AoE healing
+• Allies gain +20% damage and +20% defense
+• Enemies take continuous radiant damage
+• You cannot be interrupted while channeling
+
+===========================================
+SPECIALIZATION: HERALD
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Voice of the Cosmos
+Your presence amplifies Crux harmonics.
+• +15% aura strength
+• +10% buff duration
+• Casting a blessing sends out a small healing wave
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Proclamation
+Unleash a cosmic decree of power.
+• Allies gain haste and increased crit chance
+• Enemies are weakened and slowed
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Harmonic Chorus
+Project a resonant aura.
+• Heals allies over time
+• Increases their Crux damage
+
+Option B: Nanite Benediction
+Nanites enhance your blessings.
+• Next 3 heals or buffs are doubled
+• Grants a small shield to each target
+
+LEVEL 50 - Herald Ultimate
+-------------------------------------------
+Celestial Manifest
+Summon a towering avatar of cosmic Crux.
+• Emits powerful healing and damage waves
+• Allies gain massive buffs
+• Enemies suffer heavy radiant damage and debuffs
+• Manifest persists for full duration
+
+===========================================
+END OF CLASS SHEET
+===========================================
+
+
+===========================================
+BASE CLASS: PALADIN
+===========================================
+A holy warrior who channels radiant Crux energy through disciplined martial skill and nanite‑reinforced armor. Paladins stand as unbreakable defenders of their allies, wielding both blade and blessing to purge corruption and uphold cosmic order.
+
+-------------------------------------------
+CORE IDENTITY
+-------------------------------------------
+Role: Tank/support hybrid, frontline protector, radiant striker
+Combat Style: Heavy melee, shields, radiant bursts, auras
+Crux Use: Pure, structured, defensive and purifying
+Nanite Use: Armor reinforcement, healing pulses, aura projection
+
+-------------------------------------------
+BASE CLASS STATS (Before Specialization)
+-------------------------------------------
+Offense: ★★★☆☆
+Defense: ★★★★★
+Mobility: ★★★☆☆
+Crux Interaction: ★★★★☆
+Nanite Synergy: ★★★★☆
+
+-------------------------------------------
+CLASS PASSIVE
+-------------------------------------------
+Radiant Bulwark
+Your armor resonates with holy Crux energy.
+• +10% damage reduction
+• +10% healing received
+• Blocking an attack releases a small radiant pulse
+
+-------------------------------------------
+LEVEL PROGRESSION & ABILITY CHOICES
+-------------------------------------------
+
+LEVEL 1 - Starting Ability
+-------------------------------------------
+Holy Strike
+A melee attack infused with radiant Crux.
+• +20% damage
+• Applies minor Radiant Burn
+• Unlocks “Blessed Combo” basic chain
+
+LEVEL 10 - Ability Choice
+-------------------------------------------
+Option A: Crux Barrier
+Summon a radiant shield around yourself or an ally.
+• Absorbs damage
+• Explodes in light when broken
+
+Option B: Nanite Purge
+Nanites cleanse your body.
+• Removes debuffs
+• Grants minor healing over time
+
+LEVEL 20 - Ability Choice
+-------------------------------------------
+Option A: Radiant Wave
+Send out a shockwave of holy Crux.
+• Medium AoE
+• Damages enemies
+• Heals allies slightly
+
+Option B: Guardian’s Step
+Teleport to an ally in danger.
+• Grants both of you a temporary shield
+• Increases your threat generation
+
+-------------------------------------------
+LEVEL 30 - SPECIALIZATION CHOICE
+-------------------------------------------
+→ VANGUARD
+A frontline juggernaut who leads the charge, protects allies with unbreakable resolve, and controls the battlefield with radiant force.
+
+→ TEMPLAR
+A disciplined holy knight who channels structured Crux rituals, smites foes with divine precision, and empowers allies with sacred auras.
+
+===========================================
+SPECIALIZATION: VANGUARD
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Frontline Momentum
+Your presence inspires allies and intimidates foes.
+• +10% defense
+• +10% threat generation
+• Blocking attacks increases your damage briefly
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Shield Charge
+Dash forward with your shield raised.
+• Knocks enemies down
+• Deals AoE damage on impact
+• Grants you a temporary defense boost
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Radiant Bulrush
+A Crux‑powered charge.
+• Long‑range gap closer
+• Leaves a radiant trail that damages enemies
+
+Option B: Nanite Fortification
+Nanites reinforce your armor plates.
+• +40% damage reduction for 4 seconds
+• Immune to stuns and knockbacks
+
+LEVEL 50 - Vanguard Ultimate
+-------------------------------------------
+Aegis of the Fallen Star
+You become a living fortress of radiant Crux.
+• Massive AoE taunt
+• +50% defense
+• Allies inside your aura take 30% less damage
+• Enemies suffer continuous radiant damage
+
+===========================================
+SPECIALIZATION: TEMPLAR
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Sacred Discipline
+Your Crux rituals are precise and potent.
+• +15% radiant damage
+• +10% healing output
+• Casting a blessing grants a small damage buff
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Judgment
+Call down a beam of concentrated holy Crux.
+• High single‑target damage
+• Applies heavy Radiant Burn
+• Heals nearby allies slightly
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Crux Rite
+Perform a sacred ritual.
+• Grants allies increased damage and crit chance
+• Weakens enemies caught in the aura
+
+Option B: Nanite Benediction
+Nanites amplify your next three spells.
+• Doubles healing
+• Increases radiant damage
+• Grants a small shield to each target
+
+LEVEL 50 - Templar Ultimate
+-------------------------------------------
+Divine Ascension
+You rise into the air, becoming a beacon of holy Crux.
+• Massive AoE healing
+• Allies gain +25% damage and +25% defense
+• Enemies take heavy radiant damage and are blinded
+• You are immune to all control effects during the channel
+
+===========================================
+END OF CLASS SHEET
+===========================================
+
+===========================================
+        BASE CLASS: HERBALIST
+===========================================
+A master of natural Crux flows, botanical nanites, and restorative mixtures. Herbalists gather, cultivate, and refine living materials into potent brews, battlefield remedies, and supportive enhancements.
+
+-------------------------------------------
+CORE IDENTITY
+-------------------------------------------
+Role: Support specialist, healer, buffer, battlefield preparer  
+Combat Style: Brews, salves, botanical nanites, nature‑Crux bursts  
+Crux Use: Harmonizes with plant‑aligned Crux currents  
+Nanite Use: Bio‑nanite cultivation, healing field, reactive mixtures  
+
+-------------------------------------------
+BASE CLASS STATS (Before Specialization)
+-------------------------------------------
+Offense: ★★☆☆☆  
+Defense: ★★★☆☆  
+Mobility: ★★★☆☆  
+Crux Interaction: ★★★★☆  
+Nanite Synergy: ★★★★★  
+
+-------------------------------------------
+CLASS PASSIVE
+-------------------------------------------
+Botanical Harmony  
+Your Crux and nanites resonate with plant life.  
+• +10% healing from mixtures  
+• +10% buff duration  
+• Using a brew grants “Bloom” (boosts next heal or buff)  
+
+-------------------------------------------
+LEVEL PROGRESSION & ABILITY CHOICES
+-------------------------------------------
+
+LEVEL 1 - Starting Ability
+-------------------------------------------
+Healing Draught  
+A quick‑acting restorative mixture.  
+• Heals an ally  
+• Applies minor regeneration  
+• Unlocks “Herbal Pulse” basic combo  
+
+LEVEL 10 - Ability Choice
+-------------------------------------------
+Option A: Nanite Sporecloud  
+Release healing field.  
+• Heals allies in a small radius  
+• Cleanses minor debuffs  
+
+Option B: Crux Vinebind  
+Summon living vines.  
+• Roots an enemy  
+• Applies minor poison  
+
+LEVEL 20 - Ability Choice
+-------------------------------------------
+Option A: Growth Burst  
+Channel Crux into rapid plant growth.  
+• Creates a healing zone  
+• Allies inside gain defense  
+
+Option B: Toxic Bloom  
+Release a cloud of corrosive botanical nanites.  
+• Damages enemies over time  
+• Applies “Wither” (reduces enemy damage)  
+
+-------------------------------------------
+LEVEL 30 - SPECIALIZATION CHOICE
+-------------------------------------------
+→ ALCHEMIST  
+A master of volatile mixtures, explosive concoctions, and transformative brews that alter the battlefield and empower allies.
+
+→ SCRIBE  
+A Crux‑scholar who uses plant pigments and nanites to inscribe runes, scrolls, and sigils that enhance allies, weaken enemies, and manipulate battlefield energies.
+
+===========================================
+        SPECIALIZATION: ALCHEMIST
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Volatile Mastery  
+Your mixtures become more potent - and more dangerous.  
+• +15% brew effectiveness  
+• +10% AoE size for thrown concoctions  
+• Using an explosive brew grants “Catalyst” (boosts next throw)  
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Catalytic Flask  
+Throw an unstable alchemical mixture.  
+• Explodes on impact  
+• Deals AoE damage  
+• Applies burn or corrosion depending on your build  
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Transmutation Brew  
+Temporarily alter an ally’s physiology.  
+• Grants +20% damage and +20% movement speed  
+• Applies minor regeneration  
+
+Option B: Nanite Nitro  
+A volatile nanite‑infused explosive.  
+• High AoE burst  
+• Applies “Shatter” (reduces enemy defenses)  
+
+LEVEL 50 - Alchemist Ultimate
+-------------------------------------------
+Grand Elixir  
+On the fly mix a massive alchemical effect.  
+Choose one of three forms:  
+• **Elixir of Life:** Huge AoE heal + regeneration  
+• **Elixir of Fury:** Massive damage buff + haste  
+• **Elixir of Ruin:** Huge AoE damage + heavy corrosion  
+
+===========================================
+        SPECIALIZATION: SCRIBE
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Runic Insight  
+Your inscriptions channel structured Crux patterns.  
+• +15% buff strength  
+• +10% debuff duration  
+• Casting a rune grants “Glyph Charge” (boosts next rune)  
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Sigil of Warding  
+Place a protective Crux rune.  
+• Allies inside gain defense and damage reduction  
+• Enemies inside deal reduced damage  
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Rune of Binding  
+Inscribe a Crux sigil beneath an enemy.  
+• Roots target  
+• Applies “Seal” (reduces their damage and healing)  
+
+Option B: Scroll of Empowerment  
+Unfurl a radiant scroll.  
+• Grants allies increased crit chance and haste  
+• Applies a small shield  
+
+LEVEL 50 - Scribe Ultimate
+-------------------------------------------
+Grand Grimoire  
+Open an ancient Crux tome of overwhelming power.  
+• Emits waves of healing and buffs  
+• Enemies suffer heavy debuffs and periodic damage  
+• Allies inside the aura gain massive stat boosts  
+• Lasts for full duration regardless of damage  
+
+===========================================
+END OF CLASS SHEET
+===========================================
+
+===========================================
+BASE CLASS: MEDIC
+===========================================
+A frontline lifesaver who blends medical expertise with nanite‑driven healing and Crux‑stabilization techniques. Medics keep allies alive through rapid response, battlefield triage, and precise intervention under pressure.
+
+-------------------------------------------
+CORE IDENTITY
+-------------------------------------------
+Role: Healer, stabilizer, support specialist
+Combat Style: Nanite injections, Crux stabilizers, trauma tools
+Crux Use: Stabilizes vitals, enhances regeneration, purges corruption
+Nanite Use: Tissue repair, clotting control, emergency boosts
+
+-------------------------------------------
+BASE CLASS STATS (Before Specialization)
+-------------------------------------------
+Offense: ★★☆☆☆
+Defense: ★★★☆☆
+Mobility: ★★★★☆
+Crux Interaction: ★★★☆☆
+Nanite Synergy: ★★★★★
+
+-------------------------------------------
+CLASS PASSIVE
+-------------------------------------------
+Triage Protocol
+Your training kicks in automatically under pressure.
+• +10% healing to low‑health allies
+• +10% movement speed when healing
+• Healing an ally grants “Stabilize” (boosts next heal or cleanse)
+
+-------------------------------------------
+LEVEL PROGRESSION & ABILITY CHOICES
+-------------------------------------------
+
+LEVEL 1 - Starting Ability
+-------------------------------------------
+Nanite Injection
+A fast‑acting medical nanite dose.
+• Heals an ally
+• Applies minor regeneration
+• Unlocks “Med Pulse” basic combo
+
+LEVEL 10 - Ability Choice
+-------------------------------------------
+Option A: Crux Defibrillate
+A burst of stabilizing Crux energy.
+• Heals and cleanses an ally
+• Briefly increases their movement speed
+
+Option B: Trauma Patch
+Apply a nanite‑infused patch.
+• Absorbs damage
+• Converts a portion of damage taken into healing
+
+LEVEL 20 - Ability Choice
+-------------------------------------------
+Option A: Field Cleanse
+Purge harmful effects.
+• Removes debuffs in an area
+• Grants temporary resistance to new ones
+
+Option B: Adrenal Boost
+Nanites spike an ally’s adrenaline.
+• +20% attack speed
+• +20% movement speed
+• Short duration
+
+-------------------------------------------
+LEVEL 30 - SPECIALIZATION CHOICE
+-------------------------------------------
+→ DOCTOR
+A master of sustained healing, regeneration, and battlefield medicine who keeps allies alive through efficiency and expertise.
+
+→ SURGEON
+A precision specialist who excels at emergency intervention, burst healing, and nanite‑enhanced surgical strikes.
+
+===========================================
+SPECIALIZATION: DOCTOR
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Clinical Efficiency
+Your treatments waste nothing.
+• +15% healing
+• +10% regeneration strength
+• Healing an ally grants “Vitality” (boosts next heal)
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Regenerative Mist
+Release a cloud of healing nanites.
+• AoE healing over time
+• Allies inside gain increased healing received
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Crux Stabilizer
+A powerful stabilizing field.
+• Allies inside take reduced damage
+• Heals over time
+• Cleanses minor debuffs
+
+Option B: Nanite Transfusion
+Transfer your own nanites to an ally.
+• Strong single‑target heal
+• Grants them temporary regeneration
+
+LEVEL 50 - Doctor Ultimate
+-------------------------------------------
+Life Support Field
+Deploy a large medical zone.
+• Massive AoE healing
+• Allies cannot drop below 1 HP while inside
+• Cleanses all debuffs
+• Field persists for full duration
+
+===========================================
+SPECIALIZATION: SURGEON
+===========================================
+
+SPECIALIZATION PASSIVE
+-------------------------------------------
+Precision Intervention
+Your nanites operate with surgical accuracy.
+• +15% burst healing
+• +10% crit chance on healing abilities
+• Emergency heals grant “Incision” (boosts next ability)
+
+LEVEL 30 Ability (Unlocked Automatically)
+-------------------------------------------
+Emergency Cut
+A rapid surgical nanite procedure.
+• Huge single‑target heal
+• Removes major debuffs
+• Grants temporary damage reduction
+
+LEVEL 40 - Ability Choice
+-------------------------------------------
+Option A: Crux Scalpel
+A precise Crux‑infused strike.
+• Deals damage
+• Heals nearby allies based on damage dealt
+• Applies “Expose” (reduces enemy defenses)
+
+Option B: Nanite Suture
+Seal wounds instantly.
+• Strong heal
+• Grants a shield
+• Shield regenerates if not broken
+
+LEVEL 50 - Surgeon Ultimate
+-------------------------------------------
+Operating Theatre
+You create a temporary surgical zone.
+• All healing is massively increased
+• Allies inside gain damage reduction and regen
+• You gain instant‑cast healing abilities
+• Enemies inside suffer reduced damage output
+
+===========================================
+END OF CLASS SHEET
+===========================================
