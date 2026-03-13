@@ -1,0 +1,74 @@
+Species Name 🌟
+Elementals
+
+Base Stats 🌟
+Attribute	Value
+Strength	3/10
+Agility	3/10
+Endurance	3/10
+Intellect	4/10
+Willpower	4/10
+Crux Affinity	3/10
+
+Innate Modifiers 🌟
++1 Skill Point per Level
++5% Nanite Efficiency
+
+Resistances 🌟
+Mental: Moderate
+Biological: High
+Crux Corruption: Low
+Nanite Overload: Moderate
+
+Weaknesses 🌟
+Increased earth damage received
+Requires training to specialize
+
+Movement & Mobility 🌟
+Base Speed: Fast
+Teleportation: Natural element based
+Environmental Adaptation: born from a variety of storms granting different resistances
+
+Combat Profile 🌟
+Melee: Strong
+Ranged: Moderate 
+Crux Casting: Strong
+Nanite Manipulation: Low
+
+Origin & History 🌟
+Homeworld: Beliaat
+Mythic Origin: Chaos worshipers who believe destruction brought us life
+Historical Notes: climbed out of cave to evolve to heavy storms
+
+Biology & Physiology 🌟
+Body Structure: Humanoid with skin tinted a storm color
+Sensory Profile: senses matching humans 
+Metabolism: fast Metabolism from high energy usage 
+Longevity Factors: a human mirroring race with a 100 year lifespan
+
+Psychology & Temperament 🌟
+Cognitive Traits: Chaotic aggressive, even when happy
+Behavioral Tendencies: not settled and needs to move around, a bit anxious on the outside
+Cultural Variability: Different generations vary more or less depending on their storm birth
+
+Crux Relationship 🌟
+Mythic View: Constant storms across the planet birthed a species who see chaos as the creator of all things.
+Channeling Style: Natural extensions of the elements themselves
+Risks: Can lose themselves to the chaos of battle and attack everything 
+
+Nanite Interaction 🌟
+Compatibility: low compatibility from chaotic biology
+Unique Traits: resists good and bad nanites
+
+Societal Structure 🌟
+Governance: Chaotic, the strongest is the ruler
+Economy: no economy. It's a fight for resources
+Religion/Philosophy: Storm theory is based on an existence of chaos
+
+Combat & Tactics 🌟
+Strengths: Strong Crux affinity
+Weaknesses: Weak to mental attacks due to chaotic nature 
+Common Roles: Sorcerer, Barbarian, Warlock
+
+Deep History 🌟
+Born in a system of three suns their home world is a planet of storms. They evolved from primates and moved underground to survive. As their adaptation magic advanced they moved back to the surface. Generations of adaptive magic blended their species with the storms that constantly bombard their planet. This gives them different capabilities depending on the storm they are born in.. Worshippers of chaos who make great companions, even if they try to convince you to destroy everything all of the time. 

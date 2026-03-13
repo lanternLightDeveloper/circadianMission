@@ -1,80 +1,75 @@
-This group of ideas maps to the lib/Assets/types.ts file
-
-
 Character Dictionary Draft
 Character (unique.id) 🌟
 
-Info-
-
-Name
-Age
-Level
-Class
-Profession
-System
-Backstory
-Buffs 
-Debuffs
+Info - Personal information sheet.
+Name/ age are self explanitory.
+Level will effect how much you can build your castle
+Class will be a for fun side bit. Could effect the style of your land
+Profession will be connected to your real job, the more real work hours you commit 
+the better you will be at your in game job.
+Country can be the region you chose to call home. Could have bonuses or debuffs.
+Backstory is where people will choose their race and how they got here, were your 
+parents rich merchants or was there an expectation to join a religious order? Did you lose a hand to become the hero?
 
 
-Team-
-
-Pet / Familiar
-Companion
-Follower
-Profession mate
-Townsperson
-Zombie
+Team - This can be a set number of people to have with you for quests.
+Companion is a person or friend or partner. One of your close people.
+Followers are people in your village who are devout to you. Whatever reason they do anything you suggest.
+Profession mate is a person from your work place that you have bonded with. They may invite you to events or you can invite 
+them to grow them into a follower/companion.
+Townspeople can be paid or asked to do tasks or go on expeditions or change their job.
+Zombies are people/zombies collected from battle. People would be unusable until they fail or pass a set amount of days with a 
+percent chance to join or be removed.
 
 
 Stats-
-
-Health
-Stamina/Mana
-Agility
-Strength
-Intelligence
-Charisma
-Resilience
-Stealth
-
-
-Skill Tree- 
-
-Multi tier class tree
-Grows from daily tasks
-Improved by buildings
-Can seek epic teachers
-Monster killed boost 
-Multi class
-Region influenced(Swamp mage, Volcano Warrior, Island druid)
-Boost profession
+Health - Total hit points before the character is knocked out. Example: 85
+Stamina/Mana - Resource pool used for abilities, spells, or strenuous actions. Example: 40
+Agility - Governs movement speed, dodge chance, and finesse. Example: 12
+Strength - Determines physical power and melee weapon damage. Example: 15
+Intelligence - Controls magical potency, skill ceiling, and complex problem‑solving. Example: 18
+Charisma - Influences conversation outcomes, persuasion, and charm effects. Example: 10
+Resilience - Defense against damage and resistance to harmful effects. Example: 14
+Stealth - Ability to avoid detection, ambush enemies, or move unseen. Example: 9
 
 
-Gear-
+Skill tree- points will be earned through activity or time spent in game.
+Three parallel trees grow at the same time: Task, Profession, and Class.
+Each tree is tiered (Early → Mid → Advanced → Epic → Legendary) with branching choices.
+Nodes come in types like passive boosts, active abilities, utilities, transformations, and specializations.
+Growth sources differ: Tasks grow from daily habits, Profession from your trade, Class from combat and exploration.
+Buildings and teachers unlock higher tiers or rare branches across all trees.
+Regions influence growth, imprinting elemental or thematic bonuses (Swamp, Volcano, Island, etc.).
+Monster kills and expeditions feed the Class tree with essences, abilities, and combat perks.
+Profession mastery unlocks recipes, efficiencies, tools, and combat‑adjacent perks tied to your trade.
+Task consistency (streaks, categories, difficulty) unlocks lifestyle, focus, momentum, and self‑improvement perks.
+Cross‑tree synergy lets one tree enhance another, creating hybrid builds and personalized growth paths.
 
-Hat / Helm
-Neck
-Shoulder
-Chest
-Gloves
-Rings
-Belt
-Pants
-Boots
-Extra
+
+Gear -
+Hat / Helm - Ironwood Hood - +5 Health, +2 Agility, +1 Intelligence; Druid Nature Damage +5%
+Neck - Amberleaf Pendant - +3 Intelligence, +2 Charisma; Mage Spell Crit +3%
+Shoulder - Brambleguard Mantle - +4 Resilience, +1 Strength; Thorn Armor
+Chest -  Reinforced Leather Vest - +10 Health, +6 Resilience
+Gloves - Swiftgrip Gloves - +3 Agility, +1 Strength; Crafting Precision
+Rings -  Ring of Focus (+2 Intelligence), Band of Embers (+1 Strength, Fire Damage +3%)
+Belt -  Traveler’s Utility Belt - +2 Resilience; Extra Inventory Slots
+Pants -  Marshwalker Trousers - +2 Agility, +3 Stealth; Swamp Speed +10%
+Boots -  Silentstep Boots - +4 Stealth, +1 Agility; Silent Movement
+Extra -  Adventurer’s Cloak - +1 Charisma, +2 Resilience; Weather Resistance
 
 
 Profession Map- each upgrade increases task rewards of that profession by 2% per tier
 
-Novice
-Trained
-Sought
-Adept
-Proficient
-Expert
-Instructor
-Virtuoso
+Profession Map -
+Novice - Entry-level familiarity; basic tools and methods. XP Required: 0
+Trained - Understands fundamentals and completes standard tasks reliably. XP Required: 100
+Sought - Recognized for above-average work; people begin requesting your output. XP Required: 300
+Adept - Handles difficult or time-consuming tasks with confidence. XP Required: 700
+Proficient - Consistent, efficient, and adaptable; understands deeper mechanics. XP Required: 1500
+Expert - High-level mastery; innovates and produces exceptional work. XP Required: 3000
+Instructor - Able to teach, mentor, and formalize knowledge. XP Required: 6000
+Virtuoso - Signature mastery; world-class, recognizable excellence. XP Required: 12000
 
 
 

@@ -1,0 +1,74 @@
+Species Name 🌟
+Mycelians
+
+Base Stats 🌟
+Attribute	Value
+Strength	3/10
+Agility	3/10
+Endurance	3/10
+Intellect	4/10
+Willpower	4/10
+Crux Affinity	3/10
+
+Innate Modifiers 🌟
++5 Task Point per Level
++5% Nanite Efficiency
+
+Resistances 🌟
+Mental: Low
+Biological: High 
+Crux Corruption: Standard
+Nanite Overload: Low
+
+Weaknesses 🌟
+5% increase fire damage received
+prone to rage
+
+Movement & Mobility 🌟
+Base Speed: Slow
+Teleportation: Natural
+Environmental Adaptation: cave and forest dweller
+
+Combat Profile 🌟
+Melee: Low
+Ranged: Moderate
+Crux Casting: High
+Nanite Manipulation: High
+
+Origin & History 🌟
+Homeworld: Xelcom
+Mythic Origin: Unified spore theory. That all life is gifted from fungus on space rocks
+Historical Notes: A fascinating people unified under a single religion. They share their history though spore allowing them to evolve quickly
+
+Biology & Physiology 🌟
+Body Structure: Soft tissued mushroom people
+Sensory Profile: experiences the world through spores emitted from their bodies
+Metabolism: consumes decomposing plants 
+Longevity Factors: staying in contact with the legacy mycelia and nanites gives them a long life
+
+Psychology & Temperament 🌟
+Cognitive Traits: Calm and focused
+Behavioral Tendencies: Welcoming and cooperative
+Cultural Variability: Extremely high - no universal norms
+
+Crux Relationship 🌟
+Mythic View: Symbiotic connection to the empty space
+Channeling Style: communal like an extension of the body
+Risks: Susceptible to elements
+
+Nanite Interaction 🌟
+Compatibility: Symbiotic connection through organic nanites
+Unique Traits: they made their nanites from spore technology making them unique and organic 
+
+Societal Structure 🌟
+Governance: The collective 
+Economy: none, they are a recycling race
+Religion/Philosophy: They believe in a unified spore theory which all mushrooms across the universe are connected through the substrate of existence
+
+Combat & Tactics 🌟
+Strengths: Element connection
+Weaknesses: Elemental weakness
+Common Roles: Monk, Druid, Seer
+
+Deep History 🌟
+A mycelia based species that evolved on a planet of mostly forests. Their spores allow them to communicate deep ideas and messages. over time they cultivated different spore structures that could serve many purposes. One of the spore types was of knowledge. It allowed them to pass information from one generation to the next. When their population hit a saturation point even the children are born knowing the history of the earliest generations. Spores even became their form of nanites emitting them from their bodies to be almost like living elementals. Being a super organic race they carve their ships out of asteroids in an attempt to reach out to the stars in their unified spore theory.

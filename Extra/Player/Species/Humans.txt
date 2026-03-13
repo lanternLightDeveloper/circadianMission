@@ -1,0 +1,75 @@
+Species Name 🌟
+Human
+
+Base Stats 🌟
+Attribute	Value
+Strength	3/10
+Agility	3/10
+Endurance	3/10
+Intellect	4/10
+Willpower	4/10
+Crux Affinity	3/10
+
+Innate Modifiers 🌟
++1 Skill Point per Level
++5% Nanite Efficiency
+
+Resistances 🌟
+Mental: Moderate
+Biological: Standard
+Crux Corruption: Low
+Nanite Overload: Low
+
+Weaknesses 🌟
+No innate elemental resistances
+No natural regeneration
+Requires training to specialize
+
+Movement & Mobility 🌟
+Base Speed: Standard
+Teleportation: Learned, not instinctual
+Environmental Adaptation: High with gear, low without
+
+Combat Profile 🌟
+Melee: Balanced
+Ranged: Strong
+Crux Casting: Moderate
+Nanite Manipulation: High
+
+Origin & History 🌟
+Homeworld: Terra (Old Earth)
+Mythic Origin: Known as the “Children of the Light” - belief that a higher power gave sentient species the gift of knowledge
+Historical Notes: Beginning to spread across dozens of systems; culturally diverse; early adopters of nanite augmentation and hybrid Crux‑tech disciplines
+
+Biology & Physiology 🌟
+Body Structure: Soft‑tissue mammalian; high neuroplasticity
+Sensory Profile: Balanced senses; no natural empty space sensation
+Metabolism: Omnivorous; highly adaptable
+Longevity Factors: Strongly influenced by nanite therapy and medical access
+
+Psychology & Temperament 🌟
+Cognitive Traits: Innovative, emotional, pattern‑seeking
+Behavioral Tendencies: Cooperative under pressure; competitive in stability
+Cultural Variability: Extremely high - no universal norms
+
+Crux Relationship 🌟
+Mythic View: Crux interpreted as destiny, divinity, or pure science depending on culture
+Channeling Style: Structured, ritualized, or technologically assisted
+Risks: Low corruption risk but slow natural attunement
+
+Nanite Interaction 🌟
+Compatibility: Excellent - humans were the baseline template for nanite design
+Unique Traits: Can host hybrid nanite colonies without rejection
+
+Societal Structure 🌟
+Governance: Democracies, guild systems, megacorporate states, frontier communes
+Economy: Innovation‑driven; resource‑adaptive
+Religion/Philosophy: Fragmented; many religious sects, scientific orders, and secular traditions
+
+Combat & Tactics 🌟
+Strengths: Adaptability, teamwork, tactical teleportation
+Weaknesses: No innate biological advantages
+Common Roles: Knights, Rangers, Engineers, Crux Priests
+
+Deep History 🌟
+The human race is a species of slow progress. They have dealt with collapse over and again. Their absolute need to figure out "what is this" led them to the "Empty Space Theory". From fire to the theory of empty space humans could not stop looking at everything around them.. We are humans all of our differences make us. Our ideas may vary, but our questions will never end.
