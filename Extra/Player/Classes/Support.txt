@@ -21,6 +21,68 @@ Inkweaver - tattoos come alive as summoned creatures or weapons.
 Mask Maker - crafts magical masks that can mirror other classes.
 
 ===========================================
+SEER / ENCHANTER / ENGINEER WEAPON SET
+===========================================
+Augury (future‑echo detection)
+Oracle’s Mirror (reflects incoming spells)
+Gravity‑Thread (pull/push effects)
+Mind‑Weave (mental influence)
+Chorus (teamwide empowerment pulses)
+Crux‑Capacitor (stores electrical charge)
+Modular Forge S(creates temporary constructs)
+Mortar (lobbed explosive charges)
+Gel (sticky detonators)
+
+===========================================
+SEER → DIVINER / ORACLE
+===========================================
+
+[SEER WEAPONS]
+- Staff
+- Orb 
+- Wand 
+- Rod
+- Baton
+- Shard 
+
+===========================================
+ENCHANTER → CONTROLLER / BARD
+===========================================
+
+[ENCHANTER WEAPONS]
+- Wand
+- Rod
+- Gloves
+- Orb 
+- Staff
+- Baton
+- Gauntlet 
+- Scepter 
+- Chain
+- Lute
+- Flute
+- Blade
+- Bell 
+
+===========================================
+ENGINEER → ARTIFICER / MORTARIST
+===========================================
+
+[ENGINEER WEAPONS]
+- Gauntlet 
+- Rifle
+- Spanner
+- Hammer 
+- Staff 
+- Wand
+- Baton
+- Tome 
+- Gauntlet 
+- Cannon 
+- Bombs 
+- Launcher
+
+===========================================
 BASE CLASS: SEER
 ===========================================
 A visionary who perceives the hidden flows of Crux, glimpses possible futures, and manipulates fate through ritual and intuition. Seers blend prophetic insight with nanite‑enhanced perception, granting them unparalleled battlefield awareness and reality‑bending abilities.
@@ -29,6 +91,8 @@ A visionary who perceives the hidden flows of Crux, glimpses possible futures, a
 CORE IDENTITY
 -------------------------------------------
 Role: Support caster, foresight specialist, debuffer, fate manipulator
+Weapons:
+Armor: Light
 Combat Style: Predictions, vision bursts, fate‑altering Crux spells
 Crux Use: Reads timelines, reveals truths, alters probability
 Nanite Use: Sensory amplification, data‑pattern analysis, precognition
@@ -193,6 +257,8 @@ A master of Crux‑woven magic, emotional resonance, and nanite‑augmented infl
 CORE IDENTITY
 -------------------------------------------
 Role: Support caster, buffer, controller, battlefield manipulator  
+Weapons:
+Armor: Light
 Combat Style: Auras, charms, Crux‑infused enchantments, nanite‑based influence  
 Crux Use: Emotional resonance, mental projection, aura shaping  
 Nanite Use: Mood modulation, sensory illusions, control effects  
@@ -354,6 +420,8 @@ A brilliant technomancer who blends mechanical ingenuity with Crux‑powered dev
 CORE IDENTITY
 -------------------------------------------
 Role: Support DPS, gadgeteer, battlefield controller  
+Weapons: 
+Armor: Heavy
 Combat Style: Deployables, turrets, drones, explosives, utility tools  
 Crux Use: Powers devices, stabilizes energy cores, fuels constructs  
 Nanite Use: Repairs machinery, forms drones, enhances tech precision  

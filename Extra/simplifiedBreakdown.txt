@@ -7,14 +7,14 @@ Level will effect how much you can build your castle
 Class will be a for fun side bit. Could effect the style of your land
 Profession will be connected to your real job, the more real work hours you commit 
 the better you will be at your in game job.
-Country can be the region you chose to call home. Could have bonuses or debuffs.
+Planet can be the region you chose to call home. Could have bonuses or debuffs.
 Backstory is where people will choose their race and how they got here, were your 
 parents rich merchants or was there an expectation to join a religious order? Did you lose a hand to become the hero?
 
 
 Team - This can be a set number of people to have with you for quests.
 Companion is a person or friend or partner. One of your close people.
-Followers are people in your village who are devout to you. Whatever reason they do anything you suggest.
+Followers are people in your village who are devout to you. 
 Profession mate is a person from your work place that you have bonded with. They may invite you to events or you can invite 
 them to grow them into a follower/companion.
 Townspeople can be paid or asked to do tasks or go on expeditions or change their job.
@@ -43,7 +43,7 @@ Regions influence growth, imprinting elemental or thematic bonuses (Swamp, Volca
 Monster kills and expeditions feed the Class tree with essences, abilities, and combat perks.
 Profession mastery unlocks recipes, efficiencies, tools, and combat‑adjacent perks tied to your trade.
 Task consistency (streaks, categories, difficulty) unlocks lifestyle, focus, momentum, and self‑improvement perks.
-Cross‑tree synergy lets one tree enhance another, creating hybrid builds and personalized growth paths.
+Cross‑tree empowerment lets one tree enhance another, creating hybrid builds and personalized growth paths.
 
 
 Gear -
@@ -60,8 +60,6 @@ Extra -  Adventurer’s Cloak - +1 Charisma, +2 Resilience; Weather Resistance
 
 
 Profession Map- each upgrade increases task rewards of that profession by 2% per tier
-
-Profession Map -
 Novice - Entry-level familiarity; basic tools and methods. XP Required: 0
 Trained - Understands fundamentals and completes standard tasks reliably. XP Required: 100
 Sought - Recognized for above-average work; people begin requesting your output. XP Required: 300
@@ -72,11 +70,8 @@ Instructor - Able to teach, mentor, and formalize knowledge. XP Required: 6000
 Virtuoso - Signature mastery; world-class, recognizable excellence. XP Required: 12000
 
 
-
 Busy Actions: the things you do will give you points to do quests 🌟
-Tasks-
-Description: Regular around‑the‑house or daily. Could be music or hobby practice.
-
+Tasks-: Regular around‑the‑house or daily. Could be music or hobby practice.
 Take trash out
 Dishes
 Laundry
@@ -87,9 +82,7 @@ Animal box / bed
 Pull weeds
 Mobility/Stretching
 
-Quests-
-Description: These make you leave the house, but not for days. Can be fun or productive.
-
+Quests : These make you leave the house, but not for days. Can be fun or productive.
 Grocery shopping
 Post office
 Haircut
@@ -99,7 +92,6 @@ Hike
 
 Expeditions-
 Description: Big action. It took effort to complete. Could be team‑based or solo. Taken serious but can be fun.
-
 Camping / Backpacking
 Vacation
 Practice seriously
@@ -110,9 +102,7 @@ New experience
 
 
 Player Region Map 🌟
-
-INNER CITY
-Description: The inner city grows with the user, boosting daily tasks and renown.
+INNER CITY : The inner city grows with the user, boosting daily tasks and renown.
 
 Tier 1 -
 Locations  |  Jobs:
@@ -124,26 +114,26 @@ Locations  |  Jobs:
 
 Tier 2 -
 Locations  |  Jobs:
-Planet Postal  |  Postmaster
-Strategy Bunker  |  Strategist
-Chapel / Shrine  |  Devotee
-Clothier  |  Tailor
-Smith  |  Tanner
-Tannery  |  Blacksmith
-Armory  |  Technician
-Mechanic  |  Quartermaster
-Barracks  |  Captain of the Guard
-Nanomancer Tower  |  Nano Knowledgekeeper
-Watchtower Orbital  |  Defense analyst
+ Planet Postal  |  Postmaster
+ Strategy Bunker  |  Strategist
+ Chapel / Shrine  |  Devotee
+ Clothier  |  Tailor
+ Smith  |  Tanner
+ Tannery  |  Blacksmith
+ Armory  |  Technician
+ Mechanic  |  Quartermaster
+ Barracks  |  Captain of the Guard
+ Nanomancer Tower  |  Nano Knowledgekeeper
+ Watchtower Orbital  |  Defense analyst
 
 Tier 3-
 Locations  |  Jobs::
-Bar  |  Bard
-Gardens   |  Groundskeeper
-Nanoforge  |  Nanocrafter
-Cranium Conservatory  |  Braincrafter
-Boundaries Lab  |  Wild space scientist
-Portal Chamber  |  Gatekeeper
+ Bar  |  Bard
+ Gardens   |  Groundskeeper
+ Nanoforge  |  Nanocrafter
+ Cranium Conservatory  |  Braincrafter
+ Boundaries Lab  |  Wild space scientist
+ Portal Chamber  |  Gatekeeper
 
 
 OUTER GROUNDS
@@ -180,9 +170,7 @@ Exploration Satellite  |  Engineer, Observers
 Space Portal  |  Space Portal Keeper
 
 
-
-Wild Space 
-Description: Big milestones. Long expeditions, and major achievements. This is where you explore the universe
+Wild Space : Big milestones. Long expeditions, and major achievements. This is where you explore the universe
 
 Friend's Home
 Discovered System Expedition

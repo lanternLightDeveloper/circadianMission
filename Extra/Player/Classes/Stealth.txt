@@ -9,6 +9,87 @@ Chronicler of Blades - records battles in enchanted tomes that replay as illusio
 Chain Dancer - acrobatic fighter using weighted chains in rhythmic, hypnotic patterns.
 Corpse Stalker - cosmic hunter who uses parasitic symbiotes for power.
 
+
+===========================
+RANGED & STEALTH WEAPON SET
+===========================
+
+Nanite‑Swarm
+Phase‑Shot (bullets blink through cover)
+Tracking (locks onto heat/Crux signatures)
+Lure (attract or repel wildlife)
+Remote Detonation
+Pulse (short‑range tech shutdown)
+Blink (teleport on impact)
+Recon (marks targets)
+Execution (amplifies finishing blows)
+Aether  (cuts through matter + space)
+Dimensional (arcing spatial rift)
+Pulse (short‑range spatial shockwave)
+Spatial Anchor (pins enemies in place dimensionally)
+
+===========================
+MARKSMAN → RANGER / HUNTER
+===========================
+
+[MARKSMAN WEAPONS]
+- Coil‑Rifle (magnetic accelerator)
+- Smart‑Scope Longbow (auto‑trajectory correction)
+- Sniper Lance (fires piercing energy lances)
+- Pistol 
+- Adaptive Compound Bow (draw strength auto‑modulates)
+- Bolt Rifle 
+- Scatter‑Dart Carbine
+- Ranger’s Hookshot Gauntlet (mobility + offense)
+- Spear‑Gun
+- Shock‑Trap Launcher
+- Harpoon Rifle (tethers targets)
+- Grenades 
+- Wrist‑Bolter (rapid micro‑darts)(close‑range finisher)
+
+
+===================================
+THIEF → TRICKSTER / SABOTEUR
+===================================
+
+[THIEF WEAPONS]
+- Dual Daggers
+- Kris
+- Throwing Knives
+- Silenced Pulse‑Pistol
+- Garrote
+- Gauntlet
+- Illusion‑Projector Cards (holo‑decoys)
+- Daggers 
+- Trick‑Bombs (flash, smoke, mirage, echo)
+- Whip
+- Blade
+- Mines
+- Shuriken
+- Grenades 
+
+
+=========================================
+SCOUT → ASSASSIN / AETHER‑BLADE
+=========================================
+
+[BASE SCOUT WEAPONS]
+- Short Swords
+- Bow
+- Darts 
+- Pulse‑Pistol 
+- Katar 
+- Daggers
+- Needle Rifle
+- Caltrops
+- Blade 
+- Saber
+- Scythe
+- Kunai
+- Twin Blades
+- Gauntlet 
+- Spear 
+
 ===========================================
         BASE CLASS: MARKSMAN
 ===========================================
@@ -18,6 +99,8 @@ A precision ranged combatant who blends keen perception with Crux‑guided aim a
 CORE IDENTITY
 -------------------------------------------
 Role: Long‑range damage dealer, scout, precision eliminator  
+Weapons:
+Armor: Medium
 Combat Style: Controlled shots, tactical repositioning, high accuracy  
 Crux Use: Enhances perception, trajectory prediction and focus  
 Nanite Use: Recoil dampening, aim stabilization, sensory sharpening  
@@ -179,6 +262,8 @@ A stealthy infiltrator who blends agility, cunning, and nanite‑enhanced sleigh
 CORE IDENTITY
 -------------------------------------------
 Role: Stealth attacker, infiltrator, utility specialist  
+Weapons:
+Armor: Light
 Combat Style: Hit‑and‑run, backstabs, traps, misdirection  
 Crux Use: Enhances reflexes, shadow‑bending, sensory dampening  
 Nanite Use: Cloaking, lockpicking, trap deployment, precision timing  
@@ -342,6 +427,8 @@ A hyper‑mobile Crux warrior who manipulates space, momentum, and battlefield p
 CORE IDENTITY
 -------------------------------------------
 Role: Mobility fighter, flanker, spatial controller  
+Weapons:
+Armor: Medium
 Combat Style: Teleport combos, momentum attacks, rapid repositioning  
 Crux Use: Spatial folding, blink‑strikes, trajectory bending  
 Nanite Use: Reflex overclocking, kinetic reinforcement, motion prediction  

@@ -25,6 +25,116 @@ Siege Savant - battlefield genius who weaponizes improvised structures and terra
 Creature‑Speaker - bonded to a juvenile creature; grows stronger as the creature matures.
 Oath-breaker - gains strength by violating sacred vows in ritualized ways.
 
+   
+Weapon Stat labels :
+Nano-fillament 
+Hardlight
+Adaptive (changes length on command)
+Nano
+Crux
+Nanosteel
+Magnetic (can repel/attract metal projectiles)
+Grav‑ (increases local gravity on impact)
+Kinetic Absorption  (stores hits, releases force)
+Bulwark (deployable barrier field)
+Explosive 
+Phase‑(tip flickers between dimensions)
+Anti‑Charge  (creates repulsion field)
+Gravity‑Shift (momentum manipulation kicks)
+
+
+MARTIAL & WEAPON SPECIALISTS 🌟
+Swordsman → Duelist / Gladiator
+Base Swordsman Weapons -
+Longsword
+Katana
+Smartblade (changes weight mid‑swing)
+
+Duelist Weapons -
+Rapier
+Foil 
+Twin Daggers
+Buckler + Lightfoil combo
+Saber
+
+Gladiator Weapons -
+Gladius
+Falx
+Hammerblade (sword with hammer‑weighted back)
+Shock‑Net + Shortblade
+Mace 
+Halberd
+
+KNIGHT → Shield Bearer / Cavalier 🌟
+Base Knight Weapons -
+Greatsword
+Lance
+Mace
+Kite Shield 
+Axe
+
+Shield Bearer Weapons -
+Shield 
+Hammer
+Buckler
+Flail
+
+Cavalier Weapons -
+Lance
+Pike
+Saber
+Rifle
+Harpoon
+War‑Spear
+
+BARBARIAN → Skirmisher / Beastmaster 🌟
+Base Barbarian Weapons -
+Great Axe
+Cleaver
+Chain Great Flail
+Gauntlets
+Warclub
+
+Skirmisher Weapons -
+Throwing Axes
+Javelins
+Light Spears
+Knives
+Pulse‑Bolts (thrown energy darts)
+
+Beastmaster Weapons -
+Staff
+Whip
+Fang‑Gauntlets (grown from bonded creature DNA)
+Baton
+Harpoon
+War‑Maul
+
+MONK → Pikeman / Pugilist 🌟
+Base Monk Weapons -
+Staff 
+Quarterstaff
+Whip
+Tonfa
+Bo‑Staff
+Pole
+
+Pikeman Weapons -
+Pike
+Spear 
+Halberd
+Spear
+Glaive 
+Tri‑Fork Lance
+
+Pugilist Weapons -
+Gauntlets
+Bracers
+Handwraps
+Pulse‑Palm Emitters
+Anklets 
+Chakrams
+
 ===========================================
 ⭐ BASE CLASS: SWORDSMAN
 ===========================================
@@ -34,6 +144,8 @@ A disciplined melee fighter who blends traditional blade mastery with Crux‑enh
 CORE IDENTITY
 -------------------------------------------
 Role: Frontline melee, tactical duelist, teleport‑engage specialist
+Weapons:
+Armor: Medium
 Combat Style: Precision strikes, controlled aggression, mobility
 Crux Use: Enhances reflexes, blade speed, and micro‑teleports
 Nanite Use: Reinforces muscles, stabilizes stance, sharpens perception
@@ -186,6 +298,8 @@ A disciplined frontline defender who blends traditional martial training with Cr
 CORE IDENTITY
 -------------------------------------------
 Role: Frontline tank, protector, battlefield anchor  
+Weapons:
+Armor: Heavy
 Combat Style: Heavy melee, defensive stances, controlled aggression  
 Crux Use: Reinforces armor, enhances durability, powers defensive auras  
 Nanite Use: Muscle reinforcement, kinetic dampening, shield stabilization  
@@ -348,6 +462,8 @@ A ferocious close‑quarters fighter who channels raw physicality, instinct, and
 CORE IDENTITY
 -------------------------------------------
 Role: Frontline bruiser, berserker, shock trooper  
+Weapons:
+Armor: Medium
 Combat Style: Heavy swings, explosive bursts, reckless aggression  
 Crux Use: Instinctive surges that amplify strength and resilience  
 Nanite Use: Adrenal boosters, pain suppression, muscle overclocking  
@@ -508,6 +624,8 @@ A disciplined warrior who blends physical mastery with Crux‑guided focus and n
 CORE IDENTITY
 -------------------------------------------
 Role: Agile melee fighter, control specialist, mobile skirmisher  
+Weapons:
+Armor: Light
 Combat Style: Fluid combos, reactive counters, rhythmic strikes  
 Crux Use: Enhances perception, timing, and inner focus  
 Nanite Use: Muscle tuning, balance correction, kinetic redirection  

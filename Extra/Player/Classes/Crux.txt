@@ -25,10 +25,72 @@ Hollowborn - body inhabited by a sealed spirit; swaps control in combat.
 ===========================================
 A conduit of raw Crux energy who channels the universe’s binding force into destructive, protective, or reality‑altering spells. Sorcerers wield unstable power amplified by nanite regulators, balancing overwhelming potential with inherent risk.
 
+
+CRUX / NANITE / ARCANE-TECH CASTER WEAPONS
+===========================================
+Conduit (raw energy channeling)
+Temporal (threads time distortions)
+Hive-Node (controls multiple swarms)
+Crux Corruption 
+Gravecoil (decays matter)
+Soul-Siphon 
+Vine (reactive, semi-sentient)
+Bloom (creates flora bursts)
+
+===========================================
+SORCERER → CHRONOMANCER / NANO-CASTER
+===========================================
+
+[SORCERER WEAPONS]
+- Staff 
+- Gauntlet
+- Wand
+- Spindle Staff 
+- Blade
+- Staff
+- Gauntlet
+- Scepter 
+- Baton
+
+===========================================
+WARLOCK → NECROMANCER / MONSTER SUMMONER
+===========================================
+
+[WARLOCK WEAPONS]
+- Rod 
+- Grimoire
+- Gauntlet
+- Staff
+- Dagger
+- Orb 
+- Scythe 
+- Lantern 
+- Wand
+- Launcher
+
+
+===========================================
+DRUID → SHAMAN / BEAST SUMMONER
+===========================================
+
+[DRUID WEAPONS]
+- Staff
+- Gauntlet
+- Whip 
+- Wand 
+- Drum
+- Flute
+- Rod
+- Baton
+- Gauntlet
+- Warstaff
+
 -------------------------------------------
 CORE IDENTITY
 -------------------------------------------
 Role: Mid‑range caster, battlefield controller, high burst damage  
+Weapons:
+Armor: Light
 Combat Style: Crux channeling, energy projection, spatial manipulation  
 Crux Use: Direct manipulation of cosmic forces  
 Nanite Use: Stabilization, amplification, spell‑shaping  
@@ -193,6 +255,8 @@ A wielder of forbidden Crux channels and unstable nanite rituals. Warlocks tap i
 CORE IDENTITY
 -------------------------------------------
 Role: Dark caster, debuffer, summoner, corruption specialist  
+Weapons:
+Armor: Light
 Combat Style: Damage-over-time, curses, unstable Crux bursts  
 Crux Use: Manipulates entropy, decay, and forbidden energies  
 Nanite Use: Reanimation, corruption, parasitic constructs  
@@ -355,6 +419,8 @@ A bio‑Crux channeler who manipulates living energy, nanite‑grown flora, and 
 CORE IDENTITY
 -------------------------------------------
 Role: Support caster, healer, battlefield controller, bio‑manipulator  
+Weapons:
+Armor: Light
 Combat Style: Regeneration, nature‑Crux spells, living constructs  
 Crux Use: Channels life‑aligned cosmic energy  
 Nanite Use: Bio‑growth, healing, creature shaping, environmental control  

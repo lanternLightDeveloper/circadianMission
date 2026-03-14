@@ -26,6 +26,92 @@ Fatemender - rewrites tiny threads of destiny at a cost to their own lifespan.
 Bone Shepherd - raises skeletal beasts instead of humanoid undead.
 
 ===========================================
+DIVINE / HOLY / SUPPORT / MEDICAL WEAPONS
+===========================================
+Prayer (amplifies healing waves)
+Atonement (Crux‑charged impacts)
+Consecration (close‑range radiant blasts)
+Banner (buff aura emitter)
+Impact‑Field (short‑range stun)
+Crusader (chain‑light bursts)
+Light‑Cannon (beam‑style smite)
+Med‑Injector (heals, stabilizes)
+Medical (wide‑area healing)
+Organ‑Stasis (immobilizes targets)
+Cleanse (removes corruption/parasites)
+
+===========================================
+PRIEST → CLERIC / HERALD
+===========================================
+
+[PRIEST WEAPONS]
+- Staff 
+- Orb
+- Scepter
+- Codex 
+- Wand
+- Mace 
+- Rod
+- Hammer
+- Lantern
+- Gauntlet 
+- Trumpet
+- Spear 
+- Chakram
+- Baton
+
+
+===========================================
+PALADIN → VANGUARD / TEMPLAR
+===========================================
+
+[BASE PALADIN WEAPONS]
+- Longsword
+- Tower Shield
+- Warhammer
+- Halberd
+- Gauntlet
+- Spear
+- Shield
+- Pike
+- Heavy Mace
+- Greatblade
+- Halberd
+- Flail 
+- Gauntlet 
+- Launcher
+
+===========================================
+HERBALIST → ALCHEMIST / SCRIBE
+===========================================
+
+[HERBALIST TOOLS]
+- Knife
+- Wand
+- Launcher
+- Bombs
+- Grenades
+- Gauntlet
+- Tome
+- Lantern
+
+
+===========================================
+MEDIC → DOCTOR / SURGEON
+===========================================
+
+[BASE MEDIC TOOLS]
+- Gauntlet 
+- Baton
+- Staff 
+- Wand
+- Scalpel
+- Bone‑Saw
+- Injector 
+- Blade 
+
+
+===========================================
 BASE CLASS: PRIEST
 ===========================================
 A devoted channeler of sacred Crux energy who heals allies, wards off corruption, and invokes cosmic blessings. Priests serve as spiritual guides and battlefield protectors, using nanite‑enhanced rituals to amplify their divine resonance.
@@ -34,6 +120,8 @@ A devoted channeler of sacred Crux energy who heals allies, wards off corruption
 CORE IDENTITY
 -------------------------------------------
 Role: Healer, support caster, purifier, buffer
+Weapons:
+Armor: Light 
 Combat Style: Crux blessings, radiant bursts, protective wards
 Crux Use: Channels pure, harmonic Crux energy
 Nanite Use: Healing amplification, aura projection, purification
@@ -196,6 +284,8 @@ A holy warrior who channels radiant Crux energy through disciplined martial skil
 CORE IDENTITY
 -------------------------------------------
 Role: Tank/support hybrid, frontline protector, radiant striker
+Weapons:
+Armor: Heavy
 Combat Style: Heavy melee, shields, radiant bursts, auras
 Crux Use: Pure, structured, defensive and purifying
 Nanite Use: Armor reinforcement, healing pulses, aura projection
@@ -360,6 +450,8 @@ A master of natural Crux flows, botanical nanites, and restorative mixtures. Her
 CORE IDENTITY
 -------------------------------------------
 Role: Support specialist, healer, buffer, battlefield preparer  
+Weapons:
+Armor: Light
 Combat Style: Brews, salves, botanical nanites, nature‑Crux bursts  
 Crux Use: Harmonizes with plant‑aligned Crux currents  
 Nanite Use: Bio‑nanite cultivation, healing field, reactive mixtures  
@@ -521,6 +613,8 @@ A frontline lifesaver who blends medical expertise with nanite‑driven healing 
 CORE IDENTITY
 -------------------------------------------
 Role: Healer, stabilizer, support specialist
+Weapons:
+Armor: Medium
 Combat Style: Nanite injections, Crux stabilizers, trauma tools
 Crux Use: Stabilizes vitals, enhances regeneration, purges corruption
 Nanite Use: Tissue repair, clotting control, emergency boosts
