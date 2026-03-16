@@ -1,118 +1,174 @@
 Divine, Holy & Spiritual Roles 🌟
+-------------------------------------------
 Priest - Cleric - Herald
+-------------------------------------------
 Priest : devoted channeler of sacred Crux energy who heals allies, wards off corruption, and invokes cosmic blessings. Priests serve as spiritual guides and battlefield protectors, using nanite‑enhanced rituals to amplify their divine resonance.
+
 Cleric : battle‑ready holy warrior who blends healing with frontline protection, radiant strikes, and Crux‑infused shields.
+
 Herald : cosmic messenger who channels divine resonance into powerful auras, blessings, and battlefield‑wide empowerment.
 
+-------------------------------------------
 Paladin - Vanguard - Templar
+-------------------------------------------
 Paladin : holy warrior who channels radiant Crux energy through disciplined martial skill and nanite‑reinforced armor. Paladins stand as unbreakable defenders of their allies, wielding both blade and blessing to purge corruption and uphold cosmic order.
+
 Vanguard : frontline juggernaut who leads the charge, protects allies with unbreakable resolve, and controls the battlefield with radiant force.
+
 Templar : disciplined holy knight who channels structured Crux rituals, smites foes with divine precision, and empowers allies with sacred auras.
 
+-------------------------------------------
 Herbalist - Alchemist - Scribe 
+-------------------------------------------
 Herbalist : master of natural Crux flows, botanical nanites, and restorative mixtures. Herbalists gather, cultivate, and refine living materials into potent brews, battlefield remedies, and supportive enhancements.
+
 Alchemist : master of volatile mixtures, explosive concoctions, and transformative brews that alter the battlefield and empower allies.
+
 Scribe : Crux‑scholar who uses plant pigments and nanites to inscribe runes, scrolls, and sigils that enhance allies, weaken enemies, and manipulate battlefield energies. 
 
+-------------------------------------------
 Medic - Doctor - Surgeon
+-------------------------------------------
 Medic : frontline lifesaver who blends medical expertise with nanite‑driven healing and Crux‑stabilization techniques. Medics keep allies alive through rapid response, battlefield triage, and precise intervention under pressure.
+
 Doctor : master of sustained healing, regeneration, and battlefield medicine who keeps allies alive through efficiency and expertise.
+
 Surgeon : precision specialist who excels at emergency intervention, burst healing, and nanite‑enhanced surgical strikes.
 
-Evolved Divine 🌟
+-------------------------------------------
+Evolved Divine 
+-------------------------------------------
 Dreamwalker - enters dreams, steals memories, plants ideas, battles nightmares.
 Gravemind - communes with the collective memory of the dead, not individual spirits.
 Fatemender - rewrites tiny threads of destiny at a cost to their own lifespan.
 Bone Shepherd - raises skeletal beasts instead of humanoid undead.
 
 ===========================================
-DIVINE / HOLY / SUPPORT / MEDICAL WEAPONS
+PRIEST/PALADIN/HERBALIST/MEDIC WEAPONS 🌟
 ===========================================
-Prayer (amplifies healing waves)
-Atonement (Crux‑charged impacts)
-Consecration (close‑range radiant blasts)
-Banner (buff aura emitter)
-Impact‑Field (short‑range stun)
-Crusader (chain‑light bursts)
-Light‑Cannon (beam‑style smite)
-Med‑Injector (heals, stabilizes)
-Medical (wide‑area healing)
-Organ‑Stasis (immobilizes targets)
-Cleanse (removes corruption/parasites)
+-------------------------------------------
+Weapon buff suggestions
+-------------------------------------------
+Vine - contact leaves reactive, semi-sentient vines that hurt or heal
+Bloom - creates flora bursts that hurt or heal
+Grave-coil - decays matter
+Prayer - amplifies healing
+Med‑Injector - heals, stabilizes
+Medical - wide‑area healing
+Soul-Siphon - Steals health from enemy
+Mind‑Weave - influence enemy
+Banner - buffing aura emitter based on highest stat
+Chorus - teamwide empowerment pulses
+Cleanse - removes corruption/parasites
+Magnetic - can repel/attract metal projectiles
+Bulwark - deployable barrier field
+Mirror - reflects incoming attacks
+Kinetic Absorption  - stores hits, releases force
 
-===========================================
-PRIEST → CLERIC / HERALD
-===========================================
-
-[PRIEST WEAPONS]
-- Staff 
-- Orb
-- Scepter
-- Codex 
-- Wand
-- Mace 
-- Rod
-- Hammer
-- Lantern
-- Gauntlet 
-- Trumpet
-- Spear 
-- Chakram
-- Baton
-
-
-===========================================
-PALADIN → VANGUARD / TEMPLAR
-===========================================
-
-[BASE PALADIN WEAPONS]
-- Longsword
-- Tower Shield
-- Warhammer
-- Halberd
-- Gauntlet
-- Spear
-- Shield
-- Pike
-- Heavy Mace
-- Greatblade
-- Halberd
-- Flail 
-- Gauntlet 
-- Launcher
+-------------------------------------------
+Offhand items
+-------------------------------------------
+Shard
+Orb 
+Tome 
+Kite Shield 
+Shield 
+Whip
+Harpoon
+Bolts (thrown darts)
+Bombs 
+Lute
+Flute
+Bell 
+Trumpet
+Drum
 
 ===========================================
-HERBALIST → ALCHEMIST / SCRIBE
+PRIEST → CLERIC / HERALD 🌟
 ===========================================
-
-[HERBALIST TOOLS]
-- Knife
-- Wand
-- Launcher
-- Bombs
-- Grenades
-- Gauntlet
-- Tome
-- Lantern
-
-
-===========================================
-MEDIC → DOCTOR / SURGEON
-===========================================
-
-[BASE MEDIC TOOLS]
-- Gauntlet 
-- Baton
-- Staff 
-- Wand
-- Scalpel
-- Bone‑Saw
-- Injector 
-- Blade 
-
+Staff
+Wand 
+Scepter 
+Gauntlets 
+Anklets 
+Chakrams
+Baton
+Scythe
+Spear
+Wrist‑Bolter (rapid micro‑darts)
+Pistol
+Shotgun
+Launcher
 
 ===========================================
-BASE CLASS: PRIEST
+PALADIN → VANGUARD / TEMPLAR 🌟
+===========================================
+Staff
+Scepter 
+Baton
+Hammer
+Mace 
+Club
+Maul
+Flail
+Axe
+Spear
+Tri‑dent
+Glaive 
+Halberd
+Sword
+Saber
+Katana
+Gladius
+Shotgun
+
+===========================================
+HERBALIST → ALCHEMIST / SCRIBE 🌟
+===========================================
+Staff
+Scepter 
+Gauntlets 
+Anklets 
+Chakrams
+Baton
+Tonfa
+Spear
+Cleaver
+Daggers
+Sword
+Katana
+Rapier
+Longbow
+Adaptive Compound Bow (draw strength auto‑modulates)
+Wrist‑Bolter (rapid micro‑darts)
+Pistol
+Shotgun
+Rifle
+Sniper 
+Launcher
+
+===========================================
+MEDIC → DOCTOR / SURGEON 🌟
+===========================================
+Staff
+Scepter 
+Gauntlets 
+Anklets 
+Baton
+Scythe
+Spear
+Tri‑dent
+Cleaver
+Sword
+Rapier
+Adaptive Compound Bow (draw strength auto‑modulates)
+Wrist‑Bolter (rapid micro‑darts)
+Pistol
+Rifle
+Sniper 
+
+===========================================
+CLASS: PRIEST / CLERIC / HERALD 🌟
 ===========================================
 A devoted channeler of sacred Crux energy who heals allies, wards off corruption, and invokes cosmic blessings. Priests serve as spiritual guides and battlefield protectors, using nanite‑enhanced rituals to amplify their divine resonance.
 
@@ -276,7 +332,7 @@ END OF CLASS SHEET
 
 
 ===========================================
-BASE CLASS: PALADIN
+CLASS: PALADIN / VANGUARD / TEMPLAR 🌟
 ===========================================
 A holy warrior who channels radiant Crux energy through disciplined martial skill and nanite‑reinforced armor. Paladins stand as unbreakable defenders of their allies, wielding both blade and blessing to purge corruption and uphold cosmic order.
 
@@ -442,7 +498,7 @@ END OF CLASS SHEET
 ===========================================
 
 ===========================================
-        BASE CLASS: HERBALIST
+CLASS: HERBALIST / ALCHEMIST / SCRIBE 🌟
 ===========================================
 A master of natural Crux flows, botanical nanites, and restorative mixtures. Herbalists gather, cultivate, and refine living materials into potent brews, battlefield remedies, and supportive enhancements.
 
@@ -605,7 +661,7 @@ END OF CLASS SHEET
 ===========================================
 
 ===========================================
-BASE CLASS: MEDIC
+CLASS: MEDIC / DOCTOR / SURGEON 🌟
 ===========================================
 A frontline lifesaver who blends medical expertise with nanite‑driven healing and Crux‑stabilization techniques. Medics keep allies alive through rapid response, battlefield triage, and precise intervention under pressure.
 

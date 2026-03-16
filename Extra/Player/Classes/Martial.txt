@@ -1,142 +1,180 @@
 Martial & Weapon Specialists 🌟
+-------------------------------------------
 Swordsman - Duelist - Gladiator 
+-------------------------------------------
 Swordsman : disciplined melee fighter who blends traditional blade mastery with Crux‑enhanced reflexes and nanite‑reinforced strikes.
+
 Duelist : hyper‑precise blade master focused on speed, finesse, and single‑target dominance.
+
 Gladiator : brutal frontline warrior who uses overwhelming force, crowd control, and sustained aggression.
 
+-------------------------------------------
 Knight - Shield Bearer - Cavalier
+-------------------------------------------
 Knight : disciplined frontline defender who blends traditional martial training with Crux‑reinforced armor, nanite‑enhanced endurance, and tactical teleportation. Knights excel at holding the line, protecting allies, and controlling the battlefield.
-Shield Bearer :A fortress‑like defender who specializes in protection, crowd control, and unbreakable defense.
+
+Shield Bearer : fortress‑like defender who specializes in protection, crowd control, and unbreakable defense.
+
 Cavalier : high‑mobility frontline charger who uses teleport‑dashes, momentum, and aggressive tactics to dominate the battlefield.
 
+-------------------------------------------
 Barbarian - Skirmisher - Beastmaster
+-------------------------------------------
 Barbarian :  ferocious close‑quarters fighter who channels raw physicality, instinct, and nanite‑boosted adrenaline. Barbarians excel in chaotic melee, overwhelming force, and primal Crux surges that amplify their rage into battlefield dominance.
+
 Skirmisher :  fast, agile, hit‑and‑run fighter who blends ferocity with mobility and tactical aggression.
+
 Beastmaster :  primal warrior who bonds with nanite‑enhanced beasts, fighting alongside powerful companions.
 
+-------------------------------------------
 Monk - Pikeman - Pugilist  
+-------------------------------------------
 Monk :  disciplined warrior who blends physical mastery with Crux‑guided focus and nanite‑enhanced body control. Monks excel in fluid movement, precision strikes, and battlefield adaptability, using inner harmony to channel devastating martial techniques.
+
 Pikeman :  disciplined polearm master who uses reach, leverage, and teleport‑assisted repositioning to control the battlefield.
+
 Pugilist :  close‑quarters brawler who channels Crux through fists and feet, delivering explosive strikes and relentless pressure.
 
-Evolved Martial 🌟
+-------------------------------------------
+Evolved Martial Concept
+-------------------------------------------
 Variant-bound - warrior whose skin slowly turns to their element/variant as they level up.
 Siege Savant - battlefield genius who weaponizes improvised structures and terrain.
 Creature‑Speaker - bonded to a juvenile creature; grows stronger as the creature matures.
 Oath-breaker - gains strength by violating sacred vows in ritualized ways.
 
-   
-Weapon Stat labels :
-Nano-fillament 
-Hardlight
-Adaptive (changes length on command)
-Nano
-Crux
-Nanosteel
-Magnetic (can repel/attract metal projectiles)
-Grav‑ (increases local gravity on impact)
-Kinetic Absorption  (stores hits, releases force)
-Bulwark (deployable barrier field)
-Explosive 
-Phase‑(tip flickers between dimensions)
-Anti‑Charge  (creates repulsion field)
-Gravity‑Shift (momentum manipulation kicks)
+===========================================
+SWORDSMAN / KNIGHT / BARBARIAN / MONK WEAPON SET 🌟
+===========================================
+-------------------------------------------
+Weapon buffs
+-------------------------------------------
+Temporal - threads time to stun in a row
+Consecration - close‑range radiant blasts
+Soul-Siphon - Steals health from enemy
+Bulwark - deployable barrier field
+Mirror - reflects incoming attacks
+Illusion‑Projector - holo‑decoys
+Nano-fillament - nano wire edge cuts through armor
+Blink - teleport to impact
+Remote Detonation - contact leaves explosive charges
+Hookshot - contact point can be pulled
+Modular Forge S- creates temporary weapon constructs
 
-
-MARTIAL & WEAPON SPECIALISTS 🌟
-Swordsman → Duelist / Gladiator
-Base Swordsman Weapons -
-Longsword
-Katana
-Smartblade (changes weight mid‑swing)
-
-Duelist Weapons -
-Rapier
-Foil 
-Twin Daggers
-Buckler + Lightfoil combo
-Saber
-
-Gladiator Weapons -
-Gladius
-Falx
-Hammerblade (sword with hammer‑weighted back)
-Shock‑Net + Shortblade
-Mace 
-Halberd
-
-KNIGHT → Shield Bearer / Cavalier 🌟
-Base Knight Weapons -
-Greatsword
-Lance
-Mace
+-------------------------------------------
+Offhand items
+-------------------------------------------
+Cards
 Kite Shield 
-Axe
-
-Shield Bearer Weapons -
 Shield 
-Hammer
 Buckler
-Flail
-
-Cavalier Weapons -
-Lance
-Pike
-Saber
-Rifle
+Chain
+Whip
 Harpoon
-War‑Spear
-
-BARBARIAN → Skirmisher / Beastmaster 🌟
-Base Barbarian Weapons -
-Great Axe
-Cleaver
-Chain Great Flail
-Gauntlets
-Warclub
-
-Skirmisher Weapons -
-Throwing Axes
 Javelins
-Light Spears
+Bolts (thrown darts)
 Knives
-Pulse‑Bolts (thrown energy darts)
-
-Beastmaster Weapons -
-Staff
-Whip
-Fang‑Gauntlets (grown from bonded creature DNA)
-Baton
-Harpoon
-War‑Maul
-
-MONK → Pikeman / Pugilist 🌟
-Base Monk Weapons -
-Staff 
-Quarterstaff
-Whip
-Tonfa
-Bo‑Staff
-Pole
-
-Pikeman Weapons -
-Pike
-Spear 
-Halberd
-Spear
-Glaive 
-Tri‑Fork Lance
-
-Pugilist Weapons -
-Gauntlets
-Bracers
-Handwraps
-Pulse‑Palm Emitters
-Anklets 
-Chakrams
+Shuriken
+Kunai
+Caltrops
+Shock‑Net 
+Bombs 
+Grenades 
 
 ===========================================
-⭐ BASE CLASS: SWORDSMAN
+Swordsman → Duelist / Gladiator(gla can use all weapons) 🌟
+===========================================
+Gauntlets 
+Anklets 
+Baton
+Axe
+Spear
+Tri‑dent
+Glaive 
+Halberd
+Hammerblade (sword with hammer‑weighted back)
+Cleaver
+Daggers
+Sword
+Saber
+Katana
+Rapier
+Shotgun
+
+===========================================
+KNIGHT → Shield Bearer / Cavalier 🌟
+===========================================
+Gauntlets 
+Baton
+Hammer
+Mace 
+Club
+Maul
+Flail
+Spear
+Glaive 
+Halberd
+Sword
+Saber
+Katana
+Gladius
+Adaptive Compound Bow (draw strength auto‑modulates)
+Shotgun
+Rifle
+
+===========================================
+BARBARIAN → Skirmisher / Beastmaster 🌟
+===========================================
+Staff
+Gauntlets 
+Anklets 
+Baton
+Hammer
+Mace 
+Club
+Maul
+Flail
+Axe
+Scythe
+Spear
+Glaive 
+Hammerblade (sword with hammer‑weighted back)
+Cleaver
+Sword
+Katana
+Longbow
+Adaptive Compound Bow (draw strength auto‑modulates)
+Pistol
+Shotgun
+Launcher
+
+===========================================
+MONK → Pikeman / Pugilist 🌟
+===========================================
+Staff
+Gauntlets 
+Anklets 
+Chakrams
+Baton
+Tonfa
+Hammer
+Scythe
+Spear
+Tri‑dent
+Glaive 
+Cleaver
+Daggers
+Sword
+Katana
+Longbow
+Adaptive Compound Bow (draw strength auto‑modulates)
+Wrist‑Bolter (rapid micro‑darts)
+Pistol
+Rifle
+Sniper 
+
+===========================================
+CLASS: SWORDSMAN → DUELIST / GLADIATOR 🌟 
 ===========================================
 A disciplined melee fighter who blends traditional blade mastery with Crux‑enhanced reflexes and nanite‑reinforced strikes.
 
@@ -209,7 +247,7 @@ A hyper‑precise blade master focused on speed, finesse, and single‑target do
 A brutal frontline warrior who uses overwhelming force, crowd control, and sustained aggression.
 
 ===========================================
-        ⭐ SPECIALIZATION: DUELIST
+SPECIALIZATION: DUELIST 🌟 
 ===========================================
 Duelist Passive
 Blade Tempo
@@ -245,7 +283,7 @@ Cannot be interrupted
 Leaves the Duelist behind the enemy
 
 ===========================================
-⭐ SPECIALIZATION: GLADIATOR
+SPECIALIZATION: GLADIATOR 🌟 
 ===========================================
 Gladiator Passive
 Arena Momentum
@@ -290,7 +328,7 @@ END OF CLASS SHEET
 ===========================================
 
 ===========================================
-        BASE CLASS: KNIGHT
+CLASS: KNIGHT 🌟 
 ===========================================
 A disciplined frontline defender who blends traditional martial training with Crux‑reinforced armor, nanite‑enhanced endurance, and tactical teleportation. Knights excel at holding the line, protecting allies, and controlling the battlefield.
 
@@ -367,7 +405,7 @@ A fortress‑like defender who specializes in protection, crowd control, and unb
 A high‑mobility frontline charger who uses teleport‑dashes, momentum, and aggressive tactics to dominate the battlefield.
 
 ===========================================
-        SPECIALIZATION: SHIELD BEARER
+SPECIALIZATION: SHIELD BEARER 🌟 
 ===========================================
 SPECIALIZATION PASSIVE
 -------------------------------------------
@@ -408,7 +446,7 @@ You become an unbreakable bastion.
 • You cannot be moved or interrupted  
 
 ===========================================
-        SPECIALIZATION: CAVALIER
+SPECIALIZATION: CAVALIER 🌟 
 ===========================================
 SPECIALIZATION PASSIVE
 -------------------------------------------
@@ -452,9 +490,8 @@ You become a streak of Crux‑infused light.
 END OF CLASS SHEET
 ===========================================
 
-
 ===========================================
-        BASE CLASS: BARBARIAN
+BASE CLASS: BARBARIAN 🌟 
 ===========================================
 A ferocious close‑quarters fighter who channels raw physicality, instinct, and nanite‑boosted adrenaline. Barbarians excel in chaotic melee, overwhelming force, and primal Crux surges that amplify their rage into battlefield dominance.
 
@@ -532,7 +569,7 @@ A fast, agile, hit‑and‑run fighter who blends ferocity with mobility and tac
 A primal warrior who bonds with nanite‑enhanced beasts, fighting alongside powerful companions.
 
 ===========================================
-        SPECIALIZATION: SKIRMISHER
+SPECIALIZATION: SKIRMISHER 🌟 
 ===========================================
 
 SPECIALIZATION PASSIVE
@@ -572,7 +609,7 @@ You become a blur of motion, chaining teleport‑slashes across multiple enemies
 • Grants temporary invulnerability during the flurry
 
 ===========================================
-        SPECIALIZATION: BEASTMASTER
+SPECIALIZATION: BEASTMASTER 🌟 
 ===========================================
 
 SPECIALIZATION PASSIVE
@@ -614,9 +651,8 @@ Your beast evolves into its apex form for a short time.
 END OF CLASS SHEET
 ===========================================
 
-
 ===========================================
-        BASE CLASS: MONK
+BASE CLASS: MONK 🌟 
 ===========================================
 A disciplined warrior who blends physical mastery with Crux‑guided focus and nanite‑enhanced body control. Monks excel in fluid movement, precision strikes, and battlefield adaptability, using inner harmony to channel devastating martial techniques.
 
@@ -694,7 +730,7 @@ A disciplined polearm master who uses reach, leverage, and teleport‑assisted r
 A close‑quarters brawler who channels Crux through fists and feet, delivering explosive strikes and relentless pressure.
 
 ===========================================
-        SPECIALIZATION: PIKEMAN
+SPECIALIZATION: PIKEMAN 🌟 
 ===========================================
 
 SPECIALIZATION PASSIVE
@@ -737,7 +773,7 @@ Your polearm becomes a conduit of Crux energy.
 • Leaves a lingering energy trail that damages foes  
 
 ===========================================
-        SPECIALIZATION: PUGILIST
+SPECIALIZATION: PUGILIST 🌟 
 ===========================================
 
 SPECIALIZATION PASSIVE

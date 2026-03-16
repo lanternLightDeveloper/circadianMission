@@ -1,100 +1,136 @@
 Stealth, Subterfuge & Shadow Roles 🌟
+-------------------------------------------
 Marksman - Ranger - Hunter
-Thief - Trickster - Saboteur 
-Scout - Assassin - Eather-blade 
+-------------------------------------------
+Marksman : precision ranged combatant who blends keen perception with Crux‑guided aim and nanite‑stabilized weaponry. Marksmen excel at long‑range engagements, tactical positioning, and eliminating priority targets before they can close the distance.
 
-Evolved Stealth 🌟
+Ranger : mobile survivalist and battlefield tracker who excels at mid‑range combat, mobility, and environmental adaptability.
+
+Hunter : relentless predator who focuses on single‑target elimination, traps, and Crux‑enhanced pursuit techniques.
+
+-------------------------------------------
+Thief - Trickster - Saboteur 
+-------------------------------------------
+Thief : stealthy infiltrator who blends agility, cunning, and nanite‑enhanced sleight of hand. Thieves excel at evasion, precision strikes, disabling enemies, and manipulating the battlefield through deception and sabotage.
+
+Trickster : deceptive illusionist who manipulates perception, creates decoys, and confuses enemies with Crux‑powered misdirection.
+
+Saboteur  : demolition and disruption expert who uses traps, explosives, and nanite‑based interference to control the battlefield.
+
+-------------------------------------------
+Scout - Assassin - Eather-blade 
+-------------------------------------------
+Scout : hyper‑mobile Crux warrior who manipulates space, momentum, and battlefield positioning. Scouts chain teleports, blink‑strikes, and nanite‑accelerated movement to overwhelm enemies with speed and spatial dominance.
+
+Assassin : teleport‑executioner who chains blink‑kills, isolates targets, and uses Crux‑precision to eliminate foes instantly.
+
+Eather-blade : dimensional warrior who phases through reality, delivering spectral blade attacks and manipulating space itself.
+
+-------------------------------------------
+Evolved Stealth 
+-------------------------------------------
 Storm-runner - sprints so fast they generate Elemental storms and shockwaves.
 Chronicler of Blades - records battles in enchanted tomes that replay as illusions or ghosts.
 Chain Dancer - acrobatic fighter using weighted chains in rhythmic, hypnotic patterns.
 Corpse Stalker - cosmic hunter who uses parasitic symbiotes for power.
 
+===========================================
+MARKSMAN / THIEF / SCOUT WEAPON SET 🌟
+===========================================
+-------------------------------------------
+Weapon buffs
+-------------------------------------------
+Organ‑Stasis - immobilizes targets
+Spatial Anchor - pins enemies to obstacle
+Mind‑Weave - influence enemy
+Tracking - locks onto heat/Crux signatures
+Recon - marks targets
+Illusion‑Projector - holo‑decoys
+Gravity‑Shift - momentum manipulation. puts gravity behind the weapon to increase damage
+Phase‑- flickers between dimensions to ignore armor
+Blink - teleport to impact
+Gel - sticky detonators
+Execution - amplifies finishing blows
 
-===========================
-RANGED & STEALTH WEAPON SET
-===========================
-
-Nanite‑Swarm
-Phase‑Shot (bullets blink through cover)
-Tracking (locks onto heat/Crux signatures)
-Lure (attract or repel wildlife)
-Remote Detonation
-Pulse (short‑range tech shutdown)
-Blink (teleport on impact)
-Recon (marks targets)
-Execution (amplifies finishing blows)
-Aether  (cuts through matter + space)
-Dimensional (arcing spatial rift)
-Pulse (short‑range spatial shockwave)
-Spatial Anchor (pins enemies in place dimensionally)
-
-===========================
-MARKSMAN → RANGER / HUNTER
-===========================
-
-[MARKSMAN WEAPONS]
-- Coil‑Rifle (magnetic accelerator)
-- Smart‑Scope Longbow (auto‑trajectory correction)
-- Sniper Lance (fires piercing energy lances)
-- Pistol 
-- Adaptive Compound Bow (draw strength auto‑modulates)
-- Bolt Rifle 
-- Scatter‑Dart Carbine
-- Ranger’s Hookshot Gauntlet (mobility + offense)
-- Spear‑Gun
-- Shock‑Trap Launcher
-- Harpoon Rifle (tethers targets)
-- Grenades 
-- Wrist‑Bolter (rapid micro‑darts)(close‑range finisher)
-
-
-===================================
-THIEF → TRICKSTER / SABOTEUR
-===================================
-
-[THIEF WEAPONS]
-- Dual Daggers
-- Kris
-- Throwing Knives
-- Silenced Pulse‑Pistol
-- Garrote
-- Gauntlet
-- Illusion‑Projector Cards (holo‑decoys)
-- Daggers 
-- Trick‑Bombs (flash, smoke, mirage, echo)
-- Whip
-- Blade
-- Mines
-- Shuriken
-- Grenades 
-
-
-=========================================
-SCOUT → ASSASSIN / AETHER‑BLADE
-=========================================
-
-[BASE SCOUT WEAPONS]
-- Short Swords
-- Bow
-- Darts 
-- Pulse‑Pistol 
-- Katar 
-- Daggers
-- Needle Rifle
-- Caltrops
-- Blade 
-- Saber
-- Scythe
-- Kunai
-- Twin Blades
-- Gauntlet 
-- Spear 
+-------------------------------------------
+Offhand items
+-------------------------------------------
+Cards
+Buckler
+Chain
+Javelins
+Bolts (thrown darts)
+Knives
+Shuriken
+Kunai
+Caltrops
+Bombs 
+Grenades 
 
 ===========================================
-        BASE CLASS: MARKSMAN
+MARKSMAN → RANGER / HUNTER 🌟
 ===========================================
-A precision ranged combatant who blends keen perception with Crux‑guided aim and nanite‑stabilized weaponry. Marksmen excel at long‑range engagements, tactical positioning, and eliminating priority targets before they can close the distance.
+Gauntlets 
+Anklets 
+Baton
+Hammer
+Spear
+Cleaver
+Daggers
+Longbow
+Adaptive Compound Bow (draw strength auto‑modulates)
+Wrist‑Bolter (rapid micro‑darts)
+Pistol
+Shotgun
+Rifle
+Sniper 
+Launcher
 
+===================================
+THIEF → TRICKSTER / SABOTEUR 🌟
+===================================
+Gauntlets 
+Anklets 
+Chakrams
+Spear
+Daggers
+Sword
+Katana
+Rapier
+Longbow
+Adaptive Compound Bow (draw strength auto‑modulates)
+Wrist‑Bolter (rapid micro‑darts)
+Pistol
+Shotgun
+Rifle
+Sniper 
+
+=========================================
+SCOUT → ASSASSIN / AETHER‑BLADE 🌟
+=========================================
+Gauntlets 
+Anklets 
+Baton
+Tonfa
+Hammer
+Scythe
+Spear
+Cleaver
+Daggers
+Sword
+Saber
+Katana
+Rapier
+Longbow
+Adaptive Compound Bow (draw strength auto‑modulates)
+Wrist‑Bolter (rapid micro‑darts)
+Pistol
+Sniper 
+Launcher
+
+===========================================
+        CLASS: MARKSMAN / RANGER / HUNTER 🌟
+===========================================  
 -------------------------------------------
 CORE IDENTITY
 -------------------------------------------
@@ -168,7 +204,7 @@ A mobile survivalist and battlefield tracker who excels at mid‑range combat, m
 A relentless predator who focuses on single‑target elimination, traps, and Crux‑enhanced pursuit techniques.
 
 ===========================================
-        SPECIALIZATION: RANGER
+        SPECIALIZATION: RANGER 🌟
 ===========================================
 
 SPECIALIZATION PASSIVE
@@ -208,7 +244,7 @@ Leap into the air and unleash a barrage of Crux‑infused arrows or shots.
 • Enemies hit are slowed and marked  
 
 ===========================================
-        SPECIALIZATION: HUNTER
+        SPECIALIZATION: HUNTER 🌟
 ===========================================
 
 SPECIALIZATION PASSIVE
@@ -252,9 +288,8 @@ A devastating Crux‑charged projectile.
 END OF CLASS SHEET
 ===========================================
 
-
 ===========================================
-        BASE CLASS: THIEF
+        CLASS: THIEF / TRICKSTER / SABOTEUR 🌟
 ===========================================
 A stealthy infiltrator who blends agility, cunning, and nanite‑enhanced sleight of hand. Thieves excel at evasion, precision strikes, disabling enemies, and manipulating the battlefield through deception and sabotage.
 
@@ -289,7 +324,6 @@ Nanites regulate your presence and movement.
 -------------------------------------------
 LEVEL PROGRESSION & ABILITY CHOICES
 -------------------------------------------
-
 LEVEL 1 - Starting Ability
 -------------------------------------------
 Backstab  
@@ -333,9 +367,8 @@ A deceptive illusionist who manipulates perception, creates decoys, and confuses
 A demolition and disruption expert who uses traps, explosives, and nanite‑based interference to control the battlefield.
 
 ===========================================
-        SPECIALIZATION: TRICKSTER
+        SPECIALIZATION: TRICKSTER 🌟
 ===========================================
-
 SPECIALIZATION PASSIVE
 -------------------------------------------
 Misdirection  
@@ -373,9 +406,8 @@ Unleash a storm of illusions and Crux distortions.
 • You gain temporary invisibility and +30% crit chance  
 
 ===========================================
-        SPECIALIZATION: SABOTEUR
+        SPECIALIZATION: SABOTEUR 🌟
 ===========================================
-
 SPECIALIZATION PASSIVE
 -------------------------------------------
 Chain Reaction  
@@ -417,9 +449,8 @@ Trigger a massive chain explosion of all active traps and charges.
 END OF CLASS SHEET
 ===========================================
 
-
 ===========================================
-        BASE CLASS: SCOUT 
+        CLASS: SCOUT / ASSASSIN / AETHER‑BLADE 🌟
 ===========================================
 A hyper‑mobile Crux warrior who manipulates space, momentum, and battlefield positioning. Scouts chain teleports, blink‑strikes, and nanite‑accelerated movement to overwhelm enemies with speed and spatial dominance.
 
@@ -499,9 +530,8 @@ A teleport‑executioner who chains blink‑kills, isolates targets, and uses Cr
 A dimensional warrior who phases through reality, delivering spectral blade attacks and manipulating space itself.
 
 ===========================================
-        SPECIALIZATION: ASSASSIN 
+        SPECIALIZATION: ASSASSIN  🌟
 ===========================================
-
 SPECIALIZATION PASSIVE
 -------------------------------------------
 Singular Focus  
@@ -540,7 +570,7 @@ Lock onto a target and collapse space around them.
 • If the target dies, cooldown is halved  
 
 ===========================================
-        SPECIALIZATION: AETHER‑BLADE 
+        SPECIALIZATION: AETHER‑BLADE  🌟
 ===========================================
 
 SPECIALIZATION PASSIVE

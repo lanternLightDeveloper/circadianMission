@@ -1,89 +1,133 @@
 Social, Utility & Support Roles 🌟
+-------------------------------------------
 Seer - Diviner - Oracle
+-------------------------------------------
 Seer : visionary who perceives the hidden flows of Crux, glimpses possible futures, and manipulates fate through ritual and intuition. Seers blend prophetic insight with nanite‑enhanced perception, granting them unparalleled battlefield awareness and reality‑bending abilities.
+
 Diviner : master of fate, probability, and cosmic patterns who manipulates outcomes, shields allies from doom, and rewrites destiny.
+
 Oracle : transcendent prophet who channels pure Crux visions, unleashes devastating revelations, and commands battlefield‑wide insight.
 
+-------------------------------------------
 Enchanter - Controller - Bard
+-------------------------------------------
 Enchanter :  master of Crux‑woven magic, emotional resonance, and nanite‑augmented influence. Enchanters manipulate minds, moods, and momentum, empowering allies while subtly undermining foes. Their spells shape the flow of battle without relying on raw damage.
+
 Controller :  battlefield manipulator who uses illusions, telekinetic Crux, and nanite‑based crowd control to dominate enemy movement and actions.
+
 Bard :  charismatic performer who channels Crux through music, rhythm, and storytelling, empowering allies and weakening foes with emotional resonance.
 
+-------------------------------------------
 Engineer - Artificer - Mortarist 
+-------------------------------------------
 Engineer : brilliant technomancer who blends mechanical ingenuity with Crux‑powered devices and programmable nanites. Engineers deploy gadgets, turrets, drones, and battlefield tools that reshape combat through precision, automation, and controlled chaos.
+
 Artificer : master builder who constructs advanced turrets, drones, and hardlight machinery to dominate the battlefield with precision automation.
+
 Mortarist : long‑range demolition expert who uses explosive shells, arc‑launchers, and nanite‑fused munitions to reshape the battlefield from afar. 
 
-Evolved Support 🌟
+-------------------------------------------
+Evolved Support Concept
+-------------------------------------------
 Bellwarden - uses enchanted bells to control/heal/hinder crowds, repel spirits, or shatter morale.
 Echo Antagonizer - fights alongside time‑shifted versions of themselves.
 Inkweaver - tattoos come alive as summoned creatures or weapons.
 Mask Maker - crafts magical masks that can mirror other classes.
 
 ===========================================
-SEER / ENCHANTER / ENGINEER WEAPON SET
+SEER / ENCHANTER / ENGINEER WEAPON SET 🌟
 ===========================================
-Augury (future‑echo detection)
-Oracle’s Mirror (reflects incoming spells)
-Gravity‑Thread (pull/push effects)
-Mind‑Weave (mental influence)
-Chorus (teamwide empowerment pulses)
-Crux‑Capacitor (stores electrical charge)
-Modular Forge S(creates temporary constructs)
-Mortar (lobbed explosive charges)
-Gel (sticky detonators)
+-------------------------------------------
+Weapon buffs
+-------------------------------------------
+Impact‑Field - contact stun aoe
+Crux - Elemental infusion
+Conduit - shocks a chain of enemies
+Consecration - close‑range radiant blasts
+Hardlight - weapon made of light can stop projectiles
+Grave-coil - decays matter
+Chorus - teamwide empowerment pulses
+Cleanse - removes corruption/parasites
+Augury - future‑echo detection
+Remote Detonation - contact leaves explosive charges
+Hive-Node - controls multiple swarms
+
+-------------------------------------------
+Offhand items
+-------------------------------------------
+Shard 
+Orb 
+Tome 
+Cards
+Whip
+Bolts (thrown darts)
+Caltrops
+Bombs 
+Grenades 
+Lute
+Flute
+Bell 
+Trumpet
+Drum
 
 ===========================================
-SEER → DIVINER / ORACLE
+SEER → DIVINER / ORACLE 🌟
 ===========================================
-
-[SEER WEAPONS]
-- Staff
-- Orb 
-- Wand 
-- Rod
-- Baton
-- Shard 
-
-===========================================
-ENCHANTER → CONTROLLER / BARD
-===========================================
-
-[ENCHANTER WEAPONS]
-- Wand
-- Rod
-- Gloves
-- Orb 
-- Staff
-- Baton
-- Gauntlet 
-- Scepter 
-- Chain
-- Lute
-- Flute
-- Blade
-- Bell 
+Staff
+Wand 
+Scepter 
+Gauntlets 
+Anklets 
+Baton
+Hammer
+Mace 
+Scythe
+Spear
+Daggers
+Sword
+Pistol
+Shotgun
 
 ===========================================
-ENGINEER → ARTIFICER / MORTARIST
+ENCHANTER → CONTROLLER / BARD 🌟
 ===========================================
-
-[ENGINEER WEAPONS]
-- Gauntlet 
-- Rifle
-- Spanner
-- Hammer 
-- Staff 
-- Wand
-- Baton
-- Tome 
-- Gauntlet 
-- Cannon 
-- Bombs 
-- Launcher
+Staff
+Wand 
+Scepter 
+Gauntlets 
+Anklets 
+Baton
+Axe
+Spear
+Tri‑dent
+Daggers
+Sword
+Longbow
+Wrist‑Bolter (rapid micro‑darts)
+Pistol
+Rifle
+Sniper 
 
 ===========================================
-BASE CLASS: SEER
+ENGINEER → ARTIFICER / MORTARIST 🌟
+===========================================
+Gauntlets 
+Baton
+Hammer
+Mace 
+Sword
+Katana
+Longbow
+Adaptive Compound Bow (draw strength auto‑modulates)
+Wrist‑Bolter (rapid micro‑darts)
+Pistol
+Shotgun
+Rifle
+Sniper 
+Launcher
+
+===========================================
+BASE CLASS: SEER 🌟
 ===========================================
 A visionary who perceives the hidden flows of Crux, glimpses possible futures, and manipulates fate through ritual and intuition. Seers blend prophetic insight with nanite‑enhanced perception, granting them unparalleled battlefield awareness and reality‑bending abilities.
 
@@ -161,7 +205,7 @@ A master of fate, probability, and cosmic patterns who manipulates outcomes, shi
 A transcendent prophet who channels pure Crux visions, unleashes devastating revelations, and commands battlefield‑wide insight.
 
 ===========================================
-SPECIALIZATION: DIVINER
+SPECIALIZATION: DIVINER 🌟
 ===========================================
 
 SPECIALIZATION PASSIVE
@@ -203,7 +247,7 @@ Undo a catastrophic moment.
 • If an ally died, they are revived
 
 ===========================================
-SPECIALIZATION: ORACLE
+SPECIALIZATION: ORACLE 🌟
 ===========================================
 
 SPECIALIZATION PASSIVE
@@ -249,7 +293,7 @@ END OF CLASS SHEET
 ===========================================
 
 ===========================================
-        BASE CLASS: ENCHANTER
+        BASE CLASS: ENCHANTER 🌟
 ===========================================
 A master of Crux‑woven magic, emotional resonance, and nanite‑augmented influence. Enchanters manipulate minds, moods, and momentum, empowering allies while subtly undermining foes. Their spells shape the flow of battle without relying on raw damage.
 
@@ -327,7 +371,7 @@ A battlefield manipulator who uses illusions, telekinetic Crux, and nanite‑bas
 A charismatic performer who channels Crux through music, rhythm, and storytelling, empowering allies and weakening foes with emotional resonance.
 
 ===========================================
-        SPECIALIZATION: CONTROLLER
+        SPECIALIZATION: CONTROLLER 🌟
 ===========================================
 
 SPECIALIZATION PASSIVE
@@ -368,7 +412,7 @@ Overwhelm the battlefield with psychic Crux resonance.
 • Control persists for full duration  
 
 ===========================================
-        SPECIALIZATION: BARD
+        SPECIALIZATION: BARD 🌟
 ===========================================
 
 SPECIALIZATION PASSIVE
@@ -412,7 +456,7 @@ END OF CLASS SHEET
 ===========================================
 
 ===========================================
-        BASE CLASS: ENGINEER
+        BASE CLASS: ENGINEER 🌟
 ===========================================
 A brilliant technomancer who blends mechanical ingenuity with Crux‑powered devices and programmable nanites. Engineers deploy gadgets, turrets, drones, and battlefield tools that reshape combat through precision, automation, and controlled chaos.
 
@@ -490,7 +534,7 @@ A master builder who constructs advanced turrets, drones, and hardlight machiner
 A long‑range demolition expert who uses explosive shells, arc‑launchers, and nanite‑fused munitions to reshape the battlefield from afar.
 
 ===========================================
-        SPECIALIZATION: ARTIFICER
+        SPECIALIZATION: ARTIFICER 🌟
 ===========================================
 
 SPECIALIZATION PASSIVE
@@ -533,7 +577,7 @@ Deploy a massive multi‑function machine.
 • Cannot be interrupted once deployed  
 
 ===========================================
-        SPECIALIZATION: MORTARIST
+        SPECIALIZATION: MORTARIST 🌟
 ===========================================
 
 SPECIALIZATION PASSIVE

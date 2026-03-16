@@ -1,89 +1,138 @@
-Crux & Elemental Magic 🌟
+Crux & Nanite Magic 🌟
+-------------------------------------------
 Sorcerer - Chronomancer - Nano-caster 
+-------------------------------------------
 Sorcerer - conduit of raw Crux energy who channels the universe’s binding force into destructive, protective, or reality‑altering spells. Sorcerers wield unstable power amplified by nanite regulators, balancing overwhelming potential with inherent risk.
+
 Chronomancer - manipulator of time who bends causality, accelerates or slows reality, and weaponizes temporal distortion.
+
 Nano-caster  - technomancer who commands swarms of programmable nanites, shaping them into weapons, constructs, and devastating clouds.
 
+-------------------------------------------
 Warlock - Necromancer - Monster Summoner
+-------------------------------------------
 Warlock - wielder of forbidden Crux channels and unstable nanite rituals. Warlocks tap into the darker, more volatile aspects of the universe’s binding force, bending entropy, decay, and living constructs to their will. Their power is immense - but always comes with risk.
+
 Necromancer - master of death, decay, and Crux‑animated corpses. Manipulates entropy to raise the dead and drain the living.
+
 Monster Summoner - bio‑engineer of horrors who uses nanites to construct, mutate, and command monstrous allies.
 
+-------------------------------------------
 Druid - Shaman - Beast Summoner 
+-------------------------------------------
 Druid - bio‑Crux channeler who manipulates living energy, nanite‑grown flora, and primal cosmic forces. Druids blend ancient instinct with futuristic bio‑engineering, shaping the battlefield with regenerative fields, living constructs, and elemental Crux surges.
+
 Shaman - spiritual conduit who channels ancestral Crux, elemental forces, and spirit‑echoes to heal, empower, and devastate.
+
 Beast Summoner - primal bio‑engineer who grows, mutates, and commands living nanite‑beasts infused with Crux energy.
 
-Evolved Crux 🌟
+-------------------------------------------
+Evolved Crux 
+-------------------------------------------
 Relic Host - carries a cursed relic that grants power but demands constant appeasement.
 Starcaller - channels constellations as living avatars.
 Spellforger - crafts unstable combination spells on the fly, each cast reshaping reality unpredictably.
 Hollowborn - body inhabited by a sealed spirit; swaps control in combat.
 
 ===========================================
-        BASE CLASS: SORCERER
+SORCERER / WARLOCK / DRUID WEAPONS 🌟
 ===========================================
+-------------------------------------------
+Weapon buffs
+-------------------------------------------
+Temporal - threads time to stun in a row
+Impact‑Field - contact stun aoe
+Crux - Elemental infusion
+Conduit - shocks a chain of enemies
+Vine - contact leaves reactive, semi-sentient vines that hurt or heal
+Bloom - creates flora bursts that hurt or heal
+Grave-coil - decays matter
+Medical - wide‑area healing
+Cleanse - removes corruption/parasites
+Scatter‑Dart - contact scatters thin darts damaging enemies
+
+-------------------------------------------
+Offhand items
+-------------------------------------------
+Shard 
+Orb 
+Tome 
+Cards
+Buckler
+Chain
+Whip
+Bolts (thrown darts)
+Knives
+Shuriken
+Grenades 
+Lute
+Flute
+Bell 
+Trumpet
+Drum
+
+===========================================
+SORCERER → CHRONOMANCER / NANO-CASTER 🌟
+===========================================
+Staff
+Wand 
+Scepter 
+Gauntlets 
+Anklets 
+Baton
+Axe
+Scythe
+Cleaver
+Daggers
+Wrist‑Bolter (rapid micro‑darts)
+Pistol
+Rifle
+Launcher 
+
+===============================================================
+WARLOCK → NECROMANCER / MONSTER SUMMONER 🌟
+===============================================================
+Staff
+Wand 
+Scepter 
+Gauntlets 
+Anklets 
+Baton
+Hammer
+Axe
+Scythe
+Sword
+Wrist‑Bolter (rapid micro‑darts)
+Pistol
+Shotgun
+Launcher
+
+===========================================
+DRUID → SHAMAN / BEAST SUMMONER 🌟
+===========================================
+Staff
+Gauntlets 
+Anklets 
+Chakrams
+Baton
+Hammer
+Spear
+Tri‑dent
+Glaive 
+Halberd
+Hammer-blade (sword with hammer‑weighted back)
+Rapier
+Longbow
+Adaptive Compound Bow (draw strength auto‑modulates)
+Wrist‑Bolter (rapid micro‑darts)
+Pistol
+Sniper 
+Launcher
+
+===============================================================
+        CLASS: SORCERER / CHRONOMANCER / NANO‑CASTER 🌟
+===============================================================
 A conduit of raw Crux energy who channels the universe’s binding force into destructive, protective, or reality‑altering spells. Sorcerers wield unstable power amplified by nanite regulators, balancing overwhelming potential with inherent risk.
-
-
-CRUX / NANITE / ARCANE-TECH CASTER WEAPONS
-===========================================
-Conduit (raw energy channeling)
-Temporal (threads time distortions)
-Hive-Node (controls multiple swarms)
-Crux Corruption 
-Gravecoil (decays matter)
-Soul-Siphon 
-Vine (reactive, semi-sentient)
-Bloom (creates flora bursts)
-
-===========================================
-SORCERER → CHRONOMANCER / NANO-CASTER
-===========================================
-
-[SORCERER WEAPONS]
-- Staff 
-- Gauntlet
-- Wand
-- Spindle Staff 
-- Blade
-- Staff
-- Gauntlet
-- Scepter 
-- Baton
-
-===========================================
-WARLOCK → NECROMANCER / MONSTER SUMMONER
-===========================================
-
-[WARLOCK WEAPONS]
-- Rod 
-- Grimoire
-- Gauntlet
-- Staff
-- Dagger
-- Orb 
-- Scythe 
-- Lantern 
-- Wand
-- Launcher
-
-
-===========================================
-DRUID → SHAMAN / BEAST SUMMONER
-===========================================
-
-[DRUID WEAPONS]
-- Staff
-- Gauntlet
-- Whip 
-- Wand 
-- Drum
-- Flute
-- Rod
-- Baton
-- Gauntlet
-- Warstaff
 
 -------------------------------------------
 CORE IDENTITY
@@ -158,7 +207,7 @@ A manipulator of time who bends causality, accelerates or slows reality, and wea
 A technomancer who commands swarms of programmable nanites, shaping them into weapons, constructs, and devastating clouds.
 
 ===========================================
-        SPECIALIZATION: CHRONOMANCER
+        SPECIALIZATION: CHRONOMANCER 
 ===========================================
 
 SPECIALIZATION PASSIVE
@@ -200,7 +249,7 @@ You freeze a large area in suspended time.
 • Survivors are slowed and weakened  
 
 ===========================================
-        SPECIALIZATION: NANO‑CASTER
+        SPECIALIZATION: NANO‑CASTER 
 ===========================================
 
 SPECIALIZATION PASSIVE
@@ -247,7 +296,7 @@ END OF CLASS SHEET
 ===========================================
 
 ===========================================
-        BASE CLASS: WARLOCK
+        CLASS: WARLOCK / NECROMANCER / MONSTER SUMMONER 🌟
 ===========================================
 A wielder of forbidden Crux channels and unstable nanite rituals. Warlocks tap into the darker, more volatile aspects of the universe’s binding force, bending entropy, decay, and living constructs to their will. Their power is immense - but always comes with risk.
 
@@ -324,7 +373,7 @@ A master of death, decay, and Crux‑animated corpses. Manipulates entropy to ra
 A bio‑engineer of horrors who uses nanites to construct, mutate, and command monstrous allies.
 
 ===========================================
-        SPECIALIZATION: NECROMANCER
+        SPECIALIZATION: NECROMANCER 
 ===========================================
 
 SPECIALIZATION PASSIVE
@@ -365,7 +414,7 @@ Unleash a wave of Crux energy that raises all corpses in the area.
 • Enemies take increased damage from all undead  
 
 ===========================================
-        SPECIALIZATION: MONSTER SUMMONER
+        SPECIALIZATION: MONSTER SUMMONER 
 ===========================================
 
 SPECIALIZATION PASSIVE
@@ -409,10 +458,9 @@ Grow a colossal nanite‑Crux hybrid beast.
 ===========================================
 END OF CLASS SHEET
 ===========================================
-
-===========================================
-        BASE CLASS: DRUID
-===========================================
+===============================================================
+        CLASS: DRUID / SHAMAN / BEAST SUMMONER 🌟
+===============================================================
 A bio‑Crux channeler who manipulates living energy, nanite‑grown flora, and primal cosmic forces. Druids blend ancient instinct with futuristic bio‑engineering, shaping the battlefield with regenerative fields, living constructs, and elemental Crux surges.
 
 -------------------------------------------
