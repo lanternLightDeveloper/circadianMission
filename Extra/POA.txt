@@ -1,35 +1,35 @@
 Project 🌟
-
+----------------
 Name / Working Title:
 Diurnal Excursion
 
-Name game/ name ideas:
-Circadian Purpose
-Circadian Voyage
-
-Circadian Mission
-Diurnal Purpose
-
-Typical Trek
-Routine Expedition
-
-Daily:
-routine
-circadian
-diurnal
-groove
-manner
-typical
-
-Quest:
-expedition
-mission
-voyage
-assignment
-purpose
-excursion
-trek
-travel
+Name game (expands):
+ Circadian Purpose
+ Circadian Voyage
+ ----------------
+ Circadian Mission
+ Diurnal Purpose
+ ----------------
+ Typical Trek
+ Routine Expedition
+ ----------------
+ Daily:
+  routine
+  circadian
+  diurnal
+  groove
+  manner
+  typical
+ ----------------
+ Quest:
+  expedition
+  mission
+  voyage
+  assignment
+  purpose
+  excursion
+  trek
+  travel
 
 
 One‑sentence purpose:
@@ -48,43 +48,64 @@ professions (with real life job facts? like learning about the transit system) f
 join/invite friends in tasks
 Leveling + Class system (could be related to real job or game job)
 
-Power theory:
-Name- Prevailing Crux Theory
 
-Universe:
-Prevailing
+Next Steps 🌟
+--------------------------------
+put more time into the deep lore for races. Build their history to make it more rich
+Fill out a character sheet.
+add starship descriptions
+create creatures
+create quest reward/requirement system
+map out battle interactions
+create non-weapon gear lists
+work on end of day story
 
-Density:
-Crux
 
-Features & Scope 🌟
+Features 🌟
+--------------------------------
+Power/Magic System:
+Prevailing Crux Theory
 
+Name Game(expands):
+ Universe:
+  Prevailing
+  cosmos
+  beyond
+  the infinite
+ Density:
+  Crux
+  pressure
+  compression
+  compounded
+  squished
+  folded
+ 
 Must have features:
 Daily tasks
 Leveling
 Loot
+Mechs
 
 Stretch features:
 Quests with friends!
 
-Visual & branding 🌟
 
+Visual & branding 🌟
+--------------------------------
 Scene and setting:
-Castles
+Multi species cyberpunk in space with mechs
 
 Color palette ideas:
-Blue Pink Yello
+Blue Pink Yellow
 Typography notes:
-Futurist flavored font
+Futurist flavored
 Icon / Illustration style:
 Cyber Space Explorers
 
-User Experience & Flow 🌟
 
+User Experience & Flow 🌟
+------------------------------------------------
 Primary user journey:
-Land is in the land Extra/Planet-Tasks
-Whole skill tree summary at Extra/Player/skillTreeSummaryDraft.txt
-Element/Class/Species concept writeup at  Extra/Player/classDraft.txt
 
 Key screens / views:
 
@@ -94,28 +115,26 @@ Character / Avatar / Profile system (if any):
 
 
 Mongo Dictionary Notes 🌟
-
+------------------------------------------------
 Core Dictionaries:
 Extra/MongoDictionary they will live here and it will probably grow over time
 
 
 User Level / Preferences / Settings 🌟
-
+------------------------------------------------
 Extensibility considerations:
 
 
 Technical architecture 🌟
-
+------------------------------------------------
 Base things : 
 
 Frontend : 
 + [Svelte](https://svelte.dev/) in TS
-+ [Lucide](https://lucide.dev/) for Icons
 + [BitsUI](https://www.bits-ui.com/docs/introduction) for simple UI components
 + [EasingWizard](https://easingwizard.com/) for organic bezier transition
 
 Tooling
-+ [Rolldown](https://rolldown.rs/) for Bundling
 
 Backend
 + [SvelteKit](https://svelte.dev/tutorial/kit/introducing-sveltekit) for app framework
@@ -128,7 +147,7 @@ Performance considerations:
 
 
 Security & Privacy 🌟
-
+--------------------------------
 Auth strategy:
 BetterAuth
 Data protection notes:
@@ -137,7 +156,7 @@ Safety / Abuse prevention:
 
 
 Testing & Validation 🌟
-
+--------------------------------
 Environment(browser) tests:
 
 Integration tests:
@@ -146,4 +165,6 @@ Manual QA Checklist:
 
 
 Future Enhancements 🌟
+--------------------------------
 Loose ideas, sketches, mechanics or anything you want to think over:
+

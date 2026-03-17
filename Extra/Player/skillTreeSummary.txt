@@ -1,9 +1,10 @@
-Skill Tree (Global Concept)
+Skill Tree (Global Concept) 🌟
+------------------------------------------------
 A branching progression system with multiple tiers, where each node represents a learned ability, passive bonus, or specialization. Trees grow through repeated actions, environmental influence, and character identity.
 
 Three parallel trees:
 Task Tree - grows from daily habits and consistency
-Profession Tree - grows from your different jobs
+Profession Tree - grows from different jobs
 Class Tree - grows from combat, exploration, and class‑specific actions
 
 How the Three Trees Interact:
@@ -17,35 +18,15 @@ Your craft influences your combat stats.
 Class Tree → Task Tree:  
 Combat perks make certain tasks easier (strength helps with cleaning, agility helps with errands).
 
-Region → All Trees:  
-Your collective environments shapes your growth across the board.
-
 Tiered structure:  
 Early 0 - 10 → Mid 11 - 20 → Advanced 21 - 30 → Epic 31 - 40 → Legendary 41 - 50
-
-Node types:
-Passive boosts (stats, resistances, efficiencies)
-Active abilities (combat moves, spells, tools)
-Utility perks (movement, crafting, gathering, social)
-Transformations (new forms, stances, modes)
-Specializations (branch-defining choices)
-
-Growth sources:
-Daily tasks
-Profession work
-Class actions
-Region influence
-Buildings
-Teachers
-Monster kills
-Achievements
-Story milestones
 
 Cross‑tree power:  
 Nodes in one tree can unlock or enhance nodes in another (e.g., Profession → Class power).
 
 
 Task Skill Tree (Daily Life → Power)  🌟
+----------------------------------------------------------------
 This tree rewards consistency, discipline, and routine. It’s the “life‑to‑power” pipeline.
 
 What grows it:
@@ -70,6 +51,7 @@ Habit mutations: long‑term habits evolve into powerful passives
 
 
 Profession Skill Tree (Your Trade → Mastery)  🌟
+----------------------------------------------------------------
 This tree is tied to your professions.
 
 What grows it:
@@ -95,6 +77,7 @@ Workshop upgrades: buildings unlock new tiers of the tree
 
 
 Class Skill Tree (Combat Identity → Character Growth)  🌟
+--------------------------------------------------------------------------------
 This is the “RPG class fantasy” tree. It defines how you fight, survive, and express your archetype.
 
 What grows it:
