@@ -273,9 +273,9 @@ A focused ray of harmonic Crux.
 • Cleanses allies of debuffs
 
 Option B: Sanctuary Field
-Create a healing zone.
+Create a healing zone and removes debuffs.
 • Allies regenerate health
-• Enemies inside deal reduced damage
+• Enemies inside deal reduced damage and are slowed
 
 -------------------------------------------
 LEVEL 30 - SPECIALIZATION CHOICE
@@ -410,7 +410,7 @@ Dash forward in a burst of light, knocking enemies aside.
 Lay on Hands
 Channel divine energy through your palms to heal an ally or yourself.
 
-Righteous Fury
+Blessing of Fury
 Temporarily increase weapon damage and threat generation.
 
 Sacred Shield Bash
@@ -482,7 +482,7 @@ Send out a shockwave of holy Crux.
 • Heals allies slightly
 
 Option B: Guardian’s Step
-Teleport to an ally in danger.
+Teleport to protect an ally in danger.
 • Grants both of you a temporary shield
 • Increases your threat generation
 
@@ -511,7 +511,7 @@ LEVEL 30 Ability (Unlocked Automatically)
 -------------------------------------------
 Shield Charge
 Dash forward with your shield raised.
-• Knocks enemies down
+• Knocks enemies down in an area
 • Deals AoE damage on impact
 • Grants you a temporary defense boost
 
@@ -677,7 +677,7 @@ A quick‑acting restorative mixture.
 
 LEVEL 10 - Ability Choice
 -------------------------------------------
-Option A: Nanite Sporecloud  
+Option A: Nanite regen cloud  
 Release healing field.  
 • Heals allies in a small radius  
 • Cleanses minor debuffs  
@@ -888,13 +888,13 @@ A fast‑acting medical nanite dose.
 
 LEVEL 10 - Ability Choice
 -------------------------------------------
-Option A: Crux Defibrillate
-A burst of stabilizing Crux energy.
-• Heals and cleanses an ally
-• Briefly increases their movement speed
+Option A: Virus Cloud
+Release a cloud of virus infected nanites
+• Poisons enemies in an area
+• Briefly slows their movement speed
 
-Option B: Trauma Patch
-Apply a nanite‑infused patch.
+Option B: Trauma Wave
+Deploy a wave of healing nanites.
 • Absorbs damage
 • Converts a portion of damage taken into healing
 

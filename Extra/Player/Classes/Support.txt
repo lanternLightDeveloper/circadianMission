@@ -447,7 +447,7 @@ Channel uplifting Crux energy.
 
 LEVEL 20 - Ability Choice
 -------------------------------------------
-Option A: Enthrall  
+Option A: Confuse
 Overwhelm an enemy’s senses.  
 • Stuns briefly  
 • Reduces their damage afterward  
@@ -646,13 +646,13 @@ Place a small automated turret.
 
 LEVEL 10 - Ability Choice
 -------------------------------------------
-Option A: Nanite Repair Drone  
-Deploy a small drone.  
-• Heals you or an ally over time  
-• Repairs nearby constructs  
+Option A: Support Drone  
+Deploy a small support drone.  
+• Interrupts enemies
+• Decreases enemy defenses by 15%  
 
-Option B: Crux Capacitor  
-Overcharge your next device.  
+Option B: Crux Energizer  
+Overcharge a constructs next ability.  
 • Increases damage or healing  
 • Causes a small AoE burst on activation  
 

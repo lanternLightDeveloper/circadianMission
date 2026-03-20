@@ -720,7 +720,7 @@ export const Medic = {
 		{
 			name: 'Combat Injection',
 			description:
-				'Inject yourself or an ally with a stimulant that boosts movement speed or reaction time.'
+				'Inject yourself or an ally with a stimulant that boosts movement speed and defense.'
 		},
 		{
 			name: 'Medical Scan',
@@ -732,7 +732,8 @@ export const Medic = {
 		},
 		{
 			name: 'Cleanse Protocol',
-			description: 'Deploy nanites that remove poisons, bleeds, and minor debuffs.'
+			description:
+				'Deploy nanites that remove poisons, bleeds, and minor debuffs on a single target.'
 		},
 		{
 			name: 'Vital Surge',

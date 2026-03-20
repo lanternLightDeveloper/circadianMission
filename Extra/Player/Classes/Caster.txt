@@ -156,8 +156,8 @@ Nanite Synergy: ★★★☆☆
 -------------------------------------------
 BASE ABILITIES  
 -------------------------------------------
-Crux Bolt
-A focused projectile of raw Crux energy. Simple, fast, reliable.
+Crux Puddle
+A puddle of raw Crux energy. creates a small area of elemental damage over time.
 
 Arcane Pulse
 A short‑range radial burst that knocks enemies back and disrupts weak magical effects.
@@ -171,8 +171,8 @@ A temporary shield that absorbs a small amount of damage before shattering.
 Spellweave
 Reduce the cast time of your next ability by channeling Crux through your hands.
 
-Arcane Step
-A short blink/teleport that leaves behind a fading afterimage.
+Crux Escape
+A short blink/teleport.
 
 Arcane Grasp
 Telekinetically pull or push a target using raw Crux manipulation.
@@ -224,14 +224,14 @@ A focused blast of raw Crux energy.
 LEVEL 10 - Ability Choice
 -------------------------------------------
 Option A: Phase Blink  
-A short‑range teleport that leaves behind a Crux echo.  
-• Echo explodes after 1 second  
+A short‑range teleport that leaves behind a Crux echo that casts your last spell.  
+• Echo explodes after 3 seconds  
 • Cooldown: Short  
 
 Option B: Nanite Stabilizer  
 Nanites reinforce your casting channels.  
 • +20% Crux damage for 5 seconds  
-• Reduces self‑damage from unstable spells  
+• Reduces damage from spells  
 
 LEVEL 20 - Ability Choice
 -------------------------------------------
@@ -241,7 +241,7 @@ Fire a piercing beam of spatially‑distorted Crux.
 • Ignores armor  
 
 Option B: Crux Shield  
-Form a temporary energy barrier.  
+Form a temporary energy wall.  
 • Absorbs damage  
 • Explodes outward when broken  
 
@@ -261,7 +261,7 @@ A technomancer who commands swarms of programmable nanites, shaping them into we
 SPECIALIZATION PASSIVE
 -------------------------------------------
 Temporal Echo  
-Your spells leave afterimages in time.  
+Your spells create duplicates on contact.  
 • +10% cooldown reduction  
 • Casting the same spell twice creates a temporal duplicate  
 • Duplicates deal 50% damage  
@@ -278,7 +278,7 @@ LEVEL 40 - Ability Choice
 -------------------------------------------
 Option A: Chrono Step  
 Teleport a short distance and rewind your position after 2 seconds.  
-• Grants invulnerability during the rewind  
+• Heals lost health during the rewind  
 • Great for dodging big attacks  
 
 Option B: Accelerate  
@@ -319,13 +319,13 @@ Release a cloud of aggressive nanites.
 LEVEL 40 - Ability Choice
 -------------------------------------------
 Option A: Hardlight Construct  
-Form a temporary nanite‑based weapon or shield.  
-• Weapon: +20% damage  
+Form a temporary nanite‑based weapon or shield that hunts a chosen target.  
+• Weapon: +20% damage  of your own weapon
 • Shield: +30% damage reduction  
 • Lasts several seconds  
 
 Option B: Viral Injection  
-Inject a target with mutating nanites.  
+Infest a target with mutating nanites.  
 • Deals damage over time  
 • Spreads to nearby enemies  
 • Explodes on expiration  
@@ -430,8 +430,8 @@ LEVEL PROGRESSION & ABILITY CHOICES
 
 LEVEL 1 - Starting Ability
 -------------------------------------------
-Entropy Bolt  
-A blast of decaying Crux energy.  
+Entropy Erruption  
+An explosive blast of decaying Crux energy.  
 • Deals damage over time  
 • Unlocks “Corrupt Pulse” basic combo  
 
@@ -731,7 +731,7 @@ Primal Architect
 Your nanites excel at creating living constructs.  
 • +20% beast health  
 • +10% beast damage  
-• Summons regenerate health out of combat  
+• Summons regenerate health when an enemy is not in a neighboring square  
 
 LEVEL 30 Ability (Unlocked Automatically)
 -------------------------------------------

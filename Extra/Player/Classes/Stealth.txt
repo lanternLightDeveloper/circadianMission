@@ -214,7 +214,7 @@ A short‑range teleport to a vantage point.
 • Cooldown: Short  
 
 Option B: Nanite Burst Round  
-Fire a shot enhanced with nanite payloads.  
+Next three shots are enhanced with nanite payloads.  
 • Deals bonus damage  
 • Applies a brief slow  
 
@@ -253,8 +253,8 @@ Your senses adapt to the environment.
 
 LEVEL 30 Ability (Unlocked Automatically)
 -------------------------------------------
-Ricochet Shot  
-Fire a Crux‑charged round that bounces between enemies.  
+Explosive Ricochet Shot  
+Fire a Crux‑charged round that bounces between enemies then explodes.  
 • Hits up to 3 targets  
 • Each bounce increases crit chance  
 • Great for clearing groups  
@@ -268,7 +268,7 @@ A Crux‑woven trap placed at range.
 
 Option B: Nanite Camouflage  
 Nanites alter your visual profile.  
-• Invisible while stationary  
+• Invisible   
 • +20% crit chance on first attack from stealth  
 
 LEVEL 50 - Ranger Ultimate
@@ -295,14 +295,14 @@ LEVEL 30 Ability (Unlocked Automatically)
 -------------------------------------------
 Crux Mark  
 Designate a target for elimination.  
-• Target takes increased damage from you  
+• Target takes increased damage from you and allies  
 • Your shots ignore partial cover  
 • Mark lasts until target dies or escapes  
 
 LEVEL 40 - Ability Choice
 -------------------------------------------
 Option A: Nanite Trapline  
-Deploy a cluster of nanite‑based traps.  
+Deploy a cluster of five nanite‑based traps in a star pattern.  
 • Explodes when triggered  
 • Applies bleed and slow  
 
@@ -418,8 +418,9 @@ A precise strike from behind.
 LEVEL 10 - Ability Choice
 -------------------------------------------
 Option A: Phase Flicker  
-A micro‑teleport that drops you behind an enemy.  
+A micro‑teleport that drops you behind an enemy and increases crit chance.  
 • Guarantees next hit is a crit  
+• Next three strikes crit  
 • Cooldown: Short  
 
 Option B: Nanite Cloak  
@@ -431,9 +432,8 @@ LEVEL 20 - Ability Choice
 -------------------------------------------
 Option A: Crux Dagger  
 Imbue your blade with Crux energy.  
-• Throws a spectral dagger  
-• Teleport to the dagger on reactivation  
-• Deals bonus damage if teleporting behind target  
+• +20% penetration  
+• +20% crit chance
 
 Option B: Disable  
 Nanites disrupt enemy systems.  
@@ -472,7 +472,7 @@ Create a holographic duplicate of yourself.
 LEVEL 40 - Ability Choice
 -------------------------------------------
 Option A: Nanite Doppel  
-Nanites form a second decoy that mimics your movements.  
+Nanites form a second decoy that mirrors your movements.  
 • Enemies struggle to identify the real you  
 • +20% crit chance while active  
 
@@ -564,7 +564,7 @@ Blink Step
 A short‑range teleport that preserves momentum and sets up your next attack.
 
 Momentum Edge
-Your next melee strike deals bonus damage based on distance moved in the last few seconds.
+Your next attack deals bonus damage based on distance moved in the last few seconds.
 
 Spatial Awareness
 Briefly highlight enemy positions and detect traps.

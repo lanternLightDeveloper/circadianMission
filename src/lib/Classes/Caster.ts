@@ -28,8 +28,9 @@ export const Sorcerer = {
 
 	baseAbilities: [
 		{
-			name: 'Crux Bolt',
-			description: 'A focused projectile of raw Crux energy. Simple, fast, reliable.'
+			name: 'Crux Puddle',
+			description:
+				'A puddle of raw Crux energy. creates a small area of elemental damage over time.'
 		},
 		{
 			name: 'Arcane Pulse',
@@ -50,8 +51,8 @@ export const Sorcerer = {
 				'Reduce the cast time of your next ability by channeling Crux through your hands.'
 		},
 		{
-			name: 'Arcane Step',
-			description: 'A short blink that leaves behind a fading afterimage.'
+			name: 'Crux Escape',
+			description: 'A short elemental blink.'
 		},
 		{
 			name: 'Arcane Grasp',
@@ -338,9 +339,8 @@ export const Warlock = {
 
 	progression: {
 		level1: {
-			name: 'Entropy Bolt',
-			description:
-				'A blast of decaying Crux energy. Deals damage over time and unlocks Corrupt Pulse combos.'
+			name: 'Entropy Erruption',
+			description: 'An explosive blast of decaying Crux energy.  '
 		},
 
 		level10: {

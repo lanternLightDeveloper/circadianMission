@@ -166,6 +166,11 @@ Defense: ★★★☆☆
 Mobility: ★★★★☆
 Crux Interaction: ★★☆☆☆
 Nanite Power: ★★★☆☆
+
+-------------------------------------------
+BASE ABILITIES 
+-------------------------------------------
+Guard Stance
 Adopt a defensive posture that increases block and reduces incoming damage.
 
 Quickstep
@@ -269,7 +274,7 @@ Losing tempo resets stacks.
 
 LEVEL 30 Ability (Unlocked Automatically)
 -------------------------------------------
-Rapier Lunge
+Pointed Lunge
 Teleport‑dash through a target, dealing high precision damage.
 Ignores armor
 Crit chance doubled
@@ -379,7 +384,7 @@ After blocking an attack, unleash a punishing counterstrike.
 Rallying Cry
 Boost nearby allies’ morale, granting temporary health or stamina regeneration.
 
-Shield Wall
+Defenders Wall
 Raise your shield to create a frontal barrier that allies can shelter behind.
 
 Guardian’s Mark
@@ -645,10 +650,10 @@ A powerful opening blow fueled by nanite‑boosted muscle.
 
 LEVEL 10 - Ability Choice
 -------------------------------------------
-Option A: Crux Roar  
-Unleash a primal Crux‑infused shout.  
+Option A: Crux Rush  
+Unleash a primal Crux‑infused shout infusing your body with crux energy.  
 • Small AoE fear  
-• Increases your damage by 10% for 5 seconds  
+• Increases your speed by 10% for 5 seconds  
 
 Option B: Nanite Surge  
 Nanites flood your bloodstream.  
@@ -692,7 +697,7 @@ Constant movement fuels your aggression.
 LEVEL 30 Ability (Unlocked Automatically)
 -------------------------------------------
 Whirlwind Dash  
-Teleport‑dash through enemies in a spinning strike.  
+Dash through enemies in a spinning strike.  
 • Hits all enemies in path  
 • Applies bleed  
 • Scales with Agility  
@@ -935,8 +940,8 @@ SPECIALIZATION: PUGILIST
 
 SPECIALIZATION PASSIVE
 -------------------------------------------
-Iron Body  
-Nanites reinforce your muscles and bones.  
+Iron Aura  
+Nanites reinforce your team by strengthening offense and defensive abilities.  
 • +10% damage  
 • +10% damage reduction  
 • Basic attacks build “Focus” stacks  
