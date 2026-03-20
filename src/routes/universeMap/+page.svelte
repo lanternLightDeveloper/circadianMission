@@ -3,37 +3,61 @@
 	import OuterCity from './OuterCity.svelte';
 	import WildSpace from './WildSpace.svelte';
 
-	let openInnerCity = $state(false);
-	let openOuterCity = $state(false);
-	let openWildSpace = $state(false);
+	let selected = $state<'innerCity' | 'outerCity' | 'wildSpace' | null>(null);
 
-	function InnerCityToggle() {
-		openInnerCity = !openInnerCity;
-	}
-
-	function OuterCityToggle() {
-		openOuterCity = !openOuterCity;
-	}
-
-	function WildSpaceToggle() {
-		openWildSpace = !openWildSpace;
+	function select(tab: typeof selected) {
+		selected = tab === selected ? null : tab;
 	}
 </script>
 
 <h3>Universe Map Homepage</h3>
 
-<button onclick={InnerCityToggle}>Toggle Inner City</button>
-<button onclick={OuterCityToggle}>Toggle Outer City</button>
-<button onclick={WildSpaceToggle}>Toggle Wild Space</button>
+<div class="class-tabs">
+	<button class:selected={selected === 'innerCity'} onclick={() => select('innerCity')}>
+		Inner City
+	</button>
 
-{#if openInnerCity === true}
+	<button class:selected={selected === 'outerCity'} onclick={() => select('outerCity')}>
+		Outer City
+	</button>
+
+	<button class:selected={selected === 'wildSpace'} onclick={() => select('wildSpace')}>
+		Wild Space
+	</button>
+</div>
+{#if selected === 'innerCity'}
 	<InnerCity />
 {/if}
 
-{#if openOuterCity === true}
+{#if selected === 'outerCity'}
 	<OuterCity />
 {/if}
 
-{#if openWildSpace === true}
+{#if selected === 'wildSpace'}
 	<WildSpace />
 {/if}
+
+<style>
+	.class-tabs {
+		display: flex;
+		gap: 0.5rem;
+		margin-bottom: 1rem;
+	}
+
+	.class-tabs button {
+		padding: 0.5rem 1rem;
+		border-radius: 6px;
+		border: var(--border);
+		background: var(--bg-2);
+		color: var(--txt);
+		cursor: pointer;
+	}
+
+	/* Highlighted / active tab */
+	.class-tabs button.selected {
+		border-color: var(--accent-2);
+		background: var(--hover);
+		color: var(--txt);
+		font-weight: bold;
+	}
+</style>

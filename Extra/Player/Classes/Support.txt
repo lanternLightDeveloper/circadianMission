@@ -1,4 +1,4 @@
-Social, Utility & Support Roles 🌟
+Social, Utility & Support Roles 
 -------------------------------------------
 Seer - Diviner - Oracle
 -------------------------------------------
@@ -35,10 +35,10 @@ Inkweaver - tattoos come alive as summoned creatures or weapons.
 Mask Maker - crafts magical masks that can mirror other classes.
 
 ===========================================
-SEER / ENCHANTER / ENGINEER WEAPON SET 🌟
+SEER / ENCHANTER / ENGINEER WEAPON SET 
 ===========================================
 -------------------------------------------
-Weapon buffs
+Weapon buff suggestions
 -------------------------------------------
 Impact‑Field - contact stun aoe
 Crux - Elemental infusion
@@ -71,7 +71,7 @@ Trumpet
 Drum
 
 ===========================================
-SEER → DIVINER / ORACLE 🌟
+SEER → DIVINER / ORACLE 
 ===========================================
 Staff
 Wand 
@@ -89,13 +89,13 @@ Pistol
 Shotgun
 
 ===========================================
-ENCHANTER → CONTROLLER / BARD 🌟
+ENCHANTER → CONTROLLER / BARD 
 ===========================================
 Staff
-Wand 
-Scepter 
-Gauntlets 
-Anklets 
+Wand
+Scepter
+Gauntlets
+Anklets
 Baton
 Axe
 Spear
@@ -106,15 +106,15 @@ Longbow
 Wrist‑Bolter (rapid micro‑darts)
 Pistol
 Rifle
-Sniper 
+Sniper
 
 ===========================================
-ENGINEER → ARTIFICER / MORTARIST 🌟
+ENGINEER → ARTIFICER / MORTARIST 
 ===========================================
-Gauntlets 
+Gauntlets
 Baton
 Hammer
-Mace 
+Mace
 Sword
 Katana
 Longbow
@@ -123,11 +123,11 @@ Wrist‑Bolter (rapid micro‑darts)
 Pistol
 Shotgun
 Rifle
-Sniper 
+Sniper
 Launcher
 
 ===========================================
-BASE CLASS: SEER 🌟
+BASE CLASS: SEER 
 ===========================================
 A visionary who perceives the hidden flows of Crux, glimpses possible futures, and manipulates fate through ritual and intuition. Seers blend prophetic insight with nanite‑enhanced perception, granting them unparalleled battlefield awareness and reality‑bending abilities.
 
@@ -149,6 +149,54 @@ Defense: ★★☆☆☆
 Mobility: ★★★☆☆
 Crux Interaction: ★★★★★
 Nanite Synergy: ★★★★★
+
+-------------------------------------------
+BASE ABILITIES 
+-------------------------------------------
+Foresight Glimpse
+Briefly see a moment into the future, increasing dodge chance or revealing an incoming attack.
+
+Echo Prediction
+Your next ability repeats at reduced potency because you “saw it happen twice.”
+
+Probability Nudge
+Slightly alter the outcome of your next attack or skill check in your favor.
+
+Fate Mark
+Mark a target, making them more vulnerable to abilities.
+
+Vision Pulse
+Send out a wave of perceptive energy that reveals enemies and traps.
+
+Insight Burst
+Gain a sudden flash of clarity, boosting crit chance or spell accuracy.
+
+Clairvoyant Dodge
+Automatically evade the next attack you foresee.
+
+Fate Echo
+Cause a target’s next action to “echo,” repeating at reduced effectiveness.
+
+Probability Warp
+Slightly distort chance around you, reducing enemy crits and increasing your own.
+
+Premonition Strike
+A melee or ranged attack that deals bonus damage.
+
+Crux Distortion
+Momentarily distort the flow of fate around an enemy, slowing them.
+
+Insightful Reversal
+Reflect the next debuff or mental effect back at its caster.
+
+Fate Ripple
+Cause a small temporal ripple that disrupts enemy timing and reduces their accuracy.
+
+Clairvoyant Guidance
+Grant an ally increased accuracy or evasion by sharing a glimpse of the future.
+
+Seer Ascendance
+Enter a heightened prophetic state: enhanced perception, faster reactions, and improved fate manipulation.
 
 -------------------------------------------
 CLASS PASSIVE
@@ -205,7 +253,7 @@ A master of fate, probability, and cosmic patterns who manipulates outcomes, shi
 A transcendent prophet who channels pure Crux visions, unleashes devastating revelations, and commands battlefield‑wide insight.
 
 ===========================================
-SPECIALIZATION: DIVINER 🌟
+SPECIALIZATION: DIVINER 
 ===========================================
 
 SPECIALIZATION PASSIVE
@@ -247,7 +295,7 @@ Undo a catastrophic moment.
 • If an ally died, they are revived
 
 ===========================================
-SPECIALIZATION: ORACLE 🌟
+SPECIALIZATION: ORACLE 
 ===========================================
 
 SPECIALIZATION PASSIVE
@@ -293,7 +341,7 @@ END OF CLASS SHEET
 ===========================================
 
 ===========================================
-        BASE CLASS: ENCHANTER 🌟
+        BASE CLASS: ENCHANTER 
 ===========================================
 A master of Crux‑woven magic, emotional resonance, and nanite‑augmented influence. Enchanters manipulate minds, moods, and momentum, empowering allies while subtly undermining foes. Their spells shape the flow of battle without relying on raw damage.
 
@@ -315,6 +363,54 @@ Defense: ★★★☆☆
 Mobility: ★★★☆☆  
 Crux Interaction: ★★★★★  
 Nanite Synergy: ★★★★★  
+
+-------------------------------------------
+BASE ABILITIES 
+-------------------------------------------
+Soothing Whisper
+Calm an ally’s mind, reducing panic, fear or stagger.
+
+Disorienting Pulse
+Release a wave of emotional static that reduces enemy accuracy.
+
+Enchanted Step
+A graceful movement that increases dodge chance and leaves a faint illusion behind.
+
+Enthrall
+Briefly distract or captivate a target, reducing their ability to act effectively. Captivated targets join the party if left alive
+
+Aura of Clarity
+Grant nearby allies improved focus, increasing accuracy or spell success.
+
+Dissonant Tone
+Emit a jarring emotional vibration that interrupts spellcasting.
+
+Harmonize
+Align the emotional states of nearby allies, granting a small group buff.
+
+Mesmeric Glance
+A focused gaze that briefly slows or distracts a single target.
+
+Crux Suggestion
+Plant a subtle mental nudge that influences an enemy’s next action to hurt one of its allies.
+
+Emotional Reservoir
+Store excess emotional energy to empower a future enchantment.
+
+Inspire
+Boost an ally’s confidence, increasing their damage or healing output.
+
+Bewilder
+Cloud an enemy’s mind, reducing their resistances or decision‑making.
+
+Crux Chorus
+Your next three enchantments gain a small stacking bonus.
+
+Enchanted Reversal
+Reflect the next mental or emotional effect back at its caster.
+
+Enchanter Ascendance
+Enter a heightened state of emotional and Crux mastery: stronger buffs, deeper influence, and enhanced illusions.
 
 -------------------------------------------
 CLASS PASSIVE
@@ -371,7 +467,7 @@ A battlefield manipulator who uses illusions, telekinetic Crux, and nanite‑bas
 A charismatic performer who channels Crux through music, rhythm, and storytelling, empowering allies and weakening foes with emotional resonance.
 
 ===========================================
-        SPECIALIZATION: CONTROLLER 🌟
+        SPECIALIZATION: CONTROLLER 
 ===========================================
 
 SPECIALIZATION PASSIVE
@@ -412,7 +508,7 @@ Overwhelm the battlefield with psychic Crux resonance.
 • Control persists for full duration  
 
 ===========================================
-        SPECIALIZATION: BARD 🌟
+        SPECIALIZATION: BARD 
 ===========================================
 
 SPECIALIZATION PASSIVE
@@ -456,7 +552,7 @@ END OF CLASS SHEET
 ===========================================
 
 ===========================================
-        BASE CLASS: ENGINEER 🌟
+        BASE CLASS: ENGINEER 
 ===========================================
 A brilliant technomancer who blends mechanical ingenuity with Crux‑powered devices and programmable nanites. Engineers deploy gadgets, turrets, drones, and battlefield tools that reshape combat through precision, automation, and controlled chaos.
 
@@ -478,6 +574,54 @@ Defense: ★★★☆☆
 Mobility: ★★★☆☆  
 Crux Interaction: ★★★☆☆  
 Nanite Synergy: ★★★★★  
+
+-------------------------------------------
+BASE ABILITIES 
+-------------------------------------------
+Crux Wrench
+Strike an enemy or device with a Crux‑charged tool, dealing damage or repairing constructs.
+
+Deploy Repair Bot
+Place a small automaton the heals friends first then fires at nearby enemies.
+
+Diagnostic Scan
+Analyze enemies or machines to reveal weaknesses, resistances, or structural flaws.
+
+Crux Capacitor
+Charge your gear with stored energy, empowering your next ability.
+
+Shock Mine
+Deploy a small mine that detonates when stepped on, stunning enemies.
+
+Grapple Launcher
+Fire a grappling hook to reposition quickly or pull objects.
+
+Micro‑Drone
+Deploy a small drone that scouts, marks enemies, or provides light support fire.
+
+Barrier Projector
+Place a temporary energy barrier that blocks projectiles.
+
+Auto‑Loader
+Increase ammo regeneration or reduce reload time for a short duration.
+
+Positive Vibes Generator
+Place a device that grants buffs such as healing, speed and resistance.
+
+Crux Infusion
+Empower your next few gadgets with elemental or force energy.
+
+Deploy Brute Bot
+A large defensive automaton wielding an elemental thrower.
+
+Extra Parts
+Throw out a pack of nanites to heal all of your deployable constructs.
+
+Tactical Rewire
+Instantly reset the cooldown of a gadget by rerouting power.
+
+Engineer Ascendance
+Enter a hyper‑optimized state: faster deployables, stronger constructs, and enhanced tech efficiency.
 
 -------------------------------------------
 CLASS PASSIVE
@@ -534,7 +678,7 @@ A master builder who constructs advanced turrets, drones, and hardlight machiner
 A long‑range demolition expert who uses explosive shells, arc‑launchers, and nanite‑fused munitions to reshape the battlefield from afar.
 
 ===========================================
-        SPECIALIZATION: ARTIFICER 🌟
+        SPECIALIZATION: ARTIFICER 
 ===========================================
 
 SPECIALIZATION PASSIVE
@@ -577,7 +721,7 @@ Deploy a massive multi‑function machine.
 • Cannot be interrupted once deployed  
 
 ===========================================
-        SPECIALIZATION: MORTARIST 🌟
+        SPECIALIZATION: MORTARIST 
 ===========================================
 
 SPECIALIZATION PASSIVE

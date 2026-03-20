@@ -9,12 +9,12 @@ Earth
 
 Base Stats 🌟
 Attribute	Value
-Strength	3/10
-Agility	3/10
-Endurance	3/10
-Intellect	4/10
-Willpower	4/10
-Crux Affinity	3/10
+Strength: '5/10',
+Agility: '7/10',
+Endurance: '5/10',
+Intellect: '6/10',
+Willpower: '6/10',
+CruxAffinity: '8/10'
 
 Innate Modifiers 🌟
 +1 Skill Point per Level
@@ -79,4 +79,6 @@ Common Roles: Sorcerer, Barbarian, Warlock
 Deep History 🌟
 Born in a system of three suns their home world is a planet of storms and unpredictability. They evolved from primates and hardly had a chance to live on the surface. They were almost extinct until they found vast underground caves. They moved underground to survive. The storms had made them vastly adaptive. They focused all of their energy to creating technology to help them back to the surface. Hundreds of years passed while  they advanced to a point where moving back was within reach. What was on the surface was more chaotic than their ancestors wrote of. They pushed themselves to adapt further with magic blending their species with the storms to save themselves from the chaos that constantly bombard their planet. 
 
-Defensive technology blended with a need to meld to the situation gives them different capabilities depending on the storm they were born in. It became genetic traits passed down from on generation to the next. So much that even children born on calm days would have the Raging Source in their veins. Nobody is sure if one of their scientist found The Prevailing Crux theory or if being melded with the storms wired the knowledge into them. As a whole collective, they did not create violence against each other when the planet seemed to want them dead. The moment they could a giant fleet of colony ships was built to take them to a new home. While they left their home they founded life in a new single star system. This gave them a chance to grow their population more than a few billion. Far from the chaos of their home, their past had made them worshippers of chaos. They believe the explosion that started this universe should be upheld by the beings it created.The need for each other to survive makes them great companions, even if they try to convince you to destroy everything all of the time. 
+Defensive technology blended with a need to meld to the situation gives them different capabilities depending on the storm they were born in. It became genetic traits passed down from on generation to the next. So much that even children born on calm days would have the Raging Source in their veins. Nobody is sure if one of their scientist found The Prevailing Crux theory or if being melded with the storms wired the knowledge into them. 
+
+As a whole collective, they did not create violence against each other when the planet seemed to want them dead. The moment they could a giant fleet of colony ships was built to take them to a new home. While they left their home they founded life in a new single star system. This gave them a chance to grow their population more than a few billion. Far from the chaos of their home, their past had made them worshippers of chaos. They believe the explosion that started this universe should be upheld by the beings it created.The need for each other to survive makes them great companions, even if they try to convince you to destroy everything all of the time. 

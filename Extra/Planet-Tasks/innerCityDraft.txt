@@ -38,7 +38,7 @@ Jobs:
 
 
 Tier 1 -
-
+ 
 City Proper
 Type: Community
 Description: The player's main building, control room, and administrative center.
@@ -47,6 +47,7 @@ Bonuses: renown gain +5%
 Actions: Hold Court, Assign Followers, Review Reports
 Profession: Advisor
 Apprentice: False
+Time Spent Multiplier: false
 Task-Reward: Renown, population
 Requirements: stone 5, wood 5, gold 10
 Upgrade-Requirements: 
@@ -64,6 +65,7 @@ Bonuses: diplomacy XP +5%, renown gain +3%
 Actions: Hold Council, Draft Decrees, Meet Envoys
 Profession: Councilor
 Apprentice: True
+Time Spent Multiplier: false
 Task-Reward: Renown, Population
 Requirements: stone 15, wood 10, nano pack 5
 Upgrade-Requirements: 
@@ -81,6 +83,7 @@ Bonuses: research speed +5%, renown +3%
 Actions: Study, Research, Teach Follower
 Profession: Scholar, Librarian
 Apprentice: True
+Time Spent Multiplier: false
 Task-Reward: education
 Requirements: nano pack 10, wood 15, stone 10
 Upgrade-Requirements: 
@@ -98,7 +101,8 @@ Bonuses: trade prices +2% better
 Actions: Buy, Sell, Trade, Commission Order
 Profession: Merchant, Trader
 Apprentice: True
-Task-Reward: gold
+Time Spent Multiplier: false
+Task-Reward: gold, package of random materials
 Requirements: gold 50, stone 10, wood 10
 Upgrade-Requirements: 
         rebuilt - gold 15
@@ -115,7 +119,8 @@ Bonuses: health recovery +5%
 Actions: Draw nanos, Purify Sickness
 Profession: Nanokeeper
 Apprentice: True
-Task-Reward: nanites 
+Time Spent Multiplier: false
+Task-Reward: nanites, package of random materials 
 Requirements: stone 10, wood 10, metal ore 5
 Upgrade-Requirements: 
         rebuilt - nano packs 10
@@ -135,6 +140,7 @@ Bonuses: communication speed +10%, villager XP +5%
 Actions: Send/Receive Message, Assign Courier
 Profession: Postmaster
 Apprentice: True
+Time Spent Multiplier: false
 Task-Reward: communication speed, shipment of goods
 Requirements: wood 10, stone 5, gold 10
 Upgrade-Requirements: 
@@ -152,7 +158,8 @@ Bonuses: scouting efficiency +5%, mission planning +5%
 Actions: Review Maps, Assign Patrols, Plan Strategy
 Profession: Strategist
 Apprentice: True
-Task-Reward: Defense 
+Time Spent Multiplier: True
+Task-Reward: Defense, package of random materials 
 Requirements: wood 15, stone, paper 10, followers 10
 Upgrade-Requirements: 
         rebuilt - followers 5
@@ -169,6 +176,7 @@ Bonuses: healing +5%, blessing duration +5%
 Actions: Pray, Receive Blessing, Perform Ritual
 Profession: Devotee
 Apprentice: True
+Time Spent Multiplier: True
 Task-Reward: happiness, healers
 Requirements: stone 20, cosmic ore - minor 5, rune-cloth 5
 Upgrade-Requirements: 
@@ -186,7 +194,8 @@ Bonuses: crafting quality +3%, villager XP +5%
 Actions: Manufacture Clothing, Craft Uniforms, Design Banner
 Profession: Tailor
 Apprentice: True
-Task-Reward: cloth, nano-cloth
+Time Spent Multiplier: false
+Task-Reward: cloth, nano-cloth, light armor
 Requirements: nanites 15, wood 10, stone 10
 Upgrade-Requirements: 
         rebuilt - nano-cloth 10
@@ -203,6 +212,7 @@ Bonuses: leather yield +5%, leather production +3%
 Actions: Cure Hides, Craft Leather Armor, Process Materials
 Profession: Tanner
 Apprentice: True
+Time Spent Multiplier: false
 Task-reward: leather, medium armor
 Requirements: hides 10, wood 10, metal bars 5
 Upgrade-Requirements: 
@@ -220,6 +230,7 @@ Bonuses: crafting quality +5%, repair cost –10%
 Actions: Forge Item, Repair Gear, Upgrade Gear
 Profession: Blacksmith
 Apprentice: True
+Time Spent Multiplier: false
 Task-Reward: weapons, metal armor, metal bars, glass
 Requirements: metal ore 5, stone 5, wood 10, water 5
 Upgrade-Requirements: 
@@ -237,6 +248,7 @@ Bonuses: travel speed +5%, ship/mech efficiency +3%
 Actions: Ship/Mech upgrades, repair found tech
 Profession: Technician
 Apprentice: True
+Time Spent Multiplier: false
 Task-Reward: mechs, ships
 Requirements: wood 20, stone 10, parts 10
 Upgrade-Requirements: 
@@ -254,6 +266,7 @@ Bonuses: equipment durability +5%, defense +5%
 Actions: Store Gear, Issue Equipment, Inspect Inventory
 Profession: Quartermaster
 Apprentice: False
+Time Spent Multiplier: false
 Task-Reward: defense 
 Requirements: metal ore 10, wood 15, weapons 5, armor 5
 Upgrade-Requirements: 
@@ -271,7 +284,8 @@ Bonuses: guard capacity +2 (upgrade + 2 per level), troops efficiency +5%
 Actions: Assign Guards, Train Recruits, Inspect Barracks
 Profession: Captain of the Guard
 Apprentice: True
-Task-Reward: Troops
+Time Spent Multiplier: True
+Task-Reward: Troops, package of random materials
 Requirements: wood 20, stone 20, villagers 10
 Upgrade-Requirements: 
         rebuilt - troops 5
@@ -288,7 +302,8 @@ Bonuses: spell power +3%, research speed +5%
 Actions: Study Magic, Upgrade Spell, Conduct Experiment
 Profession: Nano Knowledgekeeper
 Apprentice: True
-Task-Reward: runes, defense, battle mages, (castle expansion?)
+Time Spent Multiplier: True
+Task-Reward: runes, defense, battle mages, package of random materials
 Requirements: stone 25, cosmic ore - minor 10, gems 15
 Upgrade-Requirements: 
         rebuilt - nano packs 10
@@ -305,6 +320,7 @@ Bonuses: detection radius +10%, alert speed +5%
 Actions: satellite defense, Signal Alarm, Scout Perimeter
 Profession: Defense analyst
 Apprentice: False
+Time Spent Multiplier: false
 Task-Reward: defense 
 Requirements: wood 20, stone 10, troops 5
 Upgrade-Requirements: 
@@ -325,7 +341,8 @@ Bonuses: renown +10%, follower XP +5%
 Actions: Host Feast, Gather Rumors, Recruit Adventurer
 Profession: Innkeeper, Bard
 Apprentice: True
-Task-Reward: renown, happiness, followers 
+Time Spent Multiplier: True
+Task-Reward: renown, happiness, followers, package of random materials 
 Requirements: wood 20, beer 10, followers 5, tools 5
 Upgrade-Requirements: 
         rebuilt - followers 5
@@ -342,7 +359,8 @@ Bonuses: renown +5%, herb yield +3%
 Actions: Meditate, Gather Herbs, Tend Garden
 Profession: Groundskeeper
 Apprentice: False
-Task-Reward: crafting regents, herbs
+Time Spent Multiplier: True
+Task-Reward: crafting regents, herbs, package of random materials
 Requirements: wood 10, water 10, gold 40, tools 10
 Upgrade-Requirements: 
         rebuilt - followers 5
@@ -359,6 +377,7 @@ Bonuses: enchant potency +5%, Nano potency +3%
 Actions: Enchant Self & Gear, Bind energy
 Profession: Nanocrafter
 Apprentice: True
+Time Spent Multiplier: false
 Task-Reward: Nanos enchantments
 Requirements: stone 20, Nanos 5, cosmic ore - major 10, metal bars 5, gems 5
 Upgrade-Requirements: 
@@ -376,6 +395,7 @@ Bonuses: implant potency +5%, Nano potency +3%
 Actions: Brain implant management 
 Profession: Braincrafter
 Apprentice: True
+Time Spent Multiplier: false
 Task-Reward: Implants, brain upgrades
 Requirements: stone 20, Nanos 5, cosmic ore - major 10, metal bars 5, gems 5
 Upgrade-Requirements: 
@@ -393,7 +413,8 @@ Bonuses: system research +5%, energy production +3%
 Actions: Study Energy, Conduct system research
 Profession: Wild space scientist
 Apprentice: True
-Task-Reward: knowledge, technology
+Time Spent Multiplier: True
+Task-Reward: knowledge, technology, package of random materials
 Requirements: glass 5, stone 10, wood 20, tools 5, gold 40
 Upgrade-Requirements: 
         rebuilt - followers 5
@@ -408,9 +429,11 @@ Description: Fast travel, expeditions, and special missions.
 Level: 1
 Bonuses: travel time –80%, portal stability +5%
 Actions: Open Portal, Calibrate Gate, Send Expedition
-Task-Reward: diplomacy, technology
+Task-Reward: diplomacy, technology, package of random materials
 Profession: Gatekeeper
 Apprentice: True
+Time Spent Multiplier: True
+Task-Reward: diplomacy, technology, package of random materials
 Requirements: stone 30, wood 20, cosmic ore - major 10, gold 40
 Upgrade-Requirements: 
         rebuilt - nano packs 10

@@ -9,12 +9,12 @@ Water
 
 Base Stats 🌟
 Attribute	Value
-Strength	3/10
-Agility	3/10
-Endurance	3/10
-Intellect	4/10
-Willpower	4/10
-Crux Affinity	3/10
+Strength	6/10
+Agility	5/10
+Endurance	6/10
+Intellect	7/10
+Willpower	7/10
+Crux Affinity	6/10
 
 Innate Modifiers 🌟
 +1 Skill Point per Level

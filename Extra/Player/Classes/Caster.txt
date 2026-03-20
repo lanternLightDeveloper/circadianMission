@@ -1,4 +1,4 @@
-Crux & Nanite Magic 🌟
+Crux & Nanite Magic 
 -------------------------------------------
 Sorcerer - Chronomancer - Nano-caster 
 -------------------------------------------
@@ -35,7 +35,7 @@ Spellforger - crafts unstable combination spells on the fly, each cast reshaping
 Hollowborn - body inhabited by a sealed spirit; swaps control in combat.
 
 ===========================================
-SORCERER / WARLOCK / DRUID WEAPONS 🌟
+SORCERER / WARLOCK / DRUID WEAPONS 
 ===========================================
 -------------------------------------------
 Weapon buffs
@@ -72,7 +72,7 @@ Trumpet
 Drum
 
 ===========================================
-SORCERER → CHRONOMANCER / NANO-CASTER 🌟
+SORCERER → CHRONOMANCER / NANO-CASTER 
 ===========================================
 Staff
 Wand 
@@ -90,13 +90,13 @@ Rifle
 Launcher 
 
 ===============================================================
-WARLOCK → NECROMANCER / MONSTER SUMMONER 🌟
+WARLOCK → NECROMANCER / MONSTER SUMMONER 
 ===============================================================
 Staff
-Wand 
-Scepter 
-Gauntlets 
-Anklets 
+Wand
+Scepter
+Gauntlets
+Anklets
 Baton
 Hammer
 Axe
@@ -108,17 +108,17 @@ Shotgun
 Launcher
 
 ===========================================
-DRUID → SHAMAN / BEAST SUMMONER 🌟
+DRUID → SHAMAN / BEAST SUMMONER 
 ===========================================
 Staff
-Gauntlets 
-Anklets 
+Gauntlets
+Anklets
 Chakrams
 Baton
 Hammer
 Spear
 Tri‑dent
-Glaive 
+Glaive
 Halberd
 Hammer-blade (sword with hammer‑weighted back)
 Rapier
@@ -126,11 +126,11 @@ Longbow
 Adaptive Compound Bow (draw strength auto‑modulates)
 Wrist‑Bolter (rapid micro‑darts)
 Pistol
-Sniper 
+Sniper
 Launcher
 
 ===============================================================
-        CLASS: SORCERER / CHRONOMANCER / NANO‑CASTER 🌟
+        CLASS: SORCERER / CHRONOMANCER / NANO‑CASTER 
 ===============================================================
 A conduit of raw Crux energy who channels the universe’s binding force into destructive, protective, or reality‑altering spells. Sorcerers wield unstable power amplified by nanite regulators, balancing overwhelming potential with inherent risk.
 
@@ -152,6 +152,54 @@ Defense: ★★☆☆☆
 Mobility: ★★★☆☆  
 Crux Interaction: ★★★★★  
 Nanite Synergy: ★★★☆☆  
+
+-------------------------------------------
+BASE ABILITIES  
+-------------------------------------------
+Crux Bolt
+A focused projectile of raw Crux energy. Simple, fast, reliable.
+
+Arcane Pulse
+A short‑range radial burst that knocks enemies back and disrupts weak magical effects.
+
+Ether Sense
+Detect nearby Crux signatures, magical traps, or active spellwork.
+
+Arcane Ward
+A temporary shield that absorbs a small amount of damage before shattering.
+
+Spellweave
+Reduce the cast time of your next ability by channeling Crux through your hands.
+
+Arcane Step
+A short blink/teleport that leaves behind a fading afterimage.
+
+Arcane Grasp
+Telekinetically pull or push a target using raw Crux manipulation.
+
+Spell Echo
+Your next spell repeats at reduced power after a short delay.
+
+Crux Infusion
+Empower a weapon or ally with raw magical energy, adding elemental  damage.
+
+Arcane Barrier
+A stationary dome of protective energy that blocks projectiles for a short duration.
+
+Crux Surge
+A burst of speed and spellcasting haste fueled by unstable Crux flow.
+
+Spell Anchor
+Fix a spell effect in place — for example, a lingering zone or rune that persists after you move.
+
+Arcane Reversal
+Reflect the next magical attack back at its caster.
+
+Arcane Reservoir
+Store excess Crux energy for later use, allowing you to “bank” a spell charge.
+
+Arcane Ascendance
+Temporarily levitate, gaining increased vision, spell range, and reduced incoming melee damage.
 
 -------------------------------------------
 CLASS PASSIVE
@@ -296,7 +344,7 @@ END OF CLASS SHEET
 ===========================================
 
 ===========================================
-        CLASS: WARLOCK / NECROMANCER / MONSTER SUMMONER 🌟
+        CLASS: WARLOCK / NECROMANCER / MONSTER SUMMONER 
 ===========================================
 A wielder of forbidden Crux channels and unstable nanite rituals. Warlocks tap into the darker, more volatile aspects of the universe’s binding force, bending entropy, decay, and living constructs to their will. Their power is immense - but always comes with risk.
 
@@ -318,6 +366,54 @@ Defense: ★★☆☆☆
 Mobility: ★★☆☆☆  
 Crux Interaction: ★★★★★  
 Nanite Synergy: ★★★★☆  
+
+-------------------------------------------
+BASE ABILITIES 
+-------------------------------------------
+Pact Bolt
+A jagged blast of corrupted Crux that deals damage and marks the target with a curse.
+
+Eldritch Lash
+A whip‑like tendril of shadow energy that pulls an enemy to it interrupts casting.
+
+Void Skin
+Wrap yourself in a thin layer of abyssal energy, reducing incoming damage briefly.
+
+Dark Channeling
+Enter a trance that rapidly regenerates Crux but increases incoming damage.
+
+Abyssal Step
+Teleport through a tear in the veil, leaving behind a burst of shadow damage.
+
+Pact Mark
+Mark a target; your next three attacks deal bonus damage or trigger extra effects.
+
+Corrupted Ward
+A protective barrier that absorbs damage but explodes in shadow energy when broken.
+
+Abyssal Echo
+Your next spell repeats at reduced power, but the echo deals shadow damage instead of its original type.
+
+Eldritch Sight
+See through illusions, detect hidden entities, or sense nearby souls.
+
+Abyssal Reservoir
+Store excess Crux energy in a dark vessel, allowing you to unleash a stronger spell later.
+
+Curse Reversal
+Reflect the next curse or debuff back at its caster.
+
+Eldritch Rupture
+Cause a cursed enemy to erupt in shadow energy, damaging nearby foes.
+
+Pact Fortification
+Temporarily harden your body with abyssal reinforcement, boosting defenses.
+
+Soulflare
+Release a burst of stolen life energy that damages enemies and heals allies.
+
+Abyssal Ascendance
+Float above the ground, gaining increased spell range, curse duration, and reduced incoming melee damage.
 
 -------------------------------------------
 CLASS PASSIVE
@@ -458,8 +554,9 @@ Grow a colossal nanite‑Crux hybrid beast.
 ===========================================
 END OF CLASS SHEET
 ===========================================
+
 ===============================================================
-        CLASS: DRUID / SHAMAN / BEAST SUMMONER 🌟
+        CLASS: DRUID / SHAMAN / BEAST SUMMONER 
 ===============================================================
 A bio‑Crux channeler who manipulates living energy, nanite‑grown flora, and primal cosmic forces. Druids blend ancient instinct with futuristic bio‑engineering, shaping the battlefield with regenerative fields, living constructs, and elemental Crux surges.
 
@@ -483,6 +580,54 @@ Crux Interaction: ★★★★★
 Nanite Synergy: ★★★★★  
 
 -------------------------------------------
+BASE ABILITIES 
+-------------------------------------------
+Nature’s Sense
+Detect nearby life signatures, natural anomalies, or elemental disturbances.
+
+Barkskin
+Harden your skin with natural Crux‑infused bark, reducing incoming damage.
+
+Wildstep
+A short, fluid dash that leaves behind a trail of grass or spores.
+
+Lifespring
+Channel ambient life energy to regenerate health over time.
+
+Verdant Ward
+Summon a protective circle of natural energy that reduces damage taken by allies inside.
+
+Bloomstrike
+Cause a burst of flowers or spores to explode beneath a target, dealing damage.
+
+Spirit Infusion
+Empower your next ability with primal energy, increasing its potency or adding an elemental effect.
+
+Regrowth
+Instantly heal a small amount of health and cleanse minor poisons or bleeds.
+
+Wildcall
+Emit a primal cry that boosts your movement speed and Crux regeneration.
+
+Verdant Anchor
+Create a natural rune that persists on the ground, granting healing or buffs to allies who stand within it.
+
+Thornshield
+Summon a rotating barrier of thorns that damages enemies who strike you.
+
+Earthen Bind
+Cause the ground beneath an enemy to harden and trap their feet, slowing them heavily.
+
+Blooming Surge
+Release a wave of life energy that heals allies and damages undead or corrupted foes.
+
+Nature’s Reversal
+Reflect the next nature‑based or elemental attack back at its source.
+
+Druidic Ascendance
+Enter a heightened state of primal awareness: increased healing, improved elemental control, and partial damage resistance.
+
+-------------------------------------------
 CLASS PASSIVE
 -------------------------------------------
 Living Circuit  
@@ -494,7 +639,6 @@ Your Crux and nanites harmonize with biological systems.
 -------------------------------------------
 LEVEL PROGRESSION & ABILITY CHOICES
 -------------------------------------------
-
 LEVEL 1 - Starting Ability
 -------------------------------------------
 Verdant Bolt  

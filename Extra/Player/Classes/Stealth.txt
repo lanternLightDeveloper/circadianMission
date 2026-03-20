@@ -1,4 +1,4 @@
-Stealth, Subterfuge & Shadow Roles 🌟
+Stealth, Subterfuge & Shadow Roles 
 -------------------------------------------
 Marksman - Ranger - Hunter
 -------------------------------------------
@@ -35,7 +35,7 @@ Chain Dancer - acrobatic fighter using weighted chains in rhythmic, hypnotic pat
 Corpse Stalker - cosmic hunter who uses parasitic symbiotes for power.
 
 ===========================================
-MARKSMAN / THIEF / SCOUT WEAPON SET 🌟
+MARKSMAN / THIEF / SCOUT WEAPON SET 
 ===========================================
 -------------------------------------------
 Weapon buffs
@@ -64,33 +64,19 @@ Knives
 Shuriken
 Kunai
 Caltrops
-Bombs 
-Grenades 
+Bombs
+Grenades
 
 ===========================================
-MARKSMAN → RANGER / HUNTER 🌟
+MARKSMAN → RANGER / HUNTER 
 ===========================================
-Gauntlets 
-Anklets 
-Baton
-Hammer
-Spear
-Cleaver
-Daggers
-Longbow
-Adaptive Compound Bow (draw strength auto‑modulates)
-Wrist‑Bolter (rapid micro‑darts)
-Pistol
-Shotgun
-Rifle
-Sniper 
-Launcher
+Gauntlets, Anklets, Baton, Hammer, Spear, Cleaver, Daggers, Longbow, Adaptive Compound Bow (draw strength auto‑modulates), Wrist‑Bolter (rapid micro‑darts), Pistol, Shotgun, Rifle, Sniper, Launcher
 
 ===================================
-THIEF → TRICKSTER / SABOTEUR 🌟
+THIEF → TRICKSTER / SABOTEUR 
 ===================================
-Gauntlets 
-Anklets 
+Gauntlets
+Anklets
 Chakrams
 Spear
 Daggers
@@ -103,10 +89,10 @@ Wrist‑Bolter (rapid micro‑darts)
 Pistol
 Shotgun
 Rifle
-Sniper 
+Sniper
 
 =========================================
-SCOUT → ASSASSIN / AETHER‑BLADE 🌟
+SCOUT → ASSASSIN / AETHER‑BLADE 
 =========================================
 Gauntlets 
 Anklets 
@@ -129,12 +115,14 @@ Sniper
 Launcher
 
 ===========================================
-        CLASS: MARKSMAN / RANGER / HUNTER 🌟
+        CLASS: MARKSMAN / RANGER / HUNTER 
 ===========================================  
+A precision ranged combatant who blends keen perception with Crux‑guided aim and nanite‑stabilized weaponry. Marksmen excel at long‑range engagements, tactical positioning, and eliminating priority targets before they can close the distance.
+
 -------------------------------------------
 CORE IDENTITY
 -------------------------------------------
-Role: Long‑range damage dealer, scout, precision eliminator  
+Role: Long‑range damage dealer, precision eliminator  
 Weapons:
 Armor: Medium
 Combat Style: Controlled shots, tactical repositioning, high accuracy  
@@ -151,6 +139,54 @@ Crux Interaction: ★★★☆☆
 Nanite Power: ★★★★☆  
 
 -------------------------------------------
+BASE ABILITIES  
+-------------------------------------------
+Steady Aim
+Briefly reduce sway and increase accuracy by focusing your breathing and Crux flow.
+
+Quickdraw
+Instantly ready your weapon and fire a fast opening shot.
+
+Pinning Shot
+A precise hit that slows or briefly immobilizes the target.
+
+Eagle Eye
+Enhance vision to detect distant enemies, weak points, or hidden movement.
+
+Multi‑Shot Burst
+Fire several rapid shots at nearby enemies or a single target.
+
+Crux Stabilization
+Channel energy to steady your hands, increasing critical chance.
+
+Mark Target
+Tag an enemy, increasing your damage against them and revealing their position.
+
+Ricochet Round
+A specialized shot that bounces to a second target.
+
+Smoke Arrow / Smoke Round
+Create a small smoke cloud that obscures vision and breaks line of sight.
+
+Weakpoint Analysis
+Temporarily highlight enemy vulnerabilities, increasing damage.
+
+Crux Infusion
+Empower your ammunition with elemental or force energy for several shots.
+
+Volley Stance
+Adopt a stable firing posture that increases damage but reduces mobility.
+
+Flashshot
+A blinding projectile that disorients enemies on impact.
+
+Precision Barrage
+Fire a rapid sequence of pinpoint shots at a single target.
+
+Marksman Ascendance
+Enter a hyper‑focused state: increased accuracy, faster reloads, and enhanced critical hits.
+
+----------------------------------------
 CLASS PASSIVE
 -------------------------------------------
 Deadeye Protocol  
@@ -204,7 +240,7 @@ A mobile survivalist and battlefield tracker who excels at mid‑range combat, m
 A relentless predator who focuses on single‑target elimination, traps, and Crux‑enhanced pursuit techniques.
 
 ===========================================
-        SPECIALIZATION: RANGER 🌟
+        SPECIALIZATION: RANGER 
 ===========================================
 
 SPECIALIZATION PASSIVE
@@ -244,7 +280,7 @@ Leap into the air and unleash a barrage of Crux‑infused arrows or shots.
 • Enemies hit are slowed and marked  
 
 ===========================================
-        SPECIALIZATION: HUNTER 🌟
+        SPECIALIZATION: HUNTER 
 ===========================================
 
 SPECIALIZATION PASSIVE
@@ -289,7 +325,7 @@ END OF CLASS SHEET
 ===========================================
 
 ===========================================
-        CLASS: THIEF / TRICKSTER / SABOTEUR 🌟
+        CLASS: THIEF / TRICKSTER / SABOTEUR 
 ===========================================
 A stealthy infiltrator who blends agility, cunning, and nanite‑enhanced sleight of hand. Thieves excel at evasion, precision strikes, disabling enemies, and manipulating the battlefield through deception and sabotage.
 
@@ -311,6 +347,54 @@ Defense: ★★☆☆☆
 Mobility: ★★★★★  
 Crux Interaction: ★★★☆☆  
 Nanite Power: ★★★★☆  
+
+-------------------------------------------
+BASE ABILITIES  
+-------------------------------------------
+Shadow Slash
+A quick melee strike that deals bonus damage when used from behind or while unseen.
+
+Silent Step
+Move quietly, reducing detection radius and increasing movement speed.
+
+Crux Veil
+Bend light and energy around yourself, briefly becoming semi‑invisible.
+
+Crux‑Tipped Dagger
+Empower your blade with a burst of Crux, increasing penetration and crit chance.
+
+Smoke Bomb
+Create a cloud of smoke that breaks line of sight and reduces enemy accuracy.
+
+Shadowstep
+Teleport a short distance behind a target, setting up a backstab.
+
+Crux Disruptor
+A small energy pulse that interrupts spellcasting and destabilizes enemy Crux flow.
+
+Grapple Hook
+Latch onto a surface or enemy to reposition quickly.
+
+Tripwire Toss
+Deploy a quick trap that slows or knocks down the first enemy to cross it.
+
+Blindside
+Deal bonus damage to enemies who are attacking someone else.
+
+Escape Artist
+Break free from slows, roots, or minor control effects.
+
+Dagger Flurry
+A rapid series of strikes that overwhelms lightly armored foes.
+
+Shadow Lure
+Create a faint illusion of yourself that draws enemy attention.
+
+Silent Takedown
+Eliminate or heavily damage a single unaware target.
+
+Thief Ascendance
+Enter a hyper‑focused stealth state: increased crits, faster movement, and near‑silent actions.
 
 -------------------------------------------
 CLASS PASSIVE
@@ -367,7 +451,7 @@ A deceptive illusionist who manipulates perception, creates decoys, and confuses
 A demolition and disruption expert who uses traps, explosives, and nanite‑based interference to control the battlefield.
 
 ===========================================
-        SPECIALIZATION: TRICKSTER 🌟
+        SPECIALIZATION: TRICKSTER 
 ===========================================
 SPECIALIZATION PASSIVE
 -------------------------------------------
@@ -406,7 +490,7 @@ Unleash a storm of illusions and Crux distortions.
 • You gain temporary invisibility and +30% crit chance  
 
 ===========================================
-        SPECIALIZATION: SABOTEUR 🌟
+        SPECIALIZATION: SABOTEUR 
 ===========================================
 SPECIALIZATION PASSIVE
 -------------------------------------------
@@ -450,7 +534,7 @@ END OF CLASS SHEET
 ===========================================
 
 ===========================================
-        CLASS: SCOUT / ASSASSIN / AETHER‑BLADE 🌟
+        CLASS: SCOUT / ASSASSIN / AETHER‑BLADE 
 ===========================================
 A hyper‑mobile Crux warrior who manipulates space, momentum, and battlefield positioning. Scouts chain teleports, blink‑strikes, and nanite‑accelerated movement to overwhelm enemies with speed and spatial dominance.
 
@@ -472,6 +556,54 @@ Defense: ★★★☆☆
 Mobility: ★★★★★  
 Crux Interaction: ★★★★★  
 Nanite Power: ★★★★☆  
+
+-------------------------------------------
+BASE ABILITIES  
+-------------------------------------------
+Blink Step
+A short‑range teleport that preserves momentum and sets up your next attack.
+
+Momentum Edge
+Your next melee strike deals bonus damage based on distance moved in the last few seconds.
+
+Spatial Awareness
+Briefly highlight enemy positions and detect traps.
+
+Aether Sense
+Detect distortions in space, revealing hidden or cloaked enemies.
+
+Crux Lunge
+A fast, piercing teleport‑dash that closes distance instantly.
+
+Afterimage Feint
+Leave behind a fading clone that distracts enemies for a moment.
+
+Crux Burst
+Release a shockwave when you exit a teleport, knocking enemies back.
+
+Phase Roll
+A dodge that briefly makes you intangible.
+
+Aether Infusion
+Empower your next few attacks with spatial distortion, increasing crit chance.
+
+Dimensional Attack
+A attack leaves a lingering rift of blinding damage over time.
+
+Aether Pull
+Teleport an enemy a short distance toward you or reposition them slightly.
+
+Blink Reversal
+Teleport behind an enemy who attacks you, avoiding the hit entirely.
+
+Spatial Disruptor
+Destabilize the space around a target, slowing their movement.
+
+Momentum Loop
+Your next teleport refunds part of its Crux cost if used within a short time of moving.
+
+Scout Ascendance
+Enter a hyper‑mobile state: reduced teleport cooldowns, increased dodge, and enhanced spatial perception.
 
 -------------------------------------------
 CLASS PASSIVE
@@ -530,7 +662,7 @@ A teleport‑executioner who chains blink‑kills, isolates targets, and uses Cr
 A dimensional warrior who phases through reality, delivering spectral blade attacks and manipulating space itself.
 
 ===========================================
-        SPECIALIZATION: ASSASSIN  🌟
+        SPECIALIZATION: ASSASSIN  
 ===========================================
 SPECIALIZATION PASSIVE
 -------------------------------------------
@@ -570,7 +702,7 @@ Lock onto a target and collapse space around them.
 • If the target dies, cooldown is halved  
 
 ===========================================
-        SPECIALIZATION: AETHER‑BLADE  🌟
+        SPECIALIZATION: AETHER‑BLADE  
 ===========================================
 
 SPECIALIZATION PASSIVE

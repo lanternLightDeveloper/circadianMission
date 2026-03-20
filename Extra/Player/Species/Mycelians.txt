@@ -9,12 +9,12 @@ Fire
 
 Base Stats 🌟
 Attribute	Value
-Strength	3/10
-Agility	3/10
-Endurance	3/10
-Intellect	4/10
-Willpower	4/10
-Crux Affinity	3/10
+Strength	5/10
+Agility	4/10
+Endurance	7/10
+Intellect	7/10
+Willpower	5/10
+Crux Affinity	7/10
 
 Innate Modifiers 🌟
 +5 Task Point per Level

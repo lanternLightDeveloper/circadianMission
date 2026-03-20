@@ -1,9 +1,4 @@
 <script lang="ts">
-	type UpgradeReq = {
-		tier: string;
-		requirements: string;
-	};
-
 	type Building = {
 		id: string;
 		name: string;
@@ -14,516 +9,488 @@
 		bonuses: string;
 		actions: string[];
 		profession: string[];
+		apprentice: boolean;
+		timeSpentMultiplier: boolean;
 		taskReward: string;
 		requirements: string;
-		upgrades: UpgradeReq[];
+		upgrades: { tier: string; requirements: string }[];
 	};
 
 	const buildings: Building[] = [
 		{
 			id: 'farms',
 			name: 'Farms',
-			type: 'Building',
+			type: 'District',
 			tier: 1,
 			description: 'Produces crops; boosts gathering and cooking tasks.',
 			level: 1,
 			bonuses: 'gathering yield +5%, food storage +3%',
 			actions: ['Harvest Crops', 'Plant Seeds', 'Tend Fields'],
 			profession: ['Farmer'],
-			taskReward: 'crops, happiness, pickled vegetables',
+			apprentice: true,
+			timeSpentMultiplier: true,
+			taskReward: 'crops, happiness, pickled vegetables, package of random materials',
 			requirements: 'wood 15, fiber 10, water 10',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'followers 5' },
+				{ tier: 'Established', requirements: 'followers 15' },
+				{ tier: 'Improved', requirements: 'followers 25' },
+				{ tier: 'Advanced', requirements: 'followers 35' },
+				{ tier: 'Exquisite', requirements: 'followers 45' }
 			]
 		},
-		{
-			id: 'granary',
-			name: 'Granary',
-			type: 'Building',
-			tier: 1,
-			description: 'Food storage; affects stability, famine prevention, and follower defense.',
-			level: 1,
-			bonuses: 'food preservation +5%, defense +3%',
-			actions: ['Store Grain', 'Inspect Supplies', 'Distribute Rations'],
-			profession: ['Granary Keeper'],
-			taskReward: 'grain, happiness, villagers',
-			requirements: 'wood 15, stone 10',
-			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
-			]
-		},
+
 		{
 			id: 'dairy',
 			name: 'Dairy',
-			type: 'Field',
+			type: 'District',
 			tier: 1,
 			description: 'Produces milk and cheese; boosts food crafting and animal care.',
 			level: 1,
 			bonuses: 'animal bonds +4%, food production +5%',
 			actions: ['Milk Animals', 'Process Cheese', 'Clean Pens'],
 			profession: ['Dairy Keeper', 'Farmhand'],
-			taskReward: 'milk, cheese, horses, meat, villagers',
+			apprentice: true,
+			timeSpentMultiplier: true,
+			taskReward: 'milk, cheese, horses, meat, villagers, package of random materials',
 			requirements: 'wood 10, stone 5, gold 5',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'followers 5' },
+				{ tier: 'Established', requirements: 'followers 15' },
+				{ tier: 'Improved', requirements: 'followers 25' },
+				{ tier: 'Advanced', requirements: 'followers 35' },
+				{ tier: 'Exquisite', requirements: 'followers 45' }
 			]
 		},
+
 		{
 			id: 'hunt-fish-outpost',
 			name: 'Hunt / Fish Outpost',
-			type: 'Worksite',
+			type: 'Community',
 			tier: 1,
 			description: 'Wilderness outpost for hunting and fishing tasks.',
 			level: 1,
 			bonuses: 'wild meat gathering +8%, fish gathering +5%',
 			actions: ['Hunt Game', 'Set Traps', 'Fish Waters'],
 			profession: ['Hunter', 'Fisher'],
-			taskReward: 'fish, wild meat, happiness, water',
+			apprentice: true,
+			timeSpentMultiplier: true,
+			taskReward: 'fish, wild meat, happiness, water, package of random materials',
 			requirements: 'wood 10, rope 5, stone 5',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'followers 5' },
+				{ tier: 'Established', requirements: 'followers 15' },
+				{ tier: 'Improved', requirements: 'followers 25' },
+				{ tier: 'Advanced', requirements: 'followers 35' },
+				{ tier: 'Exquisite', requirements: 'followers 45' }
 			]
 		},
+
 		{
 			id: 'lumber-yard',
 			name: 'Lumber Yard',
-			type: 'Worksite',
+			type: 'District',
 			tier: 1,
 			description: 'Woodcutting, hauling logs, clearing fallen trees.',
 			level: 1,
 			bonuses: 'wood yield +8%, happiness +3%',
 			actions: ['Chop Wood', 'Haul Logs', 'Clear Debris'],
 			profession: ['Lumberjack'],
-			taskReward: 'wood, paper',
+			apprentice: true,
+			timeSpentMultiplier: true,
+			taskReward: 'wood, lumber, package of random materials',
 			requirements: 'wood 10, stone 15',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'nano packs 10' },
+				{ tier: 'Established', requirements: 'nano packs 20' },
+				{ tier: 'Improved', requirements: 'nano packs 30' },
+				{ tier: 'Advanced', requirements: 'nano packs 40' },
+				{ tier: 'Exquisite', requirements: 'nano packs 50' }
 			]
 		},
+
 		{
-			id: 'quarry-edge',
-			name: 'Quarry Edge',
-			type: 'Worksite',
+			id: 'asteroid-mining-outpost',
+			name: 'Asteroid Mining Outpost',
+			type: 'District',
 			tier: 1,
-			description: 'Stone extraction, carting materials, safety inspections.',
+			description: 'Ore extraction, carting materials, safety inspections.',
 			level: 1,
 			bonuses: 'stone yield +8%, ore yield +3%',
-			actions: ['Extract Stone', 'Inspect Quarry', 'Transport Blocks'],
+			actions: ['Extract Stone', 'Transport Bars'],
 			profession: ['Quarryman'],
-			taskReward: 'stone, happiness',
+			apprentice: true,
+			timeSpentMultiplier: true,
+			taskReward: 'metal bars, happiness, package of random materials',
 			requirements: 'stone 10, woods 5',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'nano packs 10' },
+				{ tier: 'Established', requirements: 'nano packs 20' },
+				{ tier: 'Improved', requirements: 'nano packs 30' },
+				{ tier: 'Advanced', requirements: 'nano packs 40' },
+				{ tier: 'Exquisite', requirements: 'nano packs 50' }
 			]
 		},
+
 		{
-			id: 'wagon-depot',
-			name: 'Wagon Depot',
-			type: 'Building',
+			id: 'warehouses',
+			name: 'Warehouses',
+			type: 'District',
+			tier: 1,
+			description: 'Food storage; affects stability, famine prevention, and follower defense.',
+			level: 1,
+			bonuses: 'food preservation +5%, defense +3%',
+			actions: ['Store Grain', 'Inspect Supplies', 'Distribute Rations'],
+			profession: ['Warehouse Keeper'],
+			apprentice: false,
+			timeSpentMultiplier: false,
+			taskReward: 'grain, happiness, villagers, package of random materials',
+			requirements: 'wood 15, stone 10',
+			upgrades: [
+				{ tier: 'Rebuilt', requirements: 'nano packs 10' },
+				{ tier: 'Established', requirements: 'nano packs 20' },
+				{ tier: 'Improved', requirements: 'nano packs 30' },
+				{ tier: 'Advanced', requirements: 'nano packs 40' },
+				{ tier: 'Exquisite', requirements: 'nano packs 50' }
+			]
+		},
+
+		{
+			id: 'starship-depot',
+			name: 'Starship Depot',
+			type: 'Community',
 			tier: 1,
 			description: 'Caravans, deliveries, escorting merchants.',
 			level: 1,
 			bonuses: 'delivery speed +5%, trade rewards +3%',
-			actions: ['Load Wagon', 'Dispatch Caravan', 'Escort Merchant'],
-			profession: ['Wagonmaster'],
-			taskReward: 'gold, renown, villagers',
+			actions: ['Load Starship', 'Dispatch Caravan', 'Escort Merchant'],
+			profession: ['Ship Leader'],
+			apprentice: false,
+			timeSpentMultiplier: false,
+			taskReward: 'gold, renown, villagers, package of random materials',
 			requirements: 'wood 15, rope 10, stone 10',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'nano packs 10' },
+				{ tier: 'Established', requirements: 'nano packs 20' },
+				{ tier: 'Improved', requirements: 'nano packs 30' },
+				{ tier: 'Advanced', requirements: 'nano packs 40' },
+				{ tier: 'Exquisite', requirements: 'nano packs 50' }
 			]
 		},
-		{
-			id: 'traveling-market',
-			name: 'Traveling Market',
-			type: 'Building',
-			tier: 2,
-			description: 'Rotating vendor hub with rare items and quests.',
-			level: 1,
-			bonuses: 'rare goods chance +5%, trade rewards +3%',
-			actions: ['Browse Wares', 'Trade Goods', 'Accept Special Quests'],
-			profession: ['Wandering Merchant'],
-			taskReward: 'gold, villagers',
-			requirements: 'gold 50, stone 20, wood 15, iron bars 5, paper 5',
-			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
-			]
-		},
-		{
-			id: 'masons',
-			name: 'Masons',
-			type: 'Worksite',
-			tier: 2,
-			description: 'Improves construction, repairs, and structural upgrades.',
-			level: 1,
-			bonuses: 'construction speed +5%, repair efficiency +10%',
-			actions: ['Cut Stone', 'Reinforce Walls', 'Craft Masonry Blocks'],
-			profession: ['Mason'],
-			taskReward: 'brick, stone',
-			requirements: 'stone 20, tools 5, wood 10, iron bars 5',
-			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
-			]
-		},
-		{
-			id: 'tannery',
-			name: 'Tannery',
-			type: 'Building',
-			tier: 2,
-			description: 'Leatherworking, hides, and light armor crafting.',
-			level: 1,
-			bonuses: 'leather yield +5%, leather production +3%',
-			actions: ['Cure Hides', 'Craft Leather Armor', 'Process Materials'],
-			profession: ['Tanner'],
-			taskReward: 'leather, light armor',
-			requirements: 'hides 10, wood 10, iron bars 5',
-			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
-			]
-		},
+
 		{
 			id: 'orchards',
 			name: 'Orchards',
-			type: 'Field',
+			type: 'District',
 			tier: 2,
 			description: 'Fruit picking, pruning, and seasonal harvest quests.',
 			level: 1,
 			bonuses: 'harvest yield +5%, renown +3%',
 			actions: ['Pick Fruit', 'Prune Trees', 'Tend Orchard'],
 			profession: ['Orchard Keeper', 'Cider Brewer'],
-			taskReward: 'fruits, happiness, beer',
+			apprentice: true,
+			timeSpentMultiplier: true,
+			taskReward: 'fruits, happiness, beer, package of random materials',
 			requirements: 'wood 10, water 10, rope 10',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'followers 5' },
+				{ tier: 'Established', requirements: 'followers 15' },
+				{ tier: 'Improved', requirements: 'followers 25' },
+				{ tier: 'Advanced', requirements: 'followers 35' },
+				{ tier: 'Exquisite', requirements: 'followers 45' }
 			]
 		},
+
 		{
-			id: 'river-dock',
-			name: 'River Dock',
-			type: 'Building',
+			id: 'waterside',
+			name: 'Waterside',
+			type: 'District',
 			tier: 2,
 			description: 'Fishing boats, ferry tasks, water‑based errands.',
 			level: 1,
 			bonuses: 'fishing yield +8%, renown +3%',
 			actions: ['Launch Boat', 'Ferry Goods', 'Fish River'],
 			profession: ['Dockhand'],
-			taskReward: 'fish, diplomacy, water',
+			apprentice: true,
+			timeSpentMultiplier: true,
+			taskReward: 'fish, diplomacy, water, package of random materials',
 			requirements: 'wood 15, rope 5, stone 5, iron bars 5',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'followers 5' },
+				{ tier: 'Established', requirements: 'followers 15' },
+				{ tier: 'Improved', requirements: 'followers 25' },
+				{ tier: 'Advanced', requirements: 'followers 35' },
+				{ tier: 'Exquisite', requirements: 'followers 45' }
 			]
 		},
+
+		{
+			id: 'traveling-market',
+			name: 'Traveling Market',
+			type: 'Community',
+			tier: 2,
+			description: 'Rotating vendor hub with rare items and quests.',
+			level: 1,
+			bonuses: 'rare goods chance +5%, trade rewards +3%',
+			actions: ['Browse Wares', 'Trade Goods', 'Accept Special Quests'],
+			profession: ['Wandering Merchant'],
+			apprentice: false,
+			timeSpentMultiplier: false,
+			taskReward: 'gold, villagers, package of random materials',
+			requirements: 'gold 50, stone 20, wood 15, iron bars 5, paper 5',
+			upgrades: [
+				{ tier: 'Rebuilt', requirements: 'followers 5' },
+				{ tier: 'Established', requirements: 'followers 15' },
+				{ tier: 'Improved', requirements: 'followers 25' },
+				{ tier: 'Advanced', requirements: 'followers 35' },
+				{ tier: 'Exquisite', requirements: 'followers 45' }
+			]
+		},
+
+		{
+			id: 'drone-factory',
+			name: 'Drone Factory',
+			type: 'District',
+			tier: 2,
+			description: 'Improves construction, repairs, and structural upgrades.',
+			level: 1,
+			bonuses: 'construction speed +5%, repair efficiency +10%',
+			actions: ['Reinforce Walls'],
+			profession: ['Drone Workeeper'],
+			apprentice: true,
+			timeSpentMultiplier: true,
+			taskReward: 'brick, stone',
+			requirements: 'stone 20, tools 5, wood 10, iron bars 5',
+			upgrades: [
+				{ tier: 'Rebuilt', requirements: 'nano packs 10' },
+				{ tier: 'Established', requirements: 'nano packs 20' },
+				{ tier: 'Improved', requirements: 'nano packs 30' },
+				{ tier: 'Advanced', requirements: 'nano packs 40' },
+				{ tier: 'Exquisite', requirements: 'nano packs 50' }
+			]
+		},
+
 		{
 			id: 'scouting-posts',
 			name: 'Scouting Posts',
-			type: 'Building',
+			type: 'Community',
 			tier: 2,
 			description: 'Short patrols, lookout duties, messenger tasks.',
 			level: 1,
 			bonuses: 'communication speed +5%, detection radius +15%',
 			actions: ['Patrol Area', 'Watch Perimeter', 'Relay Messages'],
 			profession: ['Scout'],
-			taskReward: 'diplomacy, villagers, defense',
+			apprentice: false,
+			timeSpentMultiplier: true,
+			taskReward: 'diplomacy, villagers, defense, package of random materials',
 			requirements: 'wood 10, rope 5, horses 5, stone 15',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'troops 5' },
+				{ tier: 'Established', requirements: 'troops 15' },
+				{ tier: 'Improved', requirements: 'troops 25' },
+				{ tier: 'Advanced', requirements: 'troops 35' },
+				{ tier: 'Exquisite', requirements: 'troops 45' }
 			]
 		},
+
 		{
-			id: 'roadside-shrine',
-			name: 'Roadside Shrine',
-			type: 'Building',
+			id: 'displaced-shrine',
+			name: 'Displaced Shrine',
+			type: 'Community',
 			tier: 2,
 			description: 'Offerings, blessings, and small spiritual quests.',
 			level: 1,
 			bonuses: 'blessing duration +5%, defense +3%',
 			actions: ['Leave Offering', 'Pray', 'Clean Shrine'],
 			profession: ['Shrine Keeper'],
+			apprentice: true,
+			timeSpentMultiplier: true,
 			taskReward: 'happiness, gold',
 			requirements: 'stone 10, cosmic ore - major 5, wood 5, gold 5',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'followers 5' },
+				{ tier: 'Established', requirements: 'followers 15' },
+				{ tier: 'Improved', requirements: 'followers 25' },
+				{ tier: 'Advanced', requirements: 'followers 35' },
+				{ tier: 'Exquisite', requirements: 'followers 45' }
 			]
 		},
 		{
 			id: 'training-grounds',
 			name: 'Training Grounds',
-			type: 'Field',
+			type: 'District',
 			tier: 3,
-			description: 'Combat drills, sparring, and mount practice, army recruiting.',
+			description: 'Combat drills, sparring, mount practice, army recruiting.',
 			level: 1,
 			bonuses: 'combat XP +5%, training efficiency +5%',
 			actions: ['Spar', 'Drill Troops', 'Practice Mounted Combat'],
 			profession: ['Trainer'],
-			taskReward: 'happiness, improved troops, renown',
+			apprentice: false,
+			timeSpentMultiplier: true,
+			taskReward: 'happiness, improved troops, renown, package of random materials',
 			requirements: 'wood 20, rope 10, stone 20, gold 10, weapons 10, armor 10',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'troops 5' },
+				{ tier: 'Established', requirements: 'troops 15' },
+				{ tier: 'Improved', requirements: 'troops 25' },
+				{ tier: 'Advanced', requirements: 'troops 35' },
+				{ tier: 'Exquisite', requirements: 'troops 45' }
 			]
 		},
+
 		{
 			id: 'event-grounds',
 			name: 'Event Grounds',
-			type: 'Field',
+			type: 'Community',
 			tier: 3,
 			description: 'Festival area for seasonal events and holiday quests.',
 			level: 1,
 			bonuses: 'defense +10%, renown +5%',
 			actions: ['Join Festival', 'Play Games', 'Participate in Events'],
 			profession: ['Event Host'],
-			taskReward: 'happiness, villagers, followers, renown',
+			apprentice: false,
+			timeSpentMultiplier: true,
+			taskReward: 'happiness, villagers, followers, renown, package of random materials',
 			requirements: 'wood 10, stone 20, gold 50, gems 5',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'followers 5' },
+				{ tier: 'Established', requirements: 'followers 15' },
+				{ tier: 'Improved', requirements: 'followers 25' },
+				{ tier: 'Advanced', requirements: 'followers 35' },
+				{ tier: 'Exquisite', requirements: 'followers 45' }
 			]
 		},
+
 		{
 			id: 'vineyards',
 			name: 'Vineyards',
-			type: 'Building',
+			type: 'District',
 			tier: 3,
 			description: 'Wine production, grape gathering, barrel hauling.',
 			level: 1,
 			bonuses: 'fruit yield +5%, diplomacy +3%',
 			actions: ['Harvest Grapes', 'Press Juice', 'Age Wine'],
 			profession: ['Vintner'],
-			taskReward: 'wine, happiness, fruit',
+			apprentice: true,
+			timeSpentMultiplier: true,
+			taskReward: 'wine, happiness, fruit, package of random materials',
 			requirements: 'fiber 10, wood 10, stone 10, gold 50, tools 10',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'followers 5' },
+				{ tier: 'Established', requirements: 'followers 15' },
+				{ tier: 'Improved', requirements: 'followers 25' },
+				{ tier: 'Advanced', requirements: 'followers 35' },
+				{ tier: 'Exquisite', requirements: 'followers 45' }
 			]
 		},
 		{
 			id: 'herbal-fields',
 			name: 'Herbal Fields',
-			type: 'Field',
+			type: 'District',
 			tier: 3,
 			description: 'Medicinal plants, potion ingredients, foraging tasks.',
 			level: 1,
 			bonuses: 'herb yield +8%, alchemy XP +3%',
 			actions: ['Gather Herbs', 'Tend Plants', 'Sort Ingredients'],
 			profession: ['Herbalist'],
-			taskReward: 'herbs, happiness',
+			apprentice: true,
+			timeSpentMultiplier: true,
+			taskReward: 'herbs, happiness, package of random materials',
 			requirements: 'wood 10, water 10, fiber 15, stone 10, tools 10',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'followers 5' },
+				{ tier: 'Established', requirements: 'followers 15' },
+				{ tier: 'Improved', requirements: 'followers 25' },
+				{ tier: 'Advanced', requirements: 'followers 35' },
+				{ tier: 'Exquisite', requirements: 'followers 45' }
 			]
 		},
 		{
 			id: 'beast-fields',
 			name: 'Beast Fields',
-			type: 'Field',
+			type: 'District',
 			tier: 3,
 			description: 'Herding, feeding, hunting and runaway livestock quests.',
 			level: 1,
-			bonuses: 'animal bonds +5%, happiness XP +5%',
+			bonuses: 'animal bonds +5, happiness XP +5%',
 			actions: ['Feed Herd', 'Round Up Livestock', 'Inspect Fences'],
 			profession: ['Herdsman'],
-			taskReward: 'pet bonds, happiness, wild meat',
+			apprentice: true,
+			timeSpentMultiplier: true,
+			taskReward: 'pet bonds, happiness, wild meat, package of random materials',
 			requirements: 'wood 15, fiber 10, stone 10, gold 50, weapons 10',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'followers 5' },
+				{ tier: 'Established', requirements: 'followers 15' },
+				{ tier: 'Improved', requirements: 'followers 25' },
+				{ tier: 'Advanced', requirements: 'followers 35' },
+				{ tier: 'Exquisite', requirements: 'followers 45' }
 			]
 		},
 		{
-			id: 'road-building',
-			name: 'Road Building',
-			type: 'Region',
-			tier: 3,
-			description: 'Expand infrastructure, improve travel, and unlock new areas.',
-			level: 1,
-			bonuses: 'travel speed +10%, resource transport +5%',
-			actions: ['Lay Road', 'Clear Path', 'Assign Workers'],
-			profession: ['Engineer', 'Laborers'],
-			taskReward: 'diplomacy, cosmic ore',
-			requirements: 'stone 20, wood 15, gold 10, gems 5, horses 5, tools 10',
-			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
-			]
-		},
-		{
-			id: 'outskirts-village',
-			name: 'Outskirts Village',
-			type: 'Building',
+			id: 'remote-town',
+			name: 'Remote Town',
+			type: 'Community',
 			tier: 3,
 			description: 'Small homes, gossip quests, local disputes.',
 			level: 1,
 			bonuses: 'renown +5%, quest rewards +5%',
 			actions: ['Visit Homes', 'Settle Dispute', 'Gather Rumors'],
 			profession: ['Villagers'],
-			taskReward: 'happiness, fruit, wild meat, fish, villagers',
+			apprentice: false,
+			timeSpentMultiplier: true,
+			taskReward: 'happiness, fruit, wild meat, fish, villagers, package of random materials',
 			requirements: 'wood 20, stone 20, gold 70, gems 10, tools 10, weapons 10, armor 10',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'followers 5' },
+				{ tier: 'Established', requirements: 'followers 15' },
+				{ tier: 'Improved', requirements: 'followers 25' },
+				{ tier: 'Advanced', requirements: 'followers 35' },
+				{ tier: 'Exquisite', requirements: 'followers 45' }
 			]
 		},
 		{
-			id: 'sky-dock',
-			name: 'Sky Dock',
-			type: 'Building',
+			id: 'exploration-satellite',
+			name: 'Exploration Satellite',
+			type: 'Satellite',
 			tier: 3,
-			description: 'Flying boats, ferry tasks, sky‑based errands.',
+			description: 'Expand infrastructure, improve travel, and unlock new areas.',
+			level: 1,
+			bonuses: 'travel speed +10%, resource transport +5%',
+			actions: ['Set Travel beacons'],
+			profession: ['Engineer', 'Observers'],
+			apprentice: true,
+			timeSpentMultiplier: true,
+			taskReward: 'diplomacy, cosmic ore',
+			requirements: 'stone 20, wood 15, gold 10, gems 5, horses 5, tools 10',
+			upgrades: [
+				{ tier: 'Rebuilt', requirements: 'troops 5' },
+				{ tier: 'Established', requirements: 'troops 15' },
+				{ tier: 'Improved', requirements: 'troops 25' },
+				{ tier: 'Advanced', requirements: 'troops 35' },
+				{ tier: 'Exquisite', requirements: 'troops 45' }
+			]
+		},
+		{
+			id: 'space-portal',
+			name: 'Space Portal',
+			type: 'Satellite',
+			tier: 3,
+			description: 'Generation Ship Portal, ferry tasks, large portal based errands.',
 			level: 1,
 			bonuses: 'quest rewards +8%, renown +3%',
-			actions: ['Launch Skyship', 'Ferry Goods', 'Sky Adventures'],
-			profession: ['Skyhand'],
-			taskReward: 'diplomacy, magical regents',
+			actions: ['Ferry Goods'],
+			profession: ['Space Portal Keeper'],
+			apprentice: true,
+			timeSpentMultiplier: true,
+			taskReward: 'diplomacy, cosmic regentsnts, package of random materials',
 			requirements: 'wood 15, stone 50, rope 25, gold 100, gems 20, tools 15',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'nano packs 10' },
+				{ tier: 'Established', requirements: 'nano packs 20' },
+				{ tier: 'Improved', requirements: 'nano packs 30' },
+				{ tier: 'Advanced', requirements: 'nano packs 40' },
+				{ tier: 'Exquisite', requirements: 'nano packs 50' }
 			]
 		}
 	];
@@ -539,7 +506,7 @@
 	}
 </script>
 
-<div class="container">
+<div class="layout">
 	<aside class="sidebar">
 		<h2>Outer City Glossary</h2>
 
@@ -557,57 +524,77 @@
 		{/each}
 	</aside>
 
-	<main>
-		<h1>OUTER CITY 🌳</h1>
-		<p>Description: Most quests happen here. Includes outskirts and near‑distance jobs.</p>
+	<div class="content">
+		<div class="entry">
+			<h1>OUTER CITY</h1>
+			<p>Description: Most quests happen here. Includes outskirts and near‑distance jobs.</p>
+		</div>
 
-		{#each tiers as t (t)}
-			<h2>Tier {t}</h2>
+		<div class="grid-Main">
+			{#each tiers as t (t)}
+				<h2>Tier {t}</h2>
 
-			{#each buildings.filter((b) => b.tier === t) as b (b.id)}
-				<section id={b.id} class="section" tabindex="-1" aria-labelledby={`${b.id}-title`}>
-					<h3 id={`${b.id}-title`}>{b.name}</h3>
+				{#each buildings.filter((b) => b.tier === t) as b (b.id)}
+					<section id={b.id} class="card-SideSkew" tabindex="-1" aria-labelledby={`${b.id}-title`}>
+						<h3 id={`${b.id}-title`}>{b.name}</h3>
 
-					<p><strong>Type:</strong> {b.type}</p>
-					<p><strong>Description:</strong> {b.description}</p>
-					<p><strong>Level:</strong> {b.level}</p>
-					<p><strong>Bonuses:</strong> {b.bonuses}</p>
-					<p><strong>Actions:</strong> {b.actions.join(', ')}</p>
-					<p><strong>Profession:</strong> {b.profession.join(', ')}</p>
-					<p><strong>Task‑Reward:</strong> {b.taskReward}</p>
-					<p><strong>Requirements:</strong> {b.requirements}</p>
+						<p><strong>Type:</strong> {b.type}</p>
+						<p><strong>Description:</strong> {b.description}</p>
+						<p><strong>Level:</strong> {b.level}</p>
+						<p><strong>Bonuses:</strong> {b.bonuses}</p>
+						<p><strong>Actions:</strong> {b.actions.join(', ')}</p>
+						<p><strong>Profession:</strong> {b.profession.join(', ')}</p>
 
-					<h4>Upgrade Requirements</h4>
-					<ul>
-						{#each b.upgrades as u (u.tier)}
-							<li>{u.tier} – {u.requirements}</li>
-						{/each}
-					</ul>
-				</section>
+						<p><strong>Apprentice:</strong> {b.apprentice ? 'Yes' : 'No'}</p>
+						<p><strong>Time Spent Multiplier:</strong> {b.timeSpentMultiplier ? 'Yes' : 'No'}</p>
+
+						<p><strong>Task‑Reward:</strong> {b.taskReward}</p>
+						<p><strong>Requirements:</strong> {b.requirements}</p>
+
+						<h4>Upgrade Requirements</h4>
+						<ul>
+							{#each b.upgrades as u (u.tier)}
+								<li>{u.tier} – {u.requirements}</li>
+							{/each}
+						</ul>
+					</section>
+				{/each}
 			{/each}
-		{/each}
-	</main>
+		</div>
+	</div>
 </div>
 
 <style>
-	.container {
-		display: grid;
-		grid-template-columns: 250px 1fr;
-		gap: 1rem;
-		padding: 1rem;
+	.layout {
+		display: flex;
+		align-items: flex-start;
 	}
 
+	/* Sidebar stays fixed in place but no longer pushes content down */
 	.sidebar {
 		position: sticky;
 		top: 1rem;
-		align-self: start;
-		padding-right: 1rem;
+		flex-shrink: 0;
+		width: 15vw; /* or a fixed px width */
+		border: var(--border);
+		padding: 1rem;
+	}
+
+	/* Content column */
+	.content {
+		flex: 1;
+		min-width: 0;
+	}
+
+	/* Remove the old margin-left hack */
+	.entry {
+		margin-left: 0;
 	}
 
 	.sidebar button {
 		background: none;
 		border: none;
-		color: #0055aa;
+		color: var(--accent-2);
 		text-align: left;
 		font-size: 1rem;
 		cursor: pointer;
@@ -620,12 +607,15 @@
 		outline: 2px solid #0055aa;
 	}
 
-	.section {
-		padding: 1rem 0;
-		border-bottom: 1px solid #ccc;
+	h2,
+	h3,
+	p {
+		margin: 0.5rem 0;
+		padding: 0;
+		width: fit-content;
 	}
 
-	.section:focus {
-		outline: 3px solid #88c0ff;
+	h3 {
+		border-bottom: var(--bord);
 	}
 </style>

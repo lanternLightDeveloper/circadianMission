@@ -1,9 +1,4 @@
 <script lang="ts">
-	type UpgradeReq = {
-		tier: string;
-		requirements: string;
-	};
-
 	type Building = {
 		id: string;
 		name: string;
@@ -14,496 +9,516 @@
 		bonuses: string;
 		actions: string[];
 		profession: string[];
+		apprentice: boolean;
+		timeSpentMultiplier: boolean;
 		taskReward: string;
 		requirements: string;
-		upgrades: UpgradeReq[];
+		upgrades: { tier: string; requirements: string }[];
 	};
 
 	const buildings: Building[] = [
 		{
-			id: 'castle-proper',
-			name: 'Castle Proper',
-			type: 'Building',
+			id: 'city-proper',
+			name: 'City Proper',
+			type: 'Community',
 			tier: 1,
-			description: "The player's main hall, throne room, and administrative center.",
+			description: "The player's main building, control room, and administrative center.",
 			level: 1,
 			bonuses: 'renown gain +5%',
 			actions: ['Hold Court', 'Assign Followers', 'Review Reports'],
 			profession: ['Advisor'],
-			taskReward: 'Renown',
-			requirements: 'stone 5, gold 10',
+			apprentice: false,
+			timeSpentMultiplier: false,
+			taskReward: 'Renown, population',
+			requirements: 'stone 5, wood 5, gold 10',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'followers 5' },
+				{ tier: 'Established', requirements: 'followers 15' },
+				{ tier: 'Improved', requirements: 'followers 25' },
+				{ tier: 'Advanced', requirements: 'followers 35' },
+				{ tier: 'Exquisite', requirements: 'followers 45' }
 			]
 		},
+
 		{
 			id: 'council-hall',
 			name: 'Council Hall',
-			type: 'Building',
+			type: 'Community',
 			tier: 1,
 			description: 'Governance decisions, diplomacy, and lawmaking.',
 			level: 1,
 			bonuses: 'diplomacy XP +5%, renown gain +3%',
 			actions: ['Hold Council', 'Draft Decrees', 'Meet Envoys'],
 			profession: ['Councilor'],
-			taskReward: 'Renown, Villagers',
-			requirements: 'stone 25, gold 40',
+			apprentice: true,
+			timeSpentMultiplier: false,
+			taskReward: 'Renown, Population',
+			requirements: 'stone 15, wood 10, nano pack 5',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'followers 5' },
+				{ tier: 'Established', requirements: 'followers 15' },
+				{ tier: 'Improved', requirements: 'followers 25' },
+				{ tier: 'Advanced', requirements: 'followers 35' },
+				{ tier: 'Exquisite', requirements: 'followers 45' }
 			]
 		},
+
+		{
+			id: 'school-library',
+			name: 'School / Library',
+			type: 'District',
+			tier: 1,
+			description: 'Boosts learning, skills, and research.',
+			level: 1,
+			bonuses: 'research speed +5%, renown +3%',
+			actions: ['Study', 'Research', 'Teach Follower'],
+			profession: ['Scholar', 'Librarian'],
+			apprentice: true,
+			timeSpentMultiplier: false,
+			taskReward: 'education',
+			requirements: 'nano pack 10, wood 15, stone 10',
+			upgrades: [
+				{ tier: 'Rebuilt', requirements: 'followers 5' },
+				{ tier: 'Established', requirements: 'followers 15' },
+				{ tier: 'Improved', requirements: 'followers 25' },
+				{ tier: 'Advanced', requirements: 'followers 35' },
+				{ tier: 'Exquisite', requirements: 'followers 45' }
+			]
+		},
+
 		{
 			id: 'market',
 			name: 'Market',
-			type: 'Building',
+			type: 'District',
 			tier: 1,
 			description: 'Hub for buying, selling, and trading goods.',
 			level: 1,
 			bonuses: 'trade prices +2% better',
 			actions: ['Buy', 'Sell', 'Trade', 'Commission Order'],
 			profession: ['Merchant', 'Trader'],
-			taskReward: 'gold',
+			apprentice: true,
+			timeSpentMultiplier: false,
+			taskReward: 'gold, package of random materials',
 			requirements: 'gold 50, stone 10, wood 10',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'gold 15' },
+				{ tier: 'Established', requirements: 'gold 35' },
+				{ tier: 'Improved', requirements: 'gold 55' },
+				{ tier: 'Advanced', requirements: 'gold 75' },
+				{ tier: 'Exquisite', requirements: 'gold 100' }
 			]
 		},
+
 		{
-			id: 'well-waterworks',
-			name: 'Well / Waterworks',
-			type: 'Building',
+			id: 'nano-fountain',
+			name: 'Nano Fountain',
+			type: 'District',
 			tier: 1,
-			description: 'Clean water source; boosts health and reduces sickness events.',
+			description: 'Nano robots source; boosts health and reduces sickness events.',
 			level: 1,
 			bonuses: 'health recovery +5%',
-			actions: ['Draw Water', 'Purify Water'],
-			profession: ['Waterkeeper'],
-			taskReward: 'water',
-			requirements: 'stone 10, wood 10',
+			actions: ['Draw nanos', 'Purify Sickness'],
+			profession: ['Nanokeeper'],
+			apprentice: true,
+			timeSpentMultiplier: false,
+			taskReward: 'nanites, package of random materials',
+			requirements: 'stone 10, wood 10, metal ore 5',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'nano packs 10' },
+				{ tier: 'Established', requirements: 'nano packs 20' },
+				{ tier: 'Improved', requirements: 'nano packs 30' },
+				{ tier: 'Advanced', requirements: 'nano packs 40' },
+				{ tier: 'Exquisite', requirements: 'nano packs 50' }
 			]
 		},
 		{
-			id: 'messenger-post',
-			name: 'Messenger Post',
-			type: 'Building',
+			id: 'planet-postal',
+			name: 'Planet Postal',
+			type: 'District',
 			tier: 2,
-			description: 'Dispatch riders and long‑distance communication.',
+			description: 'Dispatch travelers and long‑distance communication.',
 			level: 1,
 			bonuses: 'communication speed +10%, villager XP +5%',
 			actions: ['Send/Receive Message', 'Assign Courier'],
 			profession: ['Postmaster'],
-			taskReward: 'communication speed',
-			requirements: 'wood 10, rope 5, horses 5, gold 10',
+			apprentice: true,
+			timeSpentMultiplier: false,
+			taskReward: 'communication speed, shipment of goods',
+			requirements: 'wood 10, stone 5, gold 10',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'nano packs 10' },
+				{ tier: 'Established', requirements: 'nano packs 20' },
+				{ tier: 'Improved', requirements: 'nano packs 30' },
+				{ tier: 'Advanced', requirements: 'nano packs 40' },
+				{ tier: 'Exquisite', requirements: 'nano packs 50' }
 			]
 		},
+
 		{
 			id: 'strategy-hall',
 			name: 'Strategy Hall',
-			type: 'Building',
+			type: 'Community',
 			tier: 2,
 			description: 'War planning, maps, scouting intel, follower assignments.',
 			level: 1,
 			bonuses: 'scouting efficiency +5%, mission planning +5%',
 			actions: ['Review Maps', 'Assign Patrols', 'Plan Strategy'],
 			profession: ['Strategist'],
-			taskReward: 'Defense',
-			requirements: 'wood 15, stone, paper 10, followers 10',
+			apprentice: true,
+			timeSpentMultiplier: true,
+			taskReward: 'Defense, package of random materials',
+			requirements: 'wood 15, stone 10, paper 10, followers 10',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'followers 5' },
+				{ tier: 'Established', requirements: 'followers 15' },
+				{ tier: 'Improved', requirements: 'followers 25' },
+				{ tier: 'Advanced', requirements: 'followers 35' },
+				{ tier: 'Exquisite', requirements: 'followers 45' }
 			]
 		},
+
 		{
-			id: 'tailor-clothier',
-			name: 'Tailor / Clothier',
-			type: 'Building',
+			id: 'chapel-shrine',
+			name: 'Chapel / Shrine',
+			type: 'Community',
+			tier: 2,
+			description: 'Blessings, community, and divine quests.',
+			level: 1,
+			bonuses: 'healing +5%, blessing duration +5%',
+			actions: ['Pray', 'Receive Blessing', 'Perform Ritual'],
+			profession: ['Devotee'],
+			apprentice: true,
+			timeSpentMultiplier: true,
+			taskReward: 'happiness, healers',
+			requirements: 'stone 20, cosmic ore - minor 5, rune-cloth 5',
+			upgrades: [
+				{ tier: 'Rebuilt', requirements: 'followers 5' },
+				{ tier: 'Established', requirements: 'followers 15' },
+				{ tier: 'Improved', requirements: 'followers 25' },
+				{ tier: 'Advanced', requirements: 'followers 35' },
+				{ tier: 'Exquisite', requirements: 'followers 45' }
+			]
+		},
+
+		{
+			id: 'clothier',
+			name: 'Clothier',
+			type: 'District',
 			tier: 2,
 			description: 'Produces clothing, robes, uniforms, and banners.',
 			level: 1,
 			bonuses: 'crafting quality +3%, villager XP +5%',
-			actions: ['Sew Clothing', 'Craft Uniforms', 'Design Banner'],
+			actions: ['Manufacture Clothing', 'Craft Uniforms', 'Design Banner'],
 			profession: ['Tailor'],
-			taskReward: 'Cloths, wool, rune-cloth',
-			requirements: 'cloth 15, wood 10, stone 10',
+			apprentice: true,
+			timeSpentMultiplier: false,
+			taskReward: 'cloth, nano-cloth, light armor',
+			requirements: 'nanites 15, wood 10, stone 10',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'nano-cloth 10' },
+				{ tier: 'Established', requirements: 'nano-cloth 20' },
+				{ tier: 'Improved', requirements: 'nano-cloth 30' },
+				{ tier: 'Advanced', requirements: 'nano-cloth 40' },
+				{ tier: 'Exquisite', requirements: 'nano-cloth 50' }
 			]
 		},
+
 		{
-			id: 'chapel-shrine',
-			name: 'Chapel / Shrine',
-			type: 'Building',
+			id: 'tannery',
+			name: 'Tannery',
+			type: 'District',
 			tier: 2,
-			description: 'Blessings, healing, and divine quests.',
+			description: 'Leatherworking, hides, and medium armor crafting.',
 			level: 1,
-			bonuses: 'healing +5%, blessing duration +5%',
-			actions: ['Pray', 'Receive Blessing', 'Perform Ritual'],
-			profession: ['Priest'],
-			taskReward: 'happiness, healers',
-			requirements: 'stone 20, cosmic ore - minor 5, rune-cloth 5',
+			bonuses: 'leather yield +5%, leather production +3%',
+			actions: ['Cure Hides', 'Craft Leather Armor', 'Process Materials'],
+			profession: ['Tanner'],
+			apprentice: true,
+			timeSpentMultiplier: false,
+			taskReward: 'leather, medium armor',
+			requirements: 'hides 10, wood 10, metal bars 5',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'nano-leather 10' },
+				{ tier: 'Established', requirements: 'nano-leather 20' },
+				{ tier: 'Improved', requirements: 'nano-leather 30' },
+				{ tier: 'Advanced', requirements: 'nano-leather 40' },
+				{ tier: 'Exquisite', requirements: 'nano-leather 50' }
 			]
 		},
+
 		{
-			id: 'stables',
-			name: 'Stables',
-			type: 'Building',
+			id: 'smith',
+			name: 'Smith',
+			type: 'District',
 			tier: 2,
-			description: 'Houses mounts and improves travel or delivery tasks.',
+			description:
+				'Forge and repair weapons and metal armor; unlocks crafting bonuses. Crafts metal bars.',
 			level: 1,
-			bonuses: 'travel speed +5%, delivery efficiency +3%',
-			actions: ['Feed Mount', 'Train Mount', 'Assign Courier'],
-			profession: ['Stablemaster'],
-			taskReward: 'horses',
-			requirements: 'wood 20, stone 10, horses 10',
+			bonuses: 'crafting quality +5%, repair cost –10%',
+			actions: ['Forge Item', 'Repair Gear', 'Upgrade Gear'],
+			profession: ['Blacksmith'],
+			apprentice: true,
+			timeSpentMultiplier: false,
+			taskReward: 'weapons, metal armor, metal bars, glass',
+			requirements: 'metal ore 5, stone 5, wood 10, water 5',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'metal bars 10' },
+				{ tier: 'Established', requirements: 'metal bars 20' },
+				{ tier: 'Improved', requirements: 'metal bars 30' },
+				{ tier: 'Advanced', requirements: 'metal bars 40' },
+				{ tier: 'Exquisite', requirements: 'metal bars 50' }
 			]
 		},
+
 		{
-			id: 'barracks',
-			name: 'Barracks',
-			type: 'Building',
+			id: 'mechanic',
+			name: 'Mechanic',
+			type: 'District',
 			tier: 2,
-			description: 'Housing for guards, boosts defense and patrol efficiency.',
+			description: 'Houses ships/mechs and improves travel.',
 			level: 1,
-			bonuses: 'guard capacity +2, troops efficiency +5%',
-			actions: ['Assign Guards', 'Train Recruits', 'Inspect Barracks'],
-			profession: ['Captain of the Guard'],
-			taskReward: 'Troops',
-			requirements: 'wood 20, stone 20, villagers 10',
+			bonuses: 'travel speed +5%, ship/mech efficiency +3%',
+			actions: ['Ship/Mech upgrades', 'Repair found tech'],
+			profession: ['Technician'],
+			apprentice: true,
+			timeSpentMultiplier: false,
+			taskReward: 'mechs, ships',
+			requirements: 'wood 20, stone 10, parts 10',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'parts 10' },
+				{ tier: 'Established', requirements: 'parts 20' },
+				{ tier: 'Improved', requirements: 'parts 30' },
+				{ tier: 'Advanced', requirements: 'parts 40' },
+				{ tier: 'Exquisite', requirements: 'parts 50' }
 			]
 		},
+
 		{
 			id: 'armory',
 			name: 'Armory',
-			type: 'Building',
+			type: 'District',
 			tier: 2,
 			description: 'Stores weapons and armor; improves readiness and equipment quality.',
 			level: 1,
 			bonuses: 'equipment durability +5%, defense +5%',
 			actions: ['Store Gear', 'Issue Equipment', 'Inspect Inventory'],
 			profession: ['Quartermaster'],
+			apprentice: false,
+			timeSpentMultiplier: false,
 			taskReward: 'defense',
-			requirements: 'iron 10, wood 15, weapons 5, armor 5',
+			requirements: 'metal ore 10, wood 15, weapons 5, armor 5',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'weapons 10, armor 10' },
+				{ tier: 'Established', requirements: 'weapons 20, armor 20' },
+				{ tier: 'Improved', requirements: 'weapons 30, armor 30' },
+				{ tier: 'Advanced', requirements: 'weapons 40, armor 40' },
+				{ tier: 'Exquisite', requirements: 'weapons 50, armor 50' }
 			]
 		},
+
 		{
-			id: 'smith',
-			name: 'Smith',
-			type: 'Building',
+			id: 'barracks',
+			name: 'Barracks',
+			type: 'District',
 			tier: 2,
-			description: 'Forge and repair gear; unlocks crafting bonuses. Crafts metal bars.',
+			description: 'Housing for guards, boosts defense and patrol efficiency.',
 			level: 1,
-			bonuses: 'crafting quality +5%, repair cost –10%',
-			actions: ['Forge Item', 'Repair Gear', 'Upgrade Gear'],
-			profession: ['Blacksmith'],
-			taskReward: 'weapons, armor, metal bars, glass',
-			requirements: 'iron 5, coal 5, wood 10, water 5',
+			bonuses: 'guard capacity +2, troops efficiency +5%',
+			actions: ['Assign Guards', 'Train Recruits', 'Inspect Barracks'],
+			profession: ['Captain of the Guard'],
+			apprentice: true,
+			timeSpentMultiplier: true,
+			taskReward: 'Troops, package of random materials',
+			requirements: 'wood 20, stone 20, villagers 10',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'troops 5' },
+				{ tier: 'Established', requirements: 'troops 15' },
+				{ tier: 'Improved', requirements: 'troops 25' },
+				{ tier: 'Advanced', requirements: 'troops 35' },
+				{ tier: 'Exquisite', requirements: 'troops 45' }
 			]
 		},
+
 		{
-			id: 'mage-tower',
-			name: 'Mage Tower',
-			type: 'Building',
+			id: 'nanomancer-tower',
+			name: 'Nanomancer Tower',
+			type: 'Community',
 			tier: 2,
-			description: 'Arcane research, spell upgrades, magical experiments.',
+			description: 'Spell upgrades, Empty Energy research, Empty Energy experiments.',
 			level: 1,
 			bonuses: 'spell power +3%, research speed +5%',
 			actions: ['Study Magic', 'Upgrade Spell', 'Conduct Experiment'],
-			profession: ['Mage Knowledgekeeper', 'Apprentice'],
-			taskReward: 'runes, defense, battle mages',
+			profession: ['Nano Knowledgekeeper'],
+			apprentice: true,
+			timeSpentMultiplier: true,
+			taskReward: 'runes, defense, battle mages, package of random materials',
 			requirements: 'stone 25, cosmic ore - minor 10, gems 15',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'nano packs 10' },
+				{ tier: 'Established', requirements: 'nano packs 20' },
+				{ tier: 'Improved', requirements: 'nano packs 30' },
+				{ tier: 'Advanced', requirements: 'nano packs 40' },
+				{ tier: 'Exquisite', requirements: 'nano packs 50' }
 			]
 		},
+
 		{
-			id: 'watchtower',
-			name: 'Watchtower',
-			type: 'Building',
+			id: 'watchtower-orbital',
+			name: 'Watchtower Orbital',
+			type: 'Community',
 			tier: 2,
-			description: 'Scout vantage point; increases detection radius and early warnings.',
+			description: 'Orbital planet/system defense; increases detection radius and early warnings.',
 			level: 1,
 			bonuses: 'detection radius +10%, alert speed +5%',
-			actions: ['Keep Watch', 'Signal Alarm', 'Scout Perimeter'],
-			profession: ['Lookout'],
+			actions: ['Satellite Defense', 'Signal Alarm', 'Scout Perimeter'],
+			profession: ['Defense analyst'],
+			apprentice: false,
+			timeSpentMultiplier: false,
 			taskReward: 'defense',
 			requirements: 'wood 20, stone 10, troops 5',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'troops 10' },
+				{ tier: 'Established', requirements: 'troops 20' },
+				{ tier: 'Improved', requirements: 'troops 30' },
+				{ tier: 'Advanced', requirements: 'troops 40' },
+				{ tier: 'Exquisite', requirements: 'troops 50' }
 			]
 		},
 		{
-			id: 'tavern-mead-hall',
-			name: 'Tavern / Mead Hall',
-			type: 'Building',
+			id: 'bar',
+			name: 'Bar',
+			type: 'District',
 			tier: 3,
-			description: 'renown, social events, rumors, and recruitable Profession.',
+			description: 'Renown, social events, rumors, and recruitable Profession.',
 			level: 1,
-			bonuses: 'renown +10%, villager XP +5%',
+			bonuses: 'renown +10%, follower XP +5%',
 			actions: ['Host Feast', 'Gather Rumors', 'Recruit Adventurer'],
-			profession: ['Innkeeper', 'Bard', 'bard apprentice'],
-			taskReward: 'renown, happiness, followers',
-			requirements: 'wood 20, beer 10, followers 6, tools 5',
+			profession: ['Innkeeper', 'Bard'],
+			apprentice: true,
+			timeSpentMultiplier: true,
+			taskReward: 'renown, happiness, followers, package of random materials',
+			requirements: 'wood 20, beer 10, followers 5, tools 5',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{
-					tier: 'Improved',
-					requirements: 'stone 40, wood 40, metal bars 10, gold 100, Unlock bard apprentice'
-				},
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'followers 5' },
+				{ tier: 'Established', requirements: 'followers 15' },
+				{ tier: 'Improved', requirements: 'followers 25' },
+				{ tier: 'Advanced', requirements: 'followers 35' },
+				{ tier: 'Exquisite', requirements: 'followers 45' }
 			]
 		},
+
 		{
-			id: 'gardens-courtyard',
-			name: 'Gardens / Courtyard',
-			type: 'Building',
+			id: 'gardens',
+			name: 'Gardens',
+			type: 'District',
 			tier: 3,
 			description: 'Beauty, meditation, and herbal gathering.',
 			level: 1,
 			bonuses: 'renown +5%, herb yield +3%',
 			actions: ['Meditate', 'Gather Herbs', 'Tend Garden'],
 			profession: ['Groundskeeper'],
-			taskReward: 'crafting regents, herbs',
+			apprentice: false,
+			timeSpentMultiplier: true,
+			taskReward: 'crafting regents, herbs, package of random materials',
 			requirements: 'wood 10, water 10, gold 40, tools 10',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'followers 5' },
+				{ tier: 'Established', requirements: 'followers 15' },
+				{ tier: 'Improved', requirements: 'followers 25' },
+				{ tier: 'Advanced', requirements: 'followers 35' },
+				{ tier: 'Exquisite', requirements: 'followers 45' }
 			]
 		},
+
 		{
-			id: 'school-library',
-			name: 'School / Library',
-			type: 'Building',
+			id: 'nanoforge',
+			name: 'Nanoforge',
+			type: 'District',
 			tier: 3,
-			description: 'Boosts learning, skills, and research.',
+			description: 'Nano enchants for self and gear.',
 			level: 1,
-			bonuses: 'research speed +5%, renown +3%',
-			actions: ['Study', 'Research', 'Teach Follower'],
-			profession: ['Scholar', 'Librarian'],
-			taskReward: 'education',
-			requirements: 'paper 10, wood 15, stone 10, tools 5, gold 40',
+			bonuses: 'enchant potency +5%, Nano potency +3%',
+			actions: ['Enchant Self & Gear', 'Bind energy'],
+			profession: ['Nanocrafter'],
+			apprentice: true,
+			timeSpentMultiplier: false,
+			taskReward: 'Nanos enchantments',
+			requirements: 'stone 20, Nanos 5, cosmic ore - major 10, metal bars 5, gems 5',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'nano packs 10' },
+				{ tier: 'Established', requirements: 'nano packs 20' },
+				{ tier: 'Improved', requirements: 'nano packs 30' },
+				{ tier: 'Advanced', requirements: 'nano packs 40' },
+				{ tier: 'Exquisite', requirements: 'nano packs 50' }
 			]
 		},
+
 		{
-			id: 'alchemy-lab',
-			name: 'Alchemy Lab',
-			type: 'Building',
+			id: 'cranium-conservatory',
+			name: 'Cranium Conservatory',
+			type: 'District',
 			tier: 3,
-			description: 'Potions, reagents, bombs, and magical brews.',
+			description: 'Brain implants to upgrade tech self.',
 			level: 1,
-			bonuses: 'potion potency +5%, reagent yield +3%',
-			actions: ['Brew Potion', 'Distill Reagents', 'Craft Bomb'],
-			profession: ['Alchemist'],
-			taskReward: 'potions, bombs',
-			requirements: 'herbs 10, glass 5, stone 10, wood 20, tools 5, gold 40',
+			bonuses: 'implant potency +5%, Nano potency +3%',
+			actions: ['Brain implant management'],
+			profession: ['Braincrafter'],
+			apprentice: true,
+			timeSpentMultiplier: false,
+			taskReward: 'Implants, brain upgrades',
+			requirements: 'stone 20, Nanos 5, cosmic ore - major 10, metal bars 5, gems 5',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'nano packs 10' },
+				{ tier: 'Established', requirements: 'nano packs 20' },
+				{ tier: 'Improved', requirements: 'nano packs 30' },
+				{ tier: 'Advanced', requirements: 'nano packs 40' },
+				{ tier: 'Exquisite', requirements: 'nano packs 50' }
 			]
 		},
+
 		{
-			id: 'runeforge',
-			name: 'Runeforge',
-			type: 'Building',
+			id: 'boundaries-lab',
+			name: 'Boundaries Lab',
+			type: 'District',
 			tier: 3,
-			description: 'Enchantments, sigils, and magical crafting.',
+			description: 'System and energy research.',
 			level: 1,
-			bonuses: 'enchant potency +5%, rune potency +3%',
-			actions: ['Carve Rune', 'Enchant Gear', 'Bind Sigil'],
-			profession: ['Runecrafter'],
-			taskReward: 'Runes, enchanted gear',
-			requirements: 'stone 20, runes 5, cosmic ore - major 10, metal bars 5, gems 5',
+			bonuses: 'system research +5%, energy production +3%',
+			actions: ['Study Energy', 'Conduct system research'],
+			profession: ['Wild space scientist'],
+			apprentice: true,
+			timeSpentMultiplier: true,
+			taskReward: 'knowledge, technology, package of random materials',
+			requirements: 'glass 5, stone 10, wood 20, tools 5, gold 40',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'followers 5' },
+				{ tier: 'Established', requirements: 'followers 15' },
+				{ tier: 'Improved', requirements: 'followers 25' },
+				{ tier: 'Advanced', requirements: 'followers 35' },
+				{ tier: 'Exquisite', requirements: 'followers 45' }
 			]
 		},
+
 		{
 			id: 'portal-chamber',
 			name: 'Portal Chamber',
-			type: 'Building',
+			type: 'Community',
 			tier: 3,
 			description: 'Fast travel, expeditions, and special missions.',
 			level: 1,
 			bonuses: 'travel time –80%, portal stability +5%',
 			actions: ['Open Portal', 'Calibrate Gate', 'Send Expedition'],
 			profession: ['Gatekeeper'],
-			taskReward: '',
+			apprentice: true,
+			timeSpentMultiplier: true,
+			taskReward: 'diplomacy, technology, package of randommaterials',
 			requirements: 'stone 30, wood 20, cosmic ore - major 10, gold 40',
 			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
-			]
-		},
-		{
-			id: 'crystal-conservatory',
-			name: 'Crystal Conservatory',
-			type: 'Building',
-			tier: 3,
-			description: 'Magical plants and mana‑infused flora.',
-			level: 1,
-			bonuses: 'herb yield +5%, mana plant growth +8%',
-			actions: ['Cultivate Crystals', 'Harvest Mana Plants', 'Study Growth'],
-			profession: ['Botanist', 'Herbalist', 'Scholar'],
-			taskReward: 'magical regents, runes, gems',
-			requirements: 'glass 10, stone 10, runes 5, cosmic ore - major 10, gems 10',
-			upgrades: [
-				{ tier: 'Rebuilt', requirements: 'stone 20, gold 30' },
-				{ tier: 'Established', requirements: 'stone 30, wood 20, gold 50' },
-				{ tier: 'Improved', requirements: 'stone 40, wood 40, metal bars 10, gold 100' },
-				{ tier: 'Advanced', requirements: 'stone 50, wood 60, metal bars 25, tools 15, gold 120' },
-				{
-					tier: 'Exquisite',
-					requirements: 'stone 60, wood 80, metal bars 25, enchanted tools 15, gold 160, gems 20'
-				}
+				{ tier: 'Rebuilt', requirements: 'nano packs 10' },
+				{ tier: 'Established', requirements: 'nano packs 20' },
+				{ tier: 'Improved', requirements: 'nano packs 30' },
+				{ tier: 'Advanced', requirements: 'nano packs 40' },
+				{ tier: 'Exquisite', requirements: 'nano packs 50' }
 			]
 		}
 	];
@@ -519,70 +534,89 @@
 	}
 </script>
 
-<aside class="sidebar">
-	<h2>Inner City Glossary</h2>
+<div class="layout">
+	<aside class="sidebar">
+		<h2>Inner City Glossary</h2>
 
-	{#each tiers as t (t)}
-		<h3>Tier {t}</h3>
-		<ul>
-			{#each buildings.filter((b) => b.tier === t) as b (b.id)}
-				<li>
-					<button on:click={() => scrollToSection(b.id)}>
-						{b.name}
-					</button>
-				</li>
-			{/each}
-		</ul>
-	{/each}
-</aside>
-
-<main>
-	<div class="entry">
-		<h1>INNER CITY 🌟</h1>
-		<p>The inner city grows with the user, boosting daily tasks and renown.</p>
-	</div>
-	<div class="grid-Main">
 		{#each tiers as t (t)}
-			<h2>Tier {t}</h2>
-
-			{#each buildings.filter((b) => b.tier === t) as b (b.id)}
-				<section id={b.id} class="card-SideSkew" tabindex="-1" aria-labelledby={`${b.id}-title`}>
-					<h3 id={`${b.id}-title`}>{b.name}</h3>
-
-					<p><strong>Type:</strong> {b.type}</p>
-					<p><strong>Description:</strong> {b.description}</p>
-					<p><strong>Level:</strong> {b.level}</p>
-					<p><strong>Bonuses:</strong> {b.bonuses}</p>
-					<p><strong>Actions:</strong> {b.actions.join(', ')}</p>
-					<p><strong>Profession:</strong> {b.profession.join(', ')}</p>
-					<p><strong>Task‑Reward:</strong> {b.taskReward}</p>
-					<p><strong>Requirements:</strong> {b.requirements}</p>
-
-					<h4>Upgrade Requirements</h4>
-					<ul>
-						{#each b.upgrades as u (u.tier)}
-							<li>{u.tier} – {u.requirements}</li>
-						{/each}
-					</ul>
-				</section>
-			{/each}
+			<h3>Tier {t}</h3>
+			<ul>
+				{#each buildings.filter((b) => b.tier === t) as b (b.id)}
+					<li>
+						<button on:click={() => scrollToSection(b.id)}>
+							{b.name}
+						</button>
+					</li>
+				{/each}
+			</ul>
 		{/each}
+	</aside>
+
+	<div class="content">
+		<div class="entry">
+			<h1>INNER CITY</h1>
+			<p>The inner city grows with the user, boosting daily tasks and renown.</p>
+		</div>
+
+		<div class="grid-Main">
+			{#each tiers as t (t)}
+				<h2>Tier {t}</h2>
+
+				{#each buildings.filter((b) => b.tier === t) as b (b.id)}
+					<section id={b.id} class="card-SideSkew" tabindex="-1" aria-labelledby={`${b.id}-title`}>
+						<h3 id={`${b.id}-title`}>{b.name}</h3>
+
+						<p><strong>Type:</strong> {b.type}</p>
+						<p><strong>Description:</strong> {b.description}</p>
+						<p><strong>Level:</strong> {b.level}</p>
+						<p><strong>Bonuses:</strong> {b.bonuses}</p>
+						<p><strong>Actions:</strong> {b.actions.join(', ')}</p>
+						<p><strong>Profession:</strong> {b.profession.join(', ')}</p>
+
+						<p><strong>Apprentice:</strong> {b.apprentice ? 'Yes' : 'No'}</p>
+						<p><strong>Time Spent Multiplier:</strong> {b.timeSpentMultiplier ? 'Yes' : 'No'}</p>
+
+						<p><strong>Task‑Reward:</strong> {b.taskReward}</p>
+						<p><strong>Requirements:</strong> {b.requirements}</p>
+
+						<h4>Upgrade Requirements</h4>
+						<ul>
+							{#each b.upgrades as u (u.tier)}
+								<li>{u.tier} – {u.requirements}</li>
+							{/each}
+						</ul>
+					</section>
+				{/each}
+			{/each}
+		</div>
 	</div>
-</main>
+</div>
 
 <style>
-	.entry {
-		margin-left: 15vw;
+	.layout {
+		display: flex;
+		align-items: flex-start;
 	}
 
+	/* Sidebar stays fixed in place but no longer pushes content down */
 	.sidebar {
 		position: sticky;
 		top: 1rem;
-		align-self: start;
-		padding-right: 1rem;
-		z-index: 666;
-		width: fit-content;
+		flex-shrink: 0;
+		width: 15vw; /* or a fixed px width */
 		border: var(--border);
+		padding: 1rem;
+	}
+
+	/* Content column */
+	.content {
+		flex: 1;
+		min-width: 0;
+	}
+
+	/* Remove the old margin-left hack */
+	.entry {
+		margin-left: 0;
 	}
 
 	.sidebar button {

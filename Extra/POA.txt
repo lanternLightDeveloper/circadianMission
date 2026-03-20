@@ -36,8 +36,9 @@ One‑sentence purpose:
 Daily tasks turned into quests and adventures.
 
 Core theme:
-This is a daily planner/event manager. It will give or create quest based on things you have to do that day.
+This is a daily planner/event manager. What you do throughout the day will give you a bonus to your rewards.
 At the end of the day it will generate a story you can read or participate in like a choose your own quest. A cozy way to end or start the day.
+Battles will happen in some way
 
 Project Ideas:
 FFT style party expeditions
@@ -51,16 +52,17 @@ Leveling + Class system (could be related to real job or game job)
 
 Story setting 🌟
 --------------------------------
-Our story is set in a slightly distant future about 200 years from now. Multiple Species across the Milky Way Galaxy have acquired the capability to travel between star systems in moments by folding space time. Whichever way each group got the the concept, the idea is that the universe itself is held together by an underlying force. That force increases or decreases to different constraints, such as the mass of a planet or the density of an element like osmium. The energy that holds all things together became a source of power that unravel the mysteries of the universe and grant power beyond our concept of physics today. We called it dark matter and dark energy before we could use it, but once you can harness the power we learn and grow with The Prevailing Crux. A result of The Unified Field theory for humans, the Prevailing Crux is the energy that makes the glue. It allows a leap in technology and advancement to each species that can commune with it. 
+Our story is set in a slightly distant future about 200 years from now. Multiple Species across the Milky Way Galaxy have acquired the capability to travel between star systems in moments by folding space. Whichever way each group gets to the concept, the idea is that the universe itself is held together by an underlying force. Humans call it "The Strong Nuclear Force". The energy that holds all things together became a source of power that unravels the mysteries of the universe and grant power beyond our concept of physics today. However the group gets to it, the power is generated from a strong‑force coupling and is used as a controlled, non‑destructive energy to tap generally referred to as 'The Prevailing Crux'.  It allows a leap in technology and advancement to each species that can commune with it. 
 
 
 Next Steps 🌟
 --------------------------------
-fill out html data
+refine quest reward/requirement system
+Ability clean up
 Fill out a character sheet.
-create quest reward/requirement system
-add starship descriptions
+create companions list
 create creatures
+add starship descriptions
 create non-weapon gear lists
 map out battle interactions
 work on end of day story
@@ -135,15 +137,15 @@ Technical architecture 🌟
 Base things : 
 
 Frontend : 
-+ [Svelte](https://svelte.dev/) in TS
++ [Svelte]
 + [BitsUI](https://www.bits-ui.com/docs/introduction) for simple UI components
 + [EasingWizard](https://easingwizard.com/) for organic bezier transition
 
 Tooling
 
 Backend
-+ [SvelteKit](https://svelte.dev/tutorial/kit/introducing-sveltekit) for app framework
-+ [MongoDB](https://www.mongodb.com/) for DB
++ [SvelteKit]
++ [PostgreSQL]
 
 Infrastructure / Deployment:
 Coolify + Docker + Cloudflare

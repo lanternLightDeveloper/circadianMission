@@ -34,6 +34,7 @@ Bonuses: diplomacy XP +5%, trade deals +3%
 Actions: Visit Friend, Trade Goods, Assist with Tasks
 NPCs: Ally, Messenger
 Requirements: invitation true
+Task-Reward:  shipment of great goods
 
 Discovered System Expedition
 Type: System
@@ -43,6 +44,7 @@ Bonuses: mission success +5%, follower XP +8%
 Actions: Send Expedition, Review Reports, Recall Followers
 NPCs: Expedition Captain
 Requirements: followers 2, food 15, ships 3
+Task-Reward:  shipment of great goods
 
 Dark Space
 Type: Deep Space
@@ -52,6 +54,7 @@ Bonuses: rare resource chance +5%, exploration XP +10%
 Actions: Scout Area, Gather Rare Materials, Clear Threats
 NPCs: Deep Space Guide
 Requirements: followers 1, supplies 10, ships 3
+Task-Reward:  shipment of great goods
 
 Friendly Territories
 Type: System
@@ -61,6 +64,7 @@ Bonuses: exotic goods chance +7%, travel XP +5%
 Actions: Travel Abroad, Establish Trade Route, Seek Diplomacy
 NPCs: Ambassador, Foreign Trader
 Requirements: travel pass true, gold 100
+Task-Reward:  shipment of great goods
 
 Ruined Cityscape
 Type: Planet
@@ -70,6 +74,7 @@ Bonuses: relic discovery +6%, combat XP +8%
 Actions: Explore Ruins, Hunt Relics, Challenge Boss
 NPCs: Ruin Explorer
 Requirements: followers 2, supplies 15
+Task-Reward:  shipment of great goods
 
 Mid System Passes
 Type: Deep Space
@@ -79,6 +84,7 @@ Bonuses: rare mineral chance +7%, endurance XP +5%
 Actions: Explore Space Pass, Clear Route, Conquer Space Monsters
 NPCs: Pioneer
 Requirements: followers 5, supplies 10, ships 3
+Task-Reward:  shipment of great goods
 
 Marshy Planet
 Type: Planet
@@ -88,6 +94,7 @@ Bonuses: survival XP +10%, rare plant chance +5%
 Actions: Navigate Swamp, Hunt Marsh Beasts, Gather Toxic Herbs
 NPCs: Navigator
 Requirements: antidotes 3, followers 1
+Task-Reward:  shipment of great goods
 
 Desert Planet
 Type: Planet
@@ -97,6 +104,7 @@ Bonuses: heat resistance +5%, treasure find +6%
 Actions: Explore fossils, Search Ruins, Weather Sandstorm
 NPCs: Landwalker
 Requirements: water 15, supplies 10
+Task-Reward:  shipment of great goods
 
 Frozen Waste World
 Type: Planet
@@ -106,6 +114,7 @@ Bonuses: cold resistance +8%, exploration XP +6%
 Actions: Explore Ice Caves, Hunt Frost Beasts, Build Shelter
 NPCs: Frost Tracker
 Requirements: warm gear true, supplies 10
+Task-Reward:  shipment of great goods
 
 Sacred Groves
 Type: Planet
@@ -115,6 +124,7 @@ Bonuses: blessing strength +5%, rare herb chance +7%
 Actions: Perform Ritual, Seek Guardian, Gather Sacred Herbs
 NPCs: Grove Keeper
 Requirements: offering 1, followers 1
+Task-Reward:  shipment of great goods
 
 Asteroid Community
 Type: Region
@@ -124,6 +134,7 @@ Bonuses: diplomacy XP +6%, trade deals +4%
 Actions: Trade Goods, Learn Customs, Assist Nomads
 NPCs: Nomad Elder
 Requirements: travel pass true, ships 3
+Task-Reward:  shipment of great goods
 
 Scouting Outpost Support
 Type: Region
@@ -133,6 +144,7 @@ Bonuses: patrol efficiency +8%, defense XP +5%
 Actions: Deliver Supplies, Reinforce Outpost, Scout Deep Space
 NPCs: Outpost Captain
 Requirements: followers 2, supplies 20, ship3 3
+Task-Reward:  shipment of great goods
 
 Sunken Ruins
 Type: Region
@@ -142,6 +154,7 @@ Bonuses: artifact chance +7%, player XP +5%
 Actions: Dive Ruins, Recover Relics, Fight Sea Creatures
 NPCs: Diver
 Requirements: supplies 10, followers 3
+Task-Reward:  shipment of great goods
 
 Volcanic System
 Type: Region
@@ -151,6 +164,7 @@ Bonuses: fire resistance +5%, rare ore chance +8%
 Actions: Traverse Ridge, Mine Volcanic Ore, Battle Fire Beasts
 NPCs: Fireproof Miner
 Requirements: followers 3, supplies 10
+Task-Reward:  shipment of great goods
 
 Sky Cliffs
 Type: Region
@@ -160,6 +174,7 @@ Bonuses: rare herb chance +8%, player XP +5%
 Actions: Research Islands, Hunt Sky Beasts, Gather Wind Herbs
 NPCs: Island Scout
 Requirements: followers 5, supplies 10
+Task-Reward:  shipment of great goods
 
 Valley of Illusions
 Type: Region
@@ -169,6 +184,7 @@ Bonuses: player resistance +5%, rare discovery chance +17%
 Actions: Navigate Illusions, Investigate Anomaly, Explore Hidden Paths
 NPCs: Illusion Hunter
 Requirements: supplies 10, followers 1
+Task-Reward:  shipment of great goods
 
 Space Shipping Routes
 Type: Region
@@ -178,6 +194,7 @@ Bonuses: voyage success +6%, player XP +8%
 Actions: Set Sail, Chart Route, Fight Space Monsters
 NPCs: Space Captain
 Requirements: ships 5, supplies 20, ships 3
+Task-Reward:  shipment of great goods
 
 Storm Struck Planet 
 Type: Region
@@ -187,5 +204,6 @@ Bonuses: ancient treasure chance +8%, player XP +6%
 Actions: Explore chaos, Commune with Spirits, Recover Relics
 NPCs: Storm Wanderer
 Requirements: supplies 10, followers 2
+Task-Reward:  shipment of great goods
 
 

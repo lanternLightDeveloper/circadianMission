@@ -41,7 +41,8 @@ Bonuses: gathering yield +5%, food storage +3%
 Actions: Harvest Crops, Plant Seeds, Tend Fields
 Profession: Farmer
 Apprentice: True
-Task-reward: crops, happiness, pickled vegetables
+Time Spent Multiplier: true
+Task-reward: crops, happiness, pickled vegetables, package of random materials
 Requirements: wood 15, fiber 10, water 10
 Upgrade-Requirements: 
         rebuilt - followers 5
@@ -58,7 +59,8 @@ Bonuses: animal bonds +4%, food production +5%
 Actions: Milk Animals, Process Cheese, Clean Pens
 Profession: Dairy Keeper, farmhand
 Apprentice: True
-Task-reward: milk, cheese, horses, meat, villagers
+Time Spent Multiplier: true
+Task-reward: milk, cheese, horses, meat, villagers, package of random materials
 Requirements: wood 10, stone 5, gold 5
 Upgrade-Requirements: 
         rebuilt - followers 5
@@ -75,7 +77,8 @@ Bonuses: wild meat gathering +8%, fish gathering +5%
 Actions: Hunt Game, Set Traps, Fish Waters
 Profession: Hunter, Fisher
 Apprentice: True
-Task-reward:  fish, wild meat, happiness, water
+Time Spent Multiplier: true
+Task-reward:  fish, wild meat, happiness, water, package of random materials
 Requirements: wood 10, rope 5, stone 5
 Upgrade-Requirements: 
         rebuilt - followers 5
@@ -92,7 +95,8 @@ Bonuses: wood yield +8%, happiness +3%
 Actions: Chop Wood, Haul Logs, Clear Debris
 Profession: Lumberjack
 Apprentice: True
-Task-reward: wood, lumber
+Time Spent Multiplier: true
+Task-reward: wood, lumber, package of random materials
 Requirements: wood 10, stone 15
 Upgrade-Requirements: 
         rebuilt - nano packs 10
@@ -101,7 +105,7 @@ Upgrade-Requirements:
         advanced - nano packs 40
         exquisite - nano packs 50
 
-Mines
+Asteroid Mining Outpost
 Type: District
 Description: Ore extraction, carting materials, safety inspections.
 Level: 1
@@ -109,7 +113,8 @@ Bonuses: stone yield +8%, ore yield +3%
 Actions: Extract Stone, Transport Bars
 Profession: Quarryman
 Apprentice: True
-Task-reward: metal bars, happiness
+Time Spent Multiplier: true
+Task-reward: metal bars, happiness, package of random materials
 Requirements: stone 10, woods 5
 Upgrade-Requirements: 
         rebuilt - nano packs 10
@@ -126,7 +131,8 @@ Bonuses: food preservation +5%, defense +3%
 Actions: Store Grain, Inspect Supplies, Distribute Rations
 Profession: Warehouse Keeper
 Apprentice: False
-Task-reward: grain, happiness, villagers
+Time Spent Multiplier: false
+Task-reward: grain, happiness, villagers, package of random materials
 Requirements: wood 15, stone 10
 Upgrade-Requirements: 
         rebuilt - nano packs 10
@@ -143,7 +149,8 @@ Bonuses: delivery speed +5%, trade rewards +3%
 Actions: Load Starship, Dispatch Caravan, Escort Merchant
 Profession: Ship Leader
 Apprentice: False
-Task-reward: gold, renown, villagers
+Time Spent Multiplier: false
+Task-reward: gold, renown, villagers, package of random materials
 Requirements: wood 15, rope 10, stone 10
 Upgrade-Requirements: 
         rebuilt - nano packs 10
@@ -163,7 +170,8 @@ Bonuses: harvest yield +5%, renown +3%
 Actions: Pick Fruit, Prune Trees, Tend Orchard
 Profession: Orchard Keeper, Cider Brewer
 Apprentice: True
-Task-reward: fruits, happiness, beer
+Time Spent Multiplier: true
+Task-reward: fruits, happiness, beer, package of random materials
 Requirements: wood 10, water 10, rope 10
 Upgrade-Requirements: 
         rebuilt - followers 5
@@ -180,7 +188,8 @@ Bonuses: fishing yield +8%, renown +3%
 Actions: Launch Boat, Ferry Goods, Fish River
 Profession: Dockhand
 Apprentice: True
-Task-reward: fish, diplomacy, water
+Time Spent Multiplier: true
+Task-reward: fish, diplomacy, water, package of random materials
 Requirements: wood 15, rope 5, stone 5, iron bars 5
 Upgrade-Requirements: 
         rebuilt - followers 5
@@ -197,7 +206,8 @@ Bonuses: rare goods chance +5%, trade rewards +3%
 Actions: Browse Wares, Trade Goods, Accept Special Quests
 Profession: Wandering Merchant
 Apprentice: False
-Task-reward: gold, villagers
+Time Spent Multiplier: false
+Task-reward: gold, villagers, package of random materials
 Requirements: gold 50, stone 20, wood 15, iron bars 5, paper 5
 Upgrade-Requirements: 
         rebuilt - followers 5
@@ -214,6 +224,7 @@ Bonuses: construction speed +5%, repair efficiency +10%
 Actions:  Reinforce Walls
 Profession: Drone Workeeper
 Apprentice: True
+Time Spent Multiplier: true
 Task-reward:  brick, stone
 Requirements: stone 20, tools 5, wood 10, iron bars 5
 Upgrade-Requirements: 
@@ -231,7 +242,8 @@ Bonuses: communication speed +5%, detection radius +15%
 Actions: Patrol Area, Watch Perimeter, Relay Messages
 Profession: Scout
 Apprentice: False
-Task-reward: diplomacy, villagers, defense
+Time Spent Multiplier: true
+Task-reward: diplomacy, villagers, defense, package of random materials
 Requirements: wood 10, rope 5, horses 5, stone 15
 Upgrade-Requirements: 
         rebuilt - troops 5
@@ -248,6 +260,7 @@ Bonuses: blessing duration +5%, defense +3%
 Actions: Leave Offering, Pray, Clean Shrine
 Profession: Shrine Keeper
 Apprentice: True
+Time Spent Multiplier: true
 Task-reward: happiness, gold
 Requirements: stone 10, cosmic ore - major 5, wood 5, gold 5 5
 Upgrade-Requirements: 
@@ -268,7 +281,8 @@ Bonuses: combat XP +5%, training efficiency +5%
 Actions: Spar, Drill Troops, Practice Mounted Combat
 Profession: Trainer
 Apprentice: False
-Task-reward: happiness, improved troops, renown
+Time Spent Multiplier: true
+Task-reward: happiness, improved troops, renown, package of random materials
 Requirements: wood 20, rope 10, stone 20, gold 10, weapons 10, armor 10
 Upgrade-Requirements: 
         rebuilt - troops 5
@@ -285,7 +299,8 @@ Bonuses: defense +10%, renown +5%
 Actions: Join Festival, Play Games, Participate in Events
 Profession: Event Host
 Apprentice: False
-Task-reward: happiness, villagers, followers, renown
+Time Spent Multiplier: true
+Task-reward: happiness, villagers, followers, renown, package of random materials
 Requirements: wood 10, stone 20, gold 50, gems 5
 Upgrade-Requirements: 
         rebuilt - followers 5
@@ -302,7 +317,8 @@ Bonuses: fruit yield +5%, diplomacy +3%
 Actions: Harvest Grapes, Press Juice, Age Wine
 Profession: Vintner
 Apprentice: True
-Task-reward: wine, happiness, fruit
+Time Spent Multiplier: true
+Task-reward: wine, happiness, fruit, package of random materials
 Requirements: fiber 10, wood 10, stone 10, gold 50, tools 10
 Upgrade-Requirements: 
         rebuilt - followers 5
@@ -319,7 +335,8 @@ Bonuses: herb yield +8%, alchemy XP +3%
 Actions: Gather Herbs, Tend Plants, Sort Ingredients
 Profession: Herbalist
 Apprentice: True
-Task-reward: herbs, happiness
+Time Spent Multiplier: true
+Task-reward: herbs, happiness, package of random materials
 Requirements: wood 10, water 10, fiber 15, stone 10, tools 10
 Upgrade-Requirements: 
         rebuilt - followers 5
@@ -336,7 +353,8 @@ Bonuses: animal bonds +5, happiness XP +5%
 Actions: Feed Herd, Round Up Livestock, Inspect Fences
 Profession: Herdsman
 Apprentice: True
-Task-reward: pet bonds, happiness, wild meat
+Time Spent Multiplier: true
+Task-reward: pet bonds, happiness, wild meat, package of random materials
 Requirements: wood 15, fiber 10, stone 10, gold 50, weapons 10
 Upgrade-Requirements: 
         rebuilt - followers 5
@@ -353,7 +371,8 @@ Bonuses: renown +5%, quest rewards +5%
 Actions: Visit Homes, Settle Dispute, Gather Rumors
 Profession: Villagers
 Apprentice: False
-Task-reward: happiness, fruit, wild meat, fish, villagers
+Time Spent Multiplier: true
+Task-reward: happiness, fruit, wild meat, fish, villagers, package of random materials
 Requirements: wood 20, stone 20, gold 70, gems 10, tools 10, weapons 10, armor 10
 Upgrade-Requirements: 
         rebuilt - followers 5
@@ -370,6 +389,7 @@ Bonuses: travel speed +10%, resource transport +5%
 Actions: Set Travel beacons
 Profession: Engineer, Observers
 Apprentice: True
+Time Spent Multiplier: true
 Task-reward: diplomacy, cosmic ore
 Requirements: stone 20, wood 15, gold 10, gems 5, horses 5, tools 10
 Upgrade-Requirements: 
@@ -387,7 +407,8 @@ Bonuses: quest rewards +8%, renown +3%
 Actions: Ferry Goods
 Profession: Space Portal Keeper
 Apprentice: True
-Task-reward: diplomacy, cosmic regentsnts
+Time Spent Multiplier: true
+Task-reward: diplomacy, cosmic regentsnts, package of random materials
 Requirements: wood 15, stone 50, rope 25, gold 100, gems 20, tools 15
 Upgrade-Requirements: 
         rebuilt - nano packs 10

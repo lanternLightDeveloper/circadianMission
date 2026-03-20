@@ -9,12 +9,12 @@ Storm
 
 Base Stats 🌟
 Attribute	Value
-Strength	3/10
-Agility	3/10
-Endurance	3/10
-Intellect	4/10
-Willpower	4/10
-Crux Affinity	3/10
+Strength	5/10
+Agility	8/10
+Endurance	5/10
+Intellect	7/10
+Willpower	6/10
+Crux Affinity	6/10
 
 Innate Modifiers 🌟
 +1 Skill Point per Level

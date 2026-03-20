@@ -1,4 +1,4 @@
-Divine, Holy & Spiritual Roles 🌟
+Divine, Holy & Spiritual Roles 
 -------------------------------------------
 Priest - Cleric - Herald
 -------------------------------------------
@@ -44,7 +44,7 @@ Fatemender - rewrites tiny threads of destiny at a cost to their own lifespan.
 Bone Shepherd - raises skeletal beasts instead of humanoid undead.
 
 ===========================================
-PRIEST/PALADIN/HERBALIST/MEDIC WEAPONS 🌟
+PRIEST/PALADIN/HERBALIST/MEDIC WEAPONS 
 ===========================================
 -------------------------------------------
 Weapon buff suggestions
@@ -69,28 +69,28 @@ Kinetic Absorption  - stores hits, releases force
 Offhand items
 -------------------------------------------
 Shard
-Orb 
-Tome 
-Kite Shield 
-Shield 
+Orb
+Tome
+Kite Shield
+Shield
 Whip
 Harpoon
 Bolts (thrown darts)
-Bombs 
+Bombs
 Lute
 Flute
-Bell 
+Bell
 Trumpet
 Drum
 
 ===========================================
-PRIEST → CLERIC / HERALD 🌟
+PRIEST → CLERIC / HERALD 
 ===========================================
 Staff
-Wand 
-Scepter 
-Gauntlets 
-Anklets 
+Wand
+Scepter
+Gauntlets
+Anklets
 Chakrams
 Baton
 Scythe
@@ -101,20 +101,20 @@ Shotgun
 Launcher
 
 ===========================================
-PALADIN → VANGUARD / TEMPLAR 🌟
+PALADIN → VANGUARD / TEMPLAR 
 ===========================================
 Staff
-Scepter 
+Scepter
 Baton
 Hammer
-Mace 
+Mace
 Club
 Maul
 Flail
 Axe
 Spear
 Tri‑dent
-Glaive 
+Glaive
 Halberd
 Sword
 Saber
@@ -123,37 +123,30 @@ Gladius
 Shotgun
 
 ===========================================
-HERBALIST → ALCHEMIST / SCRIBE 🌟
+HERBALIST → ALCHEMIST / SCRIBE 
 ===========================================
 Staff
-Scepter 
-Gauntlets 
-Anklets 
-Chakrams
+Scepter
+Gauntlets
+Anklets
 Baton
-Tonfa
 Spear
 Cleaver
 Daggers
 Sword
-Katana
-Rapier
 Longbow
-Adaptive Compound Bow (draw strength auto‑modulates)
 Wrist‑Bolter (rapid micro‑darts)
-Pistol
 Shotgun
-Rifle
-Sniper 
+Sniper
 Launcher
 
 ===========================================
-MEDIC → DOCTOR / SURGEON 🌟
+MEDIC → DOCTOR / SURGEON 
 ===========================================
 Staff
-Scepter 
-Gauntlets 
-Anklets 
+Scepter
+Gauntlets
+Anklets
 Baton
 Scythe
 Spear
@@ -165,10 +158,10 @@ Adaptive Compound Bow (draw strength auto‑modulates)
 Wrist‑Bolter (rapid micro‑darts)
 Pistol
 Rifle
-Sniper 
+Sniper
 
 ===========================================
-CLASS: PRIEST / CLERIC / HERALD 🌟
+CLASS: PRIEST / CLERIC / HERALD
 ===========================================
 A devoted channeler of sacred Crux energy who heals allies, wards off corruption, and invokes cosmic blessings. Priests serve as spiritual guides and battlefield protectors, using nanite‑enhanced rituals to amplify their divine resonance.
 
@@ -190,6 +183,54 @@ Defense: ★★★☆☆
 Mobility: ★★★☆☆
 Crux Interaction: ★★★★★
 Nanite Synergy: ★★★★★
+
+-------------------------------------------
+BASE ABILITIES 
+-------------------------------------------
+Radiant Spark
+A small burst of holy energy that damages enemies or lightly heals allies depending on the target.
+
+Blessing of Light
+Grant an ally a minor buff to defense or healing received.
+
+Purify
+Cleanse a single negative effect such as poison, bleed, or minor curses.
+
+Divine Sense
+Detect nearby spiritual disturbances, corrupted Crux, or hidden entities.
+
+Healing Prayer
+A focused channel that restores health over time to a single ally.
+
+Radiant Ward
+Create a protective barrier that absorbs damage and glows brighter as it weakens.
+
+Holy Nova
+A radial burst of radiant energy that heals allies and damages enemies.
+
+Lightbind
+A beam of divine energy that tethers to an enemy, slowing them and reducing their damage.
+
+Sacred Ground
+Consecrate an area, granting healing and resistance to allies standing within it.
+
+Radiant Chains
+Bind an enemy with glowing chains of light immobilizing them.
+
+Prayer of Renewal
+A wave of restorative energy that heals all nearby allies.
+
+Blessing of Swiftness
+Temporarily increase movement speed and casting speed for yourself or an ally.
+
+Spirit Reservoir
+Store excess divine energy to empower a future healing or damage spell.
+
+Light of Judgment
+Call down a focused beam of radiant power that deals heavy damage to a single target.
+
+Priest Ascendance
+Enter a heightened divine state: increased healing, reduced damage taken, and enhanced spell potency.
 
 -------------------------------------------
 CLASS PASSIVE
@@ -330,9 +371,8 @@ Summon a towering avatar of cosmic Crux.
 END OF CLASS SHEET
 ===========================================
 
-
 ===========================================
-CLASS: PALADIN / VANGUARD / TEMPLAR 🌟
+CLASS: PALADIN / VANGUARD / TEMPLAR 
 ===========================================
 A holy warrior who channels radiant Crux energy through disciplined martial skill and nanite‑reinforced armor. Paladins stand as unbreakable defenders of their allies, wielding both blade and blessing to purge corruption and uphold cosmic order.
 
@@ -354,6 +394,51 @@ Defense: ★★★★★
 Mobility: ★★★☆☆
 Crux Interaction: ★★★★☆
 Nanite Synergy: ★★★★☆
+
+-------------------------------------------
+BASE ABILITIES  
+-------------------------------------------
+Radiant Strike
+A melee attack empowered with divine energy, dealing bonus radiant damage.
+
+Shield of Faith
+Create a shimmering barrier that reduces incoming damage for a short duration.
+
+Holy Charge
+Dash forward in a burst of light, knocking enemies aside.
+
+Lay on Hands
+Channel divine energy through your palms to heal an ally or yourself.
+
+Righteous Fury
+Temporarily increase weapon damage and threat generation.
+
+Sacred Shield Bash
+Strike with your shield, interrupting spellcasting and briefly stunning the target.
+
+Divine Ward
+Place a protective sigil on the ground that reduces damage taken by allies inside.
+
+Holy Reprisal
+When struck, unleash a burst of radiant retaliation damage.
+
+Blessing of Defense
+Hurl a spear of condensed light that pierces through multiple enemies and generates high threat.
+
+Blessing of Damage
+Increase an ally’s physical damage or weapon potency.
+
+Holy Rally
+Inspire nearby allies, granting temporary health or increased defenses.
+
+Purge Evil
+Cleanse an area of curses, corruption, or minor undead constructs.
+
+Lightforge Weapon
+Imbue your weapon with radiant energy, causing bonus damage for several strikes.
+
+Paladin Ascendance
+Enter a state of divine empowerment: increased damage, stronger auras, and reduced incoming harm.
 
 -------------------------------------------
 CLASS PASSIVE
@@ -498,7 +583,7 @@ END OF CLASS SHEET
 ===========================================
 
 ===========================================
-CLASS: HERBALIST / ALCHEMIST / SCRIBE 🌟
+CLASS: HERBALIST / ALCHEMIST / SCRIBE 
 ===========================================
 A master of natural Crux flows, botanical nanites, and restorative mixtures. Herbalists gather, cultivate, and refine living materials into potent brews, battlefield remedies, and supportive enhancements.
 
@@ -520,6 +605,54 @@ Defense: ★★★☆☆
 Mobility: ★★★☆☆  
 Crux Interaction: ★★★★☆  
 Nanite Synergy: ★★★★★  
+
+-------------------------------------------
+BASE ABILITIES  
+-------------------------------------------
+Foraged Remedy
+Create a quick, low‑grade healing salve from gathered herbs.
+
+Tonic Splash
+Throw a basic restorative tonic that heals allies in a small radius.
+
+Rootbind Mixture
+Toss a sticky herbal concoction that slows enemies on impact.
+
+Bitter Draught
+A quick‑drink tonic that boosts stamina or Crux regeneration for a short time.
+
+Soothing Aroma
+Release a calming scent that reduces ally fear.
+
+Thornbrew Flask
+Throw a flask that bursts into thorny vines, dealing light damage over time.
+
+Regrowth Salve
+Apply a salve that heals over time and increases natural recovery.
+
+Herbal Shielding
+Coat an ally in a protective herbal oil that slightly reduces incoming damage.
+
+Energizing Tea
+Brew a quick tea that boosts movement speed and casting speed.
+
+Verdant Echo
+Your next healing or support ability repeats at reduced potency.
+
+Cleansing Brew
+Remove multiple minor debuffs from an ally using a potent herbal mixture.
+
+Bloom Bomb
+Throw a seed that erupts into a burst of petals, lightly damaging enemies and refreshing allies.
+
+Herbal Reservoir
+Store excess herbal energy to empower a future brew or salve.
+
+Nature’s Tincture
+A versatile tincture that can be quickly modified to heal, cleanse, or buff depending on the situation.
+
+Herbalist Ascendance
+Enter a heightened state of botanical mastery: faster brew times, stronger healing, and enhanced resource detection.
 
 -------------------------------------------
 CLASS PASSIVE
@@ -661,7 +794,7 @@ END OF CLASS SHEET
 ===========================================
 
 ===========================================
-CLASS: MEDIC / DOCTOR / SURGEON 🌟
+CLASS: MEDIC / DOCTOR / SURGEON 
 ===========================================
 A frontline lifesaver who blends medical expertise with nanite‑driven healing and Crux‑stabilization techniques. Medics keep allies alive through rapid response, battlefield triage, and precise intervention under pressure.
 
@@ -683,6 +816,54 @@ Defense: ★★★☆☆
 Mobility: ★★★★☆
 Crux Interaction: ★★★☆☆
 Nanite Synergy: ★★★★★
+
+-------------------------------------------
+BASE ABILITIES 
+-------------------------------------------
+Combat Injection
+Inject yourself or an ally with a stimulant that boosts movement speed or reaction time.
+
+Medical Scan
+Analyze a target to reveal health, injuries, debuffs and hidden conditions.
+
+Nanite Stitch
+A rapid‑deploy healing patch that closes minor wounds instantly.
+
+Cleanse Protocol
+Deploy nanites that remove poisons, bleeds and minor debuffs.
+
+Vital Surge
+A burst of restorative energy that heals an ally more the lower their health is.
+
+Nanite Beacon
+Place a small device that periodically heals nearby allies.
+
+Adrenaline Shot
+Revive a downed ally with a burst of temporary health and increased stamina.
+
+Pain Suppressant
+Reduce an ally’s incoming damage and stagger for a short time.
+
+Crux Defibrillate
+Channel Crux into a target to shock them back to fighting condition or damage undead/constructs.
+
+Rapid Triage
+Instantly heal the most injured nearby ally, prioritizing critical targets.
+
+Med‑Drone Deploy
+Summon a small drone that follows you and provides periodic micro‑heals.
+
+Nanite Reversal
+Reflect the next harmful debuff back at its source using adaptive nanites.
+
+Vital Reservoir
+Store excess nanite charge to empower a future heal or cleanse.
+
+Emergency Barrier
+Deploy a temporary shield around an ally that absorbs a burst of incoming damage.
+
+Medic Ascendance
+Enter a hyper‑focused medical state: faster movement, stronger heals and instant access to triage abilities.
 
 -------------------------------------------
 CLASS PASSIVE
