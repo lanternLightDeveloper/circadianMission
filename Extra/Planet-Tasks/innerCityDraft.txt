@@ -34,8 +34,6 @@ Cranium Conservatory  |  Braincrafter
 Boundaries Lab  |  Wild space scientist
 Portal Chamber  |  Gatekeeper
 
-Jobs:
-
 
 Tier 1 -
  
@@ -451,3 +449,7 @@ Kennels - hounds, companion animals, tracking boosts.
 Anomaly Pens - exotic or magical creatures for quests or defense.
 Treasury - gold storage, taxes, economic upgrades.
 Record Office - census, contracts, permits, and bureaucratic flavor.
+Hospital - medical care, healing, and healing upgrades.
+Grocery - food storage, cooking, and culinary upgrades.
+Restaurants - food storage, cooking, and culinary upgrades.
+Cemetery - burial services, undead defense, and undead upgrades.

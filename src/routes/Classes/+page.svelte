@@ -69,7 +69,6 @@
 		cursor: pointer;
 	}
 
-	/* Highlighted / active tab */
 	.class-tabs button.selected {
 		border-color: var(--accent-2);
 		background: var(--hover);

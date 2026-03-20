@@ -57,7 +57,6 @@ Our story is set in a slightly distant future about 200 years from now. Multiple
 
 Next Steps 🌟
 --------------------------------
-refine quest reward/requirement system
 Ability clean up
 Fill out a character sheet.
 create companions list
