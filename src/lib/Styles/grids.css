@@ -8,7 +8,7 @@
 	section {   
     position: relative;
     overflow: hidden;
-    margin-top: var(--size-6);
+    margin: var(--size-6) 0 var(--size-6) 5vw;
 
 	/* border: var(--bord-2);   */
 		

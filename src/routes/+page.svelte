@@ -52,6 +52,7 @@
 <style>
 	li {
 		text-transform: capitalize;
+		margin-left: var(--size-7);
 	}
 
 	section {

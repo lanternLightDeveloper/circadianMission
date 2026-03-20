@@ -228,20 +228,17 @@
 
 <style>
 	.page {
-		max-width: 70%;
-		margin: 0 auto;
-		padding: 2rem;
-		line-height: 1.6;
+		margin: 10vw 0;
+
+		@media only screen and (min-width: 1440px) {
+			width: 80vw;
+			margin-left: 10vw;
+		}
 	}
 
 	section {
 		border-bottom: var(--border);
 		border-right: var(--border);
-	}
-
-	h1,
-	h2 {
-		margin-top: 2rem;
 	}
 
 	table {
@@ -252,7 +249,7 @@
 
 	td {
 		padding: 0.4rem 0;
-		border-bottom: 1px solid #444;
+		border-bottom: 1px solid #383738;
 	}
 
 	.label {

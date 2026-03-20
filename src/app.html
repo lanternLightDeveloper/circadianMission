@@ -2,11 +2,28 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.svg" />
+		<link rel="icon" href="%sveltekit.assets%/devlogo.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%sveltekit.head%
 	</head>
+	<style>
+	::-webkit-scrollbar {
+		width: 0.65rem;
+	}
+
+	::-webkit-scrollbar-track {
+		background: var(--bg-1);
+	}
+
+	::-webkit-scrollbar-thumb {
+		background: var(--accent-1);
+		border-radius: var(--rad);
+	}
+</style>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
+	
+
+
 </html>

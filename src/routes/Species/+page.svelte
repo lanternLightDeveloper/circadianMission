@@ -12,7 +12,7 @@
 	}
 </script>
 
-<h3>Species Homepage</h3>
+<h2 class="entry">Species Homepage</h2>
 
 <div class="class-tabs">
 	<button class:selected={selected === 'elevant'} onclick={() => select('elevant')}>
@@ -52,14 +52,18 @@
 {/if}
 
 <style>
+	.entry {
+		margin: var(--size-7);
+	}
+
 	.class-tabs {
 		display: flex;
 		gap: 0.5rem;
-		margin-bottom: 1rem;
+		margin: 1rem;
 	}
 
 	.class-tabs button {
-		padding: 0.5rem 1rem;
+		padding: 0.5rem;
 		border-radius: 6px;
 		border: var(--border);
 		background: var(--bg-2);
@@ -67,7 +71,6 @@
 		cursor: pointer;
 	}
 
-	/* Highlighted / active tab */
 	.class-tabs button.selected {
 		border-color: var(--accent-2);
 		background: var(--hover);

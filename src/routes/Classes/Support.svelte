@@ -17,7 +17,7 @@
 	};
 </script>
 
-<h3>Class:</h3>
+<h3 class="entry">Class:</h3>
 <div class="class-tabs">
 	{#each Object.keys(classes) as key (key)}
 		<button on:click={() => (selected = key)} selected={selected === key}>
@@ -30,7 +30,7 @@
 	<p>Description: {classData().description}</p>
 </div>
 
-<div class="dropdown">
+<section class="dropdown">
 	<button class="dropdown-header" on:click={() => (open.core = !open.core)}>
 		Core Identity
 		<span>{open.core ? '▼' : '►'}</span>
@@ -45,9 +45,9 @@
 			<p>Nanite Use: {classData().coreIdentity.naniteUse}</p>
 		</div>
 	{/if}
-</div>
+</section>
 
-<div class="dropdown">
+<section class="dropdown">
 	<button class="dropdown-header" on:click={() => (open.stats = !open.stats)}>
 		Base Class Stats
 		<span>{open.stats ? '▼' : '►'}</span>
@@ -62,9 +62,9 @@
 			<p>Nanite Synergy: {classData().baseStats.naniteSynergy}/5</p>
 		</div>
 	{/if}
-</div>
+</section>
 
-<div class="dropdown">
+<section class="dropdown">
 	<button class="dropdown-header" on:click={() => (open.weapons = !open.weapons)}>
 		Base weapons
 		<span>{open.weapons ? '▼' : '►'}</span>
@@ -78,26 +78,9 @@
 			<p>{classData().weapons.off_Hand}</p>
 		</div>
 	{/if}
-</div>
+</section>
 
-<div class="dropdown">
-	<button class="dropdown-header" on:click={() => (open.abilities = !open.abilities)}>
-		Base Abilities
-		<span>{open.abilities ? '▼' : '►'}</span>
-	</button>
-
-	{#if open.abilities}
-		<div class="dropdown-content">
-			<p>These are earned every three levels, so it would be 3, 6, 9, 12, 15 and so on.</p>
-			{#each classData().baseAbilities as ability (ability.name)}
-				<h3>{ability.name}</h3>
-				<p>{ability.description}</p>
-			{/each}
-		</div>
-	{/if}
-</div>
-
-<div class="dropdown">
+<section class="dropdown">
 	<button class="dropdown-header" on:click={() => (open.passive = !open.passive)}>
 		Class Passive
 		<span>{open.passive ? '▼' : '►'}</span>
@@ -112,9 +95,26 @@
 			{/each}
 		</div>
 	{/if}
-</div>
+</section>
 
-<div class="dropdown">
+<section class="dropdown">
+	<button class="dropdown-header" on:click={() => (open.abilities = !open.abilities)}>
+		Base Abilities
+		<span>{open.abilities ? '▼' : '►'}</span>
+	</button>
+
+	{#if open.abilities}
+		<div class="dropdown-content">
+			<p>These are earned every three levels, so it would be 3, 6, 9, 12, 15 and so on.</p>
+			{#each classData().baseAbilities as ability (ability.name)}
+				<h3>{ability.name}</h3>
+				<p>{ability.description}</p>
+			{/each}
+		</div>
+	{/if}
+</section>
+
+<section class="dropdown">
 	<button class="dropdown-header" on:click={() => (open.progression = !open.progression)}>
 		Level Progression
 		<span>{open.progression ? '▼' : '►'}</span>
@@ -149,9 +149,9 @@
 			{/each}
 		</div>
 	{/if}
-</div>
+</section>
 
-<div class="dropdown">
+<section class="dropdown" style="margin-bottom: 5rem;">
 	<button class="dropdown-header" on:click={() => (open.specializations = !open.specializations)}>
 		Specializations
 		<span>{open.specializations ? '▼' : '►'}</span>
@@ -186,13 +186,17 @@
 			{/each}
 		</div>
 	{/if}
-</div>
+</section>
 
 <style>
+	.entry {
+		margin: var(--size-7);
+	}
+
 	.class-tabs {
 		display: flex;
 		gap: 0.5rem;
-		margin-bottom: 1rem;
+		margin: 1rem;
 	}
 
 	.class-tabs button {
@@ -219,7 +223,7 @@
 	.dropdown {
 		border: var(--border);
 		border-radius: 6px;
-		margin: 1rem 20%;
+		margin: 1rem auto;
 		overflow: hidden;
 		width: 60%;
 		max-width: 800px;

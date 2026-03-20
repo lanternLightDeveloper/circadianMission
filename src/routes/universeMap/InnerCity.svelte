@@ -532,18 +532,29 @@
 			el.focus();
 		}
 	}
+
+	let menuOpen = false;
+
+	function toggleMenu() {
+		menuOpen = !menuOpen;
+	}
 </script>
 
-<div class="layout">
-	<aside class="sidebar">
-		<h2>Inner City Glossary</h2>
+<button class="menu-toggle" on:click={toggleMenu}> Index </button>
 
+<div class="layout">
+	<aside class="sidebar {menuOpen ? 'open' : ''}">
 		{#each tiers as t (t)}
 			<h3>Tier {t}</h3>
 			<ul>
 				{#each buildings.filter((b) => b.tier === t) as b (b.id)}
 					<li>
-						<button on:click={() => scrollToSection(b.id)}>
+						<button
+							on:click={() => {
+								scrollToSection(b.id);
+								menuOpen = false;
+							}}
+						>
 							{b.name}
 						</button>
 					</li>
@@ -560,10 +571,10 @@
 
 		<div class="grid-Main">
 			{#each tiers as t (t)}
-				<h2>Tier {t}</h2>
+				<h3>Tier {t}</h3>
 
 				{#each buildings.filter((b) => b.tier === t) as b (b.id)}
-					<section id={b.id} class="card-SideSkew" tabindex="-1" aria-labelledby={`${b.id}-title`}>
+					<section id={b.id} tabindex="-1" aria-labelledby={`${b.id}-title`}>
 						<h3 id={`${b.id}-title`}>{b.name}</h3>
 
 						<p><strong>Type:</strong> {b.type}</p>
@@ -579,7 +590,7 @@
 						<p><strong>Task‑Reward:</strong> {b.taskReward}</p>
 						<p><strong>Requirements:</strong> {b.requirements}</p>
 
-						<h4>Upgrade Requirements</h4>
+						<h3>Upgrade Requirements</h3>
 						<ul>
 							{#each b.upgrades as u (u.tier)}
 								<li>{u.tier} – {u.requirements}</li>
@@ -598,25 +609,50 @@
 		align-items: flex-start;
 	}
 
-	/* Sidebar stays fixed in place but no longer pushes content down */
-	.sidebar {
-		position: sticky;
+	.menu-toggle {
+		position: fixed;
 		top: 1rem;
-		flex-shrink: 0;
-		width: 15vw; /* or a fixed px width */
-		border: var(--border);
-		padding: 1rem;
+		left: 1rem;
+		z-index: 1000;
+		background: var(--accent-2);
+		color: white;
+		border: none;
+		padding: 0.5rem 1rem;
+		font-size: 1.1rem;
+		cursor: pointer;
+		border-radius: 4px;
 	}
 
-	/* Content column */
+	.sidebar {
+		position: fixed;
+		top: 0;
+		left: -260px;
+		width: 250px;
+		height: 100vh;
+		background: var(--bg-2);
+		border-right: var(--border);
+		padding: 1rem;
+		transition: left 0.3s ease;
+		z-index: 999;
+
+		h3 {
+			margin-top: 3rem;
+		}
+	}
+
+	.sidebar.open {
+		left: 0;
+	}
+
+	section {
+		border-bottom: var(--border);
+		border-right: var(--border);
+	}
+
 	.content {
 		flex: 1;
 		min-width: 0;
-	}
-
-	/* Remove the old margin-left hack */
-	.entry {
-		margin-left: 0;
+		padding-left: 1rem;
 	}
 
 	.sidebar button {
@@ -633,17 +669,5 @@
 	.sidebar button:focus {
 		text-decoration: underline;
 		outline: 2px solid #0055aa;
-	}
-
-	h2,
-	h3,
-	p {
-		margin: 0.5rem 0;
-		padding: 0;
-		width: fit-content;
-	}
-
-	h3 {
-		border-bottom: var(--bord);
 	}
 </style>

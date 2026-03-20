@@ -243,16 +243,29 @@
 			el.focus();
 		}
 	}
+
+	let menuOpen = false;
+
+	function toggleMenu() {
+		menuOpen = !menuOpen;
+	}
 </script>
 
+<button class="menu-toggle" on:click={toggleMenu}> Index </button>
+
 <div class="layout">
-	<aside class="sidebar">
-		<h2>Wild Space Glossary</h2>
+	<aside class="sidebar {menuOpen ? 'open' : ''}">
+		<h3>Wild Space Index</h3>
 
 		<ul>
 			{#each buildings as b (b.id)}
 				<li>
-					<button on:click={() => scrollToSection(b.id)}>
+					<button
+						on:click={() => {
+							scrollToSection(b.id);
+							menuOpen = false;
+						}}
+					>
 						{b.name}
 					</button>
 				</li>
@@ -271,7 +284,7 @@
 
 		<div class="grid-Main">
 			{#each buildings as b (b.id)}
-				<section id={b.id} class="card-SideSkew" tabindex="-1" aria-labelledby={`${b.id}-title`}>
+				<section id={b.id} tabindex="-1" aria-labelledby={`${b.id}-title`}>
 					<h3 id={`${b.id}-title`}>{b.name}</h3>
 
 					<p><strong>Type:</strong> {b.type}</p>
@@ -300,22 +313,50 @@
 		align-items: flex-start;
 	}
 
-	.sidebar {
-		position: sticky;
+	.menu-toggle {
+		position: fixed;
 		top: 1rem;
-		flex-shrink: 0;
-		width: 15vw;
-		border: var(--border);
+		left: 1rem;
+		z-index: 1000;
+		background: var(--accent-2);
+		color: white;
+		border: none;
+		padding: 0.5rem 1rem;
+		font-size: 1.1rem;
+		cursor: pointer;
+		border-radius: 4px;
+	}
+
+	.sidebar {
+		position: fixed;
+		top: 0;
+		left: -260px;
+		width: 250px;
+		height: 100vh;
+		background: var(--bg-2);
+		border-right: var(--border);
 		padding: 1rem;
+		transition: left 0.3s ease;
+		z-index: 999;
+
+		h3 {
+			margin-top: 3rem;
+		}
+	}
+
+	.sidebar.open {
+		left: 0;
+	}
+
+	section {
+		border-bottom: var(--border);
+		border-right: var(--border);
 	}
 
 	.content {
 		flex: 1;
 		min-width: 0;
-	}
-
-	.entry {
-		margin-left: 0;
+		padding-left: 1rem;
 	}
 
 	.sidebar button {
@@ -332,17 +373,5 @@
 	.sidebar button:focus {
 		text-decoration: underline;
 		outline: 2px solid #0055aa;
-	}
-
-	h2,
-	h3,
-	p {
-		margin: 0.5rem 0;
-		padding: 0;
-		width: fit-content;
-	}
-
-	h3 {
-		border-bottom: var(--bord);
 	}
 </style>

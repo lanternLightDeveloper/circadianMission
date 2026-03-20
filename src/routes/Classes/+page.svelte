@@ -12,9 +12,11 @@
 	}
 </script>
 
-<h2>Class Homepage</h2>
+<div class="entry">
+	<h2>Class Homepage</h2>
+	<h3>Role:</h3>
+</div>
 
-<h3>Role:</h3>
 <div class="class-tabs">
 	<button class:selected={selected === 'caster'} onclick={() => select('caster')}> Caster </button>
 
@@ -54,14 +56,18 @@
 {/if}
 
 <style>
+	.entry {
+		margin: var(--size-7);
+	}
+
 	.class-tabs {
 		display: flex;
 		gap: 0.5rem;
-		margin-bottom: 1rem;
+		margin: 1rem;
 	}
 
 	.class-tabs button {
-		padding: 0.5rem 1rem;
+		padding: 0.5rem;
 		border-radius: 6px;
 		border: var(--border);
 		background: var(--bg-2);

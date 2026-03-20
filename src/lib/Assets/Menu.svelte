@@ -64,7 +64,7 @@
 	.center-toggle {
 		position: fixed;
 		top: 0.5rem;
-		right: 0.5rem;
+		right: 1rem;
 		z-index: 960;
 		width: 4rem;
 		height: 4rem;
