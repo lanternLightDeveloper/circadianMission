@@ -35,14 +35,6 @@ Pikeman :  disciplined polearm master who uses reach, leverage and teleport‑as
 
 Pugilist :  close‑quarters brawler who channels Crux through fists and feet, delivering explosive strikes and relentless pressure.
 
--------------------------------------------
-Evolved Martial Concept
--------------------------------------------
-Variant-bound - warrior whose skin slowly turns to their element/variant as they level up.
-Siege Savant - battlefield genius who weaponizes improvised structures and terrain.
-Creature‑Speaker - bonded to a juvenile creature; grows stronger as the creature matures.
-Oath-breaker - gains strength by violating sacred vows in ritualized ways.
-
 ===========================================
 SWORDSMAN / KNIGHT / BARBARIAN / MONK WEAPON SET 
 ===========================================

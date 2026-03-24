@@ -1,39 +1,35 @@
 INNER CITY 🌟
 Description: The inner city grows with the user, boosting daily tasks and renown.
 
-
 Glossary
-Tier 1 -
-Locations  |  Jobs:
- City Proper  |  Advisor
- Council Hall  |  Councilor
- School / Library  |  Scholar, Librarian
- Market  |  Merchant, Trader
- Nano Fountain  |  Nanokeeper
+Locations                           |  Jobs                                           |  Stat Boosted:
+Tier 1 -------------------------------------------------------
+ City Proper                        |  Advisor                                      |  None
+ Council Hall                      |  Councilor                                  |  Charisma
+ School / Library                |  Scholar, Librarian                   |  Resource
+ Market                                |  Merchant, Trader                   |  Charisma
+ Nano Fountain                 |  Nano-keeper                           |  Resource
 
-Tier 2 -
-Locations  |  Jobs:
-Planet Postal  |  Postmaster
-Strategy Bunker  |  Strategist
-Chapel / Shrine  |  Devotee
-Clothier  |  Tailor
-Smith  |  Tanner
-Tannery  |  Blacksmith
-Armory  |  Technician
-Mechanic  |  Quartermaster
-Barracks  |  Captain of the Guard
-Nanomancer Tower  |  Nano Knowledgekeeper
-Watchtower Orbital  |  Defense analyst
+Tier 2 ------------------------------------------------------- 
+Planet Postal                     |  Postmaster                              |  Agility
+Strategy Bunker               |  Strategist                                  |  Resilience
+Chapel / Shrine                |  Devotee                                    |  Resource
+Clothier                               |  Tailor                                         |  Health
+Smith                                   |  Tanner                                      |  Health
+Tannery                              |  Blacksmith                               |  Health
+Armory                                |  Technician                              |  Health
+Mechanic                            |  Quartermaster                      |  Health
+Barracks                              |  Captain of the Guard          |  Resilience
+Nano-mancer Tower       |  Nano Knowledge-keeper   |  Intelligence
+Watchtower Orbital          |  Defense analyst                    |  Resilience
 
-Tier 3-
-Locations  |  Jobs::
-Bar  |  Bard
-Gardens   |  Groundskeeper
-Nanoforge  |  Nanocrafter
-Cranium Conservatory  |  Braincrafter
-Boundaries Lab  |  Wild space scientist
-Portal Chamber  |  Gatekeeper
-
+Tier 3 ------------------------------------------------------- 
+Bar                                       |  Bard                                           | Charisma
+Gardens                             |  Groundskeeper                       | Stealth
+Nano-forge                       |  Nano-crafter                           | Resource
+Cranium Conservatory  |  Brain-crafter                            | Resilience
+Boundaries Lab                |  Wild space scientist               | Strength
+Portal Chamber               |  Gatekeeper                              | Resilience
 
 Tier 1 -
  
@@ -44,6 +40,7 @@ Level: 1
 Bonuses: renown gain +5%
 Actions: Hold Court, Assign Followers, Review Reports
 Profession: Advisor
+Stat Boosted: None
 Apprentice: False
 Time Spent Multiplier: false
 Task-Reward: Renown, population
@@ -62,6 +59,7 @@ Level: 1
 Bonuses: diplomacy XP +5%, renown gain +3%
 Actions: Hold Council, Draft Decrees, Meet Envoys
 Profession: Councilor
+Stat Boosted: Charisma
 Apprentice: True
 Time Spent Multiplier: false
 Task-Reward: Renown, Population
@@ -80,6 +78,7 @@ Level: 1
 Bonuses: research speed +5%, renown +3%
 Actions: Study, Research, Teach Follower
 Profession: Scholar, Librarian
+Stat Boosted: Resource
 Apprentice: True
 Time Spent Multiplier: false
 Task-Reward: education
@@ -98,6 +97,7 @@ Level: 1
 Bonuses: trade prices +2% better
 Actions: Buy, Sell, Trade, Commission Order
 Profession: Merchant, Trader
+Stat Boosted: Charisma
 Apprentice: True
 Time Spent Multiplier: false
 Task-Reward: gold, package of random materials
@@ -116,6 +116,7 @@ Level: 1
 Bonuses: health recovery +5%
 Actions: Draw nanos, Purify Sickness
 Profession: Nanokeeper
+Stat Boosted: Resource
 Apprentice: True
 Time Spent Multiplier: false
 Task-Reward: nanites, package of random materials 
@@ -137,6 +138,7 @@ Level: 1
 Bonuses: communication speed +10%, villager XP +5%
 Actions: Send/Receive Message, Assign Courier
 Profession: Postmaster
+Stat Boosted: Agility
 Apprentice: True
 Time Spent Multiplier: false
 Task-Reward: communication speed, shipment of goods
@@ -155,6 +157,7 @@ Level: 1
 Bonuses: scouting efficiency +5%, mission planning +5%
 Actions: Review Maps, Assign Patrols, Plan Strategy
 Profession: Strategist
+Stat Boosted: Resilience
 Apprentice: True
 Time Spent Multiplier: True
 Task-Reward: Defense, package of random materials 
@@ -173,6 +176,7 @@ Level: 1
 Bonuses: healing +5%, blessing duration +5%
 Actions: Pray, Receive Blessing, Perform Ritual
 Profession: Devotee
+Stat Boosted: Resource
 Apprentice: True
 Time Spent Multiplier: True
 Task-Reward: happiness, healers
@@ -191,6 +195,7 @@ Level: 1
 Bonuses: crafting quality +3%, villager XP +5%
 Actions: Manufacture Clothing, Craft Uniforms, Design Banner
 Profession: Tailor
+Stat Boosted: Health
 Apprentice: True
 Time Spent Multiplier: false
 Task-Reward: cloth, nano-cloth, light armor
@@ -209,6 +214,7 @@ Level: 1
 Bonuses: leather yield +5%, leather production +3%
 Actions: Cure Hides, Craft Leather Armor, Process Materials
 Profession: Tanner
+Stat Boosted: Health
 Apprentice: True
 Time Spent Multiplier: false
 Task-reward: leather, medium armor
@@ -227,6 +233,7 @@ Level: 1
 Bonuses: crafting quality +5%, repair cost –10%
 Actions: Forge Item, Repair Gear, Upgrade Gear
 Profession: Blacksmith
+Stat Boosted: Health
 Apprentice: True
 Time Spent Multiplier: false
 Task-Reward: weapons, metal armor, metal bars, glass
@@ -245,6 +252,7 @@ Level: 1
 Bonuses: travel speed +5%, ship/mech efficiency +3%
 Actions: Ship/Mech upgrades, repair found tech
 Profession: Technician
+Stat Boosted: Health
 Apprentice: True
 Time Spent Multiplier: false
 Task-Reward: mechs, ships
@@ -263,6 +271,7 @@ Level: 1
 Bonuses: equipment durability +5%, defense +5%
 Actions: Store Gear, Issue Equipment, Inspect Inventory
 Profession: Quartermaster
+Stat Boosted: Health
 Apprentice: False
 Time Spent Multiplier: false
 Task-Reward: defense 
@@ -281,6 +290,7 @@ Level: 1
 Bonuses: guard capacity +2 (upgrade + 2 per level), troops efficiency +5%
 Actions: Assign Guards, Train Recruits, Inspect Barracks
 Profession: Captain of the Guard
+Stat Boosted: Resilience
 Apprentice: True
 Time Spent Multiplier: True
 Task-Reward: Troops, package of random materials
@@ -299,6 +309,7 @@ Level: 1
 Bonuses: spell power +3%, research speed +5%
 Actions: Study Magic, Upgrade Spell, Conduct Experiment
 Profession: Nano Knowledgekeeper
+Stat Boosted: Intelligence
 Apprentice: True
 Time Spent Multiplier: True
 Task-Reward: runes, defense, battle mages, package of random materials
@@ -317,6 +328,7 @@ Level: 1
 Bonuses: detection radius +10%, alert speed +5%
 Actions: satellite defense, Signal Alarm, Scout Perimeter
 Profession: Defense analyst
+Stat Boosted: Resilience
 Apprentice: False
 Time Spent Multiplier: false
 Task-Reward: defense 
@@ -338,6 +350,7 @@ Level: 1
 Bonuses: renown +10%, follower XP +5%
 Actions: Host Feast, Gather Rumors, Recruit Adventurer
 Profession: Innkeeper, Bard
+Stat Boosted: Charisma
 Apprentice: True
 Time Spent Multiplier: True
 Task-Reward: renown, happiness, followers, package of random materials 
@@ -356,6 +369,7 @@ Level: 1
 Bonuses: renown +5%, herb yield +3%
 Actions: Meditate, Gather Herbs, Tend Garden
 Profession: Groundskeeper
+Stat Boosted: Stealth
 Apprentice: False
 Time Spent Multiplier: True
 Task-Reward: crafting regents, herbs, package of random materials
@@ -374,6 +388,7 @@ Level: 1
 Bonuses: enchant potency +5%, Nano potency +3%
 Actions: Enchant Self & Gear, Bind energy
 Profession: Nanocrafter
+Stat Boosted: Resource
 Apprentice: True
 Time Spent Multiplier: false
 Task-Reward: Nanos enchantments
@@ -392,6 +407,7 @@ Level: 1
 Bonuses: implant potency +5%, Nano potency +3%
 Actions: Brain implant management 
 Profession: Braincrafter
+Stat Boosted: Health
 Apprentice: True
 Time Spent Multiplier: false
 Task-Reward: Implants, brain upgrades
@@ -410,6 +426,7 @@ Level: 1
 Bonuses: system research +5%, energy production +3%
 Actions: Study Energy, Conduct system research
 Profession: Wild space scientist
+Stat Boosted:  Strength
 Apprentice: True
 Time Spent Multiplier: True
 Task-Reward: knowledge, technology, package of random materials
@@ -429,6 +446,7 @@ Bonuses: travel time –80%, portal stability +5%
 Actions: Open Portal, Calibrate Gate, Send Expedition
 Task-Reward: diplomacy, technology, package of random materials
 Profession: Gatekeeper
+Stat Boosted: Resilience
 Apprentice: True
 Time Spent Multiplier: True
 Task-Reward: diplomacy, technology, package of random materials
@@ -440,16 +458,3 @@ Upgrade-Requirements:
         advanced - nano packs 40
         exquisite - nano packs 50
 
-
-Future Buildings:
-
-Archives - ancient texts, records, lore, and historical research.
-Guest Quarters - visiting nobles, merchants, or quest‑givers.
-Kennels - hounds, companion animals, tracking boosts.
-Anomaly Pens - exotic or magical creatures for quests or defense.
-Treasury - gold storage, taxes, economic upgrades.
-Record Office - census, contracts, permits, and bureaucratic flavor.
-Hospital - medical care, healing, and healing upgrades.
-Grocery - food storage, cooking, and culinary upgrades.
-Restaurants - food storage, cooking, and culinary upgrades.
-Cemetery - burial services, undead defense, and undead upgrades.

@@ -1,10 +1,45 @@
 Species -
+Oozonite
 
 Name -
+Blorp Glip
 
 Class -
+Engineer
 
 Stats - 
 
-Backstory -
+Species :
+Strength	8/10
+Agility	5/10
+Endurance	5/10
+Intellect	7/10
+Willpower	4/10
+Crux Affinity	7/10
 
+Class :
+Offense: 4/5
+Defense: 3/5
+Mobility: 3/5 
+Crux Interaction: 2/5 
+Resource: 5/5 
+
+Backstory -
+The Crux‑Touched Wanderer
+You were found wandering near a Crux anomaly with no memory of how you got there. Some believe you were altered by it. Others think you were meant to die there. You’ve pieced together fragments of your past, but the anomaly still calls to you in dreams. Whether it’s a warning or an invitation is unclear.
+
+Gear - 
+
+Abilities (first ten levels) - 
+Base skills :
+Crux Wrench
+Deploy Repair Bot
+Diagnostic Scan
+
+Specialization Skills :
+Techno‑Savant  
+Deploy Turret  
+
+Choice at ten - 
+Option A: Support Drone  
+Option B: Crux Energizer 

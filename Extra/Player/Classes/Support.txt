@@ -26,14 +26,6 @@ Artificer : master builder who constructs advanced turrets, drones, and hardligh
 
 Mortarist : long‑range demolition expert who uses explosive shells, arc‑launchers, and nanite‑fused munitions to reshape the battlefield from afar. 
 
--------------------------------------------
-Evolved Support Concept
--------------------------------------------
-Bellwarden - uses enchanted bells to control/heal/hinder crowds, repel spirits, or shatter morale.
-Echo Antagonizer - fights alongside time‑shifted versions of themselves.
-Inkweaver - tattoos come alive as summoned creatures or weapons.
-Mask Maker - crafts magical masks that can mirror other classes.
-
 ===========================================
 SEER / ENCHANTER / ENGINEER WEAPON SET 
 ===========================================
@@ -734,8 +726,8 @@ Your explosive munitions are devastatingly precise.
 
 LEVEL 30 Ability (Unlocked Automatically)
 -------------------------------------------
-Arc Mortar  
-Deploy a shoulder‑mounted or ground‑mounted mortar.  
+Mortar Bot  
+Deploy a  ground‑mounted mortar bot.  
 • Fires arcing explosive shells  
 • Can be manually targeted  
 • Applies burn or shrapnel bleed  

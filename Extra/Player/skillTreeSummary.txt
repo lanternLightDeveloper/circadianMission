@@ -22,7 +22,7 @@ Tiered structure:
 Early 0 - 10 → Mid 11 - 20 → Advanced 21 - 30 → Epic 31 - 40 → Legendary 41 - 50
 
 Cross‑tree power:  
-Nodes in one tree can unlock or enhance nodes in another (e.g., Profession → Class power).
+Nodes in one tree can enhance nodes in another (e.g., Profession → Class power).
 
 
 Task Skill Tree (Daily Life → Power)  🌟
@@ -33,7 +33,6 @@ What grows it:
 Completing daily tasks
 Streaks
 Task difficulty
-Task categories (health, cleaning, creative, social, etc.)
 Upgraded buildings (Mines, Library, Workshop)
 
 Node themes:
@@ -87,6 +86,24 @@ Expeditions
 Class‑specific tasks
 Region exposure (Swamp, Volcano, Island, Forest, Desert)
 Class trainers
+
+Primary Elements : 
+Crux
+Earth
+Plant
+Water
+Air
+Fire
+Storm 
+
+Base variants : 
+Decay
+Nano
+Portal
+Solar
+Void
+Mech 
+
 
 Node themes:
 Core abilities: attacks, spells, stances

@@ -35,14 +35,6 @@ Doctor : master of sustained healing, regeneration, and battlefield medicine who
 
 Surgeon : precision specialist who excels at emergency intervention, burst healing, and nanite‑enhanced surgical strikes.
 
--------------------------------------------
-Evolved Divine 
--------------------------------------------
-Dreamwalker - enters dreams, steals memories, plants ideas, battles nightmares.
-Gravemind - communes with the collective memory of the dead, not individual spirits.
-Fatemender - rewrites tiny threads of destiny at a cost to their own lifespan.
-Bone Shepherd - raises skeletal beasts instead of humanoid undead.
-
 ===========================================
 PRIEST/PALADIN/HERBALIST/MEDIC WEAPONS 
 ===========================================

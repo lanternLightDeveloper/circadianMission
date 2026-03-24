@@ -8,6 +8,7 @@ Ranger : mobile survivalist and battlefield tracker who excels at mid‑range co
 
 Hunter : relentless predator who focuses on single‑target elimination, traps, and Crux‑enhanced pursuit techniques.
 
+evolved
 -------------------------------------------
 Thief - Trickster - Saboteur 
 -------------------------------------------
@@ -25,14 +26,6 @@ Scout : hyper‑mobile Crux warrior who manipulates space, momentum, and battlef
 Assassin : teleport‑executioner who chains blink‑kills, isolates targets, and uses Crux‑precision to eliminate foes instantly.
 
 Eather-blade : dimensional warrior who phases through reality, delivering spectral blade attacks and manipulating space itself.
-
--------------------------------------------
-Evolved Stealth 
--------------------------------------------
-Storm-runner - sprints so fast they generate Elemental storms and shockwaves.
-Chronicler of Blades - records battles in enchanted tomes that replay as illusions or ghosts.
-Chain Dancer - acrobatic fighter using weighted chains in rhythmic, hypnotic patterns.
-Corpse Stalker - cosmic hunter who uses parasitic symbiotes for power.
 
 ===========================================
 MARKSMAN / THIEF / SCOUT WEAPON SET 
