@@ -1,4 +1,4 @@
-Upgrade key:
+Upgrade key 🌟
 Upgrade Bonus: +2% per level to bonuses
 Improved unlocks apprentice where applicable
 Tasks produce material or castle boost(renown, followers, teachers, craftspeople, etc.)
@@ -12,7 +12,6 @@ Exquisite - stone 60 wood 80, metal bars 25, tools 15, cosmic ore - major 15, go
 
 Material key 🌟
 City Resource List :
-
 population
 followers
 healers
@@ -28,7 +27,7 @@ animal bonds
 trade routes 
 crux stability
 
-Player Resource List
+Player Resource List :
 Tier 1 – Raw Materials & Basics
 
 Products -
@@ -116,7 +115,3 @@ portal stones
 fine gems
 artifact cores
 nanite‑infused relics
-
-
-
-
