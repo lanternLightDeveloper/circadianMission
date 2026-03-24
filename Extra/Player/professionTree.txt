@@ -1,0 +1,71 @@
+Profession Map 🌟
+Each upgrade increases task rewards of that profession by 2% per tier and gives a stat boost of + 2  to specified stat. Higher tiers unlock new patters or the need to seek a teacher to move up.
+Jobs are grouped together so people won't have to grind every single building. 
+
+Novice - Entry-level familiarity; basic tools and methods. XP Required: 0
+Trained - Understands fundamentals and completes standard tasks reliably. XP Required: 300
+Adept - Handles difficult or time-consuming tasks with confidence. XP Required: 750
+Expert - High-level mastery; innovates and produces exceptional work. XP Required: 2000
+Instructor - Able to teach, mentor, and formalize knowledge. XP Required: 5000
+Virtuoso - Signature mastery; world-class, recognizable excellence. XP Required: 10000
+
+
+Health jobs :
+Clothier
+Smith
+Tannery
+Armory
+Mechanic
+Farms
+Dairy
+Orchards
+Vineyards
+Herbal Fields
+
+Resource jobs : 
+School / Library
+Nano Fountain
+Chapel / Shrine
+Nano-forge
+Hunt / Fish Outpost
+Waterside
+Drone Factory
+Beast Fields
+
+Attack [
+Agility jobs : 
+Planet Postal
+Lumber Yard
+
+Strength jobs : 
+Boundaries Lab
+Warehouses
+
+Stealth jobs : 
+Gardens
+Exploration Satellite
+
+Intelligence jobs : 
+Nano-mancer Tower
+Displaced Shrine
+]
+
+Charisma jobs : 
+Council Hall
+Market
+Bar
+Warehouses
+Starship Depot
+Traveling Market
+Scouting Posts
+Event Grounds
+
+Resilience jobs : 
+Strategy Bunker
+Barracks
+Watchtower Orbital
+Cranium Conservatory
+Portal Chamber
+Training Grounds
+Remote Town
+Space Portal

@@ -1,0 +1,180 @@
+Gear can be obtained in battle or created at a city building. Some weapon buffs must be unlocked by disenchanting gear. Non-armor gear is infused with an enchantment of choice and can be made with or improved with higher quality materials.  
+
+The build goes: 
+Material + Object + Buff = Nanosteel chest plate with pockets
+
+
+Head :
+hat
+headband
+bandana
+mask
+eyepatch
+monocle
+hood
+circlet
+visor
+helm
+crown
+goggles
+coif
+faceguard
+wraps
+
+Neck :
+pendant
+charm
+necklace
+choker
+amulet
+talisman
+torque
+locket
+chain
+collar
+wraps
+
+Shoulder :
+mantle
+pauldrons
+shawl
+scarf
+wraps
+
+Chest :
+robe
+jerkin
+shirt
+chainmail 
+tunic
+overcoat 
+cuirass
+
+Hands :
+wraps
+gloves
+bracelets
+watch 
+mitts
+grips
+handguards
+
+Rings :
+band
+artistic
+etched
+gemmed
+wire
+signet
+carved
+runed
+double finger ring
+
+Waist :
+belt
+studded
+plain
+hearty
+chain
+sash
+girdle
+cord
+strap
+wraps
+
+Legs :
+pants
+shorts
+skirt
+capris
+greaves
+leggings
+trousers
+hakama
+wraps
+
+Feet :
+sandals
+wraps
+boots
+shoes
+greaves
+sabatons
+slippers
+
+Extra :
+cloak
+cape
+mist
+wings
+satchel
+totem
+drone
+banner
+
+
+Buffs -
+Stat & Attribute Buffs :
+Jellyfish - extra health
+Panda - extra energy/mana/rage/stamina
+Falcon - extra agility
+Elephant - extra strength
+Chameleon - extra stealth
+Octopus - extra intelligence
+Fox - extra charisma
+Turtle - extra resilience
+Badger - increases courage / fear resistance
+Hawk‑Eye - boosts accuracy / crit chance
+Bull - increases raw damage
+Moth - increases evasion / dodge chance
+Porcupine - returns physical damage
+
+Utility & Movement Buffs :
+Pockets - snacks in your pockets give you energy
+Bubble - every point extends beyond your body (aura radius, shield radius, etc.)
+Float - floating points give hover speed
+Silent - reduces footstep noise
+Swift - faster item use / reload / interaction speed 
+Cloud - reduces fall damage
+Blink_thread - short-range teleport cooldown reduction
+Trailblazer - increases movement speed after traveling in a straight line
+Frost_walking - leaves slowing nanites behind you
+
+Combat & Damage Buffs :
+Leech - increases life‑steal
+Focus - increases spell power or precision
+Spider - boosts poison potency
+Snake - poison damage
+Stormcharge - adds lightning damage to attacks
+Embercore - adds fire damage to attacks
+Frostbite - adds cold damage to attacks
+Earthrend - adds earth damage to attacks
+Empty_shatter - adds void damage to attacks
+Tiger - increases bleed chance
+Penguin - increases damage to stunned or frozen enemies
+Cheetah - boosts attack speed for a short time after ability use
+Infused - increases Crux generation or potency
+
+Defensive & Survival Buffs :
+Reinforced - increases armor / reduces incoming physical damage
+Iron_root - increases stability / stagger resistance
+Guarded - reduces ranged damage taken
+Ward - increases shield strength
+Starfish - passive health regeneration
+Flare - small damage burst when shield breaks
+Crux_proofing - reduces magic damage
+Push - periodic shockwave that pushes enemies back
+Heart_warming - increases healing received
+Nanite_Weave - boosts nanite regeneration or efficiency
+
+Special & Thematic Buffs :
+Cat - increases loot quality
+Gremlin - increases crafting speed or salvage yield
+Mantis - increases crit chance for abilities
+Specter - increases invisibility duration
+Wisp - increases light radius or detection radius 
+Intwined - increases revive speed or reduces death penalty
+Chrono_Slip - reduces cooldowns slightly
+Magpie - increases currency gain
+Voidtouched - small chance to negate any incoming hit
+Phoenix - revive with a small amount of health once per battle

@@ -1,0 +1,115 @@
+Main :
+Staff
+Wand 
+Scepter 
+Gauntlets 
+Anklets 
+Chakrams
+Baton
+Tonfa
+Hammer
+Mace 
+Club
+Maul
+Flail
+Axe
+Scythe
+Spear
+Tri‑dent
+Glaive 
+Halberd
+Hammer-blade (sword with hammer‑weighted back)
+Cleaver
+Daggers
+Sword
+Saber
+Katana
+Rapier
+Gladius
+Longbow
+Adaptive Compound Bow (draw strength auto‑modulates)
+Wrist‑Bolter (rapid micro‑darts)
+Pistol
+Shotgun
+Rifle
+Sniper 
+Launcher
+
+Offhand :
+Shard 
+Orb 
+Tome 
+Cards
+Kite Shield 
+Shield 
+Buckler
+Chain
+Whip
+Harpoon
+Javelins
+Bolts (thrown darts)
+Knives
+Shuriken
+Kunai
+Caltrops
+Shock‑Net 
+Bombs 
+Grenades 
+Lute
+Flute
+Bell 
+Trumpet
+Drum
+
+BUFFS :
+Temporal - threads time to stun in a row
+Impact‑Field - contact stun aoe
+Organ‑Stasis - immobilizes targets
+Pulse - short‑range tech shutdown
+Spatial Anchor - pins enemies to obstacle
+Crux - Elemental infusion
+Capacitor - stores electrical charge
+Conduit - shocks a chain of enemies
+Dimensional - leaves a trail of spatial rift
+Crusader - chain‑light bursts
+Light‑Cannon - beam‑style hardlight strike
+Consecration - close‑range radiant blasts
+Hardlight - weapon made of light can stop projectiles
+Vine - contact leaves reactive, semi-sentient vines that hurt or heal
+Bloom - creates flora bursts that hurt or heal
+Grave-coil - decays matter
+Prayer - amplifies healing
+Med‑Injector - heals, stabilizes
+Medical - wide‑area healing
+Soul-Siphon - Steals health from enemy
+Mind‑Weave - influence enemy
+Banner - buffing aura emitter based on highest stat
+Chorus - teamwide empowerment pulses
+Cleanse - removes corruption/parasites
+Magnetic - can repel/attract metal projectiles
+Bulwark - deployable barrier field
+Mirror - reflects incoming attacks
+Kinetic Absorption  - stores hits, releases force
+Tracking - locks onto heat/Crux signatures
+Recon - marks targets
+Augury - future‑echo detection
+Illusion‑Projector - holo‑decoys
+Zero G - leaves zero gravity pockets on impact
+Anti‑Charge  - creates repulsion field
+Gravity‑Shift - momentum manipulation. puts gravity behind the weapon to increase damage
+Nano-fillament - nano wire edge cuts through armor
+Lance - armor piercing energy boltsct
+Phase‑- flickers between dimensions to ignore armor
+Phase‑Strike -  blinks through obstacles
+Blink - teleport to impact
+Adaptive - changes length on command
+Explosive - explosive damage
+Remote Detonation - contact leaves explosive charges
+Gel - sticky detonators
+Hive-Node - controls multiple swarms
+Nanite‑Swarm - on contact releases a swarm of nanites
+Throwing - weapon can be thrown
+Execution - amplifies finishing blows
+Hookshot - contact point can be pulled
+Scatter‑Dart - contact scatters thin darts damaging enemies
+Modular Forge S- creates temporary weapon constructs

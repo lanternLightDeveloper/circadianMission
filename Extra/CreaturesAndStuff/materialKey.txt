@@ -1,0 +1,122 @@
+Upgrade key:
+Upgrade Bonus: +2% per level to bonuses
+Improved unlocks apprentice where applicable
+Tasks produce material or castle boost(renown, followers, teachers, craftspeople, etc.)
+
+Basic
+Rebuilt - stone 20 wood 10 gold 30, 
+Established - stone 30 wood 20 gold 50
+Improved - stone 40 wood 40, metal bars 10, gold 100
+Advanced - stone 50 wood 60, metal bars 25, tools 15, gold 120
+Exquisite - stone 60 wood 80, metal bars 25, tools 15, cosmic ore - major 15, gold 160, gems 20
+
+Material key 🌟
+City Resource List :
+
+population
+followers
+healers
+troops
+battle mages
+improved troops
+communication speed
+education
+diplomacy
+happiness
+defense
+animal bonds
+trade routes 
+crux stability
+
+Player Resource List
+Tier 1 – Raw Materials & Basics
+
+Products -
+metal ore
+uranium ore
+stone
+wood
+water
+clay
+sand
+
+Regents -
+fiber
+pelts/skins (leather)
+sap/resin
+bone
+
+Food -
+crops
+grain
+milk
+herbs
+fruit
+wild meat
+meat
+fish
+eggs
+mushrooms
+
+Tier 2 – Refined Goods & Early Industry
+Products -
+uranium bars
+bricks
+lumber
+tools
+glass
+steel
+ceramics
+
+Regents -
+nanite pack
+leather
+metal bar
+treated wood
+alchemical base
+
+Food -
+drugs
+beer
+breads
+cheeses
+smoked meat
+pickled vegetables
+spices
+tea
+
+Tier 3 – Advanced Crafting & High‑Value Goods
+Products -
+uranium bricks
+weapons
+armor
+parts
+machinery
+crux components
+
+Regents -
+gold
+gems
+nanite‑cloth
+nanite‑leather
+nanite‑bars
+crystal cores 
+
+Food -
+wine
+liquor
+fine meals
+preserved delicacies
+
+Tier 4 – Masterwork & Magical/Tech Hybrids :
+enhanced armor
+enhanced weapons
+enhanced tools
+portal stones
+fine gems
+artifact cores
+nanite‑infused relics
+
+
+
+

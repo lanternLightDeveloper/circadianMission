@@ -1,0 +1,188 @@
+Character (unique.id) 🌟
+
+Base Sheet :
+Info - Personal information sheet.
+Name/ age are self explanitory.
+Level -  will effect how much you can build your castle
+Class - will be a for fun side bit. Could effect the style of your land
+Profession - will be connected to your stat sheet and boost your points depending on activity..
+Species - The race of humanoid you chose to be
+Planet - the region you chose to call home. Could have bonuses or debuffs.
+Backstory - where people will choose their race and how they got here
+Team - This can be a set number of people to have with you for quests.
+
+Stats 🌟
+Species :
+Health - Total hit points before the character is knocked out. Example: 1 point = 20 health
+Resource - A pool used for abilities, spells, or strenuous actions. Example: 1 point = 20 energy/mana/rage/stamina
+Agility - Governs movement speed, dodge chance, and finesse. Example: 1 point = 2% dodge + speed
+Strength - Determines physical power and melee weapon damage. Example: 1 point = 5% physical damage
+Stealth - Ability to avoid detection, ambush enemies, or move unseen. Example: 1 point = 5% stealth damage   
+Intelligence - Controls magical potency, skill ceiling, and complex problem‑solving. Example: 1 point = 5% magic damage
+Charisma - Influences conversation outcomes, persuasion, and charm effects. Example: 1 point = 5% charm + speech skill
+Resilience - Defense against damage and resistance to harmful effects. Example: 1 point = 3% defense
+
+Class :
+Offense: _/5  1 point = + 1 : strength or stealth
+Defense: _/5  1 point = + 1 Resilience
+Mobility: _/5  1 point = + 1 Agility
+Crux Interaction: _/5  1 point = + 1 Intellect 
+Resource: _/5 1 point = + 1 Stamina/Mana/Rage/Energy
+
+Gear 🌟
+Hat / Helm - 
+Neck - 
+Shoulder - 
+Chest -  
+Gloves - 
+Rings -  
+Belt -  
+Pants -  
+Boots -  
+Extra -  
+
+Skill tree 🌟 
+Points will be earned through activity or time spent in game.
+Three parallel trees grow at the same time: Task, Profession, and Class.
+Each tree is tiered (Early → Mid → Advanced → Epic → Legendary) with branching choices.
+Nodes come in types like passive boosts, active abilities, utilities, transformations, and specializations.
+Growth sources differ: Tasks grow from daily habits, Profession from your trade, Class from combat and exploration.
+Buildings and teachers unlock higher tiers.
+Monster kills and expeditions feed the Class tree with essences, abilities, and combat perks.
+Profession mastery unlocks recipes, efficiencies, tools, and combat‑adjacent perks tied to your trade.
+Cross‑tree empowerment lets one tree enhance another, creating hybrid builds and personalized growth paths.
+
+Profession Map 🌟
+Each upgrade increases task rewards of that profession by 2% per tier and gives a stat boost of + 1  to specified stat. Higher tiers unlock new patters or the need to seek a teacher to move up.
+Novice - Entry-level familiarity; basic tools and methods. XP Required: 0
+Trained - Understands fundamentals and completes standard tasks reliably. XP Required: 300
+Adept - Handles difficult or time-consuming tasks with confidence. XP Required: 750
+Expert - High-level mastery; innovates and produces exceptional work. XP Required: 2000
+Instructor - Able to teach, mentor, and formalize knowledge. XP Required: 5000
+Virtuoso - Signature mastery; world-class, recognizable excellence. XP Required: 10000
+
+Activity Map 🌟
+The things you do will give you points to boost quest rewards.
+Activity consistency (streaks, categories, difficulty) unlocks lifestyle, focus, momentum, and self‑improvement perks.
+Moving up the tree unlocks permanent bonuses.
+
+Tasks : Regular around‑the‑house or daily. Could be music or hobby practice.
+Take trash out
+Dishes
+Laundry
+Sweep / vac
+Tidy
+Toilet / bathtub
+Animal box / bed
+Pull weeds
+Mobility/Stretching
+
+Quests : These make you leave the house, but not for days. Can be fun or productive.
+Grocery shopping
+Post office
+Haircut
+Clothes shopping
+Park visit
+Hike
+
+Expeditions : Big action. It took effort to complete. Could be team‑based or solo. Taken serious but can be fun.
+Camping / Backpacking
+Vacation
+Practice seriously
+Work week / school
+Competition
+Life event
+New experience
+
+
+Player Region Map 🌟
+INNER CITY : 
+The inner city grows with the user, boosting daily tasks and renown.
+
+Tier 1 -
+Locations  |  Jobs:
+ City Proper  |  Advisor
+ Council Hall  |  Councilor
+ School / Library  |  Scholar, Librarian
+ Market  |  Merchant, Trader
+ Nano Fountain  |  Nanokeeper
+
+Tier 2 -
+Locations  |  Jobs:
+ Planet Postal  |  Postmaster
+ Strategy Bunker  |  Strategist
+ Chapel / Shrine  |  Devotee
+ Clothier  |  Tailor
+ Smith  |  Tanner
+ Tannery  |  Blacksmith
+ Armory  |  Technician
+ Mechanic  |  Quartermaster
+ Barracks  |  Captain of the Guard
+ Nanomancer Tower  |  Nano Knowledgekeeper
+ Watchtower Orbital  |  Defense analyst
+
+Tier 3-
+Locations  |  Jobs::
+ Bar  |  Bard
+ Gardens   |  Groundskeeper
+ Nanoforge  |  Nanocrafter
+ Cranium Conservatory  |  Braincrafter
+ Boundaries Lab  |  Wild space scientist
+ Portal Chamber  |  Gatekeeper
+
+OUTER GROUNDS :
+Most quests happen here. Includes outskirts and near‑distance jobs. Outer regions anywhere between the suburbs and deep woods
+
+Tier 1 -
+Locations  |  Jobs :
+Farms  |  Farmer
+Dairy  |  Dairy Keeper, farmhand
+Hunt / Fish Outpost  |  Hunter, Fisher
+Lumber Yard  |  Lumberjack
+Mines  |  Quarryman
+Warehouses  |  Warehouse Keeper
+Starship Depot  |  Ship Leader
+
+Tier 2 -
+Locations  |  Jobs :
+Orchards  |  Orchard Keeper, Cider Brewer
+Waterside  |  Dockhand
+Traveling Market  |  Wandering Merchant
+Drone Factory  |  Drone Workeeper
+Scouting Posts  |  Scout
+Displaced Shrine  |  Shrine Keeper
+
+Tier 3 -
+Locations  |  Jobs :
+Training Grounds  |  Trainer
+Event Grounds  |  Event Host
+Vineyards  |  Vintner
+Herbal Fields  |  Herbalist
+Beast Fields  |  Herdsman
+Remote Town  |  Villagers
+Exploration Satellite  |  Engineer, Observers
+Space Portal  |  Space Portal Keeper
+
+WILD SPACE :
+Big milestones. Long expeditions, and major achievements. This is where you explore the universe
+
+Friend's Home
+Discovered System Expedition
+Dark Space
+Friendly Territories
+Ruined Cityscape
+Mid System Passes
+Marshy Planet
+Desert Planet
+Frozen Waste World
+Sacred Groves
+Asteroid Community
+Scouting Outpost Support
+Sunken Ruins
+Volcanic System
+Sky Cliffs
+Valley of Illusions
+Space Shipping Routes
+Storm Struck Planet 
+
+

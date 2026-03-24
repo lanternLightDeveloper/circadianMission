@@ -1,0 +1,180 @@
+Project 🌟
+----------------
+Name / Working Title:
+Diurnal Excursion or  Circadian Mission
+
+Name game (expands):
+ Circadian Purpose
+ Circadian Voyage
+ ----------------
+ Circadian Mission
+ Diurnal Purpose
+ Diurnal Excursion
+ ----------------
+ Typical Trek
+ Routine Expedition
+ ----------------
+ Daily:
+  routine
+  circadian
+  diurnal
+  groove
+  manner
+  typical
+ ----------------
+ Quest:
+  expedition
+  mission
+  voyage
+  assignment
+  purpose
+  excursion
+  trek
+  travel
+
+
+One‑sentence purpose:
+Daily tasks turned into quests and adventures.
+
+Core theme:
+This is a daily planner/event manager. What you do throughout the day will give you a bonus to your rewards.
+At the end of the day it will generate a story you can read or participate in like a choose your own quest. A cozy way to end or start the day.
+Battles will happen in some way
+
+Project Ideas:
+FFT style party expeditions
+Daily tasks and big quests (throw in real life facts about the real world)
+Mini games
+group of regular tasks(maybe collect them from a place like a tavern or quest giver)
+professions (with real life job facts? like learning about the transit system) for your party members
+join/invite friends in tasks
+Leveling + Class system (could be related to real job or game job)
+
+
+Story setting 🌟
+--------------------------------
+Our story is set in a slightly distant future about 200 years from now. Multiple Species across the Milky Way Galaxy have acquired the capability to travel between star systems in moments by folding space. Whichever way each group gets to the concept, the idea is that the universe itself is held together by an underlying force. Humans call it "The Strong Nuclear Force". The energy that holds all things together became a source of power that unravels the mysteries of the universe and grant power beyond our concept of physics today. However the group gets to it, the power is generated from a strong‑force coupling and is used as a controlled, non‑destructive energy to tap generally referred to as 'The Prevailing Crux'.  It allows a leap in technology and advancement to each species that can commune with it. Now as different species expand and explore more and more derelict planets of old cities are being found strong in crux energy with their own mysteries to unfold. 
+
+
+Next Steps 🌟
+--------------------------------
+create streak reward tree
+develop non-weapon gear lists
+develop companions list
+improve creatures
+add starship descriptions
+work on end of day story
+map out battle interactions
+work on soundscape 😄
+work on sound effects 😄
+build schema
+
+Features 🌟
+--------------------------------
+Power/Magic System:
+Prevailing Crux Theory
+
+Name Game(expands):
+ Universe:
+  Prevailing
+  cosmos
+  beyond
+  the infinite
+ Density:
+  Crux
+  pressure
+  compression
+  compounded
+  squished
+  folded
+ 
+Must have features:
+Daily tasks
+Leveling
+Loot
+Mechs
+
+Stretch features:
+Quests with friends!
+
+
+Visual & branding 🌟
+--------------------------------
+Scene and setting:
+Multi species cyberpunk in space with mechs
+
+Color palette ideas:
+Blue, Pink, Yellow
+
+Typography notes:
+Futurist flavored
+
+Icon / Illustration style:
+Cyber Space Explorers
+
+
+User Experience & Flow 🌟
+------------------------------------------------
+Primary user journey:
+
+Key screens / views:
+
+Interaction notes (animations, feedback, accessibility):
+
+Character / Avatar / Profile system (if any):
+
+
+Mongo Dictionary Notes 🌟
+------------------------------------------------
+Core Dictionaries:
+Extra/MongoDictionary they will live here and it will probably grow over time
+
+
+User Level / Preferences / Settings 🌟
+------------------------------------------------
+Extensibility considerations:
+
+
+Technical architecture 🌟
+------------------------------------------------
+Base things : 
+
+Frontend : 
++ [Svelte]
++ [BitsUI](https://www.bits-ui.com/docs/introduction) for simple UI components
++ [EasingWizard](https://easingwizard.com/) for organic bezier transition
+
+Tooling
+
+Backend
++ [SvelteKit]
++ [PostgreSQL]
+
+Infrastructure / Deployment:
+Coolify + Docker + Cloudflare
+
+Performance considerations:
+
+
+Security & Privacy 🌟
+--------------------------------
+Auth strategy:
+BetterAuth
+Data protection notes:
+
+Safety / Abuse prevention:
+
+
+Testing & Validation 🌟
+--------------------------------
+Environment(browser) tests:
+
+Integration tests:
+
+Manual QA Checklist:
+
+
+Future Enhancements 🌟
+--------------------------------
+Loose ideas, sketches, mechanics or anything you want to think over:
+

@@ -1,0 +1,61 @@
+Elements 🌟:
+Spirit
+Chaos - randomness, probability, unstable magic.
+Order - structure, law, patterns, and control.
+Fog - concealment, moisture, illusions, and disorientation.
+Ice - cold, frost, stillness, and preservation.
+Stone - distinct from Earth; focuses on minerals, crystals, and density.
+Sand - erosion, dunes, abrasion, and shifting terrain.
+Metal - forged alloys, magnetism, and conductive power.
+Time - aging, acceleration, stasis, rewinding.
+Sound - vibration, resonance, shattering waves.
+Blood - vitality, sacrifice, lineage, and primal instinct.
+Mutation - change, adaptation, unstable evolution.
+Bone - structure, endurance, skeletal magic.
+Dream - imagination, illusion, subconscious power.
+Volcanic - earth, fire, and heat.
+Tidal
+
+Evolved Classes 🌟: 
+Martial -
+Variant-bound - warrior whose skin slowly turns to their element/variant as they level up.
+Siege Savant - battlefield genius who weaponizes improvised structures and terrain.
+Creature‑Speaker - bonded to a juvenile creature; grows stronger as the creature matures.
+Oath-breaker - gains strength by violating sacred vows in ritualized ways.
+
+Stealth - 
+Storm-runner - sprints so fast they generate Elemental storms and shockwaves.
+Chronicler of Blades - records battles in enchanted tomes that replay as illusions or ghosts.
+Chain Dancer - acrobatic fighter using weighted chains in rhythmic, hypnotic patterns.
+Corpse Stalker - cosmic hunter who uses parasitic symbiotes for power.
+
+Crux -
+Relic Host - carries a cursed relic that grants power but demands constant appeasement.
+Starcaller - channels constellations as living avatars.
+Spellforger - crafts unstable combination spells on the fly, each cast reshaping reality unpredictably.
+Hollowborn - body inhabited by a sealed spirit; swaps control in combat.
+
+Divine -
+Dreamwalker - enters dreams, steals memories, plants ideas, battles nightmares.
+Gravemind - communes with the collective memory of the dead, not individual spirits.
+Fatemender - rewrites tiny threads of destiny at a cost to their own lifespan.
+Bone Shepherd - raises skeletal beasts instead of humanoid undead.
+
+Support -
+Bellwarden - uses enchanted bells to control/heal/hinder crowds, repel spirits, or shatter morale.
+Echo Antagonizer - fights alongside time‑shifted versions of themselves.
+Inkweaver - tattoos come alive as summoned creatures or weapons.
+Mask Maker - crafts magical masks that can mirror other classes.
+
+
+Buildings 🌟:
+Archives - ancient texts, records, lore, and historical research.
+Guest Quarters - visiting nobles, merchants, or quest‑givers.
+Kennels - hounds, companion animals, tracking boosts.
+Anomaly Pens - exotic or magical creatures for quests or defense.
+Treasury - gold storage, taxes, economic upgrades.
+Record Office - census, contracts, permits, and bureaucratic flavor.
+Hospital - medical care, healing, and healing upgrades.
+Grocery - food storage, cooking, and culinary upgrades.
+Restaurants - food storage, cooking, and culinary upgrades.
+Cemetery - burial services, undead defense, and undead upgrades.
